@@ -6,7 +6,9 @@ permissions:
 jobs:
   archive:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    # A 1.3 GB CT archive took longer than 90 minutes at Zenodo's observed rate.
+    # Completed files are skipped, so this budget is for the remaining upload.
+    timeout-minutes: 240
     steps:
       - uses: actions/checkout@v4
       - name: Upload release files and publish the prepared deposit

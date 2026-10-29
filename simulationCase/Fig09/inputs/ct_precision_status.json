@@ -1,0 +1,24 @@
+{
+  "scientific_pairs_complete": 8,
+  "scientific_targets_complete": 16,
+  "main_M1_targets": 8,
+  "extra_refinement_targets": 8,
+  "optional_tolerance_pairs": [
+    {
+      "sample": "S1",
+      "water_sigma_S_m": 0.18,
+      "complete": false,
+      "comparison_json": null,
+      "observed_scale_S": null
+    },
+    {
+      "sample": "S5",
+      "water_sigma_S_m": 10.0,
+      "complete": true,
+      "comparison_json": "F:\\岩层裂缝\\runs\\round7b_localfit\\tolerance_checks\\S5_M3_water_10_pair_four_states\\comparison.json",
+      "observed_scale_S": 1.830460425161079e-12
+    }
+  ],
+  "geometry_checks_complete": 6,
+  "status": "Scientific batch complete; S1 optional four-state tolerance check incomplete; do not substitute zero for missing scale."
+}

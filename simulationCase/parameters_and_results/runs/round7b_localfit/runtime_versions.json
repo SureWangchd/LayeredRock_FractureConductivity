@@ -1,0 +1,13 @@
+{
+  "python": "3.10.20 | packaged by Anaconda, Inc. | (main, Mar 11 2026, 17:42:35) [MSC v.1942 64 bit (AMD64)]",
+  "executable": "D:\\Users\\PC\\anaconda3\\envs\\efield310\\python.exe",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "numpy": "2.2.6",
+  "scipy": "1.15.3",
+  "numba": "0.68.0",
+  "h5py": "3.16.0",
+  "COMSOL": "6.3.0.290",
+  "MATLAB": "R2025b",
+  "CPU_threads": 26,
+  "new_MPH_save_mode": "optimize size; all geometry and solution data retained; earlier checkpoints untouched"
+}

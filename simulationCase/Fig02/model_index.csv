@@ -1,0 +1,4 @@
+﻿state,case_id,solved_mph,original_result_csv
+full,strict_h10_L60_B_mech_m3_full,F:\岩层裂缝\runs\2026-10-21_round2\strict_h10_L60_B_mech_m3_full\strict_h10_L60_B_mech_m3_full.mph,F:\岩层裂缝\runs\2026-10-21_round2\strict_h10_L60_B_mech_m3_full\result.csv
+cut,strict_h10_L60_B_mech_m3_cut,F:\岩层裂缝\runs\2026-10-21_round2\strict_h10_L60_B_mech_m3_cut\strict_h10_L60_B_mech_m3_cut.mph,F:\岩层裂缝\runs\2026-10-21_round2\strict_h10_L60_B_mech_m3_cut\result.csv
+side,strict_h10_L60_B_mech_m3_side,F:\岩层裂缝\runs\2026-10-21_round2\strict_h10_L60_B_mech_m3_side\strict_h10_L60_B_mech_m3_side.mph,F:\岩层裂缝\runs\2026-10-21_round2\strict_h10_L60_B_mech_m3_side\result.csv

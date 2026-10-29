@@ -1,0 +1,63 @@
+{
+  "schema": "r7b_CT_background_only_kappa_v1",
+  "status": "FROZEN_BEFORE_TARGETS",
+  "sample": "S1",
+  "input_variant": "M3",
+  "fluid_and_fracture_sigma_S_m": 0.18,
+  "skeleton_sigma_S_m": 1E-5,
+  "kappa_eq_S_m": 0.0063503540253110153,
+  "G0_T_S": 2.35029931349356E-6,
+  "G0_H_S": 2.350299313541266E-6,
+  "relative_background_mismatch": 2.0297985514616812E-11,
+  "absolute_background_mismatch_S": 4.7706166138783077E-17,
+  "required_relative_tolerance": 1E-7,
+  "rule": "Frozen initial interval, background-only bracket verification/expansion by factor2, then safeguarded log-kappa/log-G secant clipped0.1..0.9; bisection if degenerate; max40 total background solves; no target result read",
+  "calibration_rule_json": "F:\\岩层裂缝\\runs\\round7b_localfit\\states\\S1_M3\\water_0p18\\calibration_rule.json",
+  "calibration_rule": {
+    "schema": "r7b_background_initial_bracket_v1",
+    "sample": "S1",
+    "input_variant": "M3",
+    "water_sigma_S_m": 0.18,
+    "skeleton_sigma_S_m": 1E-5,
+    "mode": "background_only_initial_interval",
+    "physical_kappa_bounds_S_m": [
+      1E-5,
+      0.18
+    ],
+    "initial_kappa_interval_S_m": [
+      0.0031753085681032597,
+      0.012701234272413039
+    ],
+    "seed_background_source": {
+      "kind": "r7b_same_sample_fluid_M1_background",
+      "frozen_background_json": "F:\\岩层裂缝\\runs\\round7b_localfit\\states\\S1_M1\\water_0p18\\kappa_frozen.json",
+      "H_background_success_json": "F:\\岩层裂缝\\runs\\round7b_localfit\\states\\S1_M1\\water_0p18\\calibration\\step_009\\SUCCESS.json",
+      "source_water_sigma_S_m": 0.18,
+      "source_kappa_S_m": 0.0063506171362065194,
+      "fluid_ratio_applied": 1,
+      "clipped_seed_kappa_S_m": 0.0063506171362065194,
+      "source_contains_target_response": false
+    },
+    "existing_step001_without_rule": false,
+    "endpoint_rule": "Recompute both endpoints on current actual accepted geometry and current fluid, then expand by factor 2 if needed",
+    "iteration_rule": "Safeguarded log-kappa/log-G secant clipped to 0.1..0.9; bisection if degenerate",
+    "relative_background_tolerance": 1E-7,
+    "max_background_solves": 40,
+    "target_results_read": false,
+    "geometry_acceptance_file": "F:\\岩层裂缝\\runs\\round7b_localfit\\inputs\\S1_M3\\GEOMETRY_SUCCESS.json",
+    "committed_local": "2026-10-27 17:36:33"
+  },
+  "final_kappa_bracket_S_m": [
+    0.00635009933892136,
+    0.0063503540253110153
+  ],
+  "number_background_trials": 9,
+  "H_background_solution_mph": "F:\\岩层裂缝\\runs\\round7b_localfit\\states\\S1_M3\\water_0p18\\calibration\\step_009\\solution.mph",
+  "H_background_success_json": "F:\\岩层裂缝\\runs\\round7b_localfit\\states\\S1_M3\\water_0p18\\calibration\\step_009\\SUCCESS.json",
+  "T_background_solution_mph": "F:\\岩层裂缝\\runs\\round7b_localfit\\states\\S1_M3\\water_0p18\\T_background\\solution.mph",
+  "same_kappa_in_both_remote_regions": true,
+  "full_tensor_matching_claimed": false,
+  "committed_local": "2026-10-27 18:10:21",
+  "geometry_acceptance_file": "F:\\岩层裂缝\\runs\\round7b_localfit\\inputs\\S1_M3\\GEOMETRY_SUCCESS.json",
+  "geometry_model_path": "F:\\岩层裂缝\\runs\\round7b_localfit\\inputs\\S1_M3\\geometry_ready.mph"
+}

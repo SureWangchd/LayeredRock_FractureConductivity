@@ -1,0 +1,3434 @@
+{
+  "schema": "round7_finite3d_geometry_v1",
+  "status": "prescribed_design_and_analytical_geometry_only",
+  "source_task": "round7_3d_ct_plan/01_Codex_三维与CT补充验证计划.md",
+  "source_actual_layer_design": "runs/round5_modal_closure/design.json",
+  "case_count": 8,
+  "target_count": 16,
+  "M0_case_count": 2,
+  "M0_target_count": 4,
+  "geometry_convention": "Finite ellipsoid (a,b,c)=(30,30,1.5) mm inside a 120-mm cube; no extrusion or periodic y direction.",
+  "G_definition": "I/DeltaV, S; sigma_z_app=G*Lz/(Lx*Ly), S/m; g=Gf-G0; eta=g/G0. No out-of-plane thickness parameter.",
+  "cases": [
+    {
+      "z_interfaces_mm": [
+        10,
+        20,
+        21,
+        23,
+        24,
+        25,
+        26,
+        27,
+        29,
+        30,
+        40,
+        50,
+        60,
+        70,
+        80,
+        90,
+        91,
+        93,
+        94,
+        95,
+        96,
+        97,
+        99,
+        100,
+        110
+      ],
+      "layer_materials": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "sigma_low_S_m": 0.01,
+      "sigma_high_S_m": 0.1,
+      "distance_lower_mm": 1,
+      "distance_upper_mm": 1,
+      "lower_low_band_z_mm": [
+        27,
+        29
+      ],
+      "upper_high_band_z_mm": [
+        91,
+        93
+      ],
+      "buffer_bottom_mm": 20,
+      "buffer_top_mm": 20,
+      "buffer_bottom_material": 0,
+      "buffer_top_material": 1,
+      "protected_core_z_mm": [
+        30,
+        90
+      ],
+      "protected_electrode_buffers_z_mm": [
+        [
+          0,
+          20
+        ],
+        [
+          100,
+          120
+        ]
+      ],
+      "id": "r7_strict_A_P11",
+      "role": "A",
+      "configuration_role": "A",
+      "layout": "P11",
+      "layout_id": "P11",
+      "kind": "synthetic3d_explicit",
+      "dimension": 3,
+      "geometry_input_unit": "mm",
+      "solver_unit": "SI",
+      "L_mm": 120.0,
+      "Lx_mm": 120.0,
+      "Ly_mm": 120.0,
+      "Lz_mm": 120.0,
+      "cx_mm": 60.0,
+      "cy_mm": 60.0,
+      "cz_mm": 60.0,
+      "a_mm": 30.0,
+      "b_mm": 30.0,
+      "c_mm": 1.5,
+      "theta_deg": 60.0,
+      "basis_u": [
+        0.5,
+        0.0,
+        0.8660254037844386
+      ],
+      "basis_v": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "basis_n": [
+        -0.8660254037844386,
+        0.0,
+        0.5
+      ],
+      "rotation_convention": "r=center+u*local_u+v*local_v+n*local_n; u rises 60 degrees above +x toward +z; COMSOL Ellipsoid axes [30,30,1.5] mm with Rot y=-60 degrees.",
+      "ellipse_equation_local": "(local_u/30[mm])^2+(local_v/30[mm])^2+(local_n/1.5[mm])^2<=1",
+      "endcap_axial_length_mm": 3.0,
+      "endcap_length_mm": 3.0,
+      "source_design": "runs/round5_modal_closure/design.json",
+      "source_case_id": "r5_strict_A_P11",
+      "load": "z",
+      "deltaV_V": 1.0,
+      "electrodes": {
+        "top_z_mm": 120.0,
+        "top_voltage_V": 1.0,
+        "bottom_z_mm": 0.0,
+        "bottom_voltage_V": 0.0,
+        "other_external_faces": "electric insulation"
+      },
+      "same_role_peripheral_comparison": "Exactly identical core, ellipsoid and electrode buffers; only two remote 2-mm bands move.",
+      "mesh_level": "base",
+      "sigma_f_values_S_m": [
+        0.18,
+        10.0
+      ],
+      "physical_material_runs": [
+        {
+          "z_min_mm": 0.0,
+          "z_max_mm": 20,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 20,
+          "z_max_mm": 27,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 27,
+          "z_max_mm": 29,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 29,
+          "z_max_mm": 60,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 60,
+          "z_max_mm": 91,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 91,
+          "z_max_mm": 93,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 93,
+          "z_max_mm": 100,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 100,
+          "z_max_mm": 120.0,
+          "phase": 1
+        }
+      ],
+      "physical_z_interfaces_mm": [
+        20,
+        27,
+        29,
+        60,
+        91,
+        93,
+        100
+      ],
+      "geometry_checks": {
+        "kind": "analytical geometry only; COMSOL volume integrations remain required",
+        "sample_volume_mm3": 1728000.0,
+        "ellipsoid_volume_mm3": 5654.866776461628,
+        "ellipsoid_half_spans_xyz_mm": [
+          15.056144924913548,
+          30.0,
+          25.991585176745183
+        ],
+        "ellipsoid_bounds_xyz_mm": [
+          [
+            44.943855075086454,
+            75.05614492491355
+          ],
+          [
+            30.0,
+            90.0
+          ],
+          [
+            34.00841482325482,
+            85.99158517674519
+          ]
+        ],
+        "minimum_external_clearance_mm": 30.0,
+        "minimum_core_interface_clearance_mm": 4.008414823254817,
+        "background_low_volume_mm3": 864000.0,
+        "background_high_volume_mm3": 864000.0,
+        "replaced_low_volume_mm3": 2827.433388230814,
+        "replaced_high_volume_mm3": 2827.433388230814,
+        "final_low_matrix_volume_mm3": 861172.5666117691,
+        "final_high_matrix_volume_mm3": 861172.5666117691,
+        "endcap_minus": {
+          "u_interval_mm": [
+            -30.0,
+            -27.0
+          ],
+          "z_envelope_mm": [
+            34.008414823254824,
+            36.94423151858571
+          ],
+          "volume_mm3_analytic": 40.997784129347,
+          "high_fraction_analytic": 1.0,
+          "low_fraction_analytic": 0.0,
+          "phase_label": "high",
+          "classification_basis": "The entire finite 3-mm axial cap lies within one actual material run; not a point-tip classification."
+        },
+        "endcap_plus": {
+          "u_interval_mm": [
+            27.0,
+            30.0
+          ],
+          "z_envelope_mm": [
+            83.05576848141429,
+            85.99158517674518
+          ],
+          "volume_mm3_analytic": 40.997784129347,
+          "high_fraction_analytic": 0.0,
+          "low_fraction_analytic": 1.0,
+          "phase_label": "low",
+          "classification_basis": "The entire finite 3-mm axial cap lies within one actual material run; not a point-tip classification."
+        },
+        "sigma_z_background_analytic_S_m": 0.01818181818181818,
+        "sigma_x_background_analytic_S_m": 0.05500000000000001,
+        "sigma_y_background_analytic_S_m": 0.05500000000000001,
+        "Gz_background_analytic_S": 0.0021818181818181815,
+        "Gx_background_analytic_S": 0.006600000000000001,
+        "Gy_background_analytic_S": 0.006600000000000001,
+        "AB_replacement_match_analytic": true
+      }
+    },
+    {
+      "z_interfaces_mm": [
+        10,
+        20,
+        21,
+        23,
+        24,
+        25,
+        26,
+        27,
+        29,
+        30,
+        40,
+        50,
+        60,
+        70,
+        80,
+        90,
+        91,
+        93,
+        94,
+        95,
+        96,
+        97,
+        99,
+        100,
+        110
+      ],
+      "layer_materials": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "sigma_low_S_m": 0.01,
+      "sigma_high_S_m": 0.1,
+      "distance_lower_mm": 1,
+      "distance_upper_mm": 7,
+      "lower_low_band_z_mm": [
+        27,
+        29
+      ],
+      "upper_high_band_z_mm": [
+        97,
+        99
+      ],
+      "buffer_bottom_mm": 20,
+      "buffer_top_mm": 20,
+      "buffer_bottom_material": 0,
+      "buffer_top_material": 1,
+      "protected_core_z_mm": [
+        30,
+        90
+      ],
+      "protected_electrode_buffers_z_mm": [
+        [
+          0,
+          20
+        ],
+        [
+          100,
+          120
+        ]
+      ],
+      "id": "r7_strict_A_P17",
+      "role": "A",
+      "configuration_role": "A",
+      "layout": "P17",
+      "layout_id": "P17",
+      "kind": "synthetic3d_explicit",
+      "dimension": 3,
+      "geometry_input_unit": "mm",
+      "solver_unit": "SI",
+      "L_mm": 120.0,
+      "Lx_mm": 120.0,
+      "Ly_mm": 120.0,
+      "Lz_mm": 120.0,
+      "cx_mm": 60.0,
+      "cy_mm": 60.0,
+      "cz_mm": 60.0,
+      "a_mm": 30.0,
+      "b_mm": 30.0,
+      "c_mm": 1.5,
+      "theta_deg": 60.0,
+      "basis_u": [
+        0.5,
+        0.0,
+        0.8660254037844386
+      ],
+      "basis_v": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "basis_n": [
+        -0.8660254037844386,
+        0.0,
+        0.5
+      ],
+      "rotation_convention": "r=center+u*local_u+v*local_v+n*local_n; u rises 60 degrees above +x toward +z; COMSOL Ellipsoid axes [30,30,1.5] mm with Rot y=-60 degrees.",
+      "ellipse_equation_local": "(local_u/30[mm])^2+(local_v/30[mm])^2+(local_n/1.5[mm])^2<=1",
+      "endcap_axial_length_mm": 3.0,
+      "endcap_length_mm": 3.0,
+      "source_design": "runs/round5_modal_closure/design.json",
+      "source_case_id": "r5_strict_A_P17",
+      "load": "z",
+      "deltaV_V": 1.0,
+      "electrodes": {
+        "top_z_mm": 120.0,
+        "top_voltage_V": 1.0,
+        "bottom_z_mm": 0.0,
+        "bottom_voltage_V": 0.0,
+        "other_external_faces": "electric insulation"
+      },
+      "same_role_peripheral_comparison": "Exactly identical core, ellipsoid and electrode buffers; only two remote 2-mm bands move.",
+      "mesh_level": "base",
+      "sigma_f_values_S_m": [
+        0.18,
+        10.0
+      ],
+      "physical_material_runs": [
+        {
+          "z_min_mm": 0.0,
+          "z_max_mm": 20,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 20,
+          "z_max_mm": 27,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 27,
+          "z_max_mm": 29,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 29,
+          "z_max_mm": 60,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 60,
+          "z_max_mm": 97,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 97,
+          "z_max_mm": 99,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 99,
+          "z_max_mm": 100,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 100,
+          "z_max_mm": 120.0,
+          "phase": 1
+        }
+      ],
+      "physical_z_interfaces_mm": [
+        20,
+        27,
+        29,
+        60,
+        97,
+        99,
+        100
+      ],
+      "geometry_checks": {
+        "kind": "analytical geometry only; COMSOL volume integrations remain required",
+        "sample_volume_mm3": 1728000.0,
+        "ellipsoid_volume_mm3": 5654.866776461628,
+        "ellipsoid_half_spans_xyz_mm": [
+          15.056144924913548,
+          30.0,
+          25.991585176745183
+        ],
+        "ellipsoid_bounds_xyz_mm": [
+          [
+            44.943855075086454,
+            75.05614492491355
+          ],
+          [
+            30.0,
+            90.0
+          ],
+          [
+            34.00841482325482,
+            85.99158517674519
+          ]
+        ],
+        "minimum_external_clearance_mm": 30.0,
+        "minimum_core_interface_clearance_mm": 4.008414823254817,
+        "background_low_volume_mm3": 864000.0,
+        "background_high_volume_mm3": 864000.0,
+        "replaced_low_volume_mm3": 2827.433388230814,
+        "replaced_high_volume_mm3": 2827.433388230814,
+        "final_low_matrix_volume_mm3": 861172.5666117691,
+        "final_high_matrix_volume_mm3": 861172.5666117691,
+        "endcap_minus": {
+          "u_interval_mm": [
+            -30.0,
+            -27.0
+          ],
+          "z_envelope_mm": [
+            34.008414823254824,
+            36.94423151858571
+          ],
+          "volume_mm3_analytic": 40.997784129347,
+          "high_fraction_analytic": 1.0,
+          "low_fraction_analytic": 0.0,
+          "phase_label": "high",
+          "classification_basis": "The entire finite 3-mm axial cap lies within one actual material run; not a point-tip classification."
+        },
+        "endcap_plus": {
+          "u_interval_mm": [
+            27.0,
+            30.0
+          ],
+          "z_envelope_mm": [
+            83.05576848141429,
+            85.99158517674518
+          ],
+          "volume_mm3_analytic": 40.997784129347,
+          "high_fraction_analytic": 0.0,
+          "low_fraction_analytic": 1.0,
+          "phase_label": "low",
+          "classification_basis": "The entire finite 3-mm axial cap lies within one actual material run; not a point-tip classification."
+        },
+        "sigma_z_background_analytic_S_m": 0.018181818181818184,
+        "sigma_x_background_analytic_S_m": 0.05500000000000001,
+        "sigma_y_background_analytic_S_m": 0.05500000000000001,
+        "Gz_background_analytic_S": 0.002181818181818182,
+        "Gx_background_analytic_S": 0.006600000000000001,
+        "Gy_background_analytic_S": 0.006600000000000001,
+        "AB_replacement_match_analytic": true
+      }
+    },
+    {
+      "z_interfaces_mm": [
+        10,
+        20,
+        21,
+        23,
+        24,
+        25,
+        26,
+        27,
+        29,
+        30,
+        40,
+        50,
+        60,
+        70,
+        80,
+        90,
+        91,
+        93,
+        94,
+        95,
+        96,
+        97,
+        99,
+        100,
+        110
+      ],
+      "layer_materials": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "sigma_low_S_m": 0.01,
+      "sigma_high_S_m": 0.1,
+      "distance_lower_mm": 7,
+      "distance_upper_mm": 1,
+      "lower_low_band_z_mm": [
+        21,
+        23
+      ],
+      "upper_high_band_z_mm": [
+        91,
+        93
+      ],
+      "buffer_bottom_mm": 20,
+      "buffer_top_mm": 20,
+      "buffer_bottom_material": 0,
+      "buffer_top_material": 1,
+      "protected_core_z_mm": [
+        30,
+        90
+      ],
+      "protected_electrode_buffers_z_mm": [
+        [
+          0,
+          20
+        ],
+        [
+          100,
+          120
+        ]
+      ],
+      "id": "r7_strict_A_P71",
+      "role": "A",
+      "configuration_role": "A",
+      "layout": "P71",
+      "layout_id": "P71",
+      "kind": "synthetic3d_explicit",
+      "dimension": 3,
+      "geometry_input_unit": "mm",
+      "solver_unit": "SI",
+      "L_mm": 120.0,
+      "Lx_mm": 120.0,
+      "Ly_mm": 120.0,
+      "Lz_mm": 120.0,
+      "cx_mm": 60.0,
+      "cy_mm": 60.0,
+      "cz_mm": 60.0,
+      "a_mm": 30.0,
+      "b_mm": 30.0,
+      "c_mm": 1.5,
+      "theta_deg": 60.0,
+      "basis_u": [
+        0.5,
+        0.0,
+        0.8660254037844386
+      ],
+      "basis_v": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "basis_n": [
+        -0.8660254037844386,
+        0.0,
+        0.5
+      ],
+      "rotation_convention": "r=center+u*local_u+v*local_v+n*local_n; u rises 60 degrees above +x toward +z; COMSOL Ellipsoid axes [30,30,1.5] mm with Rot y=-60 degrees.",
+      "ellipse_equation_local": "(local_u/30[mm])^2+(local_v/30[mm])^2+(local_n/1.5[mm])^2<=1",
+      "endcap_axial_length_mm": 3.0,
+      "endcap_length_mm": 3.0,
+      "source_design": "runs/round5_modal_closure/design.json",
+      "source_case_id": "r5_strict_A_P71",
+      "load": "z",
+      "deltaV_V": 1.0,
+      "electrodes": {
+        "top_z_mm": 120.0,
+        "top_voltage_V": 1.0,
+        "bottom_z_mm": 0.0,
+        "bottom_voltage_V": 0.0,
+        "other_external_faces": "electric insulation"
+      },
+      "same_role_peripheral_comparison": "Exactly identical core, ellipsoid and electrode buffers; only two remote 2-mm bands move.",
+      "mesh_level": "base",
+      "sigma_f_values_S_m": [
+        0.18,
+        10.0
+      ],
+      "physical_material_runs": [
+        {
+          "z_min_mm": 0.0,
+          "z_max_mm": 20,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 20,
+          "z_max_mm": 21,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 21,
+          "z_max_mm": 23,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 23,
+          "z_max_mm": 60,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 60,
+          "z_max_mm": 91,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 91,
+          "z_max_mm": 93,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 93,
+          "z_max_mm": 100,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 100,
+          "z_max_mm": 120.0,
+          "phase": 1
+        }
+      ],
+      "physical_z_interfaces_mm": [
+        20,
+        21,
+        23,
+        60,
+        91,
+        93,
+        100
+      ],
+      "geometry_checks": {
+        "kind": "analytical geometry only; COMSOL volume integrations remain required",
+        "sample_volume_mm3": 1728000.0,
+        "ellipsoid_volume_mm3": 5654.866776461628,
+        "ellipsoid_half_spans_xyz_mm": [
+          15.056144924913548,
+          30.0,
+          25.991585176745183
+        ],
+        "ellipsoid_bounds_xyz_mm": [
+          [
+            44.943855075086454,
+            75.05614492491355
+          ],
+          [
+            30.0,
+            90.0
+          ],
+          [
+            34.00841482325482,
+            85.99158517674519
+          ]
+        ],
+        "minimum_external_clearance_mm": 30.0,
+        "minimum_core_interface_clearance_mm": 4.008414823254817,
+        "background_low_volume_mm3": 864000.0,
+        "background_high_volume_mm3": 864000.0,
+        "replaced_low_volume_mm3": 2827.433388230814,
+        "replaced_high_volume_mm3": 2827.433388230814,
+        "final_low_matrix_volume_mm3": 861172.5666117691,
+        "final_high_matrix_volume_mm3": 861172.5666117691,
+        "endcap_minus": {
+          "u_interval_mm": [
+            -30.0,
+            -27.0
+          ],
+          "z_envelope_mm": [
+            34.008414823254824,
+            36.94423151858571
+          ],
+          "volume_mm3_analytic": 40.997784129347,
+          "high_fraction_analytic": 1.0,
+          "low_fraction_analytic": 0.0,
+          "phase_label": "high",
+          "classification_basis": "The entire finite 3-mm axial cap lies within one actual material run; not a point-tip classification."
+        },
+        "endcap_plus": {
+          "u_interval_mm": [
+            27.0,
+            30.0
+          ],
+          "z_envelope_mm": [
+            83.05576848141429,
+            85.99158517674518
+          ],
+          "volume_mm3_analytic": 40.997784129347,
+          "high_fraction_analytic": 0.0,
+          "low_fraction_analytic": 1.0,
+          "phase_label": "low",
+          "classification_basis": "The entire finite 3-mm axial cap lies within one actual material run; not a point-tip classification."
+        },
+        "sigma_z_background_analytic_S_m": 0.01818181818181818,
+        "sigma_x_background_analytic_S_m": 0.05500000000000001,
+        "sigma_y_background_analytic_S_m": 0.05500000000000001,
+        "Gz_background_analytic_S": 0.0021818181818181815,
+        "Gx_background_analytic_S": 0.006600000000000001,
+        "Gy_background_analytic_S": 0.006600000000000001,
+        "AB_replacement_match_analytic": true
+      }
+    },
+    {
+      "z_interfaces_mm": [
+        10,
+        20,
+        21,
+        23,
+        24,
+        25,
+        26,
+        27,
+        29,
+        30,
+        40,
+        50,
+        60,
+        70,
+        80,
+        90,
+        91,
+        93,
+        94,
+        95,
+        96,
+        97,
+        99,
+        100,
+        110
+      ],
+      "layer_materials": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "sigma_low_S_m": 0.01,
+      "sigma_high_S_m": 0.1,
+      "distance_lower_mm": 7,
+      "distance_upper_mm": 7,
+      "lower_low_band_z_mm": [
+        21,
+        23
+      ],
+      "upper_high_band_z_mm": [
+        97,
+        99
+      ],
+      "buffer_bottom_mm": 20,
+      "buffer_top_mm": 20,
+      "buffer_bottom_material": 0,
+      "buffer_top_material": 1,
+      "protected_core_z_mm": [
+        30,
+        90
+      ],
+      "protected_electrode_buffers_z_mm": [
+        [
+          0,
+          20
+        ],
+        [
+          100,
+          120
+        ]
+      ],
+      "id": "r7_strict_A_P77",
+      "role": "A",
+      "configuration_role": "A",
+      "layout": "P77",
+      "layout_id": "P77",
+      "kind": "synthetic3d_explicit",
+      "dimension": 3,
+      "geometry_input_unit": "mm",
+      "solver_unit": "SI",
+      "L_mm": 120.0,
+      "Lx_mm": 120.0,
+      "Ly_mm": 120.0,
+      "Lz_mm": 120.0,
+      "cx_mm": 60.0,
+      "cy_mm": 60.0,
+      "cz_mm": 60.0,
+      "a_mm": 30.0,
+      "b_mm": 30.0,
+      "c_mm": 1.5,
+      "theta_deg": 60.0,
+      "basis_u": [
+        0.5,
+        0.0,
+        0.8660254037844386
+      ],
+      "basis_v": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "basis_n": [
+        -0.8660254037844386,
+        0.0,
+        0.5
+      ],
+      "rotation_convention": "r=center+u*local_u+v*local_v+n*local_n; u rises 60 degrees above +x toward +z; COMSOL Ellipsoid axes [30,30,1.5] mm with Rot y=-60 degrees.",
+      "ellipse_equation_local": "(local_u/30[mm])^2+(local_v/30[mm])^2+(local_n/1.5[mm])^2<=1",
+      "endcap_axial_length_mm": 3.0,
+      "endcap_length_mm": 3.0,
+      "source_design": "runs/round5_modal_closure/design.json",
+      "source_case_id": "r5_strict_A_P77",
+      "load": "z",
+      "deltaV_V": 1.0,
+      "electrodes": {
+        "top_z_mm": 120.0,
+        "top_voltage_V": 1.0,
+        "bottom_z_mm": 0.0,
+        "bottom_voltage_V": 0.0,
+        "other_external_faces": "electric insulation"
+      },
+      "same_role_peripheral_comparison": "Exactly identical core, ellipsoid and electrode buffers; only two remote 2-mm bands move.",
+      "mesh_level": "base",
+      "sigma_f_values_S_m": [
+        0.18,
+        10.0
+      ],
+      "physical_material_runs": [
+        {
+          "z_min_mm": 0.0,
+          "z_max_mm": 20,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 20,
+          "z_max_mm": 21,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 21,
+          "z_max_mm": 23,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 23,
+          "z_max_mm": 60,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 60,
+          "z_max_mm": 97,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 97,
+          "z_max_mm": 99,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 99,
+          "z_max_mm": 100,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 100,
+          "z_max_mm": 120.0,
+          "phase": 1
+        }
+      ],
+      "physical_z_interfaces_mm": [
+        20,
+        21,
+        23,
+        60,
+        97,
+        99,
+        100
+      ],
+      "geometry_checks": {
+        "kind": "analytical geometry only; COMSOL volume integrations remain required",
+        "sample_volume_mm3": 1728000.0,
+        "ellipsoid_volume_mm3": 5654.866776461628,
+        "ellipsoid_half_spans_xyz_mm": [
+          15.056144924913548,
+          30.0,
+          25.991585176745183
+        ],
+        "ellipsoid_bounds_xyz_mm": [
+          [
+            44.943855075086454,
+            75.05614492491355
+          ],
+          [
+            30.0,
+            90.0
+          ],
+          [
+            34.00841482325482,
+            85.99158517674519
+          ]
+        ],
+        "minimum_external_clearance_mm": 30.0,
+        "minimum_core_interface_clearance_mm": 4.008414823254817,
+        "background_low_volume_mm3": 864000.0,
+        "background_high_volume_mm3": 864000.0,
+        "replaced_low_volume_mm3": 2827.433388230814,
+        "replaced_high_volume_mm3": 2827.433388230814,
+        "final_low_matrix_volume_mm3": 861172.5666117691,
+        "final_high_matrix_volume_mm3": 861172.5666117691,
+        "endcap_minus": {
+          "u_interval_mm": [
+            -30.0,
+            -27.0
+          ],
+          "z_envelope_mm": [
+            34.008414823254824,
+            36.94423151858571
+          ],
+          "volume_mm3_analytic": 40.997784129347,
+          "high_fraction_analytic": 1.0,
+          "low_fraction_analytic": 0.0,
+          "phase_label": "high",
+          "classification_basis": "The entire finite 3-mm axial cap lies within one actual material run; not a point-tip classification."
+        },
+        "endcap_plus": {
+          "u_interval_mm": [
+            27.0,
+            30.0
+          ],
+          "z_envelope_mm": [
+            83.05576848141429,
+            85.99158517674518
+          ],
+          "volume_mm3_analytic": 40.997784129347,
+          "high_fraction_analytic": 0.0,
+          "low_fraction_analytic": 1.0,
+          "phase_label": "low",
+          "classification_basis": "The entire finite 3-mm axial cap lies within one actual material run; not a point-tip classification."
+        },
+        "sigma_z_background_analytic_S_m": 0.018181818181818184,
+        "sigma_x_background_analytic_S_m": 0.05500000000000001,
+        "sigma_y_background_analytic_S_m": 0.05500000000000001,
+        "Gz_background_analytic_S": 0.002181818181818182,
+        "Gx_background_analytic_S": 0.006600000000000001,
+        "Gy_background_analytic_S": 0.006600000000000001,
+        "AB_replacement_match_analytic": true
+      }
+    },
+    {
+      "z_interfaces_mm": [
+        10,
+        20,
+        21,
+        23,
+        24,
+        25,
+        26,
+        27,
+        29,
+        30,
+        40,
+        50,
+        60,
+        70,
+        80,
+        90,
+        91,
+        93,
+        94,
+        95,
+        96,
+        97,
+        99,
+        100,
+        110
+      ],
+      "layer_materials": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "sigma_low_S_m": 0.01,
+      "sigma_high_S_m": 0.1,
+      "distance_lower_mm": 1,
+      "distance_upper_mm": 1,
+      "lower_low_band_z_mm": [
+        27,
+        29
+      ],
+      "upper_high_band_z_mm": [
+        91,
+        93
+      ],
+      "buffer_bottom_mm": 20,
+      "buffer_top_mm": 20,
+      "buffer_bottom_material": 0,
+      "buffer_top_material": 1,
+      "protected_core_z_mm": [
+        30,
+        90
+      ],
+      "protected_electrode_buffers_z_mm": [
+        [
+          0,
+          20
+        ],
+        [
+          100,
+          120
+        ]
+      ],
+      "id": "r7_strict_B_P11",
+      "role": "B",
+      "configuration_role": "B",
+      "layout": "P11",
+      "layout_id": "P11",
+      "kind": "synthetic3d_explicit",
+      "dimension": 3,
+      "geometry_input_unit": "mm",
+      "solver_unit": "SI",
+      "L_mm": 120.0,
+      "Lx_mm": 120.0,
+      "Ly_mm": 120.0,
+      "Lz_mm": 120.0,
+      "cx_mm": 60.0,
+      "cy_mm": 60.0,
+      "cz_mm": 60.0,
+      "a_mm": 30.0,
+      "b_mm": 30.0,
+      "c_mm": 1.5,
+      "theta_deg": 60.0,
+      "basis_u": [
+        0.5,
+        0.0,
+        0.8660254037844386
+      ],
+      "basis_v": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "basis_n": [
+        -0.8660254037844386,
+        0.0,
+        0.5
+      ],
+      "rotation_convention": "r=center+u*local_u+v*local_v+n*local_n; u rises 60 degrees above +x toward +z; COMSOL Ellipsoid axes [30,30,1.5] mm with Rot y=-60 degrees.",
+      "ellipse_equation_local": "(local_u/30[mm])^2+(local_v/30[mm])^2+(local_n/1.5[mm])^2<=1",
+      "endcap_axial_length_mm": 3.0,
+      "endcap_length_mm": 3.0,
+      "source_design": "runs/round5_modal_closure/design.json",
+      "source_case_id": "r5_strict_B_P11",
+      "load": "z",
+      "deltaV_V": 1.0,
+      "electrodes": {
+        "top_z_mm": 120.0,
+        "top_voltage_V": 1.0,
+        "bottom_z_mm": 0.0,
+        "bottom_voltage_V": 0.0,
+        "other_external_faces": "electric insulation"
+      },
+      "same_role_peripheral_comparison": "Exactly identical core, ellipsoid and electrode buffers; only two remote 2-mm bands move.",
+      "mesh_level": "base",
+      "sigma_f_values_S_m": [
+        0.18,
+        10.0
+      ],
+      "physical_material_runs": [
+        {
+          "z_min_mm": 0.0,
+          "z_max_mm": 20,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 20,
+          "z_max_mm": 27,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 27,
+          "z_max_mm": 29,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 29,
+          "z_max_mm": 40,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 40,
+          "z_max_mm": 50,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 50,
+          "z_max_mm": 60,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 60,
+          "z_max_mm": 70,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 70,
+          "z_max_mm": 80,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 80,
+          "z_max_mm": 91,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 91,
+          "z_max_mm": 93,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 93,
+          "z_max_mm": 100,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 100,
+          "z_max_mm": 120.0,
+          "phase": 1
+        }
+      ],
+      "physical_z_interfaces_mm": [
+        20,
+        27,
+        29,
+        40,
+        50,
+        60,
+        70,
+        80,
+        91,
+        93,
+        100
+      ],
+      "geometry_checks": {
+        "kind": "analytical geometry only; COMSOL volume integrations remain required",
+        "sample_volume_mm3": 1728000.0,
+        "ellipsoid_volume_mm3": 5654.866776461628,
+        "ellipsoid_half_spans_xyz_mm": [
+          15.056144924913548,
+          30.0,
+          25.991585176745183
+        ],
+        "ellipsoid_bounds_xyz_mm": [
+          [
+            44.943855075086454,
+            75.05614492491355
+          ],
+          [
+            30.0,
+            90.0
+          ],
+          [
+            34.00841482325482,
+            85.99158517674519
+          ]
+        ],
+        "minimum_external_clearance_mm": 30.0,
+        "minimum_core_interface_clearance_mm": 4.008414823254817,
+        "background_low_volume_mm3": 864000.0,
+        "background_high_volume_mm3": 864000.0,
+        "replaced_low_volume_mm3": 2827.433388230814,
+        "replaced_high_volume_mm3": 2827.433388230814,
+        "final_low_matrix_volume_mm3": 861172.5666117691,
+        "final_high_matrix_volume_mm3": 861172.5666117691,
+        "endcap_minus": {
+          "u_interval_mm": [
+            -30.0,
+            -27.0
+          ],
+          "z_envelope_mm": [
+            34.008414823254824,
+            36.94423151858571
+          ],
+          "volume_mm3_analytic": 40.997784129347,
+          "high_fraction_analytic": 1.0,
+          "low_fraction_analytic": 0.0,
+          "phase_label": "high",
+          "classification_basis": "The entire finite 3-mm axial cap lies within one actual material run; not a point-tip classification."
+        },
+        "endcap_plus": {
+          "u_interval_mm": [
+            27.0,
+            30.0
+          ],
+          "z_envelope_mm": [
+            83.05576848141429,
+            85.99158517674518
+          ],
+          "volume_mm3_analytic": 40.997784129347,
+          "high_fraction_analytic": 0.0,
+          "low_fraction_analytic": 1.0,
+          "phase_label": "low",
+          "classification_basis": "The entire finite 3-mm axial cap lies within one actual material run; not a point-tip classification."
+        },
+        "sigma_z_background_analytic_S_m": 0.01818181818181818,
+        "sigma_x_background_analytic_S_m": 0.055000000000000014,
+        "sigma_y_background_analytic_S_m": 0.055000000000000014,
+        "Gz_background_analytic_S": 0.0021818181818181815,
+        "Gx_background_analytic_S": 0.006600000000000002,
+        "Gy_background_analytic_S": 0.006600000000000002,
+        "AB_replacement_match_analytic": true
+      }
+    },
+    {
+      "z_interfaces_mm": [
+        10,
+        20,
+        21,
+        23,
+        24,
+        25,
+        26,
+        27,
+        29,
+        30,
+        40,
+        50,
+        60,
+        70,
+        80,
+        90,
+        91,
+        93,
+        94,
+        95,
+        96,
+        97,
+        99,
+        100,
+        110
+      ],
+      "layer_materials": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "sigma_low_S_m": 0.01,
+      "sigma_high_S_m": 0.1,
+      "distance_lower_mm": 1,
+      "distance_upper_mm": 7,
+      "lower_low_band_z_mm": [
+        27,
+        29
+      ],
+      "upper_high_band_z_mm": [
+        97,
+        99
+      ],
+      "buffer_bottom_mm": 20,
+      "buffer_top_mm": 20,
+      "buffer_bottom_material": 0,
+      "buffer_top_material": 1,
+      "protected_core_z_mm": [
+        30,
+        90
+      ],
+      "protected_electrode_buffers_z_mm": [
+        [
+          0,
+          20
+        ],
+        [
+          100,
+          120
+        ]
+      ],
+      "id": "r7_strict_B_P17",
+      "role": "B",
+      "configuration_role": "B",
+      "layout": "P17",
+      "layout_id": "P17",
+      "kind": "synthetic3d_explicit",
+      "dimension": 3,
+      "geometry_input_unit": "mm",
+      "solver_unit": "SI",
+      "L_mm": 120.0,
+      "Lx_mm": 120.0,
+      "Ly_mm": 120.0,
+      "Lz_mm": 120.0,
+      "cx_mm": 60.0,
+      "cy_mm": 60.0,
+      "cz_mm": 60.0,
+      "a_mm": 30.0,
+      "b_mm": 30.0,
+      "c_mm": 1.5,
+      "theta_deg": 60.0,
+      "basis_u": [
+        0.5,
+        0.0,
+        0.8660254037844386
+      ],
+      "basis_v": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "basis_n": [
+        -0.8660254037844386,
+        0.0,
+        0.5
+      ],
+      "rotation_convention": "r=center+u*local_u+v*local_v+n*local_n; u rises 60 degrees above +x toward +z; COMSOL Ellipsoid axes [30,30,1.5] mm with Rot y=-60 degrees.",
+      "ellipse_equation_local": "(local_u/30[mm])^2+(local_v/30[mm])^2+(local_n/1.5[mm])^2<=1",
+      "endcap_axial_length_mm": 3.0,
+      "endcap_length_mm": 3.0,
+      "source_design": "runs/round5_modal_closure/design.json",
+      "source_case_id": "r5_strict_B_P17",
+      "load": "z",
+      "deltaV_V": 1.0,
+      "electrodes": {
+        "top_z_mm": 120.0,
+        "top_voltage_V": 1.0,
+        "bottom_z_mm": 0.0,
+        "bottom_voltage_V": 0.0,
+        "other_external_faces": "electric insulation"
+      },
+      "same_role_peripheral_comparison": "Exactly identical core, ellipsoid and electrode buffers; only two remote 2-mm bands move.",
+      "mesh_level": "base",
+      "sigma_f_values_S_m": [
+        0.18,
+        10.0
+      ],
+      "physical_material_runs": [
+        {
+          "z_min_mm": 0.0,
+          "z_max_mm": 20,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 20,
+          "z_max_mm": 27,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 27,
+          "z_max_mm": 29,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 29,
+          "z_max_mm": 40,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 40,
+          "z_max_mm": 50,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 50,
+          "z_max_mm": 60,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 60,
+          "z_max_mm": 70,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 70,
+          "z_max_mm": 80,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 80,
+          "z_max_mm": 97,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 97,
+          "z_max_mm": 99,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 99,
+          "z_max_mm": 100,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 100,
+          "z_max_mm": 120.0,
+          "phase": 1
+        }
+      ],
+      "physical_z_interfaces_mm": [
+        20,
+        27,
+        29,
+        40,
+        50,
+        60,
+        70,
+        80,
+        97,
+        99,
+        100
+      ],
+      "geometry_checks": {
+        "kind": "analytical geometry only; COMSOL volume integrations remain required",
+        "sample_volume_mm3": 1728000.0,
+        "ellipsoid_volume_mm3": 5654.866776461628,
+        "ellipsoid_half_spans_xyz_mm": [
+          15.056144924913548,
+          30.0,
+          25.991585176745183
+        ],
+        "ellipsoid_bounds_xyz_mm": [
+          [
+            44.943855075086454,
+            75.05614492491355
+          ],
+          [
+            30.0,
+            90.0
+          ],
+          [
+            34.00841482325482,
+            85.99158517674519
+          ]
+        ],
+        "minimum_external_clearance_mm": 30.0,
+        "minimum_core_interface_clearance_mm": 4.008414823254817,
+        "background_low_volume_mm3": 864000.0,
+        "background_high_volume_mm3": 864000.0,
+        "replaced_low_volume_mm3": 2827.433388230814,
+        "replaced_high_volume_mm3": 2827.433388230814,
+        "final_low_matrix_volume_mm3": 861172.5666117691,
+        "final_high_matrix_volume_mm3": 861172.5666117691,
+        "endcap_minus": {
+          "u_interval_mm": [
+            -30.0,
+            -27.0
+          ],
+          "z_envelope_mm": [
+            34.008414823254824,
+            36.94423151858571
+          ],
+          "volume_mm3_analytic": 40.997784129347,
+          "high_fraction_analytic": 1.0,
+          "low_fraction_analytic": 0.0,
+          "phase_label": "high",
+          "classification_basis": "The entire finite 3-mm axial cap lies within one actual material run; not a point-tip classification."
+        },
+        "endcap_plus": {
+          "u_interval_mm": [
+            27.0,
+            30.0
+          ],
+          "z_envelope_mm": [
+            83.05576848141429,
+            85.99158517674518
+          ],
+          "volume_mm3_analytic": 40.997784129347,
+          "high_fraction_analytic": 0.0,
+          "low_fraction_analytic": 1.0,
+          "phase_label": "low",
+          "classification_basis": "The entire finite 3-mm axial cap lies within one actual material run; not a point-tip classification."
+        },
+        "sigma_z_background_analytic_S_m": 0.01818181818181818,
+        "sigma_x_background_analytic_S_m": 0.05500000000000001,
+        "sigma_y_background_analytic_S_m": 0.05500000000000001,
+        "Gz_background_analytic_S": 0.0021818181818181815,
+        "Gx_background_analytic_S": 0.006600000000000001,
+        "Gy_background_analytic_S": 0.006600000000000001,
+        "AB_replacement_match_analytic": true
+      }
+    },
+    {
+      "z_interfaces_mm": [
+        10,
+        20,
+        21,
+        23,
+        24,
+        25,
+        26,
+        27,
+        29,
+        30,
+        40,
+        50,
+        60,
+        70,
+        80,
+        90,
+        91,
+        93,
+        94,
+        95,
+        96,
+        97,
+        99,
+        100,
+        110
+      ],
+      "layer_materials": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "sigma_low_S_m": 0.01,
+      "sigma_high_S_m": 0.1,
+      "distance_lower_mm": 7,
+      "distance_upper_mm": 1,
+      "lower_low_band_z_mm": [
+        21,
+        23
+      ],
+      "upper_high_band_z_mm": [
+        91,
+        93
+      ],
+      "buffer_bottom_mm": 20,
+      "buffer_top_mm": 20,
+      "buffer_bottom_material": 0,
+      "buffer_top_material": 1,
+      "protected_core_z_mm": [
+        30,
+        90
+      ],
+      "protected_electrode_buffers_z_mm": [
+        [
+          0,
+          20
+        ],
+        [
+          100,
+          120
+        ]
+      ],
+      "id": "r7_strict_B_P71",
+      "role": "B",
+      "configuration_role": "B",
+      "layout": "P71",
+      "layout_id": "P71",
+      "kind": "synthetic3d_explicit",
+      "dimension": 3,
+      "geometry_input_unit": "mm",
+      "solver_unit": "SI",
+      "L_mm": 120.0,
+      "Lx_mm": 120.0,
+      "Ly_mm": 120.0,
+      "Lz_mm": 120.0,
+      "cx_mm": 60.0,
+      "cy_mm": 60.0,
+      "cz_mm": 60.0,
+      "a_mm": 30.0,
+      "b_mm": 30.0,
+      "c_mm": 1.5,
+      "theta_deg": 60.0,
+      "basis_u": [
+        0.5,
+        0.0,
+        0.8660254037844386
+      ],
+      "basis_v": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "basis_n": [
+        -0.8660254037844386,
+        0.0,
+        0.5
+      ],
+      "rotation_convention": "r=center+u*local_u+v*local_v+n*local_n; u rises 60 degrees above +x toward +z; COMSOL Ellipsoid axes [30,30,1.5] mm with Rot y=-60 degrees.",
+      "ellipse_equation_local": "(local_u/30[mm])^2+(local_v/30[mm])^2+(local_n/1.5[mm])^2<=1",
+      "endcap_axial_length_mm": 3.0,
+      "endcap_length_mm": 3.0,
+      "source_design": "runs/round5_modal_closure/design.json",
+      "source_case_id": "r5_strict_B_P71",
+      "load": "z",
+      "deltaV_V": 1.0,
+      "electrodes": {
+        "top_z_mm": 120.0,
+        "top_voltage_V": 1.0,
+        "bottom_z_mm": 0.0,
+        "bottom_voltage_V": 0.0,
+        "other_external_faces": "electric insulation"
+      },
+      "same_role_peripheral_comparison": "Exactly identical core, ellipsoid and electrode buffers; only two remote 2-mm bands move.",
+      "mesh_level": "base",
+      "sigma_f_values_S_m": [
+        0.18,
+        10.0
+      ],
+      "physical_material_runs": [
+        {
+          "z_min_mm": 0.0,
+          "z_max_mm": 20,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 20,
+          "z_max_mm": 21,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 21,
+          "z_max_mm": 23,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 23,
+          "z_max_mm": 40,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 40,
+          "z_max_mm": 50,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 50,
+          "z_max_mm": 60,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 60,
+          "z_max_mm": 70,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 70,
+          "z_max_mm": 80,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 80,
+          "z_max_mm": 91,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 91,
+          "z_max_mm": 93,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 93,
+          "z_max_mm": 100,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 100,
+          "z_max_mm": 120.0,
+          "phase": 1
+        }
+      ],
+      "physical_z_interfaces_mm": [
+        20,
+        21,
+        23,
+        40,
+        50,
+        60,
+        70,
+        80,
+        91,
+        93,
+        100
+      ],
+      "geometry_checks": {
+        "kind": "analytical geometry only; COMSOL volume integrations remain required",
+        "sample_volume_mm3": 1728000.0,
+        "ellipsoid_volume_mm3": 5654.866776461628,
+        "ellipsoid_half_spans_xyz_mm": [
+          15.056144924913548,
+          30.0,
+          25.991585176745183
+        ],
+        "ellipsoid_bounds_xyz_mm": [
+          [
+            44.943855075086454,
+            75.05614492491355
+          ],
+          [
+            30.0,
+            90.0
+          ],
+          [
+            34.00841482325482,
+            85.99158517674519
+          ]
+        ],
+        "minimum_external_clearance_mm": 30.0,
+        "minimum_core_interface_clearance_mm": 4.008414823254817,
+        "background_low_volume_mm3": 864000.0,
+        "background_high_volume_mm3": 864000.0,
+        "replaced_low_volume_mm3": 2827.433388230814,
+        "replaced_high_volume_mm3": 2827.433388230814,
+        "final_low_matrix_volume_mm3": 861172.5666117691,
+        "final_high_matrix_volume_mm3": 861172.5666117691,
+        "endcap_minus": {
+          "u_interval_mm": [
+            -30.0,
+            -27.0
+          ],
+          "z_envelope_mm": [
+            34.008414823254824,
+            36.94423151858571
+          ],
+          "volume_mm3_analytic": 40.997784129347,
+          "high_fraction_analytic": 1.0,
+          "low_fraction_analytic": 0.0,
+          "phase_label": "high",
+          "classification_basis": "The entire finite 3-mm axial cap lies within one actual material run; not a point-tip classification."
+        },
+        "endcap_plus": {
+          "u_interval_mm": [
+            27.0,
+            30.0
+          ],
+          "z_envelope_mm": [
+            83.05576848141429,
+            85.99158517674518
+          ],
+          "volume_mm3_analytic": 40.997784129347,
+          "high_fraction_analytic": 0.0,
+          "low_fraction_analytic": 1.0,
+          "phase_label": "low",
+          "classification_basis": "The entire finite 3-mm axial cap lies within one actual material run; not a point-tip classification."
+        },
+        "sigma_z_background_analytic_S_m": 0.01818181818181818,
+        "sigma_x_background_analytic_S_m": 0.055000000000000014,
+        "sigma_y_background_analytic_S_m": 0.055000000000000014,
+        "Gz_background_analytic_S": 0.0021818181818181815,
+        "Gx_background_analytic_S": 0.006600000000000002,
+        "Gy_background_analytic_S": 0.006600000000000002,
+        "AB_replacement_match_analytic": true
+      }
+    },
+    {
+      "z_interfaces_mm": [
+        10,
+        20,
+        21,
+        23,
+        24,
+        25,
+        26,
+        27,
+        29,
+        30,
+        40,
+        50,
+        60,
+        70,
+        80,
+        90,
+        91,
+        93,
+        94,
+        95,
+        96,
+        97,
+        99,
+        100,
+        110
+      ],
+      "layer_materials": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "sigma_low_S_m": 0.01,
+      "sigma_high_S_m": 0.1,
+      "distance_lower_mm": 7,
+      "distance_upper_mm": 7,
+      "lower_low_band_z_mm": [
+        21,
+        23
+      ],
+      "upper_high_band_z_mm": [
+        97,
+        99
+      ],
+      "buffer_bottom_mm": 20,
+      "buffer_top_mm": 20,
+      "buffer_bottom_material": 0,
+      "buffer_top_material": 1,
+      "protected_core_z_mm": [
+        30,
+        90
+      ],
+      "protected_electrode_buffers_z_mm": [
+        [
+          0,
+          20
+        ],
+        [
+          100,
+          120
+        ]
+      ],
+      "id": "r7_strict_B_P77",
+      "role": "B",
+      "configuration_role": "B",
+      "layout": "P77",
+      "layout_id": "P77",
+      "kind": "synthetic3d_explicit",
+      "dimension": 3,
+      "geometry_input_unit": "mm",
+      "solver_unit": "SI",
+      "L_mm": 120.0,
+      "Lx_mm": 120.0,
+      "Ly_mm": 120.0,
+      "Lz_mm": 120.0,
+      "cx_mm": 60.0,
+      "cy_mm": 60.0,
+      "cz_mm": 60.0,
+      "a_mm": 30.0,
+      "b_mm": 30.0,
+      "c_mm": 1.5,
+      "theta_deg": 60.0,
+      "basis_u": [
+        0.5,
+        0.0,
+        0.8660254037844386
+      ],
+      "basis_v": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "basis_n": [
+        -0.8660254037844386,
+        0.0,
+        0.5
+      ],
+      "rotation_convention": "r=center+u*local_u+v*local_v+n*local_n; u rises 60 degrees above +x toward +z; COMSOL Ellipsoid axes [30,30,1.5] mm with Rot y=-60 degrees.",
+      "ellipse_equation_local": "(local_u/30[mm])^2+(local_v/30[mm])^2+(local_n/1.5[mm])^2<=1",
+      "endcap_axial_length_mm": 3.0,
+      "endcap_length_mm": 3.0,
+      "source_design": "runs/round5_modal_closure/design.json",
+      "source_case_id": "r5_strict_B_P77",
+      "load": "z",
+      "deltaV_V": 1.0,
+      "electrodes": {
+        "top_z_mm": 120.0,
+        "top_voltage_V": 1.0,
+        "bottom_z_mm": 0.0,
+        "bottom_voltage_V": 0.0,
+        "other_external_faces": "electric insulation"
+      },
+      "same_role_peripheral_comparison": "Exactly identical core, ellipsoid and electrode buffers; only two remote 2-mm bands move.",
+      "mesh_level": "base",
+      "sigma_f_values_S_m": [
+        0.18,
+        10.0
+      ],
+      "physical_material_runs": [
+        {
+          "z_min_mm": 0.0,
+          "z_max_mm": 20,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 20,
+          "z_max_mm": 21,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 21,
+          "z_max_mm": 23,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 23,
+          "z_max_mm": 40,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 40,
+          "z_max_mm": 50,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 50,
+          "z_max_mm": 60,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 60,
+          "z_max_mm": 70,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 70,
+          "z_max_mm": 80,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 80,
+          "z_max_mm": 97,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 97,
+          "z_max_mm": 99,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 99,
+          "z_max_mm": 100,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 100,
+          "z_max_mm": 120.0,
+          "phase": 1
+        }
+      ],
+      "physical_z_interfaces_mm": [
+        20,
+        21,
+        23,
+        40,
+        50,
+        60,
+        70,
+        80,
+        97,
+        99,
+        100
+      ],
+      "geometry_checks": {
+        "kind": "analytical geometry only; COMSOL volume integrations remain required",
+        "sample_volume_mm3": 1728000.0,
+        "ellipsoid_volume_mm3": 5654.866776461628,
+        "ellipsoid_half_spans_xyz_mm": [
+          15.056144924913548,
+          30.0,
+          25.991585176745183
+        ],
+        "ellipsoid_bounds_xyz_mm": [
+          [
+            44.943855075086454,
+            75.05614492491355
+          ],
+          [
+            30.0,
+            90.0
+          ],
+          [
+            34.00841482325482,
+            85.99158517674519
+          ]
+        ],
+        "minimum_external_clearance_mm": 30.0,
+        "minimum_core_interface_clearance_mm": 4.008414823254817,
+        "background_low_volume_mm3": 864000.0,
+        "background_high_volume_mm3": 864000.0,
+        "replaced_low_volume_mm3": 2827.433388230814,
+        "replaced_high_volume_mm3": 2827.433388230814,
+        "final_low_matrix_volume_mm3": 861172.5666117691,
+        "final_high_matrix_volume_mm3": 861172.5666117691,
+        "endcap_minus": {
+          "u_interval_mm": [
+            -30.0,
+            -27.0
+          ],
+          "z_envelope_mm": [
+            34.008414823254824,
+            36.94423151858571
+          ],
+          "volume_mm3_analytic": 40.997784129347,
+          "high_fraction_analytic": 1.0,
+          "low_fraction_analytic": 0.0,
+          "phase_label": "high",
+          "classification_basis": "The entire finite 3-mm axial cap lies within one actual material run; not a point-tip classification."
+        },
+        "endcap_plus": {
+          "u_interval_mm": [
+            27.0,
+            30.0
+          ],
+          "z_envelope_mm": [
+            83.05576848141429,
+            85.99158517674518
+          ],
+          "volume_mm3_analytic": 40.997784129347,
+          "high_fraction_analytic": 0.0,
+          "low_fraction_analytic": 1.0,
+          "phase_label": "low",
+          "classification_basis": "The entire finite 3-mm axial cap lies within one actual material run; not a point-tip classification."
+        },
+        "sigma_z_background_analytic_S_m": 0.01818181818181818,
+        "sigma_x_background_analytic_S_m": 0.05500000000000001,
+        "sigma_y_background_analytic_S_m": 0.05500000000000001,
+        "Gz_background_analytic_S": 0.0021818181818181815,
+        "Gx_background_analytic_S": 0.006600000000000001,
+        "Gy_background_analytic_S": 0.006600000000000001,
+        "AB_replacement_match_analytic": true
+      }
+    }
+  ],
+  "targets": [
+    {
+      "state_id": "r7_strict_A_P11_sf_0p18",
+      "case_id": "r7_strict_A_P11",
+      "role": "A",
+      "layout": "P11",
+      "kind": "synthetic3d_explicit",
+      "sigma_f_S_m": 0.18,
+      "target_relative_folder": "synthetic3d/r7_strict_A_P11/sf_0p18",
+      "background_case_id": "r7_strict_A_P11_bg_z"
+    },
+    {
+      "state_id": "r7_strict_A_P11_sf_10",
+      "case_id": "r7_strict_A_P11",
+      "role": "A",
+      "layout": "P11",
+      "kind": "synthetic3d_explicit",
+      "sigma_f_S_m": 10.0,
+      "target_relative_folder": "synthetic3d/r7_strict_A_P11/sf_10",
+      "background_case_id": "r7_strict_A_P11_bg_z"
+    },
+    {
+      "state_id": "r7_strict_A_P17_sf_0p18",
+      "case_id": "r7_strict_A_P17",
+      "role": "A",
+      "layout": "P17",
+      "kind": "synthetic3d_explicit",
+      "sigma_f_S_m": 0.18,
+      "target_relative_folder": "synthetic3d/r7_strict_A_P17/sf_0p18",
+      "background_case_id": "r7_strict_A_P17_bg_z"
+    },
+    {
+      "state_id": "r7_strict_A_P17_sf_10",
+      "case_id": "r7_strict_A_P17",
+      "role": "A",
+      "layout": "P17",
+      "kind": "synthetic3d_explicit",
+      "sigma_f_S_m": 10.0,
+      "target_relative_folder": "synthetic3d/r7_strict_A_P17/sf_10",
+      "background_case_id": "r7_strict_A_P17_bg_z"
+    },
+    {
+      "state_id": "r7_strict_A_P71_sf_0p18",
+      "case_id": "r7_strict_A_P71",
+      "role": "A",
+      "layout": "P71",
+      "kind": "synthetic3d_explicit",
+      "sigma_f_S_m": 0.18,
+      "target_relative_folder": "synthetic3d/r7_strict_A_P71/sf_0p18",
+      "background_case_id": "r7_strict_A_P71_bg_z"
+    },
+    {
+      "state_id": "r7_strict_A_P71_sf_10",
+      "case_id": "r7_strict_A_P71",
+      "role": "A",
+      "layout": "P71",
+      "kind": "synthetic3d_explicit",
+      "sigma_f_S_m": 10.0,
+      "target_relative_folder": "synthetic3d/r7_strict_A_P71/sf_10",
+      "background_case_id": "r7_strict_A_P71_bg_z"
+    },
+    {
+      "state_id": "r7_strict_A_P77_sf_0p18",
+      "case_id": "r7_strict_A_P77",
+      "role": "A",
+      "layout": "P77",
+      "kind": "synthetic3d_explicit",
+      "sigma_f_S_m": 0.18,
+      "target_relative_folder": "synthetic3d/r7_strict_A_P77/sf_0p18",
+      "background_case_id": "r7_strict_A_P77_bg_z"
+    },
+    {
+      "state_id": "r7_strict_A_P77_sf_10",
+      "case_id": "r7_strict_A_P77",
+      "role": "A",
+      "layout": "P77",
+      "kind": "synthetic3d_explicit",
+      "sigma_f_S_m": 10.0,
+      "target_relative_folder": "synthetic3d/r7_strict_A_P77/sf_10",
+      "background_case_id": "r7_strict_A_P77_bg_z"
+    },
+    {
+      "state_id": "r7_strict_B_P11_sf_0p18",
+      "case_id": "r7_strict_B_P11",
+      "role": "B",
+      "layout": "P11",
+      "kind": "synthetic3d_explicit",
+      "sigma_f_S_m": 0.18,
+      "target_relative_folder": "synthetic3d/r7_strict_B_P11/sf_0p18",
+      "background_case_id": "r7_strict_B_P11_bg_z"
+    },
+    {
+      "state_id": "r7_strict_B_P11_sf_10",
+      "case_id": "r7_strict_B_P11",
+      "role": "B",
+      "layout": "P11",
+      "kind": "synthetic3d_explicit",
+      "sigma_f_S_m": 10.0,
+      "target_relative_folder": "synthetic3d/r7_strict_B_P11/sf_10",
+      "background_case_id": "r7_strict_B_P11_bg_z"
+    },
+    {
+      "state_id": "r7_strict_B_P17_sf_0p18",
+      "case_id": "r7_strict_B_P17",
+      "role": "B",
+      "layout": "P17",
+      "kind": "synthetic3d_explicit",
+      "sigma_f_S_m": 0.18,
+      "target_relative_folder": "synthetic3d/r7_strict_B_P17/sf_0p18",
+      "background_case_id": "r7_strict_B_P17_bg_z"
+    },
+    {
+      "state_id": "r7_strict_B_P17_sf_10",
+      "case_id": "r7_strict_B_P17",
+      "role": "B",
+      "layout": "P17",
+      "kind": "synthetic3d_explicit",
+      "sigma_f_S_m": 10.0,
+      "target_relative_folder": "synthetic3d/r7_strict_B_P17/sf_10",
+      "background_case_id": "r7_strict_B_P17_bg_z"
+    },
+    {
+      "state_id": "r7_strict_B_P71_sf_0p18",
+      "case_id": "r7_strict_B_P71",
+      "role": "B",
+      "layout": "P71",
+      "kind": "synthetic3d_explicit",
+      "sigma_f_S_m": 0.18,
+      "target_relative_folder": "synthetic3d/r7_strict_B_P71/sf_0p18",
+      "background_case_id": "r7_strict_B_P71_bg_z"
+    },
+    {
+      "state_id": "r7_strict_B_P71_sf_10",
+      "case_id": "r7_strict_B_P71",
+      "role": "B",
+      "layout": "P71",
+      "kind": "synthetic3d_explicit",
+      "sigma_f_S_m": 10.0,
+      "target_relative_folder": "synthetic3d/r7_strict_B_P71/sf_10",
+      "background_case_id": "r7_strict_B_P71_bg_z"
+    },
+    {
+      "state_id": "r7_strict_B_P77_sf_0p18",
+      "case_id": "r7_strict_B_P77",
+      "role": "B",
+      "layout": "P77",
+      "kind": "synthetic3d_explicit",
+      "sigma_f_S_m": 0.18,
+      "target_relative_folder": "synthetic3d/r7_strict_B_P77/sf_0p18",
+      "background_case_id": "r7_strict_B_P77_bg_z"
+    },
+    {
+      "state_id": "r7_strict_B_P77_sf_10",
+      "case_id": "r7_strict_B_P77",
+      "role": "B",
+      "layout": "P77",
+      "kind": "synthetic3d_explicit",
+      "sigma_f_S_m": 10.0,
+      "target_relative_folder": "synthetic3d/r7_strict_B_P77/sf_10",
+      "background_case_id": "r7_strict_B_P77_bg_z"
+    }
+  ],
+  "new_states": [
+    {
+      "state_id": "r7_strict_A_P11_sf_0p18",
+      "case_id": "r7_strict_A_P11",
+      "role": "A",
+      "layout": "P11",
+      "kind": "synthetic3d_explicit",
+      "sigma_f_S_m": 0.18,
+      "target_relative_folder": "synthetic3d/r7_strict_A_P11/sf_0p18",
+      "background_case_id": "r7_strict_A_P11_bg_z"
+    },
+    {
+      "state_id": "r7_strict_A_P11_sf_10",
+      "case_id": "r7_strict_A_P11",
+      "role": "A",
+      "layout": "P11",
+      "kind": "synthetic3d_explicit",
+      "sigma_f_S_m": 10.0,
+      "target_relative_folder": "synthetic3d/r7_strict_A_P11/sf_10",
+      "background_case_id": "r7_strict_A_P11_bg_z"
+    },
+    {
+      "state_id": "r7_strict_A_P17_sf_0p18",
+      "case_id": "r7_strict_A_P17",
+      "role": "A",
+      "layout": "P17",
+      "kind": "synthetic3d_explicit",
+      "sigma_f_S_m": 0.18,
+      "target_relative_folder": "synthetic3d/r7_strict_A_P17/sf_0p18",
+      "background_case_id": "r7_strict_A_P17_bg_z"
+    },
+    {
+      "state_id": "r7_strict_A_P17_sf_10",
+      "case_id": "r7_strict_A_P17",
+      "role": "A",
+      "layout": "P17",
+      "kind": "synthetic3d_explicit",
+      "sigma_f_S_m": 10.0,
+      "target_relative_folder": "synthetic3d/r7_strict_A_P17/sf_10",
+      "background_case_id": "r7_strict_A_P17_bg_z"
+    },
+    {
+      "state_id": "r7_strict_A_P71_sf_0p18",
+      "case_id": "r7_strict_A_P71",
+      "role": "A",
+      "layout": "P71",
+      "kind": "synthetic3d_explicit",
+      "sigma_f_S_m": 0.18,
+      "target_relative_folder": "synthetic3d/r7_strict_A_P71/sf_0p18",
+      "background_case_id": "r7_strict_A_P71_bg_z"
+    },
+    {
+      "state_id": "r7_strict_A_P71_sf_10",
+      "case_id": "r7_strict_A_P71",
+      "role": "A",
+      "layout": "P71",
+      "kind": "synthetic3d_explicit",
+      "sigma_f_S_m": 10.0,
+      "target_relative_folder": "synthetic3d/r7_strict_A_P71/sf_10",
+      "background_case_id": "r7_strict_A_P71_bg_z"
+    },
+    {
+      "state_id": "r7_strict_A_P77_sf_0p18",
+      "case_id": "r7_strict_A_P77",
+      "role": "A",
+      "layout": "P77",
+      "kind": "synthetic3d_explicit",
+      "sigma_f_S_m": 0.18,
+      "target_relative_folder": "synthetic3d/r7_strict_A_P77/sf_0p18",
+      "background_case_id": "r7_strict_A_P77_bg_z"
+    },
+    {
+      "state_id": "r7_strict_A_P77_sf_10",
+      "case_id": "r7_strict_A_P77",
+      "role": "A",
+      "layout": "P77",
+      "kind": "synthetic3d_explicit",
+      "sigma_f_S_m": 10.0,
+      "target_relative_folder": "synthetic3d/r7_strict_A_P77/sf_10",
+      "background_case_id": "r7_strict_A_P77_bg_z"
+    },
+    {
+      "state_id": "r7_strict_B_P11_sf_0p18",
+      "case_id": "r7_strict_B_P11",
+      "role": "B",
+      "layout": "P11",
+      "kind": "synthetic3d_explicit",
+      "sigma_f_S_m": 0.18,
+      "target_relative_folder": "synthetic3d/r7_strict_B_P11/sf_0p18",
+      "background_case_id": "r7_strict_B_P11_bg_z"
+    },
+    {
+      "state_id": "r7_strict_B_P11_sf_10",
+      "case_id": "r7_strict_B_P11",
+      "role": "B",
+      "layout": "P11",
+      "kind": "synthetic3d_explicit",
+      "sigma_f_S_m": 10.0,
+      "target_relative_folder": "synthetic3d/r7_strict_B_P11/sf_10",
+      "background_case_id": "r7_strict_B_P11_bg_z"
+    },
+    {
+      "state_id": "r7_strict_B_P17_sf_0p18",
+      "case_id": "r7_strict_B_P17",
+      "role": "B",
+      "layout": "P17",
+      "kind": "synthetic3d_explicit",
+      "sigma_f_S_m": 0.18,
+      "target_relative_folder": "synthetic3d/r7_strict_B_P17/sf_0p18",
+      "background_case_id": "r7_strict_B_P17_bg_z"
+    },
+    {
+      "state_id": "r7_strict_B_P17_sf_10",
+      "case_id": "r7_strict_B_P17",
+      "role": "B",
+      "layout": "P17",
+      "kind": "synthetic3d_explicit",
+      "sigma_f_S_m": 10.0,
+      "target_relative_folder": "synthetic3d/r7_strict_B_P17/sf_10",
+      "background_case_id": "r7_strict_B_P17_bg_z"
+    },
+    {
+      "state_id": "r7_strict_B_P71_sf_0p18",
+      "case_id": "r7_strict_B_P71",
+      "role": "B",
+      "layout": "P71",
+      "kind": "synthetic3d_explicit",
+      "sigma_f_S_m": 0.18,
+      "target_relative_folder": "synthetic3d/r7_strict_B_P71/sf_0p18",
+      "background_case_id": "r7_strict_B_P71_bg_z"
+    },
+    {
+      "state_id": "r7_strict_B_P71_sf_10",
+      "case_id": "r7_strict_B_P71",
+      "role": "B",
+      "layout": "P71",
+      "kind": "synthetic3d_explicit",
+      "sigma_f_S_m": 10.0,
+      "target_relative_folder": "synthetic3d/r7_strict_B_P71/sf_10",
+      "background_case_id": "r7_strict_B_P71_bg_z"
+    },
+    {
+      "state_id": "r7_strict_B_P77_sf_0p18",
+      "case_id": "r7_strict_B_P77",
+      "role": "B",
+      "layout": "P77",
+      "kind": "synthetic3d_explicit",
+      "sigma_f_S_m": 0.18,
+      "target_relative_folder": "synthetic3d/r7_strict_B_P77/sf_0p18",
+      "background_case_id": "r7_strict_B_P77_bg_z"
+    },
+    {
+      "state_id": "r7_strict_B_P77_sf_10",
+      "case_id": "r7_strict_B_P77",
+      "role": "B",
+      "layout": "P77",
+      "kind": "synthetic3d_explicit",
+      "sigma_f_S_m": 10.0,
+      "target_relative_folder": "synthetic3d/r7_strict_B_P77/sf_10",
+      "background_case_id": "r7_strict_B_P77_bg_z"
+    }
+  ],
+  "m0_cases": [
+    {
+      "z_interfaces_mm": [
+        10,
+        20,
+        21,
+        23,
+        24,
+        25,
+        26,
+        27,
+        29,
+        30,
+        40,
+        50,
+        60,
+        70,
+        80,
+        90,
+        91,
+        93,
+        94,
+        95,
+        96,
+        97,
+        99,
+        100,
+        110
+      ],
+      "layer_materials": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "sigma_low_S_m": 0.01,
+      "sigma_high_S_m": 0.1,
+      "distance_lower_mm": 7,
+      "distance_upper_mm": 7,
+      "lower_low_band_z_mm": [
+        21,
+        23
+      ],
+      "upper_high_band_z_mm": [
+        97,
+        99
+      ],
+      "buffer_bottom_mm": 20,
+      "buffer_top_mm": 20,
+      "buffer_bottom_material": 0,
+      "buffer_top_material": 1,
+      "protected_core_z_mm": [
+        30,
+        90
+      ],
+      "protected_electrode_buffers_z_mm": [
+        [
+          0,
+          20
+        ],
+        [
+          100,
+          120
+        ]
+      ],
+      "id": "r7_strict_A_M0",
+      "role": "A",
+      "configuration_role": "A",
+      "layout": "M0",
+      "layout_id": "M0",
+      "kind": "synthetic3d_M0",
+      "dimension": 3,
+      "geometry_input_unit": "mm",
+      "solver_unit": "SI",
+      "L_mm": 120.0,
+      "Lx_mm": 120.0,
+      "Ly_mm": 120.0,
+      "Lz_mm": 120.0,
+      "cx_mm": 60.0,
+      "cy_mm": 60.0,
+      "cz_mm": 60.0,
+      "a_mm": 30.0,
+      "b_mm": 30.0,
+      "c_mm": 1.5,
+      "theta_deg": 60.0,
+      "basis_u": [
+        0.5,
+        0.0,
+        0.8660254037844386
+      ],
+      "basis_v": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "basis_n": [
+        -0.8660254037844386,
+        0.0,
+        0.5
+      ],
+      "rotation_convention": "r=center+u*local_u+v*local_v+n*local_n; u rises 60 degrees above +x toward +z; COMSOL Ellipsoid axes [30,30,1.5] mm with Rot y=-60 degrees.",
+      "ellipse_equation_local": "(local_u/30[mm])^2+(local_v/30[mm])^2+(local_n/1.5[mm])^2<=1",
+      "endcap_axial_length_mm": 3.0,
+      "endcap_length_mm": 3.0,
+      "source_design": "runs/round5_modal_closure/design.json",
+      "source_case_id": "r5_strict_A_P77",
+      "load": "z",
+      "deltaV_V": 1.0,
+      "electrodes": {
+        "top_z_mm": 120.0,
+        "top_voltage_V": 1.0,
+        "bottom_z_mm": 0.0,
+        "bottom_voltage_V": 0.0,
+        "other_external_faces": "electric insulation"
+      },
+      "same_role_peripheral_comparison": "Exactly identical core, ellipsoid and electrode buffers; only two remote 2-mm bands move.",
+      "mesh_level": "base",
+      "sigma_f_values_S_m": [
+        0.18,
+        10.0
+      ],
+      "physical_material_runs": [
+        {
+          "z_min_mm": 0.0,
+          "z_max_mm": 20,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 20,
+          "z_max_mm": 21,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 21,
+          "z_max_mm": 23,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 23,
+          "z_max_mm": 60,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 60,
+          "z_max_mm": 97,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 97,
+          "z_max_mm": 99,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 99,
+          "z_max_mm": 100,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 100,
+          "z_max_mm": 120.0,
+          "phase": 1
+        }
+      ],
+      "physical_z_interfaces_mm": [
+        20,
+        21,
+        23,
+        60,
+        97,
+        99,
+        100
+      ],
+      "geometry_checks": {
+        "kind": "analytical geometry only; COMSOL volume integrations remain required",
+        "sample_volume_mm3": 1728000.0,
+        "ellipsoid_volume_mm3": 5654.866776461628,
+        "ellipsoid_half_spans_xyz_mm": [
+          15.056144924913548,
+          30.0,
+          25.991585176745183
+        ],
+        "ellipsoid_bounds_xyz_mm": [
+          [
+            44.943855075086454,
+            75.05614492491355
+          ],
+          [
+            30.0,
+            90.0
+          ],
+          [
+            34.00841482325482,
+            85.99158517674519
+          ]
+        ],
+        "minimum_external_clearance_mm": 30.0,
+        "minimum_core_interface_clearance_mm": 4.008414823254817,
+        "background_low_volume_mm3": 864000.0,
+        "background_high_volume_mm3": 864000.0,
+        "replaced_low_volume_mm3": 2827.433388230814,
+        "replaced_high_volume_mm3": 2827.433388230814,
+        "final_low_matrix_volume_mm3": 861172.5666117691,
+        "final_high_matrix_volume_mm3": 861172.5666117691,
+        "endcap_minus": {
+          "u_interval_mm": [
+            -30.0,
+            -27.0
+          ],
+          "z_envelope_mm": [
+            34.008414823254824,
+            36.94423151858571
+          ],
+          "volume_mm3_analytic": 40.997784129347,
+          "high_fraction_analytic": 1.0,
+          "low_fraction_analytic": 0.0,
+          "phase_label": "high",
+          "classification_basis": "The entire finite 3-mm axial cap lies within one actual material run; not a point-tip classification."
+        },
+        "endcap_plus": {
+          "u_interval_mm": [
+            27.0,
+            30.0
+          ],
+          "z_envelope_mm": [
+            83.05576848141429,
+            85.99158517674518
+          ],
+          "volume_mm3_analytic": 40.997784129347,
+          "high_fraction_analytic": 0.0,
+          "low_fraction_analytic": 1.0,
+          "phase_label": "low",
+          "classification_basis": "The entire finite 3-mm axial cap lies within one actual material run; not a point-tip classification."
+        },
+        "sigma_z_background_analytic_S_m": 0.018181818181818184,
+        "sigma_x_background_analytic_S_m": 0.05500000000000001,
+        "sigma_y_background_analytic_S_m": 0.05500000000000001,
+        "Gz_background_analytic_S": 0.002181818181818182,
+        "Gx_background_analytic_S": 0.006600000000000001,
+        "Gy_background_analytic_S": 0.006600000000000001,
+        "AB_replacement_match_analytic": true
+      },
+      "M0_equivalent_tensor": {
+        "lower": {
+          "z_range_mm": [
+            0.0,
+            30.0
+          ],
+          "sigma_xx_S_m": 0.034,
+          "sigma_yy_S_m": 0.034,
+          "sigma_zz_S_m": 0.013157894736842103,
+          "off_diagonal_S_m": 0.0,
+          "includes_actual_20mm_electrode_buffer": true
+        },
+        "upper": {
+          "z_range_mm": [
+            90.0,
+            120.0
+          ],
+          "sigma_xx_S_m": 0.076,
+          "sigma_yy_S_m": 0.076,
+          "sigma_zz_S_m": 0.029411764705882353,
+          "off_diagonal_S_m": 0.0,
+          "includes_actual_20mm_electrode_buffer": true
+        }
+      },
+      "homogenize_z_ranges_mm": [
+        [
+          0.0,
+          30.0
+        ],
+        [
+          90.0,
+          120.0
+        ]
+      ],
+      "phase_volume_interpretation": "Explicit original layer map retained for provenance; homogeneous anisotropic exterior no longer has literal separate low/high phase domains.",
+      "M0_reference_only": true
+    },
+    {
+      "z_interfaces_mm": [
+        10,
+        20,
+        21,
+        23,
+        24,
+        25,
+        26,
+        27,
+        29,
+        30,
+        40,
+        50,
+        60,
+        70,
+        80,
+        90,
+        91,
+        93,
+        94,
+        95,
+        96,
+        97,
+        99,
+        100,
+        110
+      ],
+      "layer_materials": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "sigma_low_S_m": 0.01,
+      "sigma_high_S_m": 0.1,
+      "distance_lower_mm": 7,
+      "distance_upper_mm": 7,
+      "lower_low_band_z_mm": [
+        21,
+        23
+      ],
+      "upper_high_band_z_mm": [
+        97,
+        99
+      ],
+      "buffer_bottom_mm": 20,
+      "buffer_top_mm": 20,
+      "buffer_bottom_material": 0,
+      "buffer_top_material": 1,
+      "protected_core_z_mm": [
+        30,
+        90
+      ],
+      "protected_electrode_buffers_z_mm": [
+        [
+          0,
+          20
+        ],
+        [
+          100,
+          120
+        ]
+      ],
+      "id": "r7_strict_B_M0",
+      "role": "B",
+      "configuration_role": "B",
+      "layout": "M0",
+      "layout_id": "M0",
+      "kind": "synthetic3d_M0",
+      "dimension": 3,
+      "geometry_input_unit": "mm",
+      "solver_unit": "SI",
+      "L_mm": 120.0,
+      "Lx_mm": 120.0,
+      "Ly_mm": 120.0,
+      "Lz_mm": 120.0,
+      "cx_mm": 60.0,
+      "cy_mm": 60.0,
+      "cz_mm": 60.0,
+      "a_mm": 30.0,
+      "b_mm": 30.0,
+      "c_mm": 1.5,
+      "theta_deg": 60.0,
+      "basis_u": [
+        0.5,
+        0.0,
+        0.8660254037844386
+      ],
+      "basis_v": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "basis_n": [
+        -0.8660254037844386,
+        0.0,
+        0.5
+      ],
+      "rotation_convention": "r=center+u*local_u+v*local_v+n*local_n; u rises 60 degrees above +x toward +z; COMSOL Ellipsoid axes [30,30,1.5] mm with Rot y=-60 degrees.",
+      "ellipse_equation_local": "(local_u/30[mm])^2+(local_v/30[mm])^2+(local_n/1.5[mm])^2<=1",
+      "endcap_axial_length_mm": 3.0,
+      "endcap_length_mm": 3.0,
+      "source_design": "runs/round5_modal_closure/design.json",
+      "source_case_id": "r5_strict_B_P77",
+      "load": "z",
+      "deltaV_V": 1.0,
+      "electrodes": {
+        "top_z_mm": 120.0,
+        "top_voltage_V": 1.0,
+        "bottom_z_mm": 0.0,
+        "bottom_voltage_V": 0.0,
+        "other_external_faces": "electric insulation"
+      },
+      "same_role_peripheral_comparison": "Exactly identical core, ellipsoid and electrode buffers; only two remote 2-mm bands move.",
+      "mesh_level": "base",
+      "sigma_f_values_S_m": [
+        0.18,
+        10.0
+      ],
+      "physical_material_runs": [
+        {
+          "z_min_mm": 0.0,
+          "z_max_mm": 20,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 20,
+          "z_max_mm": 21,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 21,
+          "z_max_mm": 23,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 23,
+          "z_max_mm": 40,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 40,
+          "z_max_mm": 50,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 50,
+          "z_max_mm": 60,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 60,
+          "z_max_mm": 70,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 70,
+          "z_max_mm": 80,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 80,
+          "z_max_mm": 97,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 97,
+          "z_max_mm": 99,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 99,
+          "z_max_mm": 100,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 100,
+          "z_max_mm": 120.0,
+          "phase": 1
+        }
+      ],
+      "physical_z_interfaces_mm": [
+        20,
+        21,
+        23,
+        40,
+        50,
+        60,
+        70,
+        80,
+        97,
+        99,
+        100
+      ],
+      "geometry_checks": {
+        "kind": "analytical geometry only; COMSOL volume integrations remain required",
+        "sample_volume_mm3": 1728000.0,
+        "ellipsoid_volume_mm3": 5654.866776461628,
+        "ellipsoid_half_spans_xyz_mm": [
+          15.056144924913548,
+          30.0,
+          25.991585176745183
+        ],
+        "ellipsoid_bounds_xyz_mm": [
+          [
+            44.943855075086454,
+            75.05614492491355
+          ],
+          [
+            30.0,
+            90.0
+          ],
+          [
+            34.00841482325482,
+            85.99158517674519
+          ]
+        ],
+        "minimum_external_clearance_mm": 30.0,
+        "minimum_core_interface_clearance_mm": 4.008414823254817,
+        "background_low_volume_mm3": 864000.0,
+        "background_high_volume_mm3": 864000.0,
+        "replaced_low_volume_mm3": 2827.433388230814,
+        "replaced_high_volume_mm3": 2827.433388230814,
+        "final_low_matrix_volume_mm3": 861172.5666117691,
+        "final_high_matrix_volume_mm3": 861172.5666117691,
+        "endcap_minus": {
+          "u_interval_mm": [
+            -30.0,
+            -27.0
+          ],
+          "z_envelope_mm": [
+            34.008414823254824,
+            36.94423151858571
+          ],
+          "volume_mm3_analytic": 40.997784129347,
+          "high_fraction_analytic": 1.0,
+          "low_fraction_analytic": 0.0,
+          "phase_label": "high",
+          "classification_basis": "The entire finite 3-mm axial cap lies within one actual material run; not a point-tip classification."
+        },
+        "endcap_plus": {
+          "u_interval_mm": [
+            27.0,
+            30.0
+          ],
+          "z_envelope_mm": [
+            83.05576848141429,
+            85.99158517674518
+          ],
+          "volume_mm3_analytic": 40.997784129347,
+          "high_fraction_analytic": 0.0,
+          "low_fraction_analytic": 1.0,
+          "phase_label": "low",
+          "classification_basis": "The entire finite 3-mm axial cap lies within one actual material run; not a point-tip classification."
+        },
+        "sigma_z_background_analytic_S_m": 0.01818181818181818,
+        "sigma_x_background_analytic_S_m": 0.05500000000000001,
+        "sigma_y_background_analytic_S_m": 0.05500000000000001,
+        "Gz_background_analytic_S": 0.0021818181818181815,
+        "Gx_background_analytic_S": 0.006600000000000001,
+        "Gy_background_analytic_S": 0.006600000000000001,
+        "AB_replacement_match_analytic": true
+      },
+      "M0_equivalent_tensor": {
+        "lower": {
+          "z_range_mm": [
+            0.0,
+            30.0
+          ],
+          "sigma_xx_S_m": 0.034,
+          "sigma_yy_S_m": 0.034,
+          "sigma_zz_S_m": 0.013157894736842103,
+          "off_diagonal_S_m": 0.0,
+          "includes_actual_20mm_electrode_buffer": true
+        },
+        "upper": {
+          "z_range_mm": [
+            90.0,
+            120.0
+          ],
+          "sigma_xx_S_m": 0.076,
+          "sigma_yy_S_m": 0.076,
+          "sigma_zz_S_m": 0.029411764705882353,
+          "off_diagonal_S_m": 0.0,
+          "includes_actual_20mm_electrode_buffer": true
+        }
+      },
+      "homogenize_z_ranges_mm": [
+        [
+          0.0,
+          30.0
+        ],
+        [
+          90.0,
+          120.0
+        ]
+      ],
+      "phase_volume_interpretation": "Explicit original layer map retained for provenance; homogeneous anisotropic exterior no longer has literal separate low/high phase domains.",
+      "M0_reference_only": true
+    }
+  ],
+  "m0_targets": [
+    {
+      "state_id": "r7_strict_A_M0_sf_0p18",
+      "case_id": "r7_strict_A_M0",
+      "role": "A",
+      "layout": "M0",
+      "kind": "synthetic3d_M0",
+      "sigma_f_S_m": 0.18,
+      "target_relative_folder": "synthetic3d/r7_strict_A_M0/sf_0p18",
+      "background_case_id": "r7_strict_A_M0_bg_z"
+    },
+    {
+      "state_id": "r7_strict_A_M0_sf_10",
+      "case_id": "r7_strict_A_M0",
+      "role": "A",
+      "layout": "M0",
+      "kind": "synthetic3d_M0",
+      "sigma_f_S_m": 10.0,
+      "target_relative_folder": "synthetic3d/r7_strict_A_M0/sf_10",
+      "background_case_id": "r7_strict_A_M0_bg_z"
+    },
+    {
+      "state_id": "r7_strict_B_M0_sf_0p18",
+      "case_id": "r7_strict_B_M0",
+      "role": "B",
+      "layout": "M0",
+      "kind": "synthetic3d_M0",
+      "sigma_f_S_m": 0.18,
+      "target_relative_folder": "synthetic3d/r7_strict_B_M0/sf_0p18",
+      "background_case_id": "r7_strict_B_M0_bg_z"
+    },
+    {
+      "state_id": "r7_strict_B_M0_sf_10",
+      "case_id": "r7_strict_B_M0",
+      "role": "B",
+      "layout": "M0",
+      "kind": "synthetic3d_M0",
+      "sigma_f_S_m": 10.0,
+      "target_relative_folder": "synthetic3d/r7_strict_B_M0/sf_10",
+      "background_case_id": "r7_strict_B_M0_bg_z"
+    }
+  ],
+  "background_states": [
+    {
+      "state_id": "r7_strict_A_P11_bg_z",
+      "case_id": "r7_strict_A_P11",
+      "role": "A",
+      "layout": "P11",
+      "load": "z",
+      "passive_ellipsoid": true
+    },
+    {
+      "state_id": "r7_strict_A_P11_bg_x",
+      "case_id": "r7_strict_A_P11",
+      "role": "A",
+      "layout": "P11",
+      "load": "x",
+      "passive_ellipsoid": true
+    },
+    {
+      "state_id": "r7_strict_A_P17_bg_z",
+      "case_id": "r7_strict_A_P17",
+      "role": "A",
+      "layout": "P17",
+      "load": "z",
+      "passive_ellipsoid": true
+    },
+    {
+      "state_id": "r7_strict_A_P17_bg_x",
+      "case_id": "r7_strict_A_P17",
+      "role": "A",
+      "layout": "P17",
+      "load": "x",
+      "passive_ellipsoid": true
+    },
+    {
+      "state_id": "r7_strict_A_P71_bg_z",
+      "case_id": "r7_strict_A_P71",
+      "role": "A",
+      "layout": "P71",
+      "load": "z",
+      "passive_ellipsoid": true
+    },
+    {
+      "state_id": "r7_strict_A_P71_bg_x",
+      "case_id": "r7_strict_A_P71",
+      "role": "A",
+      "layout": "P71",
+      "load": "x",
+      "passive_ellipsoid": true
+    },
+    {
+      "state_id": "r7_strict_A_P77_bg_z",
+      "case_id": "r7_strict_A_P77",
+      "role": "A",
+      "layout": "P77",
+      "load": "z",
+      "passive_ellipsoid": true
+    },
+    {
+      "state_id": "r7_strict_A_P77_bg_x",
+      "case_id": "r7_strict_A_P77",
+      "role": "A",
+      "layout": "P77",
+      "load": "x",
+      "passive_ellipsoid": true
+    },
+    {
+      "state_id": "r7_strict_B_P11_bg_z",
+      "case_id": "r7_strict_B_P11",
+      "role": "B",
+      "layout": "P11",
+      "load": "z",
+      "passive_ellipsoid": true
+    },
+    {
+      "state_id": "r7_strict_B_P11_bg_x",
+      "case_id": "r7_strict_B_P11",
+      "role": "B",
+      "layout": "P11",
+      "load": "x",
+      "passive_ellipsoid": true
+    },
+    {
+      "state_id": "r7_strict_B_P17_bg_z",
+      "case_id": "r7_strict_B_P17",
+      "role": "B",
+      "layout": "P17",
+      "load": "z",
+      "passive_ellipsoid": true
+    },
+    {
+      "state_id": "r7_strict_B_P17_bg_x",
+      "case_id": "r7_strict_B_P17",
+      "role": "B",
+      "layout": "P17",
+      "load": "x",
+      "passive_ellipsoid": true
+    },
+    {
+      "state_id": "r7_strict_B_P71_bg_z",
+      "case_id": "r7_strict_B_P71",
+      "role": "B",
+      "layout": "P71",
+      "load": "z",
+      "passive_ellipsoid": true
+    },
+    {
+      "state_id": "r7_strict_B_P71_bg_x",
+      "case_id": "r7_strict_B_P71",
+      "role": "B",
+      "layout": "P71",
+      "load": "x",
+      "passive_ellipsoid": true
+    },
+    {
+      "state_id": "r7_strict_B_P77_bg_z",
+      "case_id": "r7_strict_B_P77",
+      "role": "B",
+      "layout": "P77",
+      "load": "z",
+      "passive_ellipsoid": true
+    },
+    {
+      "state_id": "r7_strict_B_P77_bg_x",
+      "case_id": "r7_strict_B_P77",
+      "role": "B",
+      "layout": "P77",
+      "load": "x",
+      "passive_ellipsoid": true
+    },
+    {
+      "state_id": "r7_strict_A_P11_bg_y",
+      "case_id": "r7_strict_A_P11",
+      "role": "A",
+      "layout": "P11",
+      "load": "y",
+      "passive_ellipsoid": true,
+      "purpose": "Single explicit y-direction check of analytically y-invariant background; not a full tensor claim."
+    }
+  ],
+  "m0_background_states": [
+    {
+      "state_id": "r7_strict_A_M0_bg_z",
+      "case_id": "r7_strict_A_M0",
+      "role": "A",
+      "layout": "M0",
+      "load": "z",
+      "passive_ellipsoid": true
+    },
+    {
+      "state_id": "r7_strict_B_M0_bg_z",
+      "case_id": "r7_strict_B_M0",
+      "role": "B",
+      "layout": "M0",
+      "load": "z",
+      "passive_ellipsoid": true
+    }
+  ],
+  "refinement_targets": [
+    {
+      "state_id": "r7_strict_A_P11_sf_0p18",
+      "case_id": "r7_strict_A_P11",
+      "role": "A",
+      "layout": "P11",
+      "kind": "synthetic3d_explicit",
+      "sigma_f_S_m": 0.18,
+      "target_relative_folder": "synthetic3d/r7_strict_A_P11/sf_0p18",
+      "background_case_id": "r7_strict_A_P11_bg_z",
+      "reason": "Preselected before any Round-7 target solve. Paired near/near versus far/far targets test the controlled joint peripheral change; two pairs cover A/B and both conductivities. Corresponding true background is refined too."
+    },
+    {
+      "state_id": "r7_strict_A_P77_sf_0p18",
+      "case_id": "r7_strict_A_P77",
+      "role": "A",
+      "layout": "P77",
+      "kind": "synthetic3d_explicit",
+      "sigma_f_S_m": 0.18,
+      "target_relative_folder": "synthetic3d/r7_strict_A_P77/sf_0p18",
+      "background_case_id": "r7_strict_A_P77_bg_z",
+      "reason": "Preselected before any Round-7 target solve. Paired near/near versus far/far targets test the controlled joint peripheral change; two pairs cover A/B and both conductivities. Corresponding true background is refined too."
+    },
+    {
+      "state_id": "r7_strict_B_P11_sf_10",
+      "case_id": "r7_strict_B_P11",
+      "role": "B",
+      "layout": "P11",
+      "kind": "synthetic3d_explicit",
+      "sigma_f_S_m": 10.0,
+      "target_relative_folder": "synthetic3d/r7_strict_B_P11/sf_10",
+      "background_case_id": "r7_strict_B_P11_bg_z",
+      "reason": "Preselected before any Round-7 target solve. Paired near/near versus far/far targets test the controlled joint peripheral change; two pairs cover A/B and both conductivities. Corresponding true background is refined too."
+    },
+    {
+      "state_id": "r7_strict_B_P77_sf_10",
+      "case_id": "r7_strict_B_P77",
+      "role": "B",
+      "layout": "P77",
+      "kind": "synthetic3d_explicit",
+      "sigma_f_S_m": 10.0,
+      "target_relative_folder": "synthetic3d/r7_strict_B_P77/sf_10",
+      "background_case_id": "r7_strict_B_P77_bg_z",
+      "reason": "Preselected before any Round-7 target solve. Paired near/near versus far/far targets test the controlled joint peripheral change; two pairs cover A/B and both conductivities. Corresponding true background is refined too."
+    }
+  ],
+  "max_refined_full_targets": 4,
+  "M0_equivalent_tensor": {
+    "lower": {
+      "z_range_mm": [
+        0.0,
+        30.0
+      ],
+      "sigma_xx_S_m": 0.034,
+      "sigma_yy_S_m": 0.034,
+      "sigma_zz_S_m": 0.013157894736842103,
+      "off_diagonal_S_m": 0.0,
+      "includes_actual_20mm_electrode_buffer": true
+    },
+    "upper": {
+      "z_range_mm": [
+        90.0,
+        120.0
+      ],
+      "sigma_xx_S_m": 0.076,
+      "sigma_yy_S_m": 0.076,
+      "sigma_zz_S_m": 0.029411764705882353,
+      "off_diagonal_S_m": 0.0,
+      "includes_actual_20mm_electrode_buffer": true
+    }
+  },
+  "provenance_warning": "Analytical volumes and directions are design checks. Actual COMSOL integrations, mesh, current/energy balance and solved models must be saved independently.",
+  "scope_stop": "16 explicit targets, four M0 references and at most four refined explicit target/background pairs; no parameter scan, crossing refinement, new modal solver or added physical fields."
+}

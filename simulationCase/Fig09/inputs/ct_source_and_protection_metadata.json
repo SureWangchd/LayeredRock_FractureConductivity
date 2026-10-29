@@ -1,0 +1,76 @@
+[
+  {
+    "sample": "S1",
+    "metadata_source": "F:\\岩层裂缝\\runs\\round7b_localfit\\inputs\\S1_M1\\source_parameters_read_only.json",
+    "selected_metadata_only": true,
+    "excluded_fields": "All old staircase inclusion volumes, masks, overlap volumes, and old electrical results",
+    "L_m": 0.001111424,
+    "regions": {
+      "0": "retained core and electrode contact regions",
+      "1": "0.10L<z<0.25L",
+      "2": "0.75L<z<0.90L"
+    },
+    "protected_core_z_m": [
+      0.000277856,
+      0.000833568
+    ],
+    "protected_electrode_z_m": [
+      [
+        0,
+        0.0001111424
+      ],
+      [
+        0.0010002816,
+        0.001111424
+      ]
+    ],
+    "electrode_z_m": [
+      0,
+      0.001111424
+    ],
+    "original_native_labels": {
+      "pore": 0,
+      "skeleton": 1
+    },
+    "current_localfit_verification_source": "F:\\岩层裂缝\\runs\\round7b_localfit\\inputs\\S1_M1\\geometry_verification.json",
+    "source_CT_npz": "E:\\FracRock_CT_20261014\\continuation_v1\\inputs\\S1_verified\\IC_S1_centre128.npz",
+    "source_CT_raw": "E:\\FracRock_CT_20261014\\continuation_v1\\inputs\\S1_user\\S1.raw"
+  },
+  {
+    "sample": "S5",
+    "metadata_source": "F:\\岩层裂缝\\runs\\round7b_localfit\\inputs\\S5_M1\\source_parameters_read_only.json",
+    "selected_metadata_only": true,
+    "excluded_fields": "All old staircase inclusion volumes, masks, overlap volumes, and old electrical results",
+    "L_m": 0.000511616,
+    "regions": {
+      "0": "retained core and electrode contact regions",
+      "1": "0.10L<z<0.25L",
+      "2": "0.75L<z<0.90L"
+    },
+    "protected_core_z_m": [
+      0.000127904,
+      0.00038371200000000003
+    ],
+    "protected_electrode_z_m": [
+      [
+        0,
+        5.11616e-05
+      ],
+      [
+        0.00046045440000000003,
+        0.000511616
+      ]
+    ],
+    "electrode_z_m": [
+      0,
+      0.000511616
+    ],
+    "original_native_labels": {
+      "pore": 0,
+      "skeleton": 1
+    },
+    "current_localfit_verification_source": "F:\\岩层裂缝\\runs\\round7b_localfit\\inputs\\S5_M1\\geometry_verification.json",
+    "source_CT_npz": "E:\\FracRock_CT_20261014\\continuation_v1\\inputs\\S5_verified\\IC_S5_centre128.npz",
+    "source_CT_raw": "E:\\FracRock_CT_20261014\\continuation_v1\\inputs\\S5_official\\S5.raw"
+  }
+]

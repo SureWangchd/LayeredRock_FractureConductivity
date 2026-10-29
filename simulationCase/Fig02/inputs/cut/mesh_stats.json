@@ -1,0 +1,59 @@
+{
+  "meshtag": "mesh1",
+  "geomtag": "geom1",
+  "geometricmodel": "geom/geom1",
+  "component": "comp1",
+  "componentgeometricmodel": "geom/geom1",
+  "current": "tri",
+  "isempty": false,
+  "hasproblems": false,
+  "islocked": false,
+  "iscomplete": true,
+  "secondorderelements": false,
+  "sdim": 2,
+  "contributing": {
+    "geom": {
+      "detail": false
+    }
+  },
+  "types": [
+    "edg",
+    "tri",
+    "vtx"
+  ],
+  "numelem": [
+    2787,
+    57494,
+    60
+  ],
+  "qualitymeasure": "skewness",
+  "minquality": 0.5227,
+  "meanquality": 0.9078,
+  "qualitydistr": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    12,
+    70,
+    175,
+    545,
+    1394,
+    2601,
+    3957,
+    10999,
+    20907,
+    16834
+  ],
+  "minvolume": 6.239E-5,
+  "maxvolume": 0.7324,
+  "volume": 14400,
+  "maxgrowthrate": 2.569,
+  "meangrowthrate": 1.099
+}

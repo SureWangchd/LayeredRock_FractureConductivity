@@ -1,0 +1,36 @@
+{
+  "case_id": "r7_strict_A_P17",
+  "role": "A",
+  "layout": "P17",
+  "kind": "synthetic3d_explicit",
+  "sample_volume_mm3": 1.727999999999874E+6,
+  "ellipsoid_volume_mm3": 5654.8653289668964,
+  "ellipsoid_analytic_volume_mm3": 5654.8667764616284,
+  "original_low_volume_mm3": 863999.99999994261,
+  "original_high_volume_mm3": 863999.99999993143,
+  "replaced_low_volume_mm3": 2827.4326803283752,
+  "replaced_high_volume_mm3": 2827.4326486385212,
+  "remaining_low_volume_mm3": 861172.56731961423,
+  "remaining_high_volume_mm3": 861172.56735129294,
+  "ellipse_mesh_bbox_mm": [
+    [
+      44.94390192689221,
+      75.056097201674291
+    ],
+    [
+      30.000000000000004,
+      89.999999999999986
+    ],
+    [
+      34.0084737182377,
+      85.991526281762276
+    ]
+  ],
+  "sample_dimensions_mm": [
+    120,
+    120,
+    120
+  ],
+  "volume_definition": "Order8 COMSOL physical-volume integration; source-phase bookkeeping in M0 is not actual homogeneous-zone material amount",
+  "ellipsoid_relative_volume_error": -2.5597326858139979E-7
+}

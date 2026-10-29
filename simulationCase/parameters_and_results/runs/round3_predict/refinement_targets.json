@@ -1,0 +1,26 @@
+[
+  {
+    "source": "F:\\岩层裂缝\\runs\\round3_predict\\development\\core_h20_L60_B_m3_full\\sf_100",
+    "output": "F:\\岩层裂缝\\runs\\round3_predict\\precision\\coreB_sf100"
+  },
+  {
+    "source": "F:\\岩层裂缝\\runs\\round3_predict\\test\\r3_internal_01\\sf_1",
+    "output": "F:\\岩层裂缝\\runs\\round3_predict\\precision\\worst_test_increment"
+  },
+  {
+    "source": "F:\\岩层裂缝\\runs\\round3_predict\\test\\r3_wave_01\\sf_1",
+    "output": "F:\\岩层裂缝\\runs\\round3_predict\\precision\\r3_wave_01_sf1"
+  },
+  {
+    "source": "F:\\岩层裂缝\\runs\\round3_predict\\test\\r3_wave_04\\sf_1",
+    "output": "F:\\岩层裂缝\\runs\\round3_predict\\precision\\r3_wave_04_sf1"
+  },
+  {
+    "source": "F:\\岩层裂缝\\runs\\round3_predict\\test\\r3_wave_01\\sf_10",
+    "output": "F:\\岩层裂缝\\runs\\round3_predict\\precision\\r3_wave_01_sf10"
+  },
+  {
+    "source": "F:\\岩层裂缝\\runs\\round3_predict\\test\\r3_wave_04\\sf_10",
+    "output": "F:\\岩层裂缝\\runs\\round3_predict\\precision\\r3_wave_04_sf10"
+  }
+]

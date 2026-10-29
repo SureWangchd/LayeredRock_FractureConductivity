@@ -1,0 +1,129 @@
+{
+  "validated_local": "2026-10-26T16:53:28.416821+08:00",
+  "new_target_states": 32,
+  "new_geometries": 16,
+  "independent_source_lengths_mm": [
+    40,
+    64
+  ],
+  "criteria_scope": "same-space specified finite-modal models; full target is external validation",
+  "gain_errors": {
+    "M0": {
+      "median_relative_error": 0.007731023710029392,
+      "max_relative_error": 0.10718328167536076
+    },
+    "M8": {
+      "median_relative_error": 0.0001428494934232067,
+      "max_relative_error": 0.007502903147481719
+    },
+    "M32": {
+      "median_relative_error": 7.2850491865530795e-06,
+      "max_relative_error": 6.0644024200792416e-05
+    },
+    "M64": {
+      "median_relative_error": 2.711916313482785e-07,
+      "max_relative_error": 3.4398334686307875e-06
+    }
+  },
+  "classification": {
+    "M0_to_M32_1pct": {
+      "n": 32,
+      "accepted": 13,
+      "actual_pass": 20,
+      "false_accepts": 0,
+      "conservative": 7,
+      "finite_model_contained": 32
+    },
+    "M0_to_M32_2pct": {
+      "n": 32,
+      "accepted": 19,
+      "actual_pass": 24,
+      "false_accepts": 0,
+      "conservative": 5,
+      "finite_model_contained": 32
+    },
+    "M0_to_M32_5pct": {
+      "n": 32,
+      "accepted": 26,
+      "actual_pass": 29,
+      "false_accepts": 0,
+      "conservative": 3,
+      "finite_model_contained": 32
+    },
+    "M0_to_M64_1pct": {
+      "n": 32,
+      "accepted": 13,
+      "actual_pass": 20,
+      "false_accepts": 0,
+      "conservative": 7,
+      "finite_model_contained": 32
+    },
+    "M0_to_M64_2pct": {
+      "n": 32,
+      "accepted": 19,
+      "actual_pass": 24,
+      "false_accepts": 0,
+      "conservative": 5,
+      "finite_model_contained": 32
+    },
+    "M0_to_M64_5pct": {
+      "n": 32,
+      "accepted": 26,
+      "actual_pass": 29,
+      "false_accepts": 0,
+      "conservative": 3,
+      "finite_model_contained": 32
+    },
+    "M8_to_M32_1pct": {
+      "n": 32,
+      "accepted": 30,
+      "actual_pass": 32,
+      "false_accepts": 0,
+      "conservative": 2,
+      "finite_model_contained": 32
+    },
+    "M8_to_M32_2pct": {
+      "n": 32,
+      "accepted": 32,
+      "actual_pass": 32,
+      "false_accepts": 0,
+      "conservative": 0,
+      "finite_model_contained": 32
+    },
+    "M8_to_M32_5pct": {
+      "n": 32,
+      "accepted": 32,
+      "actual_pass": 32,
+      "false_accepts": 0,
+      "conservative": 0,
+      "finite_model_contained": 32
+    },
+    "M8_to_M64_1pct": {
+      "n": 32,
+      "accepted": 30,
+      "actual_pass": 32,
+      "false_accepts": 0,
+      "conservative": 2,
+      "finite_model_contained": 32
+    },
+    "M8_to_M64_2pct": {
+      "n": 32,
+      "accepted": 32,
+      "actual_pass": 32,
+      "false_accepts": 0,
+      "conservative": 0,
+      "finite_model_contained": 32
+    },
+    "M8_to_M64_5pct": {
+      "n": 32,
+      "accepted": 32,
+      "actual_pass": 32,
+      "false_accepts": 0,
+      "conservative": 0,
+      "finite_model_contained": 32
+    }
+  },
+  "mesh_evidence_supplied": true,
+  "contrast_rows": 320,
+  "all_finite_contrast_intervals_contain": true
+}

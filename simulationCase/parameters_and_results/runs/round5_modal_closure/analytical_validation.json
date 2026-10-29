@@ -1,0 +1,26 @@
+{
+  "scope": "Analytical exterior and candidate geometry checks only, no new COMSOL solve or target field read.",
+  "nmax": 64,
+  "max_relative_difference_old_impedance_and_independent_transfer": 6.661338147750939e-16,
+  "taskpack_reference_selftest": {
+    "scope": "Taskpack analytical/algebra self-tests only; not COMSOL results.",
+    "execution_date_Asia_Shanghai": "2026-10-26",
+    "original_taskpack_files_modified": false,
+    "tests_run": 16,
+    "passed": 16,
+    "failures": 0,
+    "errors": 0,
+    "numpy_version": "2.2.6"
+  },
+  "actual_Y0_lower_S_m2": 0.43859649122807015,
+  "actual_Y0_upper_S_m2": 0.9803921568627451,
+  "taskpack_illustrative_Y0_lower_S_m2": 2.0833333333333335,
+  "taskpack_illustrative_Y0_upper_S_m2": 0.3546099290780142,
+  "taskpack_discrepancy": "Illustration treats all 30 mm as the host plus band. Actual models retain bottom 20 mm LOW and top 20 mm HIGH buffers.",
+  "prior_geometry_check": {
+    "scope": "Geometry metadata only for 12 round3 candidate geometries and 8 round4 peripheral geometries; no target responses read.",
+    "metadata_files_or_cases_checked": 20,
+    "matches": [],
+    "earlier_round1_round2_basis": "Existing equal-thickness or wave geometry families contain no movable peripheral 2 mm band pair."
+  }
+}

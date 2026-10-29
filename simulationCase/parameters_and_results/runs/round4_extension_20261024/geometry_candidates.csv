@@ -1,0 +1,5 @@
+﻿case_id,configuration_role,factorial_layout,lower_start_mm,lower_end_mm,upper_start_mm,upper_end_mm,physical_interface_count,changed_core_area_relative_original_analytic_mm2,changed_bottom_buffer_relative_original_analytic_mm2,changed_top_buffer_relative_original_analytic_mm2,high_area_total_analytic_mm2,high_area_lower_periphery_analytic_mm2,high_area_upper_periphery_analytic_mm2,high_area_lower_difference_relative_NN_analytic_mm2,high_area_upper_difference_relative_NN_analytic_mm2,changed_area_relative_NN_analytic_mm2,changed_area_relative_FF_analytic_mm2,interface_count_difference_relative_NN,interface_count_difference_relative_FF,core_background_potential_max_difference_relative_NN_analytic_V,core_background_potential_max_difference_relative_FF_analytic_V
+r4e_strict_A_NF,A,NF,25,27,95,97,7,0,0,0,7200,960,240,0,0,480,480,0,0,0.0,0.0
+r4e_strict_A_FN,A,FN,23,25,93,95,7,0,0,0,7200,960,240,0,0,480,480,0,0,0.0,0.0
+r4e_strict_B_NF,B,NF,25,27,95,97,11,0,0,0,7200,960,240,0,0,480,480,0,0,0.0,0.0
+r4e_strict_B_FN,B,FN,23,25,93,95,11,0,0,0,7200,960,240,0,0,480,480,0,0,0.0,0.0

@@ -1,0 +1,142 @@
+[
+  {
+    "layout": "original",
+    "role": "A",
+    "sigma_f_S_m": 0.1,
+    "model": "F:/岩层裂缝/runs/round3_predict/development/strict_h10_L60_A_m3_full/sf_0p1/solution.mph",
+    "parameters": "F:/岩层裂缝/runs/round3_predict/development/strict_h10_L60_A_m3_full/sf_0p1/parameters.json",
+    "selections": "F:/岩层裂缝/runs/round4_crossover/original/A/selections.json",
+    "output_folder": "F:/岩层裂缝/runs/round4_crossover/local/original_A_sf_0p1",
+    "selection_reason": "Original below/near/above crossing; near-exchange common conductivities plus its own lower bracket. Both peripheral layouts remain in the global tables."
+  },
+  {
+    "layout": "original",
+    "role": "A",
+    "sigma_f_S_m": 0.159375,
+    "model": "F:/岩层裂缝/runs/round4_crossover/original/A/sf_0p159375/solution.mph",
+    "parameters": "F:/岩层裂缝/runs/round4_crossover/original/A/sf_0p159375/parameters.json",
+    "selections": "F:/岩层裂缝/runs/round4_crossover/original/A/selections.json",
+    "output_folder": "F:/岩层裂缝/runs/round4_crossover/local/original_A_sf_0p159375",
+    "selection_reason": "Original below/near/above crossing; near-exchange common conductivities plus its own lower bracket. Both peripheral layouts remain in the global tables."
+  },
+  {
+    "layout": "original",
+    "role": "A",
+    "sigma_f_S_m": 0.3,
+    "model": "F:/岩层裂缝/runs/round3_predict/development/strict_h10_L60_A_m3_full/sf_0p3/solution.mph",
+    "parameters": "F:/岩层裂缝/runs/round3_predict/development/strict_h10_L60_A_m3_full/sf_0p3/parameters.json",
+    "selections": "F:/岩层裂缝/runs/round4_crossover/original/A/selections.json",
+    "output_folder": "F:/岩层裂缝/runs/round4_crossover/local/original_A_sf_0p3",
+    "selection_reason": "Original below/near/above crossing; near-exchange common conductivities plus its own lower bracket. Both peripheral layouts remain in the global tables."
+  },
+  {
+    "layout": "original",
+    "role": "B",
+    "sigma_f_S_m": 0.1,
+    "model": "F:/岩层裂缝/runs/round3_predict/development/strict_h10_L60_B_m3_full/sf_0p1/solution.mph",
+    "parameters": "F:/岩层裂缝/runs/round3_predict/development/strict_h10_L60_B_m3_full/sf_0p1/parameters.json",
+    "selections": "F:/岩层裂缝/runs/round4_crossover/original/B/selections.json",
+    "output_folder": "F:/岩层裂缝/runs/round4_crossover/local/original_B_sf_0p1",
+    "selection_reason": "Original below/near/above crossing; near-exchange common conductivities plus its own lower bracket. Both peripheral layouts remain in the global tables."
+  },
+  {
+    "layout": "original",
+    "role": "B",
+    "sigma_f_S_m": 0.159375,
+    "model": "F:/岩层裂缝/runs/round4_crossover/original/B/sf_0p159375/solution.mph",
+    "parameters": "F:/岩层裂缝/runs/round4_crossover/original/B/sf_0p159375/parameters.json",
+    "selections": "F:/岩层裂缝/runs/round4_crossover/original/B/selections.json",
+    "output_folder": "F:/岩层裂缝/runs/round4_crossover/local/original_B_sf_0p159375",
+    "selection_reason": "Original below/near/above crossing; near-exchange common conductivities plus its own lower bracket. Both peripheral layouts remain in the global tables."
+  },
+  {
+    "layout": "original",
+    "role": "B",
+    "sigma_f_S_m": 0.3,
+    "model": "F:/岩层裂缝/runs/round3_predict/development/strict_h10_L60_B_m3_full/sf_0p3/solution.mph",
+    "parameters": "F:/岩层裂缝/runs/round3_predict/development/strict_h10_L60_B_m3_full/sf_0p3/parameters.json",
+    "selections": "F:/岩层裂缝/runs/round4_crossover/original/B/selections.json",
+    "output_folder": "F:/岩层裂缝/runs/round4_crossover/local/original_B_sf_0p3",
+    "selection_reason": "Original below/near/above crossing; near-exchange common conductivities plus its own lower bracket. Both peripheral layouts remain in the global tables."
+  },
+  {
+    "layout": "swap_near",
+    "role": "A",
+    "sigma_f_S_m": 0.1,
+    "model": "F:/岩层裂缝/runs/round4_crossover/periphery/r4_strict_A_swap_near/sf_0p1/solution.mph",
+    "parameters": "F:/岩层裂缝/runs/round4_crossover/periphery/r4_strict_A_swap_near/sf_0p1/parameters.json",
+    "selections": "F:/岩层裂缝/runs/round4_crossover/periphery/r4_strict_A_swap_near/selections.json",
+    "output_folder": "F:/岩层裂缝/runs/round4_crossover/local/swap_near_A_sf_0p1",
+    "selection_reason": "Original below/near/above crossing; near-exchange common conductivities plus its own lower bracket. Both peripheral layouts remain in the global tables."
+  },
+  {
+    "layout": "swap_near",
+    "role": "A",
+    "sigma_f_S_m": 0.159375,
+    "model": "F:/岩层裂缝/runs/round4_crossover/periphery/r4_strict_A_swap_near/sf_0p159375/solution.mph",
+    "parameters": "F:/岩层裂缝/runs/round4_crossover/periphery/r4_strict_A_swap_near/sf_0p159375/parameters.json",
+    "selections": "F:/岩层裂缝/runs/round4_crossover/periphery/r4_strict_A_swap_near/selections.json",
+    "output_folder": "F:/岩层裂缝/runs/round4_crossover/local/swap_near_A_sf_0p159375",
+    "selection_reason": "Original below/near/above crossing; near-exchange common conductivities plus its own lower bracket. Both peripheral layouts remain in the global tables."
+  },
+  {
+    "layout": "swap_near",
+    "role": "A",
+    "sigma_f_S_m": 0.18432128906249995,
+    "model": "F:/岩层裂缝/runs/round4_crossover/periphery/r4_strict_A_swap_near/sf_0p1843212891/solution.mph",
+    "parameters": "F:/岩层裂缝/runs/round4_crossover/periphery/r4_strict_A_swap_near/sf_0p1843212891/parameters.json",
+    "selections": "F:/岩层裂缝/runs/round4_crossover/periphery/r4_strict_A_swap_near/selections.json",
+    "output_folder": "F:/岩层裂缝/runs/round4_crossover/local/swap_near_A_sf_0p1843212891",
+    "selection_reason": "Original below/near/above crossing; near-exchange common conductivities plus its own lower bracket. Both peripheral layouts remain in the global tables."
+  },
+  {
+    "layout": "swap_near",
+    "role": "A",
+    "sigma_f_S_m": 0.3,
+    "model": "F:/岩层裂缝/runs/round4_crossover/periphery/r4_strict_A_swap_near/sf_0p3/solution.mph",
+    "parameters": "F:/岩层裂缝/runs/round4_crossover/periphery/r4_strict_A_swap_near/sf_0p3/parameters.json",
+    "selections": "F:/岩层裂缝/runs/round4_crossover/periphery/r4_strict_A_swap_near/selections.json",
+    "output_folder": "F:/岩层裂缝/runs/round4_crossover/local/swap_near_A_sf_0p3",
+    "selection_reason": "Original below/near/above crossing; near-exchange common conductivities plus its own lower bracket. Both peripheral layouts remain in the global tables."
+  },
+  {
+    "layout": "swap_near",
+    "role": "B",
+    "sigma_f_S_m": 0.1,
+    "model": "F:/岩层裂缝/runs/round4_crossover/periphery/r4_strict_B_swap_near/sf_0p1/solution.mph",
+    "parameters": "F:/岩层裂缝/runs/round4_crossover/periphery/r4_strict_B_swap_near/sf_0p1/parameters.json",
+    "selections": "F:/岩层裂缝/runs/round4_crossover/periphery/r4_strict_B_swap_near/selections.json",
+    "output_folder": "F:/岩层裂缝/runs/round4_crossover/local/swap_near_B_sf_0p1",
+    "selection_reason": "Original below/near/above crossing; near-exchange common conductivities plus its own lower bracket. Both peripheral layouts remain in the global tables."
+  },
+  {
+    "layout": "swap_near",
+    "role": "B",
+    "sigma_f_S_m": 0.159375,
+    "model": "F:/岩层裂缝/runs/round4_crossover/periphery/r4_strict_B_swap_near/sf_0p159375/solution.mph",
+    "parameters": "F:/岩层裂缝/runs/round4_crossover/periphery/r4_strict_B_swap_near/sf_0p159375/parameters.json",
+    "selections": "F:/岩层裂缝/runs/round4_crossover/periphery/r4_strict_B_swap_near/selections.json",
+    "output_folder": "F:/岩层裂缝/runs/round4_crossover/local/swap_near_B_sf_0p159375",
+    "selection_reason": "Original below/near/above crossing; near-exchange common conductivities plus its own lower bracket. Both peripheral layouts remain in the global tables."
+  },
+  {
+    "layout": "swap_near",
+    "role": "B",
+    "sigma_f_S_m": 0.18432128906249995,
+    "model": "F:/岩层裂缝/runs/round4_crossover/periphery/r4_strict_B_swap_near/sf_0p1843212891/solution.mph",
+    "parameters": "F:/岩层裂缝/runs/round4_crossover/periphery/r4_strict_B_swap_near/sf_0p1843212891/parameters.json",
+    "selections": "F:/岩层裂缝/runs/round4_crossover/periphery/r4_strict_B_swap_near/selections.json",
+    "output_folder": "F:/岩层裂缝/runs/round4_crossover/local/swap_near_B_sf_0p1843212891",
+    "selection_reason": "Original below/near/above crossing; near-exchange common conductivities plus its own lower bracket. Both peripheral layouts remain in the global tables."
+  },
+  {
+    "layout": "swap_near",
+    "role": "B",
+    "sigma_f_S_m": 0.3,
+    "model": "F:/岩层裂缝/runs/round4_crossover/periphery/r4_strict_B_swap_near/sf_0p3/solution.mph",
+    "parameters": "F:/岩层裂缝/runs/round4_crossover/periphery/r4_strict_B_swap_near/sf_0p3/parameters.json",
+    "selections": "F:/岩层裂缝/runs/round4_crossover/periphery/r4_strict_B_swap_near/selections.json",
+    "output_folder": "F:/岩层裂缝/runs/round4_crossover/local/swap_near_B_sf_0p3",
+    "selection_reason": "Original below/near/above crossing; near-exchange common conductivities plus its own lower bracket. Both peripheral layouts remain in the global tables."
+  }
+]

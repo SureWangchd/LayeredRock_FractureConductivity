@@ -1,0 +1,292 @@
+{
+  "status": "all_limited_crossover_predictions_saved_before_targets",
+  "saved_local": "2026-10-26 01:18:00",
+  "method_version": "r5_selfconsistent_modal_v1",
+  "K_values": [
+    8,
+    32
+  ],
+  "sigma_search_interval_S_m": [
+    0.1,
+    0.3
+  ],
+  "initial_prediction_points_S_m": [
+    0.1,
+    0.14,
+    0.16,
+    0.18,
+    0.2,
+    0.3
+  ],
+  "adaptive_prediction_points_S_m": [
+    0.25,
+    0.225,
+    0.21250000000000002,
+    0.16999999999999998,
+    0.20625000000000002,
+    0.175,
+    0.203125,
+    0.1725,
+    0.1775,
+    0.2015625
+  ],
+  "all_prediction_points_S_m": [
+    0.1,
+    0.14,
+    0.16,
+    0.16699999999999998,
+    0.16999999999999998,
+    0.172,
+    0.1725,
+    0.175,
+    0.1755,
+    0.1775,
+    0.18,
+    0.1805,
+    0.197,
+    0.2,
+    0.2015625,
+    0.203125,
+    0.2045625,
+    0.20625000000000002,
+    0.21250000000000002,
+    0.225,
+    0.25,
+    0.3
+  ],
+  "adaptive_point_limit": 12,
+  "desired_prediction_bracket_width_S_m": 0.003,
+  "target_count": 12,
+  "layouts": [
+    {
+      "layout": "P11",
+      "prediction_brackets": [
+        {
+          "layout": "P11",
+          "K": 8,
+          "found": true,
+          "interval_lower_S_m": 0.2,
+          "interval_upper_S_m": 0.2015625,
+          "D_lower_S": -7.6520922654213508E-7,
+          "D_upper_S": 1.3476905838874509E-7,
+          "number_sampled_sign_change_intervals": 1,
+          "selection_note": "First sign change in increasing sigma; all sampled D values retained, no uniqueness assertion"
+        },
+        {
+          "layout": "P11",
+          "K": 32,
+          "found": true,
+          "interval_lower_S_m": 0.2,
+          "interval_upper_S_m": 0.2015625,
+          "D_lower_S": -3.5916873929869864E-7,
+          "D_upper_S": 5.4505677862456969E-7,
+          "number_sampled_sign_change_intervals": 1,
+          "selection_note": "First sign change in increasing sigma; all sampled D values retained, no uniqueness assertion"
+        }
+      ],
+      "status": "predicted_crossing_bracket_selected_for_validation",
+      "target_lower_sigma_f_S_m": 0.197,
+      "target_upper_sigma_f_S_m": 0.2045625,
+      "endpoint_margin_S_m": 0.003,
+      "minimum_requested_abs_D_S": 3E-7,
+      "endpoint_point_signs_clear": true,
+      "endpoint_predictions": [
+        {
+          "K": 8,
+          "lower_sigma_f_S_m": 0.197,
+          "upper_sigma_f_S_m": 0.2045625,
+          "D_lower_S": -2.4728225799242054E-6,
+          "D_upper_S": 1.88248695750029E-6,
+          "opposite_point_signs": true,
+          "clear_signs": true
+        },
+        {
+          "K": 32,
+          "lower_sigma_f_S_m": 0.197,
+          "upper_sigma_f_S_m": 0.2045625,
+          "D_lower_S": -2.0749530645451653E-6,
+          "D_upper_S": 2.3009123682853072E-6,
+          "opposite_point_signs": true,
+          "clear_signs": true
+        }
+      ]
+    },
+    {
+      "layout": "P77",
+      "prediction_brackets": [
+        {
+          "layout": "P77",
+          "K": 8,
+          "found": true,
+          "interval_lower_S_m": 0.16999999999999998,
+          "interval_upper_S_m": 0.1725,
+          "D_lower_S": -1.0720245361105218E-6,
+          "D_upper_S": 4.1204886917431405E-7,
+          "number_sampled_sign_change_intervals": 1,
+          "selection_note": "First sign change in increasing sigma; all sampled D values retained, no uniqueness assertion"
+        },
+        {
+          "layout": "P77",
+          "K": 32,
+          "found": true,
+          "interval_lower_S_m": 0.16999999999999998,
+          "interval_upper_S_m": 0.1725,
+          "D_lower_S": -3.2159427621608616E-7,
+          "D_upper_S": 1.1782147374406193E-6,
+          "number_sampled_sign_change_intervals": 1,
+          "selection_note": "First sign change in increasing sigma; all sampled D values retained, no uniqueness assertion"
+        }
+      ],
+      "status": "predicted_crossing_bracket_selected_for_validation",
+      "target_lower_sigma_f_S_m": 0.16699999999999998,
+      "target_upper_sigma_f_S_m": 0.1755,
+      "endpoint_margin_S_m": 0.003,
+      "minimum_requested_abs_D_S": 3E-7,
+      "endpoint_point_signs_clear": true,
+      "endpoint_predictions": [
+        {
+          "K": 8,
+          "lower_sigma_f_S_m": 0.16699999999999998,
+          "upper_sigma_f_S_m": 0.1755,
+          "D_lower_S": -2.8192627090292688E-6,
+          "D_upper_S": 2.2255004650702237E-6,
+          "opposite_point_signs": true,
+          "clear_signs": true
+        },
+        {
+          "K": 32,
+          "lower_sigma_f_S_m": 0.16699999999999998,
+          "upper_sigma_f_S_m": 0.1755,
+          "D_lower_S": -2.0877368215287129E-6,
+          "D_upper_S": 3.0105236416763659E-6,
+          "opposite_point_signs": true,
+          "clear_signs": true
+        }
+      ]
+    },
+    {
+      "layout": "P17",
+      "prediction_brackets": [
+        {
+          "layout": "P17",
+          "K": 8,
+          "found": true,
+          "interval_lower_S_m": 0.175,
+          "interval_upper_S_m": 0.1775,
+          "D_lower_S": -1.3749644551946938E-6,
+          "D_upper_S": 8.4925405093722039E-8,
+          "number_sampled_sign_change_intervals": 1,
+          "selection_note": "First sign change in increasing sigma; all sampled D values retained, no uniqueness assertion"
+        },
+        {
+          "layout": "P17",
+          "K": 32,
+          "found": true,
+          "interval_lower_S_m": 0.175,
+          "interval_upper_S_m": 0.1775,
+          "D_lower_S": -6.335747159587346E-7,
+          "D_upper_S": 8.4105739119044731E-7,
+          "number_sampled_sign_change_intervals": 1,
+          "selection_note": "First sign change in increasing sigma; all sampled D values retained, no uniqueness assertion"
+        }
+      ],
+      "status": "predicted_crossing_bracket_selected_for_validation",
+      "target_lower_sigma_f_S_m": 0.172,
+      "target_upper_sigma_f_S_m": 0.1805,
+      "endpoint_margin_S_m": 0.003,
+      "minimum_requested_abs_D_S": 3E-7,
+      "endpoint_point_signs_clear": true,
+      "endpoint_predictions": [
+        {
+          "K": 8,
+          "lower_sigma_f_S_m": 0.172,
+          "upper_sigma_f_S_m": 0.1805,
+          "D_lower_S": -3.095470382685761E-6,
+          "D_upper_S": 1.8671325030909791E-6,
+          "opposite_point_signs": true,
+          "clear_signs": true
+        },
+        {
+          "K": 32,
+          "lower_sigma_f_S_m": 0.172,
+          "upper_sigma_f_S_m": 0.1805,
+          "D_lower_S": -2.3718082625134862E-6,
+          "D_upper_S": 2.6409149903143525E-6,
+          "opposite_point_signs": true,
+          "clear_signs": true
+        }
+      ]
+    }
+  ],
+  "final_sampled_prediction_brackets": [
+    {
+      "layout": "P11",
+      "K": 8,
+      "found": true,
+      "interval_lower_S_m": 0.2,
+      "interval_upper_S_m": 0.2015625,
+      "D_lower_S": -7.6520922654213508E-7,
+      "D_upper_S": 1.3476905838874509E-7,
+      "number_sampled_sign_change_intervals": 1,
+      "selection_note": "First sign change in increasing sigma; all sampled D values retained, no uniqueness assertion"
+    },
+    {
+      "layout": "P11",
+      "K": 32,
+      "found": true,
+      "interval_lower_S_m": 0.2,
+      "interval_upper_S_m": 0.2015625,
+      "D_lower_S": -3.5916873929869864E-7,
+      "D_upper_S": 5.4505677862456969E-7,
+      "number_sampled_sign_change_intervals": 1,
+      "selection_note": "First sign change in increasing sigma; all sampled D values retained, no uniqueness assertion"
+    },
+    {
+      "layout": "P77",
+      "K": 8,
+      "found": true,
+      "interval_lower_S_m": 0.16999999999999998,
+      "interval_upper_S_m": 0.172,
+      "D_lower_S": -1.0720245361105218E-6,
+      "D_upper_S": 1.1323385318284807E-7,
+      "number_sampled_sign_change_intervals": 1,
+      "selection_note": "First sign change in increasing sigma; all sampled D values retained, no uniqueness assertion"
+    },
+    {
+      "layout": "P77",
+      "K": 32,
+      "found": true,
+      "interval_lower_S_m": 0.16999999999999998,
+      "interval_upper_S_m": 0.172,
+      "D_lower_S": -3.2159427621608616E-7,
+      "D_upper_S": 8.76254043619823E-7,
+      "number_sampled_sign_change_intervals": 1,
+      "selection_note": "First sign change in increasing sigma; all sampled D values retained, no uniqueness assertion"
+    },
+    {
+      "layout": "P17",
+      "K": 8,
+      "found": true,
+      "interval_lower_S_m": 0.1755,
+      "interval_upper_S_m": 0.1775,
+      "D_lower_S": -1.0848613863669032E-6,
+      "D_upper_S": 8.4925405093722039E-8,
+      "number_sampled_sign_change_intervals": 1,
+      "selection_note": "First sign change in increasing sigma; all sampled D values retained, no uniqueness assertion"
+    },
+    {
+      "layout": "P17",
+      "K": 32,
+      "found": true,
+      "interval_lower_S_m": 0.1755,
+      "interval_upper_S_m": 0.1775,
+      "D_lower_S": -3.4052087078198512E-7,
+      "D_upper_S": 8.4105739119044731E-7,
+      "number_sampled_sign_change_intervals": 1,
+      "selection_note": "First sign change in increasing sigma; all sampled D values retained, no uniqueness assertion"
+    }
+  ],
+  "target_truth_used": false,
+  "initial_48_predictions_reused": true,
+  "interpretation": "Prediction-side brackets only; full COMSOL validation has not been read. They are not certified roots or proof of uniqueness."
+}

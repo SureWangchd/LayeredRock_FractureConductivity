@@ -1,0 +1,9 @@
+﻿output,K,maximum_error_percent,full_length_mm,constituent_count,aggregation
+gain,0,0.11664518043622,40,4,Maximum over all designated constituents
+upper_side,0,100,40,2,Maximum over all designated constituents
+gain,8,0.0005085298987002783,40,4,Maximum over all designated constituents
+upper_side,8,0.04259687950836,40,2,Maximum over all designated constituents
+gain,32,2.808589569027678e-07,40,4,Maximum over all designated constituents
+upper_side,32,0.0002126259907868617,40,2,Maximum over all designated constituents
+gain,64,2.80976447555194e-07,40,4,Maximum over all designated constituents
+upper_side,64,0.0002135358765937228,40,2,Maximum over all designated constituents

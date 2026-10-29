@@ -1,0 +1,209 @@
+{
+  "status": "passed",
+  "test_count": 5,
+  "unit_tetrahedron": {
+    "schema": "round7_central_thinmesh_v1",
+    "case_id": "unit_tetrahedron",
+    "read_only_mesh_diagnostic": true,
+    "method": "Linear-tetrahedron barycentric line clipping; union coverage with shared-face duplicate removal",
+    "center_mm": [
+      0.2,
+      0.2,
+      0.3
+    ],
+    "normal_unit_vector": [
+      0,
+      0,
+      1
+    ],
+    "s_range_mm": [
+      -0.3,
+      0.3
+    ],
+    "mesh_coordinate_to_mm": 1,
+    "expected_central_thickness_mm": 0.6,
+    "eligible_tetrahedra": 1,
+    "bbox_candidate_tetrahedra": 1,
+    "degenerate_candidates_skipped": 0,
+    "positive_chord_tetrahedra": 1,
+    "unique_chord_intervals": 1,
+    "resolved_nonoverlapping_thickness_segments": 1,
+    "covered_length_mm": 0.6,
+    "uncovered_length_mm": 0,
+    "relative_uncovered_length": 0,
+    "raw_sum_chord_lengths_mm": 0.6,
+    "duplicate_overlap_length_mm": 0,
+    "min_segment_length_mm": 0.6,
+    "median_segment_length_mm": 0.6,
+    "mean_segment_length_mm": 0.6,
+    "max_segment_length_mm": 0.6,
+    "endpoint_clustering_tolerance_mm": 1E-8,
+    "entire_thickness_covered_within_1e_5": true,
+    "six_or_more_resolved_segments": false,
+    "interpretation": "This checks the central thin-axis chord only. Curved-element boundary geometry and tip regions require separate geometry/mesh convergence checks; it does not establish solution convergence."
+  },
+  "duplicate_tetrahedron": {
+    "schema": "round7_central_thinmesh_v1",
+    "case_id": "unit_tetrahedron",
+    "read_only_mesh_diagnostic": true,
+    "method": "Linear-tetrahedron barycentric line clipping; union coverage with shared-face duplicate removal",
+    "center_mm": [
+      0.2,
+      0.2,
+      0.3
+    ],
+    "normal_unit_vector": [
+      0,
+      0,
+      1
+    ],
+    "s_range_mm": [
+      -0.3,
+      0.3
+    ],
+    "mesh_coordinate_to_mm": 1,
+    "expected_central_thickness_mm": 0.6,
+    "eligible_tetrahedra": 2,
+    "bbox_candidate_tetrahedra": 2,
+    "degenerate_candidates_skipped": 0,
+    "positive_chord_tetrahedra": 2,
+    "unique_chord_intervals": 1,
+    "resolved_nonoverlapping_thickness_segments": 1,
+    "covered_length_mm": 0.6,
+    "uncovered_length_mm": 0,
+    "relative_uncovered_length": 0,
+    "raw_sum_chord_lengths_mm": 1.2,
+    "duplicate_overlap_length_mm": 0.6,
+    "min_segment_length_mm": 0.6,
+    "median_segment_length_mm": 0.6,
+    "mean_segment_length_mm": 0.6,
+    "max_segment_length_mm": 0.6,
+    "endpoint_clustering_tolerance_mm": 1E-8,
+    "entire_thickness_covered_within_1e_5": true,
+    "six_or_more_resolved_segments": false,
+    "interpretation": "This checks the central thin-axis chord only. Curved-element boundary geometry and tip regions require separate geometry/mesh convergence checks; it does not establish solution convergence."
+  },
+  "adjacent_tetrahedra": {
+    "schema": "round7_central_thinmesh_v1",
+    "case_id": "unit_tetrahedron",
+    "read_only_mesh_diagnostic": true,
+    "method": "Linear-tetrahedron barycentric line clipping; union coverage with shared-face duplicate removal",
+    "center_mm": [
+      0.2,
+      0.2,
+      0.4
+    ],
+    "normal_unit_vector": [
+      0,
+      0,
+      1
+    ],
+    "s_range_mm": [
+      -0.4,
+      0.4
+    ],
+    "mesh_coordinate_to_mm": 1,
+    "expected_central_thickness_mm": 0.8,
+    "eligible_tetrahedra": 2,
+    "bbox_candidate_tetrahedra": 2,
+    "degenerate_candidates_skipped": 0,
+    "positive_chord_tetrahedra": 2,
+    "unique_chord_intervals": 2,
+    "resolved_nonoverlapping_thickness_segments": 2,
+    "covered_length_mm": 0.8,
+    "uncovered_length_mm": 0,
+    "relative_uncovered_length": 0,
+    "raw_sum_chord_lengths_mm": 0.79999999999999993,
+    "duplicate_overlap_length_mm": -1.1102230246251565E-16,
+    "min_segment_length_mm": 0.2,
+    "median_segment_length_mm": 0.4,
+    "mean_segment_length_mm": 0.4,
+    "max_segment_length_mm": 0.60000000000000009,
+    "endpoint_clustering_tolerance_mm": 1E-8,
+    "entire_thickness_covered_within_1e_5": true,
+    "six_or_more_resolved_segments": false,
+    "interpretation": "This checks the central thin-axis chord only. Curved-element boundary geometry and tip regions require separate geometry/mesh convergence checks; it does not establish solution convergence."
+  },
+  "domain_restriction": {
+    "schema": "round7_central_thinmesh_v1",
+    "case_id": "unit_tetrahedron",
+    "read_only_mesh_diagnostic": true,
+    "method": "Linear-tetrahedron barycentric line clipping; union coverage with shared-face duplicate removal",
+    "center_mm": [
+      0.2,
+      0.2,
+      0.4
+    ],
+    "normal_unit_vector": [
+      0,
+      0,
+      1
+    ],
+    "s_range_mm": [
+      -0.4,
+      0.4
+    ],
+    "mesh_coordinate_to_mm": 1,
+    "expected_central_thickness_mm": 0.8,
+    "eligible_tetrahedra": 1,
+    "bbox_candidate_tetrahedra": 1,
+    "degenerate_candidates_skipped": 0,
+    "positive_chord_tetrahedra": 1,
+    "unique_chord_intervals": 1,
+    "resolved_nonoverlapping_thickness_segments": 1,
+    "covered_length_mm": 0.6,
+    "uncovered_length_mm": 0.20000000000000007,
+    "relative_uncovered_length": 0.25000000000000006,
+    "raw_sum_chord_lengths_mm": 0.6,
+    "duplicate_overlap_length_mm": 0,
+    "min_segment_length_mm": 0.6,
+    "median_segment_length_mm": 0.6,
+    "mean_segment_length_mm": 0.6,
+    "max_segment_length_mm": 0.6,
+    "endpoint_clustering_tolerance_mm": 1E-8,
+    "entire_thickness_covered_within_1e_5": false,
+    "six_or_more_resolved_segments": false,
+    "interpretation": "This checks the central thin-axis chord only. Curved-element boundary geometry and tip regions require separate geometry/mesh convergence checks; it does not establish solution convergence."
+  },
+  "shared_face": {
+    "schema": "round7_central_thinmesh_v1",
+    "case_id": "unit_tetrahedron",
+    "read_only_mesh_diagnostic": true,
+    "method": "Linear-tetrahedron barycentric line clipping; union coverage with shared-face duplicate removal",
+    "center_mm": [
+      0,
+      0.2,
+      0.4
+    ],
+    "normal_unit_vector": [
+      0,
+      0,
+      1
+    ],
+    "s_range_mm": [
+      -0.4,
+      0.4
+    ],
+    "mesh_coordinate_to_mm": 1,
+    "expected_central_thickness_mm": 0.8,
+    "eligible_tetrahedra": 2,
+    "bbox_candidate_tetrahedra": 2,
+    "degenerate_candidates_skipped": 0,
+    "positive_chord_tetrahedra": 2,
+    "unique_chord_intervals": 1,
+    "resolved_nonoverlapping_thickness_segments": 1,
+    "covered_length_mm": 0.8,
+    "uncovered_length_mm": 0,
+    "relative_uncovered_length": 0,
+    "raw_sum_chord_lengths_mm": 1.5999999999999999,
+    "duplicate_overlap_length_mm": 0.79999999999999982,
+    "min_segment_length_mm": 0.8,
+    "median_segment_length_mm": 0.8,
+    "mean_segment_length_mm": 0.8,
+    "max_segment_length_mm": 0.8,
+    "endpoint_clustering_tolerance_mm": 1E-8,
+    "entire_thickness_covered_within_1e_5": true,
+    "six_or_more_resolved_segments": false,
+    "interpretation": "This checks the central thin-axis chord only. Curved-element boundary geometry and tip regions require separate geometry/mesh convergence checks; it does not establish solution convergence."
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "scope": "Read-only resampling of four existing COMSOL solutions; no new solutions",
+  "script": "F:/岩层裂缝/scripts/jgrse_figures/export_field3d_livelink.m",
+  "launcher": "F:/岩层裂缝/scripts/jgrse_figures/launch_field3d_export.ps1",
+  "completed_count": 4,
+  "expected_count": 4,
+  "new_solver_calls": 0,
+  "source_MPH_saved": false,
+  "cases": [
+    {
+      "status": "success",
+      "case_id": "r7_strict_A_P77",
+      "source_mph": "F:\\岩层裂缝\\runs\\round7_3d_ct\\synthetic3d\\r7_strict_A_P77\\sf_10\\solution.mph",
+      "export_mat": "F:\\岩层裂缝\\outputs\\JGRSE_20261028_Field3D\\data\\dense_A_P77_sf10.mat",
+      "source_solution_loaded_read_only": true,
+      "new_solver_calls": 0,
+      "source_mph_saved": false,
+      "load_seconds": 5.6960935,
+      "volume_sampling_seconds_this_invocation": 19.5836451,
+      "fine_slice_sampling_seconds": 0.9180688,
+      "total_seconds": 29.4536703,
+      "volume_grid_bounds_mm": [
+        15,
+        105
+      ],
+      "volume_spacing_mm": 0.75,
+      "volume_array_shape": [
+        121,
+        121,
+        121
+      ],
+      "volume_point_count": 1771561.0,
+      "volume_array_order": "[y,x,z]",
+      "fine_slice_bounds_mm": [
+        15,
+        105
+      ],
+      "fine_slice_spacing_mm": 0.25,
+      "fine_slice_y_mm": [
+        45,
+        60,
+        75
+      ],
+      "fine_slice_array_order": "[z,x,plane]",
+      "fine_slice_point_count": 390963,
+      "expressions": [
+        "V",
+        "ec.Jx",
+        "ec.Jy",
+        "ec.Jz"
+      ],
+      "units": [
+        "V",
+        "A/m^2",
+        "A/m^2",
+        "A/m^2"
+      ],
+      "derivative_recovery": "off",
+      "extrapolation": 0,
+      "off_interface_stored_probe_max_abs_error": 4.996003610813204e-16,
+      "scope": "Visualization resampling of existing finite-element solution; no new physical case or numerical-convergence evidence.",
+      "completed_local": "2026-10-28 21:57:22"
+    },
+    {
+      "status": "success",
+      "case_id": "r7_strict_A_P11",
+      "source_mph": "F:\\岩层裂缝\\runs\\round7_3d_ct\\synthetic3d\\r7_strict_A_P11\\sf_10\\solution.mph",
+      "export_mat": "F:\\岩层裂缝\\outputs\\JGRSE_20261028_Field3D\\data\\dense_A_P11_sf10.mat",
+      "source_solution_loaded_read_only": true,
+      "new_solver_calls": 0,
+      "source_mph_saved": false,
+      "load_seconds": 0.4538919,
+      "volume_sampling_seconds_this_invocation": 18.0947249,
+      "fine_slice_sampling_seconds": 0.8453287,
+      "total_seconds": 21.0301761,
+      "volume_grid_bounds_mm": [
+        15,
+        105
+      ],
+      "volume_spacing_mm": 0.75,
+      "volume_array_shape": [
+        121,
+        121,
+        121
+      ],
+      "volume_point_count": 1771561.0,
+      "volume_array_order": "[y,x,z]",
+      "fine_slice_bounds_mm": [
+        15,
+        105
+      ],
+      "fine_slice_spacing_mm": 0.25,
+      "fine_slice_y_mm": [
+        45,
+        60,
+        75
+      ],
+      "fine_slice_array_order": "[z,x,plane]",
+      "fine_slice_point_count": 390963,
+      "expressions": [
+        "V",
+        "ec.Jx",
+        "ec.Jy",
+        "ec.Jz"
+      ],
+      "units": [
+        "V",
+        "A/m^2",
+        "A/m^2",
+        "A/m^2"
+      ],
+      "derivative_recovery": "off",
+      "extrapolation": 0,
+      "off_interface_stored_probe_max_abs_error": 3.885780586188048e-16,
+      "scope": "Visualization resampling of existing finite-element solution; no new physical case or numerical-convergence evidence.",
+      "completed_local": "2026-10-28 21:57:44"
+    },
+    {
+      "status": "success",
+      "case_id": "r7_strict_B_P77",
+      "source_mph": "F:\\岩层裂缝\\runs\\round7_3d_ct\\synthetic3d\\r7_strict_B_P77\\sf_10\\solution.mph",
+      "export_mat": "F:\\岩层裂缝\\outputs\\JGRSE_20261028_Field3D\\data\\dense_B_P77_sf10.mat",
+      "source_solution_loaded_read_only": true,
+      "new_solver_calls": 0,
+      "source_mph_saved": false,
+      "load_seconds": 0.3942182,
+      "volume_sampling_seconds_this_invocation": 17.8649181,
+      "fine_slice_sampling_seconds": 0.841298,
+      "total_seconds": 20.8042206,
+      "volume_grid_bounds_mm": [
+        15,
+        105
+      ],
+      "volume_spacing_mm": 0.75,
+      "volume_array_shape": [
+        121,
+        121,
+        121
+      ],
+      "volume_point_count": 1771561.0,
+      "volume_array_order": "[y,x,z]",
+      "fine_slice_bounds_mm": [
+        15,
+        105
+      ],
+      "fine_slice_spacing_mm": 0.25,
+      "fine_slice_y_mm": [
+        45,
+        60,
+        75
+      ],
+      "fine_slice_array_order": "[z,x,plane]",
+      "fine_slice_point_count": 390963,
+      "expressions": [
+        "V",
+        "ec.Jx",
+        "ec.Jy",
+        "ec.Jz"
+      ],
+      "units": [
+        "V",
+        "A/m^2",
+        "A/m^2",
+        "A/m^2"
+      ],
+      "derivative_recovery": "off",
+      "extrapolation": 0,
+      "off_interface_stored_probe_max_abs_error": 4.718447854656915e-16,
+      "scope": "Visualization resampling of existing finite-element solution; no new physical case or numerical-convergence evidence.",
+      "completed_local": "2026-10-28 21:58:05"
+    },
+    {
+      "status": "success",
+      "case_id": "r7_strict_B_P11",
+      "source_mph": "F:\\岩层裂缝\\runs\\round7_3d_ct\\synthetic3d\\r7_strict_B_P11\\sf_10\\solution.mph",
+      "export_mat": "F:\\岩层裂缝\\outputs\\JGRSE_20261028_Field3D\\data\\dense_B_P11_sf10.mat",
+      "source_solution_loaded_read_only": true,
+      "new_solver_calls": 0,
+      "source_mph_saved": false,
+      "load_seconds": 0.3824,
+      "volume_sampling_seconds_this_invocation": 17.4987503,
+      "fine_slice_sampling_seconds": 0.8010627,
+      "total_seconds": 20.3455585,
+      "volume_grid_bounds_mm": [
+        15,
+        105
+      ],
+      "volume_spacing_mm": 0.75,
+      "volume_array_shape": [
+        121,
+        121,
+        121
+      ],
+      "volume_point_count": 1771561.0,
+      "volume_array_order": "[y,x,z]",
+      "fine_slice_bounds_mm": [
+        15,
+        105
+      ],
+      "fine_slice_spacing_mm": 0.25,
+      "fine_slice_y_mm": [
+        45,
+        60,
+        75
+      ],
+      "fine_slice_array_order": "[z,x,plane]",
+      "fine_slice_point_count": 390963,
+      "expressions": [
+        "V",
+        "ec.Jx",
+        "ec.Jy",
+        "ec.Jz"
+      ],
+      "units": [
+        "V",
+        "A/m^2",
+        "A/m^2",
+        "A/m^2"
+      ],
+      "derivative_recovery": "off",
+      "extrapolation": 0,
+      "off_interface_stored_probe_max_abs_error": 8.326672684688674e-17,
+      "scope": "Visualization resampling of existing finite-element solution; no new physical case or numerical-convergence evidence.",
+      "completed_local": "2026-10-28 21:58:25"
+    }
+  ],
+  "note": "0.75mm volume and 0.25mm slices are visualization sampling densities, not finite-element refinement."
+}

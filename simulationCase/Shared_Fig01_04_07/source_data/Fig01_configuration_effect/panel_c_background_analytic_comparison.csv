@@ -1,0 +1,9 @@
+case_id,family,role,background_case_id,background_mesh_level,direction,sigma0_recorded_S_m,sigma0_analytic_S_m,absolute_relative_deviation
+core_h20_L60_A_m3_full,core_h20_L60,A,core_h20_L60_A_bgx,1,x,0.0549999999992784,0.055,1.3120060593507787e-11
+core_h20_L60_A_m3_full,core_h20_L60,A,core_h20_L60_A_bgz,1,z,0.018181818181096,0.01818181818181818,3.9719859346032393e-11
+core_h20_L60_B_m3_full,core_h20_L60,B,core_h20_L60_B_bgx,1,x,0.054999999998992,0.055,1.832725890241446e-11
+core_h20_L60_B_m3_full,core_h20_L60,B,core_h20_L60_B_bgz,1,z,0.0181818181807901,0.01818181818181818,5.654442192248865e-11
+strict_h10_L60_A_m3_full,strict_h10_L60,A,strict_h10_L60_A_bgx,1,x,0.054999999999289,0.055,1.292728550468651e-11
+strict_h10_L60_A_m3_full,strict_h10_L60,A,strict_h10_L60_A_bgz,1,z,0.0181818181811446,0.01818181818181818,3.704685863636925e-11
+strict_h10_L60_B_m3_full,strict_h10_L60,B,strict_h10_L60_B_bgx,1,x,0.0549999999992377,0.055,1.3859999007078985e-11
+strict_h10_L60_B_m3_full,strict_h10_L60,B,strict_h10_L60_B_bgz,1,z,0.0181818181808919,0.01818181818181818,5.094539373695639e-11

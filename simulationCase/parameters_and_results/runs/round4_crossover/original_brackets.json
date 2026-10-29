@@ -1,0 +1,9 @@
+{
+  "brackets_S_m": [
+    0.159375,
+    0.16031249999999997
+  ],
+  "criterion": "width/midpoint <= 1 percent; COMSOL sign brackets, not interpolation",
+  "mesh_confirmed": true,
+  "confirmation": "Four targeted finer-mesh solves and their own backgrounds retained both signs; see crossover_summary.csv. No claim of exact root or uniqueness."
+}

@@ -1,0 +1,43 @@
+{
+  "schema": "round7_synthetic_actual_summary_v1",
+  "synthetic_prescribed_work_complete": true,
+  "partial_diagnostic_mode": false,
+  "target_count_actual": 20,
+  "explicit_targets_actual": 16,
+  "M0_targets_actual": 4,
+  "background_direction_states_actual": 21,
+  "refined_target_background_pairs_actual": 4,
+  "explicit_background_direction_states_actual": 17,
+  "M0_background_direction_states_actual": 4,
+  "solved_model_count_indexed": 49,
+  "missing_required": [],
+  "invalid_checks": [],
+  "background_max_relative_analytic_error": 3.8891813670024103e-11,
+  "max_reaction_flux_relative_error": 8.568533567903435e-11,
+  "max_energy_relative_error": 3.8457754053519863e-11,
+  "max_gradient_flux_relative_error": 1.3579143618419821e-05,
+  "max_fine_gain_relative_change": 0.00010411651033288697,
+  "max_fine_absolute_gain_change_S": 8.1743307105836e-09,
+  "M0_gain_relative_error_min": 0.00020009566374733182,
+  "M0_gain_relative_error_max": 0.05945222655305122,
+  "explicit_Jy_squared_fraction_min": 0.0010570234451085033,
+  "explicit_Jy_squared_fraction_max": 0.024536391490799482,
+  "finite_3D_diagnostic": "Nonzero Jy_squared_fraction or integral(abs(Jy)) demonstrates out-of-plane currents even when net Jy cancels by symmetry; this is not a conductivity tensor claim.",
+  "mesh_scope": "Four preselected target/background refinements, two directly refined joint peripheral contrasts. Global mesh scale is empirical, not a guaranteed uncertainty bound.",
+  "CT_evidence_status": {
+    "manifest_exists": true,
+    "manifest_path": "F:/岩层裂缝/runs/round7_3d_ct/ct_data_manifest.json",
+    "response_csv_exists": true,
+    "response_csv_path": "F:/岩层裂缝/runs/round7_3d_ct/ct_response.csv",
+    "status": "CT must be reported from its own actual target/background records; this synthetic summary does not certify CT completion.",
+    "csv_rows": 4
+  },
+  "units": {
+    "G_G0_g": "S",
+    "sigma": "S/m",
+    "G_to_sigma_factor": "1/0.12 m",
+    "Jy_volume_integral": "A*m",
+    "Jy_squared_volume_integral": "A^2/m",
+    "volume": "mm^3"
+  }
+}

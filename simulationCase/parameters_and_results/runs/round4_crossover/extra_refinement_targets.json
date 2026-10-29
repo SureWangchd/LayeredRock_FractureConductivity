@@ -1,0 +1,12 @@
+[
+  {
+    "source": "F:\\岩层裂缝\\runs\\round4_crossover\\periphery\\r4_strict_A_swap_far\\sf_0p1734082031",
+    "output": "F:\\岩层裂缝\\runs\\round4_crossover\\precision\\r4_strict_A_swap_far_sf_0p1734082031",
+    "reason": "The closer lower sign is comparable to observed mesh changes; confirm this previously solved outer endpoint for a conservative wider crossover bracket."
+  },
+  {
+    "source": "F:\\岩层裂缝\\runs\\round4_crossover\\periphery\\r4_strict_B_swap_far\\sf_0p1734082031",
+    "output": "F:\\岩层裂缝\\runs\\round4_crossover\\precision\\r4_strict_B_swap_far_sf_0p1734082031",
+    "reason": "The closer lower sign is comparable to observed mesh changes; confirm this previously solved outer endpoint for a conservative wider crossover bracket."
+  }
+]

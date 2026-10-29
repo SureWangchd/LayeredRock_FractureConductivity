@@ -1,0 +1,119 @@
+{
+  "selection_frozen_local": "2026-10-26T16:38:39.065597+08:00",
+  "maximum_targets": 6,
+  "count": 6,
+  "selection_rule": "One globally closest M0-to-M64 eta to 2%; four fixed balanced anchors; fill up to six with asymmetric cases ordered by M8-to-M64 eta",
+  "closest_boundary_state_id": "L40_A_P77_sf10",
+  "all_selection_before_target_truth": true,
+  "target_truth_fields_read": false,
+  "targets": [
+    {
+      "state_id": "L40_A_P77_sf10",
+      "case_id": "r6_L40_A_P77",
+      "role": "A",
+      "layout": "P77",
+      "full_length_mm": 40,
+      "sigma_f_S_m": 10.0,
+      "source": "F:/岩层裂缝/runs/round6_applicability/truth/r6_L40_A_P77/sf_10",
+      "output": "F:/岩层裂缝/runs/round6_applicability/precision/r6_L40_A_P77_sf_10",
+      "prediction_file": "F:/岩层裂缝/runs/round6_applicability/predictions/r6_L40_A_P77/sf_10/prediction.json",
+      "selection_reasons": [
+        "Closest prospective M0-to-M64 relative-error bound to the fixed 2% gain tolerance"
+      ],
+      "M0_to_M64_eta": 0.02132919283082342,
+      "distance_to_primary_2pct_boundary": 0.0013291928308234204,
+      "M8_to_M64_eta": 7.23210057099879e-05,
+      "target_truth_used_in_selection": false
+    },
+    {
+      "state_id": "L40_A_P11_sf10",
+      "case_id": "r6_L40_A_P11",
+      "role": "A",
+      "layout": "P11",
+      "full_length_mm": 40,
+      "sigma_f_S_m": 10.0,
+      "source": "F:/岩层裂缝/runs/round6_applicability/truth/r6_L40_A_P11/sf_10",
+      "output": "F:/岩层裂缝/runs/round6_applicability/precision/r6_L40_A_P11_sf_10",
+      "prediction_file": "F:/岩层裂缝/runs/round6_applicability/predictions/r6_L40_A_P11/sf_10/prediction.json",
+      "selection_reasons": [
+        "Fixed geometry anchor covering role/length, near/far exterior and low/high fracture conductivity"
+      ],
+      "M0_to_M64_eta": 0.010064469946178477,
+      "distance_to_primary_2pct_boundary": 0.009935530053821523,
+      "M8_to_M64_eta": 1.928367480697415e-05,
+      "target_truth_used_in_selection": false
+    },
+    {
+      "state_id": "L40_B_P77_sf0.18",
+      "case_id": "r6_L40_B_P77",
+      "role": "B",
+      "layout": "P77",
+      "full_length_mm": 40,
+      "sigma_f_S_m": 0.18,
+      "source": "F:/岩层裂缝/runs/round6_applicability/truth/r6_L40_B_P77/sf_0p18",
+      "output": "F:/岩层裂缝/runs/round6_applicability/precision/r6_L40_B_P77_sf_0p18",
+      "prediction_file": "F:/岩层裂缝/runs/round6_applicability/predictions/r6_L40_B_P77/sf_0p18/prediction.json",
+      "selection_reasons": [
+        "Fixed geometry anchor covering role/length, near/far exterior and low/high fracture conductivity"
+      ],
+      "M0_to_M64_eta": 0.0019032511183934904,
+      "distance_to_primary_2pct_boundary": 0.01809674888160651,
+      "M8_to_M64_eta": 8.334767810959149e-06,
+      "target_truth_used_in_selection": false
+    },
+    {
+      "state_id": "L64_A_P77_sf0.18",
+      "case_id": "r6_L64_A_P77",
+      "role": "A",
+      "layout": "P77",
+      "full_length_mm": 64,
+      "sigma_f_S_m": 0.18,
+      "source": "F:/岩层裂缝/runs/round6_applicability/truth/r6_L64_A_P77/sf_0p18",
+      "output": "F:/岩层裂缝/runs/round6_applicability/precision/r6_L64_A_P77_sf_0p18",
+      "prediction_file": "F:/岩层裂缝/runs/round6_applicability/predictions/r6_L64_A_P77/sf_0p18/prediction.json",
+      "selection_reasons": [
+        "Fixed geometry anchor covering role/length, near/far exterior and low/high fracture conductivity"
+      ],
+      "M0_to_M64_eta": 0.06049316243023912,
+      "distance_to_primary_2pct_boundary": 0.04049316243023912,
+      "M8_to_M64_eta": 0.005194323967045778,
+      "target_truth_used_in_selection": false
+    },
+    {
+      "state_id": "L64_B_P11_sf10",
+      "case_id": "r6_L64_B_P11",
+      "role": "B",
+      "layout": "P11",
+      "full_length_mm": 64,
+      "sigma_f_S_m": 10.0,
+      "source": "F:/岩层裂缝/runs/round6_applicability/truth/r6_L64_B_P11/sf_10",
+      "output": "F:/岩层裂缝/runs/round6_applicability/precision/r6_L64_B_P11_sf_10",
+      "prediction_file": "F:/岩层裂缝/runs/round6_applicability/predictions/r6_L64_B_P11/sf_10/prediction.json",
+      "selection_reasons": [
+        "Fixed geometry anchor covering role/length, near/far exterior and low/high fracture conductivity"
+      ],
+      "M0_to_M64_eta": 0.01250852336519843,
+      "distance_to_primary_2pct_boundary": 0.007491476634801571,
+      "M8_to_M64_eta": 0.0016695777036376735,
+      "target_truth_used_in_selection": false
+    },
+    {
+      "state_id": "L64_A_P17_sf10",
+      "case_id": "r6_L64_A_P17",
+      "role": "A",
+      "layout": "P17",
+      "full_length_mm": 64,
+      "sigma_f_S_m": 10.0,
+      "source": "F:/岩层裂缝/runs/round6_applicability/truth/r6_L64_A_P17/sf_10",
+      "output": "F:/岩层裂缝/runs/round6_applicability/precision/r6_L64_A_P17_sf_10",
+      "prediction_file": "F:/岩层裂缝/runs/round6_applicability/predictions/r6_L64_A_P17/sf_10/prediction.json",
+      "selection_reasons": [
+        "Asymmetric exterior representative, ordered by prospective M8-to-M64 omitted-response bound"
+      ],
+      "M0_to_M64_eta": 0.18181224367787532,
+      "distance_to_primary_2pct_boundary": 0.16181224367787533,
+      "M8_to_M64_eta": 0.012812998921936838,
+      "target_truth_used_in_selection": false
+    }
+  ]
+}

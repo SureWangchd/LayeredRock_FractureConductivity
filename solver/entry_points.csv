@@ -1,0 +1,10 @@
+stage,entry_functions,original_relative_directory,required_state
+R2,"run_round2(group); solve_round2_case(c,folder)",runs/2026-10-21_round2/manifests/<group>.json,COMSOL LiveLink; runner expects runs beside scripts; case solver accepts explicit output folder
+R3,r3_prepare; r3_truth; r3_predict; r3_enrich_predict,runs/round3_predict; runs/2026-10-21_round2/<case>,Requires source MPH and selection metadata from R2
+R4,r4_periphery; r4_local_response; r4_derivative_check,runs/round4_crossover,Requires R3 source models; original design and response tables are retained
+R4 extension,r4e_bilinear; r4e_modes_run; r4e_peripheral_modes.py,runs/round4_extension_20261024,Uses solved backgrounds and interface traces
+R5,r5_prepare; r5_engine; r5_predict; r5_truth_run,runs/round5_modal_closure,"prepare needs reference MPH; engine consumes saved FE operators, without target truth"
+R6,r6_prepare; r6_predict; r6_criteria.py; r6_truth_run,runs/round6_applicability,Requires reference operators or COMSOL reference preparation
+R7 synthetic,"r7_synthetic(root,action)",runs/round7_3d_ct,COMSOL LiveLink; native finite ellipsoid model from design.json
+R7b final CT,r7b_fix_prepare.py; r7b_fix_import; r7b_fix_solve,runs/round7b_localfit; runs/round7_3d_ct/ct_inputs/<sample>_base,Requires original CT mesh input or accepted geometry_ready.mph; final localfit route
+R7b fixed-interface refinement,r7b_fix_fixed_refine.py; r7b_fix_faces_check.py; r7b_fix_import,runs/round7b_localfit/inputs/<sample>_M1/M2/M3,Requires accepted M1 mesh; higher grids keep its interface

@@ -1,0 +1,97 @@
+{
+  "version": "r6_output_specific_applicability_v1",
+  "frozen_local": "2026-10-26T16:38:39.079611+08:00",
+  "solver": "unchanged Round5 r5_engine finite-element self-consistent modal closure",
+  "reference_orders": [
+    0,
+    8
+  ],
+  "comparison_orders": [
+    32,
+    64
+  ],
+  "prediction_orders": [
+    0,
+    8,
+    32,
+    64
+  ],
+  "primary_gain_relative_tolerance": 0.02,
+  "secondary_gain_tolerances": [
+    0.01,
+    0.05
+  ],
+  "single_side_relative_amplitude_tolerance": 0.1,
+  "interval_scope": "specified finite-modal models on the same FE space; not a full-COMSOL or continuum error certificate",
+  "background_correction": "Saved G0_target-G0_reference is subtracted from both gain interval endpoints",
+  "true_electrode_buffers_retained": true,
+  "target_truth_used": false,
+  "all_32_prediction_files_saved": true,
+  "criteria_file": "applicability_predictions.json",
+  "contrast_file": "side_and_rank_intervals_pretruth.json",
+  "refinement_file": "refinement_targets.json",
+  "maximum_new_target_refinements": 6,
+  "refinement_selection_count": 6,
+  "frozen_sources": [
+    {
+      "source": "F:/岩层裂缝/scripts/r6_criteria.py",
+      "frozen_copy": "F:/岩层裂缝/runs/round6_applicability/frozen_implementation/r6_criteria.py"
+    },
+    {
+      "source": "F:/岩层裂缝/scripts/r6_design.py",
+      "frozen_copy": "F:/岩层裂缝/runs/round6_applicability/frozen_implementation/r6_design.py"
+    },
+    {
+      "source": "F:/岩层裂缝/scripts/r6_make_wrappers.py",
+      "frozen_copy": "F:/岩层裂缝/runs/round6_applicability/frozen_implementation/r6_make_wrappers.py"
+    },
+    {
+      "source": "F:/岩层裂缝/scripts/r6_reanalysis.py",
+      "frozen_copy": "F:/岩层裂缝/runs/round6_applicability/frozen_implementation/r6_reanalysis.py"
+    },
+    {
+      "source": "F:/岩层裂缝/scripts/r6_seal.py",
+      "frozen_copy": "F:/岩层裂缝/runs/round6_applicability/frozen_implementation/r6_seal.py"
+    },
+    {
+      "source": "F:/岩层裂缝/scripts/r6_domination_check.m",
+      "frozen_copy": "F:/岩层裂缝/runs/round6_applicability/frozen_implementation/r6_domination_check.m"
+    },
+    {
+      "source": "F:/岩层裂缝/scripts/r6_predict.m",
+      "frozen_copy": "F:/岩层裂缝/runs/round6_applicability/frozen_implementation/r6_predict.m"
+    },
+    {
+      "source": "F:/岩层裂缝/scripts/r6_prepare.m",
+      "frozen_copy": "F:/岩层裂缝/runs/round6_applicability/frozen_implementation/r6_prepare.m"
+    },
+    {
+      "source": "F:/岩层裂缝/scripts/r6_run.m",
+      "frozen_copy": "F:/岩层裂缝/runs/round6_applicability/frozen_implementation/r6_run.m"
+    },
+    {
+      "source": "F:/岩层裂缝/scripts/r6_trace40.m",
+      "frozen_copy": "F:/岩层裂缝/runs/round6_applicability/frozen_implementation/r6_trace40.m"
+    },
+    {
+      "source": "F:/岩层裂缝/scripts/r6_truth_run.m",
+      "frozen_copy": "F:/岩层裂缝/runs/round6_applicability/frozen_implementation/r6_truth_run.m"
+    },
+    {
+      "source": "F:/岩层裂缝/scripts/r5_engine.m",
+      "frozen_copy": "F:/岩层裂缝/runs/round6_applicability/frozen_implementation/r5_engine.m"
+    },
+    {
+      "source": "F:/岩层裂缝/scripts/r5_trace_matrix.m",
+      "frozen_copy": "F:/岩层裂缝/runs/round6_applicability/frozen_implementation/r5_trace_matrix.m"
+    },
+    {
+      "source": "F:/岩层裂缝/runs/round6_applicability/design.json",
+      "frozen_copy": "F:/岩层裂缝/runs/round6_applicability/frozen_implementation/design.json"
+    },
+    {
+      "source": "F:/岩层裂缝/runs/round6_applicability/port_coefficients.csv",
+      "frozen_copy": "F:/岩层裂缝/runs/round6_applicability/frozen_implementation/port_coefficients.csv"
+    }
+  ]
+}

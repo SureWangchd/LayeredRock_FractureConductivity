@@ -1,0 +1,23 @@
+{
+  "G0_S": 0.018181818176545121,
+  "cap_dV_V": 0.40710838407851246,
+  "dofs": 108101,
+  "free_dofs": 107699,
+  "cost": {
+    "background_solve_seconds": 1.0547037,
+    "operator_assembly_seconds": 1.2110159,
+    "block_assembly_seconds": 9.2891082,
+    "background_factor_seconds": 0.2634905,
+    "auxiliary_backsolve_seconds": 0.2148079,
+    "total_background_preparation_seconds": 13.1893933
+  },
+  "provenance": {
+    "target_solve_count_in_prepare": 0,
+    "background_solve_count": 1,
+    "matrix_extraction": "mphmatrix initmethod=sol initsol=zero extractafter=v1 rowscale=off",
+    "source_folder": "F:\\岩层裂缝\\runs\\2026-10-21_round2\\strict_h10_L60_B_m3_full",
+    "reuse_seen_truth": true,
+    "basis_inputs": "Background K0, background u0, axial segment/original phase masks; x/z coordinate gradient responses",
+    "units": "Matrices include t=1 m; u in V; energies and deltaG numerically W and S at DV=1 V"
+  }
+}

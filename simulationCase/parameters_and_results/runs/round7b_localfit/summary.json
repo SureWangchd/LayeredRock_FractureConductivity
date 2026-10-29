@@ -1,0 +1,216 @@
+{
+  "status": "complete_fixed_batch",
+  "prescribed_target_count": 16,
+  "complete_same_mesh_pairs": 8,
+  "complete_prescribed_targets": 16,
+  "remaining_pairs": 0,
+  "explicit_localfit_block_record": null,
+  "schema": "r7b_localfit_evidence_summary_v1",
+  "generated_local": "2026-10-27T20:19:00.957666+08:00",
+  "optional_tolerance_pairs": [
+    {
+      "sample": "S1",
+      "water_sigma_S_m": 0.18,
+      "complete": false,
+      "comparison_json": null,
+      "observed_scale_S": null
+    },
+    {
+      "sample": "S5",
+      "water_sigma_S_m": 10.0,
+      "complete": true,
+      "comparison_json": "F:\\岩层裂缝\\runs\\round7b_localfit\\tolerance_checks\\S5_M3_water_10_pair_four_states\\comparison.json",
+      "observed_scale_S": 1.830460425161079e-12
+    }
+  ],
+  "complete_optional_tolerance_pairs": 1,
+  "accepted_formal_geometries": 6,
+  "actual_valid_target_records": 16,
+  "actual_valid_target_note": "Saved successful target states; complete_prescribed_targets additionally requires all pair checks",
+  "existing_mph_files": 126,
+  "existing_solved_model_records": 104,
+  "failure_records": 14,
+  "technical32": {
+    "scope": "existing_32_CT_interface_pilot_only",
+    "formal_CT_evidence": false,
+    "parameters_exist": true,
+    "shape_xyz": [
+      32,
+      32,
+      32
+    ],
+    "L_m": 0.000277856,
+    "preprocessing_status": "PREPROCESS_ONLY_NOT_COMSOL_ACCEPTANCE",
+    "imported_model_exists": true,
+    "import_status": "IMPORTED_AND_PHASE_CHECKED",
+    "original_phase_status": "ORIGINAL_PHASE_AND_REGION_VERIFIED",
+    "geometry_checks_available": true,
+    "geometric_gates_pass": true,
+    "tetrahedron_connectivity_independently_checked": true,
+    "inside_tetrahedron_checks": {
+      "inside_tetrahedron_count": 1124471,
+      "actual_tetrahedron_volume_m3": 7.012004727408723e-14,
+      "actual_uniform_volume_centroid_m": [
+        0.0001389279782388241,
+        0.00013892790039704366,
+        0.00013892796478752158
+      ],
+      "actual_uniform_volume_covariance_m2": [
+        [
+          2.429960732175343e-10,
+          -5.972070516598332e-14,
+          4.1670527240304775e-10
+        ],
+        [
+          -5.972070516598332e-14,
+          9.647676271841512e-10,
+          -1.0423449462136472e-13
+        ],
+        [
+          4.1670527240304775e-10,
+          -1.0423449462136472e-13,
+          7.241555558424401e-10
+        ]
+      ],
+      "moment_equivalent_semiaxes_ascending_m": [
+        3.47029686114339e-06,
+        6.944906674929556e-05,
+        6.945776017528967e-05
+      ],
+      "moment_equivalent_thin_axis_unit": [
+        -0.8660230820048903,
+        4.1373055092996935e-07,
+        0.5000040214184075
+      ],
+      "moment_thin_axis_angle_from_prescribed_n_deg": 0.00026711246947986147,
+      "moment_axes_are_not_exact_boundary_extents": true,
+      "tetrahedron_face_connected_components": 1,
+      "tetrahedron_component_counts": [
+        1124471
+      ],
+      "zero_volume_tetrahedra": 0,
+      "negative_input_orientation_tetrahedra": 0,
+      "tetrahedron_faces_with_more_than_two_owners": 0
+    },
+    "actual_volume_relative_error": -0.0011409184559986185,
+    "maximum_probe_absolute_relative_thickness_error": 0.0036784846317244758,
+    "maximum_sampled_normal_error_over_central_thickness": 0.0021027425643146617,
+    "source_geometry_json": "F:\\岩层裂缝\\runs\\round7b_localfit\\technical32\\geometry_verification.json",
+    "source_model": "F:\\岩层裂缝\\runs\\round7b_localfit\\technical32\\geometry_ready.mph"
+  },
+  "uniform_check": {
+    "scope": "uniform_electrical_interface_only",
+    "formal_CT_evidence": false,
+    "comparison_exists": true,
+    "accepted_for_summary": true,
+    "source_json": "F:\\岩层裂缝\\runs\\round7b_localfit\\uniform_S1\\comparison.json",
+    "gain_relative_difference": 0.0007035399326806091,
+    "target_conductance_relative_difference": 4.555814902407794e-05,
+    "original_thresholds": {
+      "gain": 0.01,
+      "total": 0.005,
+      "conservation": 1e-07
+    },
+    "all_four_real_saved_states": true,
+    "configuration": {
+      "sigma_solid_S_m": 1e-05,
+      "sigma_fluid_S_m": 0.18,
+      "deltaV_V": 1,
+      "potential_order": 1,
+      "geometry_shape_order": "linear",
+      "stationary_relative_tolerance": 1e-10,
+      "conservation_tolerance": 1e-07,
+      "background_analytic_relative_tolerance": 1e-06,
+      "gain_comparison_relative_target": 0.01,
+      "whole_conductance_comparison_relative_target": 0.005,
+      "formal_CT_target": false,
+      "purpose": "Uniform-cube native CAD versus actual explicit-cut interface verification only",
+      "imported_source_model": "F:\\岩层裂缝\\runs\\round7b_localfit\\inputs\\S1_M1\\geometry_ready.mph",
+      "source_geometry_modified": false,
+      "threshold_note": "Engineering pilot targets declared before new electrical solves; not universal precision criteria"
+    },
+    "reused_direct_reference": {
+      "reference": "F:\\岩层裂缝\\runs\\round7b_ct_ellipsoid\\pilot_surface2\\electrical\\direct_native_CAD\\PAIR_SUCCESS.json",
+      "reason": "Same already-solved native CAD uniform reference; only imported cube boundary resolution changed"
+    }
+  },
+  "uniform_pilot_states": [
+    {
+      "scope": "uniform_electrical_interface_only",
+      "kind": "imported_localfit",
+      "state": "background",
+      "valid_uniform_state": true,
+      "formal_CT_target": false,
+      "model_path": "F:\\岩层裂缝\\runs\\round7b_localfit\\uniform_S1\\imported_localfit\\background\\solution.mph",
+      "G_S": 1.1114240000009954e-08,
+      "g_S": null,
+      "reaction_flux_relative_error": 5.982305370133524e-13,
+      "energy_relative_error": 1.441841278123871e-11,
+      "tetrahedra": 15118643.0,
+      "vertices": 2612259.0,
+      "min_mesh_quality": 0.0001754,
+      "solve_seconds": 67.3342285,
+      "stationary_relative_tolerance": 1e-10,
+      "reused_reference": false
+    },
+    {
+      "scope": "uniform_electrical_interface_only",
+      "kind": "imported_localfit",
+      "state": "target",
+      "valid_uniform_state": true,
+      "formal_CT_target": false,
+      "model_path": "F:\\岩层裂缝\\runs\\round7b_localfit\\uniform_S1\\imported_localfit\\target\\solution.mph",
+      "G_S": 1.1884322732244206e-08,
+      "g_S": 7.700827322342519e-10,
+      "reaction_flux_relative_error": 7.715783281582619e-10,
+      "energy_relative_error": 3.8429208021526624e-10,
+      "tetrahedra": 15118643.0,
+      "vertices": 2612259.0,
+      "min_mesh_quality": 0.0001754,
+      "solve_seconds": 230.9780008,
+      "stationary_relative_tolerance": 1e-10,
+      "reused_reference": false
+    },
+    {
+      "scope": "uniform_electrical_interface_only",
+      "kind": "direct_native_CAD",
+      "state": "background",
+      "valid_uniform_state": true,
+      "formal_CT_target": false,
+      "model_path": "F:\\岩层裂缝\\runs\\round7b_ct_ellipsoid\\pilot_surface2\\electrical\\direct_native_CAD\\background\\solution.mph",
+      "G_S": 1.1114239999984116e-08,
+      "g_S": [],
+      "reaction_flux_relative_error": 1.1991403847202714e-12,
+      "energy_relative_error": 1.421523172055436e-12,
+      "tetrahedra": 9272628.0,
+      "vertices": 1548676.0,
+      "min_mesh_quality": 0.1481,
+      "solve_seconds": 20.9678281,
+      "stationary_relative_tolerance": 1e-10,
+      "reused_reference": true
+    },
+    {
+      "scope": "uniform_electrical_interface_only",
+      "kind": "direct_native_CAD",
+      "state": "target",
+      "valid_uniform_state": true,
+      "formal_CT_target": false,
+      "model_path": "F:\\岩层裂缝\\runs\\round7b_ct_ellipsoid\\pilot_surface2\\electrical\\direct_native_CAD\\target\\solution.mph",
+      "G_S": 1.1883781329163442e-08,
+      "g_S": 7.695413291793261e-10,
+      "reaction_flux_relative_error": 8.543226222944171e-11,
+      "energy_relative_error": 3.747745618983073e-11,
+      "tetrahedra": 9272628.0,
+      "vertices": 1548676.0,
+      "min_mesh_quality": 0.1481,
+      "solve_seconds": 23.4892152,
+      "stationary_relative_tolerance": 1e-10,
+      "reused_reference": true
+    }
+  ],
+  "supplied_package_offline_results_are_new_CT_evidence": false,
+  "old_target_results_used": false,
+  "checksums_generated": false,
+  "old_results_modified": false,
+  "scope": "Same 128^3 CT and prescribed 8 main plus 8 refined targets; explicit local cut mesh; no global Union/FreeTet retry"
+}

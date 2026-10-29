@@ -1,0 +1,49 @@
+{
+  "selection_basis": "Fixed geometry/conductivity coverage before target results, not effect-size selection.",
+  "targets": [
+    {
+      "state_id": "r7_strict_A_P11_sf_0p18",
+      "case_id": "r7_strict_A_P11",
+      "role": "A",
+      "layout": "P11",
+      "kind": "synthetic3d_explicit",
+      "sigma_f_S_m": 0.18,
+      "target_relative_folder": "synthetic3d/r7_strict_A_P11/sf_0p18",
+      "background_case_id": "r7_strict_A_P11_bg_z",
+      "reason": "Preselected before any Round-7 target solve. Paired near/near versus far/far targets test the controlled joint peripheral change; two pairs cover A/B and both conductivities. Corresponding true background is refined too."
+    },
+    {
+      "state_id": "r7_strict_A_P77_sf_0p18",
+      "case_id": "r7_strict_A_P77",
+      "role": "A",
+      "layout": "P77",
+      "kind": "synthetic3d_explicit",
+      "sigma_f_S_m": 0.18,
+      "target_relative_folder": "synthetic3d/r7_strict_A_P77/sf_0p18",
+      "background_case_id": "r7_strict_A_P77_bg_z",
+      "reason": "Preselected before any Round-7 target solve. Paired near/near versus far/far targets test the controlled joint peripheral change; two pairs cover A/B and both conductivities. Corresponding true background is refined too."
+    },
+    {
+      "state_id": "r7_strict_B_P11_sf_10",
+      "case_id": "r7_strict_B_P11",
+      "role": "B",
+      "layout": "P11",
+      "kind": "synthetic3d_explicit",
+      "sigma_f_S_m": 10.0,
+      "target_relative_folder": "synthetic3d/r7_strict_B_P11/sf_10",
+      "background_case_id": "r7_strict_B_P11_bg_z",
+      "reason": "Preselected before any Round-7 target solve. Paired near/near versus far/far targets test the controlled joint peripheral change; two pairs cover A/B and both conductivities. Corresponding true background is refined too."
+    },
+    {
+      "state_id": "r7_strict_B_P77_sf_10",
+      "case_id": "r7_strict_B_P77",
+      "role": "B",
+      "layout": "P77",
+      "kind": "synthetic3d_explicit",
+      "sigma_f_S_m": 10.0,
+      "target_relative_folder": "synthetic3d/r7_strict_B_P77/sf_10",
+      "background_case_id": "r7_strict_B_P77_bg_z",
+      "reason": "Preselected before any Round-7 target solve. Paired near/near versus far/far targets test the controlled joint peripheral change; two pairs cover A/B and both conductivities. Corresponding true background is refined too."
+    }
+  ]
+}

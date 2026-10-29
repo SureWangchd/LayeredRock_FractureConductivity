@@ -1,0 +1,206 @@
+{
+  "schema": "r7b_actual_boundary_geometry_v1",
+  "sample": "S5",
+  "status": "ACTUAL_INPUT_MESH_MEASURED_NOT_A_COMSOL_SOLVE",
+  "geometry_scope": "prescribed_native_centre128_geometry",
+  "technical_pilot_only": false,
+  "source_metadata": {
+    "COMSOL_export": "F:\\岩层裂缝\\runs\\round7b_localfit\\inputs\\S5_M1\\actual_boundary.mat",
+    "input_is_preimport_mesh": false,
+    "formal_CT_solved": false
+  },
+  "definition": {
+    "sample": "S5",
+    "L_m": 0.000511616,
+    "voxel_size_m": 3.997e-06,
+    "shape_xyz": [
+      128,
+      128,
+      128
+    ],
+    "geometry_scope": "prescribed_native_centre128_geometry",
+    "technical_pilot_only": false,
+    "formal_CT_scientific_result": false,
+    "source_parameters_used": true,
+    "protection_regions_present": true,
+    "center_m": [
+      0.000255808,
+      0.000255808,
+      0.000255808
+    ],
+    "semiaxes_m": [
+      0.000127904,
+      0.000127904,
+      6.3952e-06
+    ],
+    "basis": [
+      [
+        0.5,
+        0.0,
+        -0.8660254037844386
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.8660254037844386,
+        0.0,
+        0.5
+      ]
+    ],
+    "ideal_volume_m3": 4.3823896918930966e-13,
+    "ideal_bbox_min_m": [
+      0.0001916166279841286,
+      0.000127904,
+      0.00014499374298511947
+    ],
+    "ideal_bbox_max_m": [
+      0.0003199993720158714,
+      0.00038371200000000003,
+      0.00036662225701488056
+    ]
+  },
+  "input_geometry_representation": "linear exported triangle/tetrahedron corners",
+  "volume_measurement_method": "sum absolute inside tetrahedron volumes",
+  "actual_volume_m3": 4.3790258536894824e-13,
+  "ideal_volume_m3": 4.3823896918930966e-13,
+  "actual_volume_relative_error": -0.0007675808041072152,
+  "actual_radially_oriented_surface_volume_m3": 4.379046964120338e-13,
+  "actual_bbox_min_m": [
+    0.0001916213227857295,
+    0.000127904,
+    0.00014499772968384187
+  ],
+  "actual_bbox_max_m": [
+    0.0003199946772142705,
+    0.00038371200000000003,
+    0.0003666216217385657
+  ],
+  "actual_bbox_min_error_m": [
+    4.6948016008921834e-09,
+    0.0,
+    3.986698722394707e-09
+  ],
+  "actual_bbox_max_error_m": [
+    -4.6948016009192885e-09,
+    0.0,
+    -6.352763148431001e-10
+  ],
+  "actual_prescribed_axis_projection_min_m": [
+    -0.0001278983598768759,
+    -0.000127904,
+    -6.39487938788795e-06
+  ],
+  "actual_prescribed_axis_projection_max_m": [
+    0.00012790319843683325,
+    0.00012790400000000003,
+    6.39487938788795e-06
+  ],
+  "actual_prescribed_axis_extent_m": [
+    0.0002558015583137091,
+    0.00025580800000000006,
+    1.27897587757759e-05
+  ],
+  "surface_vertex_centroid_m": [
+    0.0002559663617188464,
+    0.00025616522070838065,
+    0.000256081178701592
+  ],
+  "surface_vertex_centroid_is_not_volume_centroid": true,
+  "actual_central_thickness_m": 1.278861502995604e-05,
+  "actual_central_thickness_relative_error": -0.00013955545127291137,
+  "maximum_probe_absolute_relative_thickness_error": 0.0036784846317241856,
+  "maximum_sampled_normal_error_over_central_thickness": 0.002112428049628495,
+  "zero_area_boundary_triangles": 0,
+  "topology": {
+    "face_count": 433394,
+    "used_vertex_count": 216699,
+    "unique_edge_count": 650091,
+    "surface_edge_connected_components": 1,
+    "surface_component_triangle_counts": [
+      433394
+    ],
+    "open_edges": 0,
+    "nonmanifold_edges": 0,
+    "duplicate_faces": 0,
+    "euler_characteristic": 2,
+    "closed_two_manifold": true,
+    "surface_equals_inside_tet_union_boundary": true
+  },
+  "inside_tetrahedron_checks": {
+    "inside_tetrahedron_count": 1048944,
+    "actual_tetrahedron_volume_m3": 4.3790258536894824e-13,
+    "actual_uniform_volume_centroid_m": [
+      0.000255807984636988,
+      0.0002558079645006262,
+      0.0002558079745837556
+    ],
+    "actual_uniform_volume_covariance_m2": [
+      [
+        8.236725992294668e-10,
+        -2.0898667901376064e-13,
+        1.4124827182368273e-09
+      ],
+      [
+        -2.0898667901396743e-13,
+        3.270561587804197e-09,
+        -3.6430245838730745e-13
+      ],
+      [
+        1.4124827182368273e-09,
+        -3.6430245838730745e-13,
+        2.4546650033855512e-09
+      ]
+    ],
+    "moment_equivalent_semiaxes_ascending_m": [
+      6.393271411498584e-06,
+      0.00012786511036614348,
+      0.000127883288915358
+    ],
+    "moment_equivalent_thin_axis_unit": [
+      -0.8660252609912285,
+      3.566640399688126e-07,
+      0.500000247324886
+    ],
+    "moment_thin_axis_angle_from_prescribed_n_deg": 2.62040365510697e-05,
+    "moment_axes_are_not_exact_boundary_extents": true,
+    "tetrahedron_face_connected_components": 1,
+    "tetrahedron_component_counts": [
+      1048944
+    ],
+    "zero_volume_tetrahedra": 0,
+    "negative_input_orientation_tetrahedra": 0,
+    "tetrahedron_faces_with_more_than_two_owners": 0
+  },
+  "gates": {
+    "volume_error_le_0p005": true,
+    "all_65_probes_one_interval": true,
+    "all_65_thickness_errors_le_0p01": true,
+    "sampled_normal_error_over_full_thickness_le_0p005": true,
+    "closed_connected_surface": true,
+    "union_tetrahedra_face_connected": true,
+    "wholly_within_central_half_z": true,
+    "wholly_within_protected_core": true,
+    "boundary_matches_actual_inside_tetrahedra": true
+  },
+  "all_evaluated_geometric_gates_pass": true,
+  "tetrahedron_connectivity_independently_checked": true,
+  "limitations": [
+    "Sampling the boundary is not a rigorous global Hausdorff bound.",
+    "Closed face topology and probes do not alone exclude arbitrary triangle self-intersections.",
+    "This helper does not certify preservation of the external original CT phase field.",
+    "Geometry checks do not establish electrical convergence.",
+    "With curved elements, corner-chord measurements need separate interpretation."
+  ],
+  "actual_ellipsoid_original_phase_overlap": {
+    "original_pore_m3": 1.2348107478466915e-13,
+    "original_skeleton_m3": 3.144215105842791e-13
+  },
+  "internal_section_images": [
+    "F:\\岩层裂缝\\runs\\round7b_localfit\\inputs\\S5_M1\\actual_section_x_center.png",
+    "F:\\岩层裂缝\\runs\\round7b_localfit\\inputs\\S5_M1\\actual_section_y_center.png",
+    "F:\\岩层裂缝\\runs\\round7b_localfit\\inputs\\S5_M1\\actual_section_z_center.png"
+  ]
+}

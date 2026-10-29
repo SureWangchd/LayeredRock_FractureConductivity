@@ -1,0 +1,91 @@
+{
+  "status": "complete",
+  "layouts": [
+    {
+      "layout": "P11",
+      "status": "validated_sign_change_at_saved_endpoints",
+      "validated_interval_S_m": [
+        0.197,
+        0.2045625
+      ],
+      "endpoints": [
+        {
+          "sigma_f_S_m": 0.197,
+          "D_COMSOL_S": -2.0741467944111747e-06,
+          "D_fine_COMSOL_S": null,
+          "observed_A_plus_B_mesh_change_S": null,
+          "same_sign_exceeds_three_times_observed_mesh_scale": false
+        },
+        {
+          "sigma_f_S_m": 0.2045625,
+          "D_COMSOL_S": 2.301753476645352e-06,
+          "D_fine_COMSOL_S": null,
+          "observed_A_plus_B_mesh_change_S": null,
+          "same_sign_exceeds_three_times_observed_mesh_scale": false
+        }
+      ],
+      "fine_mesh_sign_change": null,
+      "both_endpoints_exceed_observed_mesh_scale": false,
+      "interpretation": "An interval with opposite complete-model point signs, not an exact root or proof of uniqueness. No tuning after validation."
+    },
+    {
+      "layout": "P77",
+      "status": "validated_sign_change_at_saved_endpoints",
+      "validated_interval_S_m": [
+        0.16699999999999998,
+        0.1755
+      ],
+      "endpoints": [
+        {
+          "sigma_f_S_m": 0.16699999999999998,
+          "D_COMSOL_S": -2.086773784441137e-06,
+          "D_fine_COMSOL_S": null,
+          "observed_A_plus_B_mesh_change_S": null,
+          "same_sign_exceeds_three_times_observed_mesh_scale": false
+        },
+        {
+          "sigma_f_S_m": 0.1755,
+          "D_COMSOL_S": 3.011548533250752e-06,
+          "D_fine_COMSOL_S": null,
+          "observed_A_plus_B_mesh_change_S": null,
+          "same_sign_exceeds_three_times_observed_mesh_scale": false
+        }
+      ],
+      "fine_mesh_sign_change": null,
+      "both_endpoints_exceed_observed_mesh_scale": false,
+      "interpretation": "An interval with opposite complete-model point signs, not an exact root or proof of uniqueness. No tuning after validation."
+    },
+    {
+      "layout": "P17",
+      "status": "validated_sign_change_at_saved_endpoints",
+      "validated_interval_S_m": [
+        0.172,
+        0.1805
+      ],
+      "endpoints": [
+        {
+          "sigma_f_S_m": 0.172,
+          "D_COMSOL_S": -2.370815546468702e-06,
+          "D_fine_COMSOL_S": null,
+          "observed_A_plus_B_mesh_change_S": null,
+          "same_sign_exceeds_three_times_observed_mesh_scale": false
+        },
+        {
+          "sigma_f_S_m": 0.1805,
+          "D_COMSOL_S": 2.641968642452114e-06,
+          "D_fine_COMSOL_S": null,
+          "observed_A_plus_B_mesh_change_S": null,
+          "same_sign_exceeds_three_times_observed_mesh_scale": false
+        }
+      ],
+      "fine_mesh_sign_change": null,
+      "both_endpoints_exceed_observed_mesh_scale": false,
+      "interpretation": "An interval with opposite complete-model point signs, not an exact root or proof of uniqueness. No tuning after validation."
+    }
+  ],
+  "missing_targets": [],
+  "endpoint_rows": 12,
+  "gain_comparison_rows": 24,
+  "no_method_or_prediction_modified": true,
+  "precision_note": "Three times the sum of observed A/B gain mesh changes is a diagnostic scale only, not a rigorous FEM bound."
+}

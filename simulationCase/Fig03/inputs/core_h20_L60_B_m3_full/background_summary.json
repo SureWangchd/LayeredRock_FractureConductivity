@@ -1,0 +1,23 @@
+{
+  "G0_S": 0.018181818177422541,
+  "cap_dV_V": 0.34674697894232787,
+  "dofs": 108287,
+  "free_dofs": 107885,
+  "cost": {
+    "background_solve_seconds": 1.1674862,
+    "operator_assembly_seconds": 1.5545592,
+    "block_assembly_seconds": 10.8830292,
+    "background_factor_seconds": 0.344439,
+    "auxiliary_backsolve_seconds": 0.281409,
+    "total_background_preparation_seconds": 16.7187845
+  },
+  "provenance": {
+    "target_solve_count_in_prepare": 0,
+    "background_solve_count": 1,
+    "matrix_extraction": "mphmatrix initmethod=sol initsol=zero extractafter=v1 rowscale=off",
+    "source_folder": "F:\\岩层裂缝\\runs\\2026-10-21_round2\\core_h20_L60_B_m3_full",
+    "reuse_seen_truth": true,
+    "basis_inputs": "Background K0, background u0, axial segment/original phase masks; x/z coordinate gradient responses",
+    "units": "Matrices include t=1 m; u in V; energies and deltaG numerically W and S at DV=1 V"
+  }
+}

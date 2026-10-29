@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.DS_Store
+*.asv
+*.log
+*.mph
+*.mphbin
+*.png
+*.pdf
+*.tif
+*.tiff
+*.fig
+*.svg
+*.zip

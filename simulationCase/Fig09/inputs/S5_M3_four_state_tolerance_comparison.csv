@@ -1,0 +1,5 @@
+state_role,old_tolerance,strict_tolerance,old_G_S,strict_G_S,change_S,source_success_json,strict_model_path
+T_background,1e-08,1e-10,0.000364936260354495,0.000364936260351704,-2.79117007284668e-15,F:\岩层裂缝\runs\round7b_localfit\states\S5_M3\water_10\T_background\SUCCESS.json,F:\岩层裂缝\runs\round7b_localfit\tolerance_checks\S5_M3_water_10_T_background_tol_1em10\solution_strict.mph
+H_background,1e-08,1e-10,0.000364936261038988,0.000364936260946321,-9.26666512621188e-14,F:\岩层裂缝\runs\round7b_localfit\states\S5_M3\water_10\calibration\step_009\SUCCESS.json,F:\岩层裂缝\runs\round7b_localfit\tolerance_checks\S5_M3_water_10_H_background_tol_1em10\solution_strict.mph
+T_target,1e-08,1e-10,0.000378358213790666,0.000378358214536168,7.45501913240049e-13,F:\岩层裂缝\runs\round7b_localfit\states\S5_M3\water_10\T_target\SUCCESS.json,F:\岩层裂缝\runs\round7b_localfit\tolerance_checks\S5_M3_water_10_T_target_tol_1em10\solution_strict.mph
+H_target,1e-08,1e-10,0.000378786306227553,0.000378786307217054,9.89500690586065e-13,F:\岩层裂缝\runs\round7b_localfit\states\S5_M3\water_10\H_target\SUCCESS.json,F:\岩层裂缝\runs\round7b_localfit\tolerance_checks\S5_M3_water_10_H_target_tol_1em10\solution_strict.mph

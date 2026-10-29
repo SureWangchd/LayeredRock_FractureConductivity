@@ -1,0 +1,15 @@
+{
+  "sigma_f_S_m": [
+    0.1,
+    0.159375,
+    0.16031249999999997,
+    0.3,
+    1,
+    10
+  ],
+  "chosen_local": "2026-10-24 01:03:22",
+  "selection_basis": "Original strict COMSOL crossover bracket plus 0.1,0.3,1,10; before any new periphery target solve",
+  "method_source": "F:\\岩层裂缝\\runs\\round3_predict\\method_frozen\\r3_enrich_predict_v1.m",
+  "method_version": "r3_background_vector4_residual_rankguard_v1",
+  "all_initial_predictions_before_all_initial_targets": true
+}

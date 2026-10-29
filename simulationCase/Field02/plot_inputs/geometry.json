@@ -1,0 +1,661 @@
+{
+  "source": "existing R7 native finite ellipsoid models; synthetic3d only; no CT",
+  "cases": {
+    "A_P77": {
+      "id": "r7_strict_A_P77",
+      "role": "A",
+      "layout": "P77",
+      "Lx_mm": 120,
+      "Ly_mm": 120,
+      "Lz_mm": 120,
+      "cx_mm": 60,
+      "cy_mm": 60,
+      "cz_mm": 60,
+      "a_mm": 30,
+      "b_mm": 30,
+      "c_mm": 1.5,
+      "theta_deg": 60,
+      "basis_u": [
+        0.5,
+        0,
+        0.8660254037844386
+      ],
+      "basis_v": [
+        0,
+        1,
+        0
+      ],
+      "basis_n": [
+        -0.8660254037844386,
+        0,
+        0.5
+      ],
+      "physical_material_runs": [
+        {
+          "z_min_mm": 0,
+          "z_max_mm": 20,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 20,
+          "z_max_mm": 21,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 21,
+          "z_max_mm": 23,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 23,
+          "z_max_mm": 60,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 60,
+          "z_max_mm": 97,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 97,
+          "z_max_mm": 99,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 99,
+          "z_max_mm": 100,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 100,
+          "z_max_mm": 120,
+          "phase": 1
+        }
+      ],
+      "physical_z_interfaces_mm": [
+        20,
+        21,
+        23,
+        60,
+        97,
+        99,
+        100
+      ],
+      "sigma_low_S_m": 0.01,
+      "sigma_high_S_m": 0.1,
+      "lower_low_band_z_mm": [
+        21,
+        23
+      ],
+      "upper_high_band_z_mm": [
+        97,
+        99
+      ],
+      "protected_core_z_mm": [
+        30,
+        90
+      ],
+      "protected_electrode_buffers_z_mm": [
+        [
+          0,
+          20
+        ],
+        [
+          100,
+          120
+        ]
+      ],
+      "electrodes": {
+        "top_z_mm": 120,
+        "top_voltage_V": 1,
+        "bottom_z_mm": 0,
+        "bottom_voltage_V": 0,
+        "other_external_faces": "electric insulation"
+      },
+      "actual_geometry": {
+        "case_id": "r7_strict_A_P77",
+        "role": "A",
+        "layout": "P77",
+        "kind": "synthetic3d_explicit",
+        "sample_volume_mm3": 1727999.9999999735,
+        "ellipsoid_volume_mm3": 5654.86533981536,
+        "ellipsoid_analytic_volume_mm3": 5654.866776461628,
+        "original_low_volume_mm3": 863999.9999999561,
+        "original_high_volume_mm3": 864000.0000000173,
+        "replaced_low_volume_mm3": 2827.4326791222866,
+        "replaced_high_volume_mm3": 2827.432660693074,
+        "remaining_low_volume_mm3": 861172.5673208338,
+        "remaining_high_volume_mm3": 861172.5673393243,
+        "ellipse_mesh_bbox_mm": [
+          [
+            44.94390192689221,
+            75.05609720167429
+          ],
+          [
+            30.000000000000004,
+            89.99999999999999
+          ],
+          [
+            34.0084737182377,
+            85.99152628176228
+          ]
+        ],
+        "sample_dimensions_mm": [
+          120,
+          120,
+          120
+        ],
+        "volume_definition": "Order8 COMSOL physical-volume integration; source-phase bookkeeping in M0 is not actual homogeneous-zone material amount",
+        "ellipsoid_relative_volume_error": -2.540548389440289e-07
+      },
+      "native_COMSOL_ellipsoid_construction": "semiaxes=[30,30,1.5]mm; axistype='cartesian'; axis=basis_n; rot=0. Do not apply a second rotation from the legacy prose string.",
+      "parameter_surface_formula": "r=center + a*basis_u*sin(phi)*cos(theta) + b*basis_v*sin(phi)*sin(theta) + c*basis_n*cos(phi)",
+      "geometry_display_limit": "A parameter-drawn surface is a geometry guide, not an exported mesh surface or a newly reconstructed domain.",
+      "slice_ellipse_formula": "For fixed y, r=sqrt(1-((y-cy)/b)^2); xz semiaxes are a*r and c*r, with long axis basis_u and short axis basis_n."
+    },
+    "A_P11": {
+      "id": "r7_strict_A_P11",
+      "role": "A",
+      "layout": "P11",
+      "Lx_mm": 120,
+      "Ly_mm": 120,
+      "Lz_mm": 120,
+      "cx_mm": 60,
+      "cy_mm": 60,
+      "cz_mm": 60,
+      "a_mm": 30,
+      "b_mm": 30,
+      "c_mm": 1.5,
+      "theta_deg": 60,
+      "basis_u": [
+        0.5,
+        0,
+        0.8660254037844386
+      ],
+      "basis_v": [
+        0,
+        1,
+        0
+      ],
+      "basis_n": [
+        -0.8660254037844386,
+        0,
+        0.5
+      ],
+      "physical_material_runs": [
+        {
+          "z_min_mm": 0,
+          "z_max_mm": 20,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 20,
+          "z_max_mm": 27,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 27,
+          "z_max_mm": 29,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 29,
+          "z_max_mm": 60,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 60,
+          "z_max_mm": 91,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 91,
+          "z_max_mm": 93,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 93,
+          "z_max_mm": 100,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 100,
+          "z_max_mm": 120,
+          "phase": 1
+        }
+      ],
+      "physical_z_interfaces_mm": [
+        20,
+        27,
+        29,
+        60,
+        91,
+        93,
+        100
+      ],
+      "sigma_low_S_m": 0.01,
+      "sigma_high_S_m": 0.1,
+      "lower_low_band_z_mm": [
+        27,
+        29
+      ],
+      "upper_high_band_z_mm": [
+        91,
+        93
+      ],
+      "protected_core_z_mm": [
+        30,
+        90
+      ],
+      "protected_electrode_buffers_z_mm": [
+        [
+          0,
+          20
+        ],
+        [
+          100,
+          120
+        ]
+      ],
+      "electrodes": {
+        "top_z_mm": 120,
+        "top_voltage_V": 1,
+        "bottom_z_mm": 0,
+        "bottom_voltage_V": 0,
+        "other_external_faces": "electric insulation"
+      },
+      "actual_geometry": {
+        "case_id": "r7_strict_A_P11",
+        "role": "A",
+        "layout": "P11",
+        "kind": "synthetic3d_explicit",
+        "sample_volume_mm3": 1727999.9999998158,
+        "ellipsoid_volume_mm3": 5654.8653555451965,
+        "ellipsoid_analytic_volume_mm3": 5654.866776461628,
+        "original_low_volume_mm3": 863999.9999999364,
+        "original_high_volume_mm3": 863999.9999998796,
+        "replaced_low_volume_mm3": 2827.43269307648,
+        "replaced_high_volume_mm3": 2827.432662468717,
+        "remaining_low_volume_mm3": 861172.56730686,
+        "remaining_high_volume_mm3": 861172.5673374109,
+        "ellipse_mesh_bbox_mm": [
+          [
+            44.94388231078174,
+            75.05611610094714
+          ],
+          [
+            30.000000000000004,
+            89.99999999999999
+          ],
+          [
+            34.00847727630369,
+            85.99152263586217
+          ]
+        ],
+        "sample_dimensions_mm": [
+          120,
+          120,
+          120
+        ],
+        "volume_definition": "Order8 COMSOL physical-volume integration; source-phase bookkeeping in M0 is not actual homogeneous-zone material amount",
+        "ellipsoid_relative_volume_error": -2.512731931414436e-07
+      },
+      "native_COMSOL_ellipsoid_construction": "semiaxes=[30,30,1.5]mm; axistype='cartesian'; axis=basis_n; rot=0. Do not apply a second rotation from the legacy prose string.",
+      "parameter_surface_formula": "r=center + a*basis_u*sin(phi)*cos(theta) + b*basis_v*sin(phi)*sin(theta) + c*basis_n*cos(phi)",
+      "geometry_display_limit": "A parameter-drawn surface is a geometry guide, not an exported mesh surface or a newly reconstructed domain.",
+      "slice_ellipse_formula": "For fixed y, r=sqrt(1-((y-cy)/b)^2); xz semiaxes are a*r and c*r, with long axis basis_u and short axis basis_n."
+    },
+    "B_P77": {
+      "id": "r7_strict_B_P77",
+      "role": "B",
+      "layout": "P77",
+      "Lx_mm": 120,
+      "Ly_mm": 120,
+      "Lz_mm": 120,
+      "cx_mm": 60,
+      "cy_mm": 60,
+      "cz_mm": 60,
+      "a_mm": 30,
+      "b_mm": 30,
+      "c_mm": 1.5,
+      "theta_deg": 60,
+      "basis_u": [
+        0.5,
+        0,
+        0.8660254037844386
+      ],
+      "basis_v": [
+        0,
+        1,
+        0
+      ],
+      "basis_n": [
+        -0.8660254037844386,
+        0,
+        0.5
+      ],
+      "physical_material_runs": [
+        {
+          "z_min_mm": 0,
+          "z_max_mm": 20,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 20,
+          "z_max_mm": 21,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 21,
+          "z_max_mm": 23,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 23,
+          "z_max_mm": 40,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 40,
+          "z_max_mm": 50,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 50,
+          "z_max_mm": 60,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 60,
+          "z_max_mm": 70,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 70,
+          "z_max_mm": 80,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 80,
+          "z_max_mm": 97,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 97,
+          "z_max_mm": 99,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 99,
+          "z_max_mm": 100,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 100,
+          "z_max_mm": 120,
+          "phase": 1
+        }
+      ],
+      "physical_z_interfaces_mm": [
+        20,
+        21,
+        23,
+        40,
+        50,
+        60,
+        70,
+        80,
+        97,
+        99,
+        100
+      ],
+      "sigma_low_S_m": 0.01,
+      "sigma_high_S_m": 0.1,
+      "lower_low_band_z_mm": [
+        21,
+        23
+      ],
+      "upper_high_band_z_mm": [
+        97,
+        99
+      ],
+      "protected_core_z_mm": [
+        30,
+        90
+      ],
+      "protected_electrode_buffers_z_mm": [
+        [
+          0,
+          20
+        ],
+        [
+          100,
+          120
+        ]
+      ],
+      "electrodes": {
+        "top_z_mm": 120,
+        "top_voltage_V": 1,
+        "bottom_z_mm": 0,
+        "bottom_voltage_V": 0,
+        "other_external_faces": "electric insulation"
+      },
+      "actual_geometry": {
+        "case_id": "r7_strict_B_P77",
+        "role": "B",
+        "layout": "P77",
+        "kind": "synthetic3d_explicit",
+        "sample_volume_mm3": 1727999.9999999506,
+        "ellipsoid_volume_mm3": 5654.865845963778,
+        "ellipsoid_analytic_volume_mm3": 5654.866776461628,
+        "original_low_volume_mm3": 864000.0000000081,
+        "original_high_volume_mm3": 863999.9999999426,
+        "replaced_low_volume_mm3": 2827.4329240376446,
+        "replaced_high_volume_mm3": 2827.4329219261344,
+        "remaining_low_volume_mm3": 861172.5670759705,
+        "remaining_high_volume_mm3": 861172.5670780165,
+        "ellipse_mesh_bbox_mm": [
+          [
+            44.94390031174318,
+            75.05609968825688
+          ],
+          [
+            29.999999999999993,
+            89.99999999999999
+          ],
+          [
+            34.00851453536359,
+            85.99148546463638
+          ]
+        ],
+        "sample_dimensions_mm": [
+          120,
+          120,
+          120
+        ],
+        "volume_definition": "Order8 COMSOL physical-volume integration; source-phase bookkeeping in M0 is not actual homogeneous-zone material amount",
+        "ellipsoid_relative_volume_error": -1.6454814710797905e-07
+      },
+      "native_COMSOL_ellipsoid_construction": "semiaxes=[30,30,1.5]mm; axistype='cartesian'; axis=basis_n; rot=0. Do not apply a second rotation from the legacy prose string.",
+      "parameter_surface_formula": "r=center + a*basis_u*sin(phi)*cos(theta) + b*basis_v*sin(phi)*sin(theta) + c*basis_n*cos(phi)",
+      "geometry_display_limit": "A parameter-drawn surface is a geometry guide, not an exported mesh surface or a newly reconstructed domain.",
+      "slice_ellipse_formula": "For fixed y, r=sqrt(1-((y-cy)/b)^2); xz semiaxes are a*r and c*r, with long axis basis_u and short axis basis_n."
+    },
+    "B_P11": {
+      "id": "r7_strict_B_P11",
+      "role": "B",
+      "layout": "P11",
+      "Lx_mm": 120,
+      "Ly_mm": 120,
+      "Lz_mm": 120,
+      "cx_mm": 60,
+      "cy_mm": 60,
+      "cz_mm": 60,
+      "a_mm": 30,
+      "b_mm": 30,
+      "c_mm": 1.5,
+      "theta_deg": 60,
+      "basis_u": [
+        0.5,
+        0,
+        0.8660254037844386
+      ],
+      "basis_v": [
+        0,
+        1,
+        0
+      ],
+      "basis_n": [
+        -0.8660254037844386,
+        0,
+        0.5
+      ],
+      "physical_material_runs": [
+        {
+          "z_min_mm": 0,
+          "z_max_mm": 20,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 20,
+          "z_max_mm": 27,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 27,
+          "z_max_mm": 29,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 29,
+          "z_max_mm": 40,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 40,
+          "z_max_mm": 50,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 50,
+          "z_max_mm": 60,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 60,
+          "z_max_mm": 70,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 70,
+          "z_max_mm": 80,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 80,
+          "z_max_mm": 91,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 91,
+          "z_max_mm": 93,
+          "phase": 1
+        },
+        {
+          "z_min_mm": 93,
+          "z_max_mm": 100,
+          "phase": 0
+        },
+        {
+          "z_min_mm": 100,
+          "z_max_mm": 120,
+          "phase": 1
+        }
+      ],
+      "physical_z_interfaces_mm": [
+        20,
+        27,
+        29,
+        40,
+        50,
+        60,
+        70,
+        80,
+        91,
+        93,
+        100
+      ],
+      "sigma_low_S_m": 0.01,
+      "sigma_high_S_m": 0.1,
+      "lower_low_band_z_mm": [
+        27,
+        29
+      ],
+      "upper_high_band_z_mm": [
+        91,
+        93
+      ],
+      "protected_core_z_mm": [
+        30,
+        90
+      ],
+      "protected_electrode_buffers_z_mm": [
+        [
+          0,
+          20
+        ],
+        [
+          100,
+          120
+        ]
+      ],
+      "electrodes": {
+        "top_z_mm": 120,
+        "top_voltage_V": 1,
+        "bottom_z_mm": 0,
+        "bottom_voltage_V": 0,
+        "other_external_faces": "electric insulation"
+      },
+      "actual_geometry": {
+        "case_id": "r7_strict_B_P11",
+        "role": "B",
+        "layout": "P11",
+        "kind": "synthetic3d_explicit",
+        "sample_volume_mm3": 1727999.9999999516,
+        "ellipsoid_volume_mm3": 5654.865810457373,
+        "ellipsoid_analytic_volume_mm3": 5654.866776461628,
+        "original_low_volume_mm3": 863999.9999999822,
+        "original_high_volume_mm3": 863999.9999999697,
+        "replaced_low_volume_mm3": 2827.432906717934,
+        "replaced_high_volume_mm3": 2827.4329037394396,
+        "remaining_low_volume_mm3": 861172.5670932642,
+        "remaining_high_volume_mm3": 861172.5670962302,
+        "ellipse_mesh_bbox_mm": [
+          [
+            44.9439008815828,
+            75.05609911841722
+          ],
+          [
+            29.999999999999993,
+            89.99999999999999
+          ],
+          [
+            34.00851468766048,
+            85.99148531233952
+          ]
+        ],
+        "sample_dimensions_mm": [
+          120,
+          120,
+          120
+        ],
+        "volume_definition": "Order8 COMSOL physical-volume integration; source-phase bookkeeping in M0 is not actual homogeneous-zone material amount",
+        "ellipsoid_relative_volume_error": -1.708270580547122e-07
+      },
+      "native_COMSOL_ellipsoid_construction": "semiaxes=[30,30,1.5]mm; axistype='cartesian'; axis=basis_n; rot=0. Do not apply a second rotation from the legacy prose string.",
+      "parameter_surface_formula": "r=center + a*basis_u*sin(phi)*cos(theta) + b*basis_v*sin(phi)*sin(theta) + c*basis_n*cos(phi)",
+      "geometry_display_limit": "A parameter-drawn surface is a geometry guide, not an exported mesh surface or a newly reconstructed domain.",
+      "slice_ellipse_formula": "For fixed y, r=sqrt(1-((y-cy)/b)^2); xz semiaxes are a*r and c*r, with long axis basis_u and short axis basis_n."
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "copied_files": 517,
+  "copied_bytes": 249659047,
+  "largest_copied_file": {
+    "path": "simulationCase/Field02/plot_inputs/dense_B_P11_sf10.mat",
+    "source": "outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field02/plot_inputs/dense_B_P11_sf10.mat",
+    "bytes": 11615235,
+    "role": "figure input or replot code"
+  },
+  "solver_scripts": 82,
+  "portable_edits": [
+    {
+      "file": "simulationCase/Field01/figure_field_sequence_matlab.m",
+      "change": "Use JGRSE_PYTHON or python for PDF postprocessing"
+    },
+    {
+      "file": "simulationCase/Field02/figure_field3d_refined_matlab.m",
+      "change": "Use JGRSE_PYTHON or python for PDF postprocessing"
+    },
+    {
+      "file": "simulationCase/Field03/figure_ct_field_matlab.m",
+      "change": "Use JGRSE_PYTHON or python for PDF postprocessing"
+    },
+    {
+      "file": "simulationCase/Fig08/figure08_finite3d_matlab.m",
+      "change": "Portable interpreter/path handling only"
+    },
+    {
+      "file": "simulationCase/Fig08/figure08_finite3d_matlab.m",
+      "change": "Portable interpreter/path handling only"
+    },
+    {
+      "file": "simulationCase/Fig09/figure09_ct_matlab.m",
+      "change": "Portable interpreter/path handling only"
+    },
+    {
+      "file": "simulationCase/Fig02/run_replot.m",
+      "change": "Portable interpreter/path handling only"
+    }
+  ],
+  "excluded": [
+    "Private Ling source packets and original literature text",
+    "Reference PDFs",
+    "Chat and generation maps",
+    "Old rendered figures and preview logs",
+    "Checksums and repeated audits",
+    "COMSOL software",
+    "Superseded CT target answers"
+  ],
+  "case_groups": [
+    "Field01",
+    "Field02",
+    "Field03",
+    "Fig02",
+    "Fig03",
+    "Fig05",
+    "Fig06",
+    "Fig08",
+    "Fig09",
+    "Shared_Fig01_04_07"
+  ],
+  "figure1_normalization": "Exact analytical sigma0=1/55 S/m; original M1 values retained in additional columns; displayed gains 14.33,27.30,17.63,25.82 percent unchanged.",
+  "replot_validation": {
+    "method": "Actual replot from repository-relative inputs, no COMSOL",
+    "manuscript_figures": [
+      1,
+      5,
+      8
+    ],
+    "result": "completed",
+    "visual_checked_figure": 1,
+    "outputs_outside_repository": "work/repository_replot_check"
+  },
+  "MATLAB_portability": "Local-folder run_replot entries; JGRSE_PYTHON or python for PDF helpers. Numerical algorithms retained.",
+  "parameter_records": "simulationCase/parameters_and_results/runs; original stage names preserved",
+  "analytical_dependencies": [
+    "round5_taskpack/periphery_modal_response.py",
+    "round5_taskpack/test_reference.py",
+    "round5_taskpack/round5_design_template.json",
+    "round6_taskpack/modal_applicability.py",
+    "round6_taskpack/test_modal_applicability.py",
+    "round6_taskpack/check_round5.py",
+    "round6_taskpack/round6_design.json"
+  ]
+}

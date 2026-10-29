@@ -1,0 +1,117 @@
+{
+  "status": "prediction_only_targets_ready",
+  "saved_local": "2026-10-26 01:18:00",
+  "targets": [
+    {
+      "case_id": "r5_strict_A_P11",
+      "role": "A",
+      "layout": "P11",
+      "sigma_f_S_m": 0.197,
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\crossover_predictions\\r5_strict_A_P11\\sf_0p197\\prediction.json",
+      "selection_basis": "Frozen K8/K32 prediction intervals plus fixed exterior margin; no target field or result used",
+      "phase": "limited_crossover_prediction_selected"
+    },
+    {
+      "case_id": "r5_strict_B_P11",
+      "role": "B",
+      "layout": "P11",
+      "sigma_f_S_m": 0.197,
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\crossover_predictions\\r5_strict_B_P11\\sf_0p197\\prediction.json",
+      "selection_basis": "Frozen K8/K32 prediction intervals plus fixed exterior margin; no target field or result used",
+      "phase": "limited_crossover_prediction_selected"
+    },
+    {
+      "case_id": "r5_strict_A_P11",
+      "role": "A",
+      "layout": "P11",
+      "sigma_f_S_m": 0.2045625,
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\crossover_predictions\\r5_strict_A_P11\\sf_0p2045625\\prediction.json",
+      "selection_basis": "Frozen K8/K32 prediction intervals plus fixed exterior margin; no target field or result used",
+      "phase": "limited_crossover_prediction_selected"
+    },
+    {
+      "case_id": "r5_strict_B_P11",
+      "role": "B",
+      "layout": "P11",
+      "sigma_f_S_m": 0.2045625,
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\crossover_predictions\\r5_strict_B_P11\\sf_0p2045625\\prediction.json",
+      "selection_basis": "Frozen K8/K32 prediction intervals plus fixed exterior margin; no target field or result used",
+      "phase": "limited_crossover_prediction_selected"
+    },
+    {
+      "case_id": "r5_strict_A_P77",
+      "role": "A",
+      "layout": "P77",
+      "sigma_f_S_m": 0.16699999999999998,
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\crossover_predictions\\r5_strict_A_P77\\sf_0p167\\prediction.json",
+      "selection_basis": "Frozen K8/K32 prediction intervals plus fixed exterior margin; no target field or result used",
+      "phase": "limited_crossover_prediction_selected"
+    },
+    {
+      "case_id": "r5_strict_B_P77",
+      "role": "B",
+      "layout": "P77",
+      "sigma_f_S_m": 0.16699999999999998,
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\crossover_predictions\\r5_strict_B_P77\\sf_0p167\\prediction.json",
+      "selection_basis": "Frozen K8/K32 prediction intervals plus fixed exterior margin; no target field or result used",
+      "phase": "limited_crossover_prediction_selected"
+    },
+    {
+      "case_id": "r5_strict_A_P77",
+      "role": "A",
+      "layout": "P77",
+      "sigma_f_S_m": 0.1755,
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\crossover_predictions\\r5_strict_A_P77\\sf_0p1755\\prediction.json",
+      "selection_basis": "Frozen K8/K32 prediction intervals plus fixed exterior margin; no target field or result used",
+      "phase": "limited_crossover_prediction_selected"
+    },
+    {
+      "case_id": "r5_strict_B_P77",
+      "role": "B",
+      "layout": "P77",
+      "sigma_f_S_m": 0.1755,
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\crossover_predictions\\r5_strict_B_P77\\sf_0p1755\\prediction.json",
+      "selection_basis": "Frozen K8/K32 prediction intervals plus fixed exterior margin; no target field or result used",
+      "phase": "limited_crossover_prediction_selected"
+    },
+    {
+      "case_id": "r5_strict_A_P17",
+      "role": "A",
+      "layout": "P17",
+      "sigma_f_S_m": 0.172,
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\crossover_predictions\\r5_strict_A_P17\\sf_0p172\\prediction.json",
+      "selection_basis": "Frozen K8/K32 prediction intervals plus fixed exterior margin; no target field or result used",
+      "phase": "limited_crossover_prediction_selected"
+    },
+    {
+      "case_id": "r5_strict_B_P17",
+      "role": "B",
+      "layout": "P17",
+      "sigma_f_S_m": 0.172,
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\crossover_predictions\\r5_strict_B_P17\\sf_0p172\\prediction.json",
+      "selection_basis": "Frozen K8/K32 prediction intervals plus fixed exterior margin; no target field or result used",
+      "phase": "limited_crossover_prediction_selected"
+    },
+    {
+      "case_id": "r5_strict_A_P17",
+      "role": "A",
+      "layout": "P17",
+      "sigma_f_S_m": 0.1805,
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\crossover_predictions\\r5_strict_A_P17\\sf_0p1805\\prediction.json",
+      "selection_basis": "Frozen K8/K32 prediction intervals plus fixed exterior margin; no target field or result used",
+      "phase": "limited_crossover_prediction_selected"
+    },
+    {
+      "case_id": "r5_strict_B_P17",
+      "role": "B",
+      "layout": "P17",
+      "sigma_f_S_m": 0.1805,
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\crossover_predictions\\r5_strict_B_P17\\sf_0p1805\\prediction.json",
+      "selection_basis": "Frozen K8/K32 prediction intervals plus fixed exterior margin; no target field or result used",
+      "phase": "limited_crossover_prediction_selected"
+    }
+  ],
+  "target_count": 12,
+  "prediction_summary": "F:\\岩层裂缝\\runs\\round5_modal_closure\\crossover_predictions_summary.json",
+  "no_target_truth_read": true
+}

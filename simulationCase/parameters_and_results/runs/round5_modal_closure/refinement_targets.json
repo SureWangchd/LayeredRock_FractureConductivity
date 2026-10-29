@@ -1,0 +1,65 @@
+{
+  "selection_reason": "Selected new0.18 side/cancellation states and stronger10 states; unchanged frozen K8/32, no parameter tuning. Opposite crossover signs will be compared with these observed scales, not treated as certified error bounds.",
+  "targets": [
+    {
+      "case_id": "r5_strict_B_P11",
+      "role": "B",
+      "layout": "P11",
+      "sigma_f_S_m": 0.18
+    },
+    {
+      "case_id": "r5_strict_B_P77",
+      "role": "B",
+      "layout": "P77",
+      "sigma_f_S_m": 0.18
+    },
+    {
+      "case_id": "r5_strict_B_P17",
+      "role": "B",
+      "layout": "P17",
+      "sigma_f_S_m": 0.18
+    },
+    {
+      "case_id": "r5_strict_B_P71",
+      "role": "B",
+      "layout": "P71",
+      "sigma_f_S_m": 0.18
+    },
+    {
+      "case_id": "r5_strict_A_P11",
+      "role": "A",
+      "layout": "P11",
+      "sigma_f_S_m": 0.18
+    },
+    {
+      "case_id": "r5_strict_A_P77",
+      "role": "A",
+      "layout": "P77",
+      "sigma_f_S_m": 0.18
+    },
+    {
+      "case_id": "r5_strict_A_P11",
+      "role": "A",
+      "layout": "P11",
+      "sigma_f_S_m": 10
+    },
+    {
+      "case_id": "r5_strict_A_P77",
+      "role": "A",
+      "layout": "P77",
+      "sigma_f_S_m": 10
+    },
+    {
+      "case_id": "r5_strict_B_P11",
+      "role": "B",
+      "layout": "P11",
+      "sigma_f_S_m": 10
+    },
+    {
+      "case_id": "r5_strict_B_P77",
+      "role": "B",
+      "layout": "P77",
+      "sigma_f_S_m": 10
+    }
+  ]
+}

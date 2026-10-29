@@ -1,0 +1,221 @@
+{
+  "script": "F:/岩层裂缝/scripts/jgrse_figures/export_field_sequence.py",
+  "source_response_csv": "F:/岩层裂缝/runs/round4_crossover/conductivity_response.csv",
+  "states": [
+    {
+      "role": "A",
+      "sigma_f_S_m": 0.1,
+      "export_mat": "state_A_sf_0p1.mat",
+      "source_fields": "F:/岩层裂缝/runs/round3_predict/development/strict_h10_L60_A_m3_full/sf_0p1/fields.mat",
+      "source_parameters": "F:/岩层裂缝/runs/round3_predict/development/strict_h10_L60_A_m3_full/sf_0p1/parameters.json",
+      "source_success": "F:/岩层裂缝/runs/round3_predict/development/strict_h10_L60_A_m3_full/sf_0p1/SUCCESS.json",
+      "source_mph": "F:/岩层裂缝/runs/round3_predict/development/strict_h10_L60_A_m3_full/sf_0p1/solution.mph",
+      "source_expressions": [
+        "V",
+        "ec.Ex",
+        "ec.Ey",
+        "ec.Jx",
+        "ec.Jy",
+        "ec.Jx*ec.Ex+ec.Jy*ec.Ey"
+      ],
+      "source_units": [
+        "V",
+        "V/m",
+        "V/m",
+        "A/m^2",
+        "A/m^2",
+        "W/m^3"
+      ],
+      "source_export_implementation": "F:/岩层裂缝/scripts/r3_truth.m",
+      "source_export_settings": "mpheval(edim=2, refine=1, smooth='none')"
+    },
+    {
+      "role": "A",
+      "sigma_f_S_m": 0.159375,
+      "export_mat": "state_A_sf_0p159375.mat",
+      "source_fields": "F:/岩层裂缝/runs/round4_crossover/original/A/sf_0p159375/fields.mat",
+      "source_parameters": "F:/岩层裂缝/runs/round4_crossover/original/A/sf_0p159375/parameters.json",
+      "source_success": "F:/岩层裂缝/runs/round4_crossover/original/A/sf_0p159375/SUCCESS.json",
+      "source_mph": "F:/岩层裂缝/runs/round4_crossover/original/A/sf_0p159375/solution.mph",
+      "source_expressions": [
+        "V",
+        "ec.Ex",
+        "ec.Ey",
+        "ec.Jx",
+        "ec.Jy",
+        "ec.Jx*ec.Ex+ec.Jy*ec.Ey"
+      ],
+      "source_units": [
+        "V",
+        "V/m",
+        "V/m",
+        "A/m^2",
+        "A/m^2",
+        "W/m^3"
+      ],
+      "source_export_implementation": "F:/岩层裂缝/scripts/r3_truth.m",
+      "source_export_settings": "mpheval(edim=2, refine=1, smooth='none')"
+    },
+    {
+      "role": "A",
+      "sigma_f_S_m": 0.3,
+      "export_mat": "state_A_sf_0p3.mat",
+      "source_fields": "F:/岩层裂缝/runs/round3_predict/development/strict_h10_L60_A_m3_full/sf_0p3/fields.mat",
+      "source_parameters": "F:/岩层裂缝/runs/round3_predict/development/strict_h10_L60_A_m3_full/sf_0p3/parameters.json",
+      "source_success": "F:/岩层裂缝/runs/round3_predict/development/strict_h10_L60_A_m3_full/sf_0p3/SUCCESS.json",
+      "source_mph": "F:/岩层裂缝/runs/round3_predict/development/strict_h10_L60_A_m3_full/sf_0p3/solution.mph",
+      "source_expressions": [
+        "V",
+        "ec.Ex",
+        "ec.Ey",
+        "ec.Jx",
+        "ec.Jy",
+        "ec.Jx*ec.Ex+ec.Jy*ec.Ey"
+      ],
+      "source_units": [
+        "V",
+        "V/m",
+        "V/m",
+        "A/m^2",
+        "A/m^2",
+        "W/m^3"
+      ],
+      "source_export_implementation": "F:/岩层裂缝/scripts/r3_truth.m",
+      "source_export_settings": "mpheval(edim=2, refine=1, smooth='none')"
+    },
+    {
+      "role": "B",
+      "sigma_f_S_m": 0.1,
+      "export_mat": "state_B_sf_0p1.mat",
+      "source_fields": "F:/岩层裂缝/runs/round3_predict/development/strict_h10_L60_B_m3_full/sf_0p1/fields.mat",
+      "source_parameters": "F:/岩层裂缝/runs/round3_predict/development/strict_h10_L60_B_m3_full/sf_0p1/parameters.json",
+      "source_success": "F:/岩层裂缝/runs/round3_predict/development/strict_h10_L60_B_m3_full/sf_0p1/SUCCESS.json",
+      "source_mph": "F:/岩层裂缝/runs/round3_predict/development/strict_h10_L60_B_m3_full/sf_0p1/solution.mph",
+      "source_expressions": [
+        "V",
+        "ec.Ex",
+        "ec.Ey",
+        "ec.Jx",
+        "ec.Jy",
+        "ec.Jx*ec.Ex+ec.Jy*ec.Ey"
+      ],
+      "source_units": [
+        "V",
+        "V/m",
+        "V/m",
+        "A/m^2",
+        "A/m^2",
+        "W/m^3"
+      ],
+      "source_export_implementation": "F:/岩层裂缝/scripts/r3_truth.m",
+      "source_export_settings": "mpheval(edim=2, refine=1, smooth='none')"
+    },
+    {
+      "role": "B",
+      "sigma_f_S_m": 0.159375,
+      "export_mat": "state_B_sf_0p159375.mat",
+      "source_fields": "F:/岩层裂缝/runs/round4_crossover/original/B/sf_0p159375/fields.mat",
+      "source_parameters": "F:/岩层裂缝/runs/round4_crossover/original/B/sf_0p159375/parameters.json",
+      "source_success": "F:/岩层裂缝/runs/round4_crossover/original/B/sf_0p159375/SUCCESS.json",
+      "source_mph": "F:/岩层裂缝/runs/round4_crossover/original/B/sf_0p159375/solution.mph",
+      "source_expressions": [
+        "V",
+        "ec.Ex",
+        "ec.Ey",
+        "ec.Jx",
+        "ec.Jy",
+        "ec.Jx*ec.Ex+ec.Jy*ec.Ey"
+      ],
+      "source_units": [
+        "V",
+        "V/m",
+        "V/m",
+        "A/m^2",
+        "A/m^2",
+        "W/m^3"
+      ],
+      "source_export_implementation": "F:/岩层裂缝/scripts/r3_truth.m",
+      "source_export_settings": "mpheval(edim=2, refine=1, smooth='none')"
+    },
+    {
+      "role": "B",
+      "sigma_f_S_m": 0.3,
+      "export_mat": "state_B_sf_0p3.mat",
+      "source_fields": "F:/岩层裂缝/runs/round3_predict/development/strict_h10_L60_B_m3_full/sf_0p3/fields.mat",
+      "source_parameters": "F:/岩层裂缝/runs/round3_predict/development/strict_h10_L60_B_m3_full/sf_0p3/parameters.json",
+      "source_success": "F:/岩层裂缝/runs/round3_predict/development/strict_h10_L60_B_m3_full/sf_0p3/SUCCESS.json",
+      "source_mph": "F:/岩层裂缝/runs/round3_predict/development/strict_h10_L60_B_m3_full/sf_0p3/solution.mph",
+      "source_expressions": [
+        "V",
+        "ec.Ex",
+        "ec.Ey",
+        "ec.Jx",
+        "ec.Jy",
+        "ec.Jx*ec.Ex+ec.Jy*ec.Ey"
+      ],
+      "source_units": [
+        "V",
+        "V/m",
+        "V/m",
+        "A/m^2",
+        "A/m^2",
+        "W/m^3"
+      ],
+      "source_export_implementation": "F:/岩层裂缝/scripts/r3_truth.m",
+      "source_export_settings": "mpheval(edim=2, refine=1, smooth='none')"
+    }
+  ],
+  "segment_diagnostic_sources": [
+    {
+      "role": "A",
+      "sigma_f_S_m": 0.1,
+      "source_csv": "F:/岩层裂缝/runs/round4_crossover/local/original_A_sf_0p1/r4_local_response.csv",
+      "source_scalar_json": "F:/岩层裂缝/runs/round4_crossover/local/original_A_sf_0p1/r4_local_response.json",
+      "whole_Sf_m": 0.006298040507165167,
+      "segment_sum_m": 0.006298040507164978
+    },
+    {
+      "role": "A",
+      "sigma_f_S_m": 0.159375,
+      "source_csv": "F:/岩层裂缝/runs/round4_crossover/local/original_A_sf_0p159375/r4_local_response.csv",
+      "source_scalar_json": "F:/岩层裂缝/runs/round4_crossover/local/original_A_sf_0p159375/r4_local_response.json",
+      "whole_Sf_m": 0.004565723797903936,
+      "segment_sum_m": 0.0045657237979036995
+    },
+    {
+      "role": "A",
+      "sigma_f_S_m": 0.3,
+      "source_csv": "F:/岩层裂缝/runs/round4_crossover/local/original_A_sf_0p3/r4_local_response.csv",
+      "source_scalar_json": "F:/岩层裂缝/runs/round4_crossover/local/original_A_sf_0p3/r4_local_response.json",
+      "whole_Sf_m": 0.0025907314844939616,
+      "segment_sum_m": 0.0025907314844936346
+    },
+    {
+      "role": "B",
+      "sigma_f_S_m": 0.1,
+      "source_csv": "F:/岩层裂缝/runs/round4_crossover/local/original_B_sf_0p1/r4_local_response.csv",
+      "source_scalar_json": "F:/岩层裂缝/runs/round4_crossover/local/original_B_sf_0p1/r4_local_response.json",
+      "whole_Sf_m": 0.0065152768437011475,
+      "segment_sum_m": 0.006515276843700693
+    },
+    {
+      "role": "B",
+      "sigma_f_S_m": 0.159375,
+      "source_csv": "F:/岩层裂缝/runs/round4_crossover/local/original_B_sf_0p159375/r4_local_response.csv",
+      "source_scalar_json": "F:/岩层裂缝/runs/round4_crossover/local/original_B_sf_0p159375/r4_local_response.json",
+      "whole_Sf_m": 0.005166571028726515,
+      "segment_sum_m": 0.005166571028725987
+    },
+    {
+      "role": "B",
+      "sigma_f_S_m": 0.3,
+      "source_csv": "F:/岩层裂缝/runs/round4_crossover/local/original_B_sf_0p3/r4_local_response.csv",
+      "source_scalar_json": "F:/岩层裂缝/runs/round4_crossover/local/original_B_sf_0p3/r4_local_response.json",
+      "whole_Sf_m": 0.0034847093506127098,
+      "segment_sum_m": 0.0034847093506120337
+    }
+  ],
+  "new_COMSOL_solves": 0,
+  "source_data_modified": false,
+  "hashes_computed": false
+}

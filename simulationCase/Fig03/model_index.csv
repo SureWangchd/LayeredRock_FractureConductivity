@@ -1,0 +1,5 @@
+﻿case_id,background_mph,target_mph,sigma_f_S_m,mesh_level
+strict_h10_L60_A_m3_full,F:\岩层裂缝\runs\round3_predict\development\strict_h10_L60_A_m3_full\background.mph,F:\岩层裂缝\runs\2026-10-21_round2\strict_h10_L60_A_m3_full\strict_h10_L60_A_m3_full.mph,10,3
+strict_h10_L60_B_m3_full,F:\岩层裂缝\runs\round3_predict\development\strict_h10_L60_B_m3_full\background.mph,F:\岩层裂缝\runs\2026-10-21_round2\strict_h10_L60_B_m3_full\strict_h10_L60_B_m3_full.mph,10,3
+core_h20_L60_B_m3_full,F:\岩层裂缝\runs\round3_predict\development\core_h20_L60_B_m3_full\background.mph,F:\岩层裂缝\runs\2026-10-21_round2\core_h20_L60_B_m3_full\core_h20_L60_B_m3_full.mph,10,3
+core_h20_L60_C_m3_full,F:\岩层裂缝\runs\round3_predict\development\core_h20_L60_C_m3_full\background.mph,F:\岩层裂缝\runs\2026-10-21_round2\core_h20_L60_C_m3_full\core_h20_L60_C_m3_full.mph,10,3

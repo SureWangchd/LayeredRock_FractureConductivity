@@ -1,0 +1,134 @@
+[
+  {
+    "role": "A",
+    "sigma_f_S_m": 0.1,
+    "sample_points": 161240,
+    "triangles": 53842,
+    "locator_unique_points": 27130,
+    "coordinates_mm_min": [
+      0.0,
+      0.0
+    ],
+    "coordinates_mm_max": [
+      120.0,
+      120.00000000000003
+    ],
+    "triangle_area_sum_mm2": 14400.0,
+    "minimum_triangle_area_mm2": 6.353218405942248e-05,
+    "max_within_triangle_sigma_spread_S_m": 6.938893903907228e-17,
+    "max_sigma_distance_to_prescribed_material_S_m": 4.163336342344337e-17,
+    "max_JdotE_minus_saved_dissipation_W_m3": 0.0,
+    "locator_max_coordinate_rounding_mm": 5.000799774279585e-11,
+    "interpretation": "These are checks of exported visualization topology and field identity, not a new finite-element accuracy study."
+  },
+  {
+    "role": "A",
+    "sigma_f_S_m": 0.159375,
+    "sample_points": 161328,
+    "triangles": 53842,
+    "locator_unique_points": 27130,
+    "coordinates_mm_min": [
+      0.0,
+      0.0
+    ],
+    "coordinates_mm_max": [
+      120.0,
+      120.00000000000003
+    ],
+    "triangle_area_sum_mm2": 14400.0,
+    "minimum_triangle_area_mm2": 6.353218405942248e-05,
+    "max_within_triangle_sigma_spread_S_m": 8.326672684688674e-17,
+    "max_sigma_distance_to_prescribed_material_S_m": 5.551115123125783e-17,
+    "max_JdotE_minus_saved_dissipation_W_m3": 0.0,
+    "locator_max_coordinate_rounding_mm": 5.000799774279585e-11,
+    "interpretation": "These are checks of exported visualization topology and field identity, not a new finite-element accuracy study."
+  },
+  {
+    "role": "A",
+    "sigma_f_S_m": 0.3,
+    "sample_points": 161255,
+    "triangles": 53842,
+    "locator_unique_points": 27130,
+    "coordinates_mm_min": [
+      0.0,
+      0.0
+    ],
+    "coordinates_mm_max": [
+      120.0,
+      120.00000000000003
+    ],
+    "triangle_area_sum_mm2": 14400.0,
+    "minimum_triangle_area_mm2": 6.353218405942248e-05,
+    "max_within_triangle_sigma_spread_S_m": 1.6653345369377348e-16,
+    "max_sigma_distance_to_prescribed_material_S_m": 1.1102230246251565e-16,
+    "max_JdotE_minus_saved_dissipation_W_m3": 0.0,
+    "locator_max_coordinate_rounding_mm": 5.000799774279585e-11,
+    "interpretation": "These are checks of exported visualization topology and field identity, not a new finite-element accuracy study."
+  },
+  {
+    "role": "B",
+    "sigma_f_S_m": 0.1,
+    "sample_points": 161449,
+    "triangles": 53842,
+    "locator_unique_points": 27130,
+    "coordinates_mm_min": [
+      0.0,
+      0.0
+    ],
+    "coordinates_mm_max": [
+      120.0,
+      120.00000000000003
+    ],
+    "triangle_area_sum_mm2": 14400.000000000002,
+    "minimum_triangle_area_mm2": 6.353218405942248e-05,
+    "max_within_triangle_sigma_spread_S_m": 6.938893903907228e-17,
+    "max_sigma_distance_to_prescribed_material_S_m": 4.163336342344337e-17,
+    "max_JdotE_minus_saved_dissipation_W_m3": 0.0,
+    "locator_max_coordinate_rounding_mm": 5.000799774279585e-11,
+    "interpretation": "These are checks of exported visualization topology and field identity, not a new finite-element accuracy study."
+  },
+  {
+    "role": "B",
+    "sigma_f_S_m": 0.159375,
+    "sample_points": 161456,
+    "triangles": 53842,
+    "locator_unique_points": 27130,
+    "coordinates_mm_min": [
+      0.0,
+      0.0
+    ],
+    "coordinates_mm_max": [
+      120.0,
+      120.00000000000003
+    ],
+    "triangle_area_sum_mm2": 14400.000000000002,
+    "minimum_triangle_area_mm2": 6.353218405942248e-05,
+    "max_within_triangle_sigma_spread_S_m": 8.326672684688674e-17,
+    "max_sigma_distance_to_prescribed_material_S_m": 5.551115123125783e-17,
+    "max_JdotE_minus_saved_dissipation_W_m3": 0.0,
+    "locator_max_coordinate_rounding_mm": 5.000799774279585e-11,
+    "interpretation": "These are checks of exported visualization topology and field identity, not a new finite-element accuracy study."
+  },
+  {
+    "role": "B",
+    "sigma_f_S_m": 0.3,
+    "sample_points": 161476,
+    "triangles": 53842,
+    "locator_unique_points": 27130,
+    "coordinates_mm_min": [
+      0.0,
+      0.0
+    ],
+    "coordinates_mm_max": [
+      120.0,
+      120.00000000000003
+    ],
+    "triangle_area_sum_mm2": 14400.000000000002,
+    "minimum_triangle_area_mm2": 6.353218405942248e-05,
+    "max_within_triangle_sigma_spread_S_m": 1.6653345369377348e-16,
+    "max_sigma_distance_to_prescribed_material_S_m": 1.1102230246251565e-16,
+    "max_JdotE_minus_saved_dissipation_W_m3": 0.0,
+    "locator_max_coordinate_rounding_mm": 5.000799774279585e-11,
+    "interpretation": "These are checks of exported visualization topology and field identity, not a new finite-element accuracy study."
+  }
+]

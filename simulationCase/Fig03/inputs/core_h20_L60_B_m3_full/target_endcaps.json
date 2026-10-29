@@ -1,0 +1,8 @@
+{
+  "capminus_area_mm2": 2.6426658029201282,
+  "capplus_area_mm2": 2.6426658029201646,
+  "capminus_V": 0.48747670584480546,
+  "capplus_V": 0.512523309729038,
+  "dV_V": 0.025046603884232577,
+  "definition": "Actual finite endcap area averages; no point-tip substitution."
+}

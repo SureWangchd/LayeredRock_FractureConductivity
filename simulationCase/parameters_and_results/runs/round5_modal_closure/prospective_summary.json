@@ -1,0 +1,36 @@
+{
+  "status": "complete",
+  "states": 48,
+  "missing": [],
+  "by_order": [
+    {
+      "K": 0,
+      "states": 48,
+      "gain_median_relative_error": 0.012343940960448278,
+      "gain_max_relative_error": 0.07129469700241073,
+      "gain_max_absolute_error_S": 0.00023073735121772326,
+      "point_rank_correct": 22,
+      "point_rank_count": 24
+    },
+    {
+      "K": 8,
+      "states": 48,
+      "gain_median_relative_error": 0.00044711819649848603,
+      "gain_max_relative_error": 0.0023633795978778922,
+      "gain_max_absolute_error_S": 7.648815006786741e-06,
+      "point_rank_correct": 24,
+      "point_rank_count": 24
+    },
+    {
+      "K": 32,
+      "states": 48,
+      "gain_median_relative_error": 6.7300218597537e-07,
+      "gain_max_relative_error": 3.1005508064218564e-06,
+      "gain_max_absolute_error_S": 1.0034587570595388e-08,
+      "point_rank_correct": 24,
+      "point_rank_count": 24
+    }
+  ],
+  "selection_used_new_truth": false,
+  "scope": "Prospective validation within the fixed strict-core flat-periphery family, not arbitrary-geometry generalization."
+}

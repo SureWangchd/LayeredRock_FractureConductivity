@@ -1,0 +1,13 @@
+manuscript_figure,input_group,entry,subject,backend
+1,Shared_Fig01_04_07,figure02_phenomenon_v3.py,Matched configuration effect,python
+2,Fig02,run_replot.m,Matched bridge interventions,MATLAB
+3,Fig03,run_replot.m,Energy redistribution,MATLAB
+4,Field01,run_replot.m,Two-dimensional field sequence,MATLAB
+5,Shared_Fig01_04_07,figure06_mechanism_v4.py,Peripheral layers and interface response,python
+6,Fig05,run_replot.m,Self-consistent peripheral response,MATLAB
+7,Fig06,run_replot.m,Independent-layout prediction,MATLAB
+8,Shared_Fig01_04_07,figure09_applicability_v8.py,Applicability for new lengths,python
+9,Fig08,run_replot.m,Finite three-dimensional ellipsoid,MATLAB
+10,Field02,run_replot.m,Finite three-dimensional current fields,MATLAB
+11,Fig09,run_replot.m,Corrected CT ellipsoid comparisons,MATLAB
+12,Field03,run_replot.m,CT retained-core potential fields,MATLAB

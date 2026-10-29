@@ -1,0 +1,8 @@
+quantity,label,core_h20_L60,strict_h10_L60
+sigma0_x_S_m,"$\sigma_{0,x}$ (S m$^{-1}$)",0.05500,0.05500
+sigma0_z_S_m,"$\sigma_{0,z}$ (S m$^{-1}$)",0.0181818,0.0181818
+background_high_area_mm2,High area (mm²),7200.000,7200.000
+background_low_area_mm2,Low area (mm²),7200.000,7200.000
+ellipse_area_mm2,Ellipse area (mm²),141.372,141.372
+replaced_high_area_mm2,Replaced high (mm²),73.867,70.686
+replaced_low_area_mm2,Replaced low (mm²),67.505,70.686

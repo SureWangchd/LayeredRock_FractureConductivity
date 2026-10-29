@@ -1,0 +1,77 @@
+{
+  "sample": "S5",
+  "source": "E:\\FracRock_CT_20261014\\continuation_v1\\inputs\\S5_verified\\IC_S5_centre128.npz",
+  "source_raw": "E:\\FracRock_CT_20261014\\continuation_v1\\inputs\\S5_official\\S5.raw",
+  "source_header": "E:\\FracRock_CT_20261014\\continuation_v1\\inputs\\S5_official\\S5.nhdr",
+  "source_start_index_xyz": [
+    86,
+    86,
+    86
+  ],
+  "source_end_exclusive_xyz": [
+    214,
+    214,
+    214
+  ],
+  "shape_xyz": [
+    128,
+    128,
+    128
+  ],
+  "schema": "r7b_localfit_new_M1_v1",
+  "mode": "formal",
+  "spacing_m": 3.997e-06,
+  "L_m": 0.000511616,
+  "total_volume_m3": 1.339159645477929e-10,
+  "background_pore_volume_m3": 2.8144068739613087e-11,
+  "source_mesh_file": "F:\\岩层裂缝\\runs\\round7_3d_ct\\ct_inputs\\S5_base\\mesh_input.mat",
+  "source_parameters_file": "F:\\岩层裂缝\\runs\\round7_3d_ct\\ct_inputs\\S5_base\\parameters.json",
+  "source_read_only": true,
+  "protection_regions_present": true,
+  "technical_pilot_only": false,
+  "formal_CT_target": true,
+  "potential_order": 1,
+  "skeleton_sigma_S_m": 1e-05,
+  "fluid_and_fracture_sigmas_S_m": [
+    0.18,
+    10.0
+  ],
+  "input_variant": "M1",
+  "mesh_tag": "mesh1",
+  "geometry_tag": "geom1",
+  "ellipsoid_center_m": [
+    0.000255808,
+    0.000255808,
+    0.000255808
+  ],
+  "ellipsoid_semiaxes_m": [
+    0.000127904,
+    0.000127904,
+    6.3952e-06
+  ],
+  "basis_u": [
+    0.5,
+    0.0,
+    0.8660254037844386
+  ],
+  "basis_v": [
+    0.0,
+    1.0,
+    0.0
+  ],
+  "basis_n": [
+    -0.8660254037844386,
+    0.0,
+    0.5
+  ],
+  "ellipsoid_representation": "Native Ellipsoid analytic target; adaptively fitted piecewise-planar zero-distance interface; explicit conforming cut tetrahedra, NOT centroid tagging",
+  "new_surface_version_not_old_CAD_tessellation": true,
+  "geometry_preprocess_distance_tolerance_over_L": 5e-05,
+  "node_levelset_snap_over_L": 5e-06,
+  "refinement_preserves_frozen_surface": false,
+  "all_original_phase_labels_preserved": true,
+  "CT_resampling": "none",
+  "fixed_surface_identifier": "localfit_S5_formal_M1_20261027_154057",
+  "vertices": 2612259,
+  "tetrahedra": 15118643
+}

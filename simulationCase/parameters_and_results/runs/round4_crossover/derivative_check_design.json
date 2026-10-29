@@ -1,0 +1,13 @@
+{
+  "purpose": "Check posthoc derivative near the original crossover, using +/-1% and +/-0.5% conductivity; no prediction tuning",
+  "entries": [
+    {
+      "role": "A",
+      "sigma_f_S_m": 0.159375
+    },
+    {
+      "role": "B",
+      "sigma_f_S_m": 0.159375
+    }
+  ]
+}

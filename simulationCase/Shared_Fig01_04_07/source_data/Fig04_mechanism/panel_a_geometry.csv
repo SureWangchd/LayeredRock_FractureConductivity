@@ -1,0 +1,9 @@
+﻿layout,side,z_start_mm,z_end_mm
+NN,lower,25,27
+NN,upper,93,95
+FF,lower,23,25
+FF,upper,95,97
+NF,lower,25,27
+NF,upper,95,97
+FN,lower,23,25
+FN,upper,93,95

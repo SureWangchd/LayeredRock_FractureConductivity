@@ -1,0 +1,19 @@
+phase,layout,sigma_f_S_m,K,D_prediction_S,D_COMSOL_S,D_signed_error_S,D_absolute_error_S,point_sign_correct,interpretation
+prospective,P11,0.18,0,-3.02395860245774e-05,-1.12481143853295e-05,-1.89914716392479e-05,1.89914716392479e-05,True,Point-value rank only; near-tie significance requires separate mesh evidence.
+prospective,P11,0.18,8,-1.16000603161137e-05,-1.12481143853295e-05,-3.5194593078422e-07,3.5194593078422e-07,True,Point-value rank only; near-tie significance requires separate mesh evidence.
+prospective,P11,0.18,32,-1.12488407728734e-05,-1.12481143853295e-05,-7.2638754386456e-10,7.2638754386456e-10,True,Point-value rank only; near-tie significance requires separate mesh evidence.
+prospective,P77,0.18,0,-3.02395860245774e-05,5.82405417463155e-06,-3.6063640199209e-05,3.6063640199209e-05,False,Point-value rank only; near-tie significance requires separate mesh evidence.
+prospective,P77,0.18,8,5.00974798824452e-06,5.82405417463155e-06,-8.14306186387032e-07,8.14306186387032e-07,True,Point-value rank only; near-tie significance requires separate mesh evidence.
+prospective,P77,0.18,32,5.82299681328724e-06,5.82405417463155e-06,-1.05736134431433e-09,1.05736134431433e-09,True,Point-value rank only; near-tie significance requires separate mesh evidence.
+prospective,P17,0.18,0,-3.02395860245774e-05,2.33973829186912e-06,-3.25793243164466e-05,3.25793243164466e-05,False,Point-value rank only; near-tie significance requires separate mesh evidence.
+prospective,P17,0.18,8,1.56784429007628e-06,2.33973829186912e-06,-7.71894001792839e-07,7.71894001792839e-07,True,Point-value rank only; near-tie significance requires separate mesh evidence.
+prospective,P17,0.18,32,2.3386881935622e-06,2.33973829186912e-06,-1.0500983069206e-09,1.0500983069206e-09,True,Point-value rank only; near-tie significance requires separate mesh evidence.
+prospective,P71,0.18,0,-3.02395860245774e-05,-7.76933154811657e-06,-2.24702544764609e-05,2.24702544764609e-05,True,Point-value rank only; near-tie significance requires separate mesh evidence.
+prospective,P71,0.18,8,-8.16371051730325e-06,-7.76933154811657e-06,-3.94378969186676e-07,3.94378969186676e-07,True,Point-value rank only; near-tie significance requires separate mesh evidence.
+prospective,P71,0.18,32,-7.77006521860898e-06,-7.76933154811657e-06,-7.33670492414351e-10,7.33670492414351e-10,True,Point-value rank only; near-tie significance requires separate mesh evidence.
+prospective,P41,0.18,0,-3.02395860245774e-05,-8.98586587722364e-06,-2.12537201473538e-05,2.12537201473538e-05,True,Point-value rank only; near-tie significance requires separate mesh evidence.
+prospective,P41,0.18,8,-9.37308061746758e-06,-8.98586587722364e-06,-3.87214740243946e-07,3.87214740243946e-07,True,Point-value rank only; near-tie significance requires separate mesh evidence.
+prospective,P41,0.18,32,-8.98659755703413e-06,-8.98586587722364e-06,-7.31679810489494e-10,7.31679810489494e-10,True,Point-value rank only; near-tie significance requires separate mesh evidence.
+prospective,P14,0.18,0,-3.02395860245774e-05,-2.07619068239018e-06,-2.81633953421873e-05,2.81633953421873e-05,True,Point-value rank only; near-tie significance requires separate mesh evidence.
+prospective,P14,0.18,8,-2.79701407530919e-06,-2.07619068239018e-06,-7.20823392919012e-07,7.20823392919012e-07,True,Point-value rank only; near-tie significance requires separate mesh evidence.
+prospective,P14,0.18,32,-2.07719326045241e-06,-2.07619068239018e-06,-1.00257806223691e-09,1.00257806223691e-09,True,Point-value rank only; near-tie significance requires separate mesh evidence.

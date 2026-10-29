@@ -1,0 +1,65 @@
+{
+  "scope": "Only existing M1 corrected-localfit target potential slices; no MPH load, no field solve or figure rendering",
+  "difference": "V_H_target-V_T_target at matched coordinates; not a target-minus-background perturbation difference",
+  "statistics": "Unweighted statistics of uniform sampled points; not area/volume/flux integrals or uncertainty estimates",
+  "sources": [
+    {
+      "sample": "S1",
+      "T_slice": "F:\\岩层裂缝\\runs\\round7b_localfit\\states\\S1_M1\\water_0p18\\T_target\\slice_y_500_permil.csv",
+      "H_slice": "F:\\岩层裂缝\\runs\\round7b_localfit\\states\\S1_M1\\water_0p18\\H_target\\slice_y_500_permil.csv",
+      "current_parameters": "F:\\岩层裂缝\\runs\\round7b_localfit\\states\\S1_M1\\water_0p18\\T_target\\parameters.json",
+      "protection_metadata": "F:\\岩层裂缝\\runs\\round7b_localfit\\inputs\\S1_M1\\source_parameters_read_only.json",
+      "current_label_preservation_record": "F:\\岩层裂缝\\runs\\round7b_localfit\\inputs\\S1_M1\\ORIGINAL_CT_PHASE_PRESERVATION.json",
+      "protected_core_z_m": [
+        0.000277856,
+        0.000833568
+      ],
+      "protected_electrode_z_m": [
+        [
+          0,
+          0.0001111424
+        ],
+        [
+          0.0010002816,
+          0.001111424
+        ]
+      ],
+      "regions": {
+        "0": "retained core and electrode contact regions",
+        "1": "0.10L<z<0.25L",
+        "2": "0.75L<z<0.90L"
+      },
+      "inherited_current_labels_verified": true,
+      "protected_plane_crossings": 0
+    },
+    {
+      "sample": "S5",
+      "T_slice": "F:\\岩层裂缝\\runs\\round7b_localfit\\states\\S5_M1\\water_10\\T_target\\slice_y_500_permil.csv",
+      "H_slice": "F:\\岩层裂缝\\runs\\round7b_localfit\\states\\S5_M1\\water_10\\H_target\\slice_y_500_permil.csv",
+      "current_parameters": "F:\\岩层裂缝\\runs\\round7b_localfit\\states\\S5_M1\\water_10\\T_target\\parameters.json",
+      "protection_metadata": "F:\\岩层裂缝\\runs\\round7b_localfit\\inputs\\S5_M1\\source_parameters_read_only.json",
+      "current_label_preservation_record": "F:\\岩层裂缝\\runs\\round7b_localfit\\inputs\\S5_M1\\ORIGINAL_CT_PHASE_PRESERVATION.json",
+      "protected_core_z_m": [
+        0.000127904,
+        0.00038371200000000003
+      ],
+      "protected_electrode_z_m": [
+        [
+          0,
+          5.11616e-05
+        ],
+        [
+          0.00046045440000000003,
+          0.000511616
+        ]
+      ],
+      "regions": {
+        "0": "retained core and electrode contact regions",
+        "1": "0.10L<z<0.25L",
+        "2": "0.75L<z<0.90L"
+      },
+      "inherited_current_labels_verified": true,
+      "protected_plane_crossings": 0
+    }
+  ]
+}

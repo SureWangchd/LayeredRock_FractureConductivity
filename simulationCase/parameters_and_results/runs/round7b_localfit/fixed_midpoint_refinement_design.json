@@ -1,0 +1,27 @@
+{
+  "schema": "r7b_fixed_midpoint_h_refinement_v1",
+  "samples": [
+    "S1",
+    "S5"
+  ],
+  "levels": [
+    "M2",
+    "M3"
+  ],
+  "padding_native_voxels": 0,
+  "nearfield_enabled": false,
+  "selected_cell_rule": "All inherited ellipsoid cells, plus optional cells wholly in a fixed ellipsoid bounding box padded by declared native voxels",
+  "selected_edge_rule": "One longest ORIGINAL edge per selected cell; exact length ties use smallest canonical global edge key",
+  "subdivision_rule": "Globally sort unique original edges; every incident cell splits surviving children on those edges in that same global order",
+  "propagation_rule": "Unselected neighbours sharing chosen original edges are subdivided to maintain shared complete faces",
+  "new_vertex_rule": "Arithmetic midpoint of the preceding actual mesh edge only; original vertices unchanged",
+  "geometry_or_material_refit": false,
+  "solution_fields_read": false,
+  "source_phase_labels_reclassified": false,
+  "max_tetrahedra": 50000000,
+  "max_vertices": 9000000,
+  "parent_volume_relative_tolerance": 2e-09,
+  "supersedes": "Failed native COMSOL Refine plan; native refinement changed frozen overlap volumes and produced negative element quality before any M2 target was solved",
+  "scientific_scope": "Local h-refinement around the finite ellipsoid and conforming neighbours; not a claim of global CT continuum-limit convergence",
+  "frozen_local": "2026-10-27T16:57:35"
+}

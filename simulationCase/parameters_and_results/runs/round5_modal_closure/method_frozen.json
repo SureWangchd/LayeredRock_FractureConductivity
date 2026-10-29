@@ -1,0 +1,161 @@
+{
+  "version": "r5_selfconsistent_modal_v1",
+  "frozen_local": "2026-10-26T01:07:04",
+  "K_star": 8,
+  "K_reference": 32,
+  "selection": {
+    "status": "development_complete_pending_root_review",
+    "scope": "Only 24 previously solved development states; no prospective target used for order selection.",
+    "method_frozen_written": false,
+    "candidate_order_results": [
+      {
+        "K": 0,
+        "available_gain_states": 24,
+        "required_side_effects_available": 8,
+        "complete": true,
+        "gain_max_relative_error": 0.03504808171404318,
+        "gain_median_relative_error": 0.008884555956534135,
+        "required_fine_side_max_relative_error": 1.0,
+        "required_fine_side_all_signs_correct": false,
+        "gain_requirement_passed": false,
+        "side_requirement_passed": false,
+        "both_requirements_passed": false
+      },
+      {
+        "K": 1,
+        "available_gain_states": 24,
+        "required_side_effects_available": 8,
+        "complete": true,
+        "gain_max_relative_error": 0.03304530730293234,
+        "gain_median_relative_error": 0.008101088598148619,
+        "required_fine_side_max_relative_error": 0.9733865658996007,
+        "required_fine_side_all_signs_correct": true,
+        "gain_requirement_passed": false,
+        "side_requirement_passed": false,
+        "both_requirements_passed": false
+      },
+      {
+        "K": 2,
+        "available_gain_states": 24,
+        "required_side_effects_available": 8,
+        "complete": true,
+        "gain_max_relative_error": 0.021321093403176228,
+        "gain_median_relative_error": 0.004953743890814691,
+        "required_fine_side_max_relative_error": 0.664646517708718,
+        "required_fine_side_all_signs_correct": true,
+        "gain_requirement_passed": false,
+        "side_requirement_passed": false,
+        "both_requirements_passed": false
+      },
+      {
+        "K": 4,
+        "available_gain_states": 24,
+        "required_side_effects_available": 8,
+        "complete": true,
+        "gain_max_relative_error": 0.010204625660905792,
+        "gain_median_relative_error": 0.0026960681189680735,
+        "required_fine_side_max_relative_error": 0.37438241528855043,
+        "required_fine_side_all_signs_correct": true,
+        "gain_requirement_passed": false,
+        "side_requirement_passed": false,
+        "both_requirements_passed": false
+      },
+      {
+        "K": 8,
+        "available_gain_states": 24,
+        "required_side_effects_available": 8,
+        "complete": true,
+        "gain_max_relative_error": 0.0013373280926678825,
+        "gain_median_relative_error": 0.000505488185112228,
+        "required_fine_side_max_relative_error": 0.05310983385957455,
+        "required_fine_side_all_signs_correct": true,
+        "gain_requirement_passed": true,
+        "side_requirement_passed": true,
+        "both_requirements_passed": true
+      },
+      {
+        "K": 16,
+        "available_gain_states": 24,
+        "required_side_effects_available": 8,
+        "complete": true,
+        "gain_max_relative_error": 9.530030236108723e-05,
+        "gain_median_relative_error": 4.4205344735508085e-05,
+        "required_fine_side_max_relative_error": 0.0013899441960332959,
+        "required_fine_side_all_signs_correct": true,
+        "gain_requirement_passed": true,
+        "side_requirement_passed": true,
+        "both_requirements_passed": true
+      },
+      {
+        "K": 32,
+        "available_gain_states": 24,
+        "required_side_effects_available": 8,
+        "complete": true,
+        "gain_max_relative_error": 1.8102099581786094e-06,
+        "gain_median_relative_error": 8.125591914787084e-07,
+        "required_fine_side_max_relative_error": 8.386247411530481e-05,
+        "required_fine_side_all_signs_correct": true,
+        "gain_requirement_passed": true,
+        "side_requirement_passed": true,
+        "both_requirements_passed": true
+      },
+      {
+        "K": 64,
+        "available_gain_states": 24,
+        "required_side_effects_available": 8,
+        "complete": true,
+        "gain_max_relative_error": 7.752235880144952e-07,
+        "gain_median_relative_error": 3.0331908663880706e-07,
+        "required_fine_side_max_relative_error": 8.379091878439475e-05,
+        "required_fine_side_all_signs_correct": true,
+        "gain_requirement_passed": true,
+        "side_requirement_passed": true,
+        "both_requirements_passed": true
+      }
+    ],
+    "gain_requirement": {
+      "max_relative_error": 0.01,
+      "state_count": 24
+    },
+    "side_requirement": {
+      "max_relative_error": 0.1,
+      "require_sign": true,
+      "count": 8,
+      "sigma_f_S_m": 0.159375,
+      "reference": "Saved fine_factorial_comparison.csv fine values; only gA/gB four single-side effects verified by prior refinement."
+    },
+    "minimum_K_for_gain_only": 8,
+    "recommended_K_star": 8,
+    "low_order_meets_both": true,
+    "fallback": null,
+    "Mref_32_64_check": {
+      "status": "complete",
+      "g_32_to_64_max_relative_change": 1.0475336846823589e-06,
+      "resolved_side_32_to_64_max_change_over_fine_effect": 3.912493786343868e-06,
+      "gain_change_threshold": 0.0001,
+      "side_change_threshold": 0.01,
+      "changes_pass_thresholds": true,
+      "order32_passes_truth_accuracy_requirements": true,
+      "Mref_suggested": 32
+    },
+    "missing_states": [],
+    "precision_limits": "Gain accuracy and tiny side-difference accuracy are distinct. Prior refinement diagnostics are observed mesh trends, not rigorous error bounds. Joint cancellation and interactions are not forced through relative-error gates."
+  },
+  "implementation": "COMSOL 6.3 physical FE M0 + signed analytic modal corrections; self-consistent full-core forward solve",
+  "scope": "Unchanged strict A/B core and protected buffers; only registered flat peripheral strip positions",
+  "inputs": [
+    "core geometry and conductivity",
+    "real peripheral layer sequence",
+    "M0 physical FE reference matrices",
+    "external 0/1 V electrodes"
+  ],
+  "no_target_field_input": true,
+  "third_round_predictor_modified": false,
+  "tail": "All modes n>K retain the common anisotropic M0 response",
+  "out_of_plane_thickness_m": 1,
+  "base_mesh_global_mm": 1.2,
+  "base_mesh_ellipse_mm": 0.15,
+  "validation_policy": "Keep all48 predictions and failed tests. No tuning K using new targets. Separate gain, side effects, and cancellation accuracy.",
+  "reference_check": "32/64 truncation tested separately from future core and target mesh checks",
+  "implementation_snapshot": "F:\\岩层裂缝\\runs\\round5_modal_closure\\frozen_implementation"
+}

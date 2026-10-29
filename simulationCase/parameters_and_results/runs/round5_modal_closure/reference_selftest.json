@@ -1,0 +1,10 @@
+{
+  "scope": "Taskpack analytical/algebra self-tests only; not COMSOL results.",
+  "execution_date_Asia_Shanghai": "2026-10-26",
+  "original_taskpack_files_modified": false,
+  "tests_run": 16,
+  "passed": 16,
+  "failures": 0,
+  "errors": 0,
+  "numpy_version": "2.2.6"
+}

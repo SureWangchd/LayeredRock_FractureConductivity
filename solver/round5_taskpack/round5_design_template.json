@@ -1,0 +1,179 @@
+{
+  "status": "proposed_design_not_executed",
+  "scope": "2D, flat layered exterior, fixed strict A/B core; no new COMSOL results in this package",
+  "project_root_expected": "F:/岩层裂缝",
+  "new_output_root": "runs/round5_modal_closure",
+  "sample_width_mm": 120,
+  "sample_height_mm": 120,
+  "core_z_mm": [
+    30,
+    90
+  ],
+  "electrode_buffers_z_mm": [
+    [
+      0,
+      20
+    ],
+    [
+      100,
+      120
+    ]
+  ],
+  "ellipse": {
+    "full_length_mm": 60,
+    "full_width_mm": 3,
+    "angle_degrees": 60,
+    "center_mm": [
+      60,
+      60
+    ]
+  },
+  "material_conductivity_S_m": {
+    "low": 0.01,
+    "high": 0.1
+  },
+  "out_of_plane_thickness_m": 1.0,
+  "electrode_V": {
+    "bottom": 0.0,
+    "top": 1.0
+  },
+  "roles": [
+    "A",
+    "B"
+  ],
+  "new_sigma_f_S_m": [
+    0.1,
+    0.18,
+    0.3,
+    10.0
+  ],
+  "known_development_layouts": {
+    "NN": [
+      3,
+      3
+    ],
+    "NF": [
+      3,
+      5
+    ],
+    "FN": [
+      5,
+      3
+    ],
+    "FF": [
+      5,
+      5
+    ]
+  },
+  "known_development_sigma_f_S_m": [
+    0.1,
+    0.159375,
+    0.3
+  ],
+  "mode_order_candidates": [
+    0,
+    1,
+    2,
+    4,
+    8,
+    16,
+    32
+  ],
+  "reference_initial_order": 32,
+  "reference_max_order": 64,
+  "high_mode_tail": "common homogeneous anisotropic exterior; NEVER zero",
+  "new_layouts": [
+    {
+      "layout_id": "P11",
+      "distance_lower_mm": 1,
+      "distance_upper_mm": 1,
+      "lower_low_band_z_mm": [
+        27,
+        29
+      ],
+      "upper_high_band_z_mm": [
+        91,
+        93
+      ]
+    },
+    {
+      "layout_id": "P77",
+      "distance_lower_mm": 7,
+      "distance_upper_mm": 7,
+      "lower_low_band_z_mm": [
+        21,
+        23
+      ],
+      "upper_high_band_z_mm": [
+        97,
+        99
+      ]
+    },
+    {
+      "layout_id": "P17",
+      "distance_lower_mm": 1,
+      "distance_upper_mm": 7,
+      "lower_low_band_z_mm": [
+        27,
+        29
+      ],
+      "upper_high_band_z_mm": [
+        97,
+        99
+      ]
+    },
+    {
+      "layout_id": "P71",
+      "distance_lower_mm": 7,
+      "distance_upper_mm": 1,
+      "lower_low_band_z_mm": [
+        21,
+        23
+      ],
+      "upper_high_band_z_mm": [
+        91,
+        93
+      ]
+    },
+    {
+      "layout_id": "P41",
+      "distance_lower_mm": 4,
+      "distance_upper_mm": 1,
+      "lower_low_band_z_mm": [
+        24,
+        26
+      ],
+      "upper_high_band_z_mm": [
+        91,
+        93
+      ]
+    },
+    {
+      "layout_id": "P14",
+      "distance_lower_mm": 1,
+      "distance_upper_mm": 4,
+      "lower_low_band_z_mm": [
+        27,
+        29
+      ],
+      "upper_high_band_z_mm": [
+        94,
+        96
+      ]
+    }
+  ],
+  "planned_new_initial_targets": 48,
+  "limited_crossover_validation_layouts": [
+    "P11",
+    "P77",
+    "P17"
+  ],
+  "crossover_sigma_interval_S_m": [
+    0.1,
+    0.3
+  ],
+  "initial_max_additional_full_crossover_targets": 12,
+  "prediction_before_truth": true,
+  "K_star": null,
+  "truth_results": null
+}

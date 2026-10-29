@@ -1,0 +1,518 @@
+path,source,bytes,role
+simulationCase/Field01/caption_EN.txt,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field01/caption_EN.txt,753,figure input or replot code
+simulationCase/Field01/figure_field_sequence_matlab.m,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field01/figure_field_sequence_matlab.m,11354,figure input or replot code
+simulationCase/Field01/finish_field_sequence.py,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field01/finish_field_sequence.py,2516,figure input or replot code
+simulationCase/Field01/run_replot.m,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field01/run_replot.m,194,figure input or replot code
+simulationCase/Field01/data/field_export_checks.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field01/data/field_export_checks.json,4732,figure input or replot code
+simulationCase/Field01/data/geometry.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field01/data/geometry.json,4519,figure input or replot code
+simulationCase/Field01/data/original_D_scan.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field01/data/original_D_scan.csv,4238,figure input or replot code
+simulationCase/Field01/data/original_scan_source_rows.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field01/data/original_scan_source_rows.csv,34009,figure input or replot code
+simulationCase/Field01/data/roi_current_statistics.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field01/data/roi_current_statistics.csv,2003,figure input or replot code
+simulationCase/Field01/data/segment_marginal_B_minus_A.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field01/data/segment_marginal_B_minus_A.csv,7696,figure input or replot code
+simulationCase/Field01/data/segment_marginal_source_rows.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field01/data/segment_marginal_source_rows.csv,29991,figure input or replot code
+simulationCase/Field01/data/segment_marginal_states.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field01/data/segment_marginal_states.csv,9348,figure input or replot code
+simulationCase/Field01/data/selected_six_states.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field01/data/selected_six_states.csv,2218,figure input or replot code
+simulationCase/Field01/data/source_manifest.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field01/data/source_manifest.json,8703,figure input or replot code
+simulationCase/Field01/data/state_A_sf_0p1.mat,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field01/data/state_A_sf_0p1.mat,8758788,figure input or replot code
+simulationCase/Field01/data/state_A_sf_0p159375.mat,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field01/data/state_A_sf_0p159375.mat,8853219,figure input or replot code
+simulationCase/Field01/data/state_A_sf_0p159375_display_grid.mat,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field01/data/state_A_sf_0p159375_display_grid.mat,11046334,figure input or replot code
+simulationCase/Field01/data/state_A_sf_0p1_display_grid.mat,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field01/data/state_A_sf_0p1_display_grid.mat,10972443,figure input or replot code
+simulationCase/Field01/data/state_A_sf_0p3.mat,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field01/data/state_A_sf_0p3.mat,8836335,figure input or replot code
+simulationCase/Field01/data/state_A_sf_0p3_display_grid.mat,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field01/data/state_A_sf_0p3_display_grid.mat,11097123,figure input or replot code
+simulationCase/Field01/data/state_B_sf_0p1.mat,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field01/data/state_B_sf_0p1.mat,8979650,figure input or replot code
+simulationCase/Field01/data/state_B_sf_0p159375.mat,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field01/data/state_B_sf_0p159375.mat,9051984,figure input or replot code
+simulationCase/Field01/data/state_B_sf_0p159375_display_grid.mat,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field01/data/state_B_sf_0p159375_display_grid.mat,10982080,figure input or replot code
+simulationCase/Field01/data/state_B_sf_0p1_display_grid.mat,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field01/data/state_B_sf_0p1_display_grid.mat,10928792,figure input or replot code
+simulationCase/Field01/data/state_B_sf_0p3.mat,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field01/data/state_B_sf_0p3.mat,9022817,figure input or replot code
+simulationCase/Field01/data/state_B_sf_0p3_display_grid.mat,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field01/data/state_B_sf_0p3_display_grid.mat,11050795,figure input or replot code
+simulationCase/Field01/source_notes/ling_L08_F02_stream_colormap.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field01/source_notes/ling_L08_F02_stream_colormap.csv,9472,figure input or replot code
+simulationCase/Field02/caption_EN.txt,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field02/caption_EN.txt,452,figure input or replot code
+simulationCase/Field02/figure_field3d_refined_matlab.m,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field02/figure_field3d_refined_matlab.m,11572,figure input or replot code
+simulationCase/Field02/finish_field3d_paraview.py,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field02/finish_field3d_paraview.py,17857,figure input or replot code
+simulationCase/Field02/run_replot.m,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field02/run_replot.m,188,figure input or replot code
+simulationCase/Field02/plot_inputs/dense_A_P11_sf10.mat,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field02/plot_inputs/dense_A_P11_sf10.mat,11559718,figure input or replot code
+simulationCase/Field02/plot_inputs/dense_A_P77_sf10.mat,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field02/plot_inputs/dense_A_P77_sf10.mat,11535167,figure input or replot code
+simulationCase/Field02/plot_inputs/dense_B_P11_sf10.mat,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field02/plot_inputs/dense_B_P11_sf10.mat,11615235,figure input or replot code
+simulationCase/Field02/plot_inputs/dense_B_P77_sf10.mat,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field02/plot_inputs/dense_B_P77_sf10.mat,11594472,figure input or replot code
+simulationCase/Field02/plot_inputs/dense_sampling_manifest.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field02/plot_inputs/dense_sampling_manifest.json,7070,figure input or replot code
+simulationCase/Field02/plot_inputs/geometry.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field02/plot_inputs/geometry.json,17152,figure input or replot code
+simulationCase/Field02/plot_inputs/paths_A_P11_sf10.mat,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field02/plot_inputs/paths_A_P11_sf10.mat,445644,figure input or replot code
+simulationCase/Field02/plot_inputs/paths_A_P77_sf10.mat,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field02/plot_inputs/paths_A_P77_sf10.mat,445936,figure input or replot code
+simulationCase/Field02/plot_inputs/paths_B_P11_sf10.mat,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field02/plot_inputs/paths_B_P11_sf10.mat,492640,figure input or replot code
+simulationCase/Field02/plot_inputs/paths_B_P77_sf10.mat,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field02/plot_inputs/paths_B_P77_sf10.mat,490576,figure input or replot code
+simulationCase/Field02/plot_inputs/same_role_peripheral_effects.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field02/plot_inputs/same_role_peripheral_effects.csv,510,figure input or replot code
+simulationCase/Field02/plot_inputs/sampling_complete.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field02/plot_inputs/sampling_complete.json,137,figure input or replot code
+simulationCase/Field02/plot_inputs/selected_four_states.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field02/plot_inputs/selected_four_states.csv,3018,figure input or replot code
+simulationCase/Field02/source_notes/ling_L08_F02_stream_colormap.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field02/source_notes/ling_L08_F02_stream_colormap.csv,9472,figure input or replot code
+simulationCase/Field03/caption_EN.txt,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field03/caption_EN.txt,568,figure input or replot code
+simulationCase/Field03/figure_ct_field_matlab.m,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field03/figure_ct_field_matlab.m,13278,figure input or replot code
+simulationCase/Field03/finish_field3d_paraview.py,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field03/finish_field3d_paraview.py,17857,figure input or replot code
+simulationCase/Field03/run_replot.m,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field03/run_replot.m,181,figure input or replot code
+simulationCase/Field03/plot_inputs/core_deltaV_summary.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field03/plot_inputs/core_deltaV_summary.csv,1750,figure input or replot code
+simulationCase/Field03/plot_inputs/ct_main4_pairs.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field03/plot_inputs/ct_main4_pairs.csv,7380,figure input or replot code
+simulationCase/Field03/plot_inputs/geometry_S1.mat,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field03/plot_inputs/geometry_S1.mat,5525544,figure input or replot code
+simulationCase/Field03/plot_inputs/geometry_S5.mat,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field03/plot_inputs/geometry_S5.mat,5508795,figure input or replot code
+simulationCase/Field03/plot_inputs/ling_L08_F02_stream_colormap.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field03/plot_inputs/ling_L08_F02_stream_colormap.csv,9472,figure input or replot code
+simulationCase/Field03/plot_inputs/original_slice_sources.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field03/plot_inputs/original_slice_sources.json,2759,figure input or replot code
+simulationCase/Field03/plot_inputs/S1_M1_deltaV_H_minus_T_y050L.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field03/plot_inputs/S1_M1_deltaV_H_minus_T_y050L.csv,2078541,figure input or replot code
+simulationCase/Field03/plot_inputs/S5_M1_deltaV_H_minus_T_y050L.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field03/plot_inputs/S5_M1_deltaV_H_minus_T_y050L.csv,2003370,figure input or replot code
+simulationCase/Field03/plot_inputs/voxel_display_S1.mat,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field03/plot_inputs/voxel_display_S1.mat,962824,figure input or replot code
+simulationCase/Field03/plot_inputs/voxel_display_S5.mat,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Field03/plot_inputs/voxel_display_S5.mat,763396,figure input or replot code
+simulationCase/Fig02/caption_EN.txt,outputs/Ling_Writing/JGRSE_FinalRevision_20261029/work/Fig02_replot/caption_EN.txt,657,figure input or replot code
+simulationCase/Fig02/model_index.csv,outputs/Ling_Writing/JGRSE_FinalRevision_20261029/work/Fig02_replot/model_index.csv,701,figure input or replot code
+simulationCase/Fig02/plotted_metrics.csv,outputs/Ling_Writing/JGRSE_FinalRevision_20261029/work/Fig02_replot/plotted_metrics.csv,425,figure input or replot code
+simulationCase/Fig02/plotted_potential_profiles.csv,outputs/Ling_Writing/JGRSE_FinalRevision_20261029/work/Fig02_replot/plotted_potential_profiles.csv,15397,figure input or replot code
+simulationCase/Fig02/run_replot.m,outputs/Ling_Writing/JGRSE_FinalRevision_20261029/work/Fig02_replot/run_replot.m,211,figure input or replot code
+simulationCase/Fig02/inputs/background_result.csv,outputs/Ling_Writing/JGRSE_FinalRevision_20261029/work/Fig02_replot/inputs/background_result.csv,2214,figure input or replot code
+simulationCase/Fig02/inputs/cut/local_window_fields.csv,outputs/Ling_Writing/JGRSE_FinalRevision_20261029/work/Fig02_replot/inputs/cut/local_window_fields.csv,9863449,figure input or replot code
+simulationCase/Fig02/inputs/cut/mesh_stats.json,outputs/Ling_Writing/JGRSE_FinalRevision_20261029/work/Fig02_replot/inputs/cut/mesh_stats.json,857,figure input or replot code
+simulationCase/Fig02/inputs/cut/parameters.json,outputs/Ling_Writing/JGRSE_FinalRevision_20261029/work/Fig02_replot/inputs/cut/parameters.json,2786,figure input or replot code
+simulationCase/Fig02/inputs/cut/result.csv,outputs/Ling_Writing/JGRSE_FinalRevision_20261029/work/Fig02_replot/inputs/cut/result.csv,2509,figure input or replot code
+simulationCase/Fig02/inputs/cut/section_current.csv,outputs/Ling_Writing/JGRSE_FinalRevision_20261029/work/Fig02_replot/inputs/cut/section_current.csv,61386,figure input or replot code
+simulationCase/Fig02/inputs/cut/topology_interfaces.json,outputs/Ling_Writing/JGRSE_FinalRevision_20261029/work/Fig02_replot/inputs/cut/topology_interfaces.json,5373,figure input or replot code
+simulationCase/Fig02/inputs/full/local_window_fields.csv,outputs/Ling_Writing/JGRSE_FinalRevision_20261029/work/Fig02_replot/inputs/full/local_window_fields.csv,9914804,figure input or replot code
+simulationCase/Fig02/inputs/full/mesh_stats.json,outputs/Ling_Writing/JGRSE_FinalRevision_20261029/work/Fig02_replot/inputs/full/mesh_stats.json,855,figure input or replot code
+simulationCase/Fig02/inputs/full/parameters.json,outputs/Ling_Writing/JGRSE_FinalRevision_20261029/work/Fig02_replot/inputs/full/parameters.json,2788,figure input or replot code
+simulationCase/Fig02/inputs/full/result.csv,outputs/Ling_Writing/JGRSE_FinalRevision_20261029/work/Fig02_replot/inputs/full/result.csv,2467,figure input or replot code
+simulationCase/Fig02/inputs/full/section_current.csv,outputs/Ling_Writing/JGRSE_FinalRevision_20261029/work/Fig02_replot/inputs/full/section_current.csv,63836,figure input or replot code
+simulationCase/Fig02/inputs/full/topology_interfaces.json,outputs/Ling_Writing/JGRSE_FinalRevision_20261029/work/Fig02_replot/inputs/full/topology_interfaces.json,4985,figure input or replot code
+simulationCase/Fig02/inputs/side/local_window_fields.csv,outputs/Ling_Writing/JGRSE_FinalRevision_20261029/work/Fig02_replot/inputs/side/local_window_fields.csv,9916671,figure input or replot code
+simulationCase/Fig02/inputs/side/mesh_stats.json,outputs/Ling_Writing/JGRSE_FinalRevision_20261029/work/Fig02_replot/inputs/side/mesh_stats.json,853,figure input or replot code
+simulationCase/Fig02/inputs/side/parameters.json,outputs/Ling_Writing/JGRSE_FinalRevision_20261029/work/Fig02_replot/inputs/side/parameters.json,2788,figure input or replot code
+simulationCase/Fig02/inputs/side/result.csv,outputs/Ling_Writing/JGRSE_FinalRevision_20261029/work/Fig02_replot/inputs/side/result.csv,2520,figure input or replot code
+simulationCase/Fig02/inputs/side/section_current.csv,outputs/Ling_Writing/JGRSE_FinalRevision_20261029/work/Fig02_replot/inputs/side/section_current.csv,64084,figure input or replot code
+simulationCase/Fig02/inputs/side/topology_interfaces.json,outputs/Ling_Writing/JGRSE_FinalRevision_20261029/work/Fig02_replot/inputs/side/topology_interfaces.json,5317,figure input or replot code
+simulationCase/Fig02/scripts/figure02_intervention_acd_matlab.m,outputs/Ling_Writing/JGRSE_FinalRevision_20261029/work/Fig02_replot/scripts/figure02_intervention_acd_matlab.m,14948,figure input or replot code
+simulationCase/Fig02/source_notes/ling_L08_F02_stream_colormap.csv,outputs/Ling_Writing/JGRSE_FinalRevision_20261029/work/Fig02_replot/source_notes/ling_L08_F02_stream_colormap.csv,9472,figure input or replot code
+simulationCase/Fig03/caption_EN.txt,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig03/caption_EN.txt,470,figure input or replot code
+simulationCase/Fig03/core_h20_L60_B_m3_full_axis_comparison.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig03/core_h20_L60_B_m3_full_axis_comparison.csv,168852,figure input or replot code
+simulationCase/Fig03/core_h20_L60_C_m3_full_axis_comparison.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig03/core_h20_L60_C_m3_full_axis_comparison.csv,168751,figure input or replot code
+simulationCase/Fig03/figure03_energy_matlab.m,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig03/figure03_energy_matlab.m,7953,figure input or replot code
+simulationCase/Fig03/model_index.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig03/model_index.csv,893,figure input or replot code
+simulationCase/Fig03/plotted_pair_changes.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig03/plotted_pair_changes.csv,249,figure input or replot code
+simulationCase/Fig03/run_replot.m,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig03/run_replot.m,181,figure input or replot code
+simulationCase/Fig03/selected_energy_states.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig03/selected_energy_states.csv,3921,figure input or replot code
+simulationCase/Fig03/strict_h10_L60_A_m3_full_axis_comparison.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig03/strict_h10_L60_A_m3_full_axis_comparison.csv,169122,figure input or replot code
+simulationCase/Fig03/strict_h10_L60_B_m3_full_axis_comparison.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig03/strict_h10_L60_B_m3_full_axis_comparison.csv,169018,figure input or replot code
+simulationCase/Fig03/数值核对说明_CN.txt,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig03/数值核对说明_CN.txt,1896,figure input or replot code
+simulationCase/Fig03/inputs/energy_decomposition.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig03/inputs/energy_decomposition.csv,27116,figure input or replot code
+simulationCase/Fig03/inputs/core_h20_L60_B_m3_full/background_fields.mat,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig03/inputs/core_h20_L60_B_m3_full/background_fields.mat,2179333,figure input or replot code
+simulationCase/Fig03/inputs/core_h20_L60_B_m3_full/background_summary.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig03/inputs/core_h20_L60_B_m3_full/background_summary.json,931,figure input or replot code
+simulationCase/Fig03/inputs/core_h20_L60_B_m3_full/parameters.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig03/inputs/core_h20_L60_B_m3_full/parameters.json,2319,figure input or replot code
+simulationCase/Fig03/inputs/core_h20_L60_B_m3_full/target_axis_fields.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig03/inputs/core_h20_L60_B_m3_full/target_axis_fields.csv,139484,figure input or replot code
+simulationCase/Fig03/inputs/core_h20_L60_B_m3_full/target_endcaps.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig03/inputs/core_h20_L60_B_m3_full/target_endcaps.json,273,figure input or replot code
+simulationCase/Fig03/inputs/core_h20_L60_C_m3_full/background_fields.mat,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig03/inputs/core_h20_L60_C_m3_full/background_fields.mat,2181450,figure input or replot code
+simulationCase/Fig03/inputs/core_h20_L60_C_m3_full/background_summary.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig03/inputs/core_h20_L60_C_m3_full/background_summary.json,932,figure input or replot code
+simulationCase/Fig03/inputs/core_h20_L60_C_m3_full/parameters.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig03/inputs/core_h20_L60_C_m3_full/parameters.json,2374,figure input or replot code
+simulationCase/Fig03/inputs/core_h20_L60_C_m3_full/target_axis_fields.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig03/inputs/core_h20_L60_C_m3_full/target_axis_fields.csv,139434,figure input or replot code
+simulationCase/Fig03/inputs/core_h20_L60_C_m3_full/target_endcaps.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig03/inputs/core_h20_L60_C_m3_full/target_endcaps.json,274,figure input or replot code
+simulationCase/Fig03/inputs/strict_h10_L60_A_m3_full/background_fields.mat,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig03/inputs/strict_h10_L60_A_m3_full/background_fields.mat,2158051,figure input or replot code
+simulationCase/Fig03/inputs/strict_h10_L60_A_m3_full/background_summary.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig03/inputs/strict_h10_L60_A_m3_full/background_summary.json,933,figure input or replot code
+simulationCase/Fig03/inputs/strict_h10_L60_A_m3_full/parameters.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig03/inputs/strict_h10_L60_A_m3_full/parameters.json,2597,figure input or replot code
+simulationCase/Fig03/inputs/strict_h10_L60_A_m3_full/target_axis_fields.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig03/inputs/strict_h10_L60_A_m3_full/target_axis_fields.csv,139498,figure input or replot code
+simulationCase/Fig03/inputs/strict_h10_L60_A_m3_full/target_endcaps.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig03/inputs/strict_h10_L60_A_m3_full/target_endcaps.json,275,figure input or replot code
+simulationCase/Fig03/inputs/strict_h10_L60_B_m3_full/background_fields.mat,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig03/inputs/strict_h10_L60_B_m3_full/background_fields.mat,2170732,figure input or replot code
+simulationCase/Fig03/inputs/strict_h10_L60_B_m3_full/background_summary.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig03/inputs/strict_h10_L60_B_m3_full/background_summary.json,934,figure input or replot code
+simulationCase/Fig03/inputs/strict_h10_L60_B_m3_full/parameters.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig03/inputs/strict_h10_L60_B_m3_full/parameters.json,2597,figure input or replot code
+simulationCase/Fig03/inputs/strict_h10_L60_B_m3_full/target_axis_fields.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig03/inputs/strict_h10_L60_B_m3_full/target_axis_fields.csv,139464,figure input or replot code
+simulationCase/Fig03/inputs/strict_h10_L60_B_m3_full/target_endcaps.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig03/inputs/strict_h10_L60_B_m3_full/target_endcaps.json,275,figure input or replot code
+simulationCase/Fig05/caption_EN.txt,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig05/caption_EN.txt,629,figure input or replot code
+simulationCase/Fig05/figure05_framework_matlab.m,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig05/figure05_framework_matlab.m,9980,figure input or replot code
+simulationCase/Fig05/plotted_admittance_ratios.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig05/plotted_admittance_ratios.csv,30110,figure input or replot code
+simulationCase/Fig05/predicted_interface_profiles.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig05/predicted_interface_profiles.csv,45493,figure input or replot code
+simulationCase/Fig05/run_replot.m,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig05/run_replot.m,188,figure input or replot code
+simulationCase/Fig05/inputs/A_NN_sf0p3_predicted_modes.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig05/inputs/A_NN_sf0p3_predicted_modes.csv,89800,figure input or replot code
+simulationCase/Fig05/inputs/geometry_A_NN.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig05/inputs/geometry_A_NN.json,5153,figure input or replot code
+simulationCase/Fig05/inputs/geometry_template_A_NN.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig05/inputs/geometry_template_A_NN.json,4990,figure input or replot code
+simulationCase/Fig05/inputs/method_frozen.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig05/inputs/method_frozen.json,6781,figure input or replot code
+simulationCase/Fig05/inputs/NN_port_coefficients.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig05/inputs/NN_port_coefficients.csv,28072,figure input or replot code
+simulationCase/Fig05/inputs/prediction_A_NN_sf0p3.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig05/inputs/prediction_A_NN_sf0p3.json,56202,figure input or replot code
+simulationCase/Fig06/caption_EN.txt,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig06/caption_EN.txt,713,figure input or replot code
+simulationCase/Fig06/figure06_independent_matlab.m,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig06/figure06_independent_matlab.m,9708,figure input or replot code
+simulationCase/Fig06/inset_single_side_failure.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig06/inset_single_side_failure.csv,1208,figure input or replot code
+simulationCase/Fig06/plotted_gain_errors_all48.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig06/plotted_gain_errors_all48.csv,67342,figure input or replot code
+simulationCase/Fig06/plotted_net_effect_predictions.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig06/plotted_net_effect_predictions.csv,1200,figure input or replot code
+simulationCase/Fig06/plotted_net_mesh_scale.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig06/plotted_net_mesh_scale.csv,996,figure input or replot code
+simulationCase/Fig06/plotted_rank_sigma018.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig06/plotted_rank_sigma018.csv,3605,figure input or replot code
+simulationCase/Fig06/plotted_single_side_effects.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig06/plotted_single_side_effects.csv,53314,figure input or replot code
+simulationCase/Fig06/run_replot.m,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig06/run_replot.m,180,figure input or replot code
+simulationCase/Fig06/inputs/design.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig06/inputs/design.json,235636,figure input or replot code
+simulationCase/Fig06/inputs/method_frozen.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig06/inputs/method_frozen.json,6781,figure input or replot code
+simulationCase/Fig06/inputs/predictions_ready.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig06/inputs/predictions_ready.json,18937,figure input or replot code
+simulationCase/Fig06/inputs/prospective_comparison.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig06/inputs/prospective_comparison.csv,67579,figure input or replot code
+simulationCase/Fig06/inputs/prospective_ranking.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig06/inputs/prospective_ranking.csv,14339,figure input or replot code
+simulationCase/Fig06/inputs/prospective_side_effects.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig06/inputs/prospective_side_effects.csv,96419,figure input or replot code
+simulationCase/Fig06/inputs/selected_mesh_effects.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig06/inputs/selected_mesh_effects.csv,8383,figure input or replot code
+simulationCase/Fig06/inputs/single_side_64_states.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig06/inputs/single_side_64_states.csv,51423,figure input or replot code
+simulationCase/Fig08/caption_EN.txt,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig08/caption_EN.txt,777,figure input or replot code
+simulationCase/Fig08/fig08_geometry_tgrs.m,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig08/fig08_geometry_tgrs.m,3913,figure input or replot code
+simulationCase/Fig08/figure08_finite3d_matlab.m,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig08/figure08_finite3d_matlab.m,8474,figure input or replot code
+simulationCase/Fig08/finish_fig08_pdf.py,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig08/finish_fig08_pdf.py,1566,figure input or replot code
+simulationCase/Fig08/model_index.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig08/model_index.csv,30215,figure input or replot code
+simulationCase/Fig08/plotted_all16_gains.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig08/plotted_all16_gains.csv,12502,figure input or replot code
+simulationCase/Fig08/plotted_joint_mesh_comparison.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig08/plotted_joint_mesh_comparison.csv,1517,figure input or replot code
+simulationCase/Fig08/plotted_peripheral_effects.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig08/plotted_peripheral_effects.csv,6589,figure input or replot code
+simulationCase/Fig08/run_replot.m,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig08/run_replot.m,293,figure input or replot code
+simulationCase/Fig08/inputs/controlled_effects.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig08/inputs/controlled_effects.csv,16718,figure input or replot code
+simulationCase/Fig08/inputs/fine_joint_comparison.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig08/inputs/fine_joint_comparison.csv,1538,figure input or replot code
+simulationCase/Fig08/inputs/geometry_manifest.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig08/inputs/geometry_manifest.csv,13026,figure input or replot code
+simulationCase/Fig08/inputs/mesh_comparison.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig08/inputs/mesh_comparison.csv,6739,figure input or replot code
+simulationCase/Fig08/inputs/r7_strict_A_P11_actual_geometry.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig08/inputs/r7_strict_A_P11_actual_geometry.json,1035,figure input or replot code
+simulationCase/Fig08/inputs/r7_strict_A_P11_parameters.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig08/inputs/r7_strict_A_P11_parameters.json,5203,figure input or replot code
+simulationCase/Fig08/inputs/r7_strict_A_P17_actual_geometry.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig08/inputs/r7_strict_A_P17_actual_geometry.json,1036,figure input or replot code
+simulationCase/Fig08/inputs/r7_strict_A_P17_parameters.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig08/inputs/r7_strict_A_P17_parameters.json,5203,figure input or replot code
+simulationCase/Fig08/inputs/r7_strict_A_P71_actual_geometry.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig08/inputs/r7_strict_A_P71_actual_geometry.json,1032,figure input or replot code
+simulationCase/Fig08/inputs/r7_strict_A_P71_parameters.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig08/inputs/r7_strict_A_P71_parameters.json,5203,figure input or replot code
+simulationCase/Fig08/inputs/r7_strict_A_P77_actual_geometry.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig08/inputs/r7_strict_A_P77_actual_geometry.json,1033,figure input or replot code
+simulationCase/Fig08/inputs/r7_strict_A_P77_parameters.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig08/inputs/r7_strict_A_P77_parameters.json,5203,figure input or replot code
+simulationCase/Fig08/inputs/r7_strict_B_P11_actual_geometry.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig08/inputs/r7_strict_B_P11_actual_geometry.json,1035,figure input or replot code
+simulationCase/Fig08/inputs/r7_strict_B_P11_parameters.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig08/inputs/r7_strict_B_P11_parameters.json,5531,figure input or replot code
+simulationCase/Fig08/inputs/r7_strict_B_P17_actual_geometry.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig08/inputs/r7_strict_B_P17_actual_geometry.json,1038,figure input or replot code
+simulationCase/Fig08/inputs/r7_strict_B_P17_parameters.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig08/inputs/r7_strict_B_P17_parameters.json,5531,figure input or replot code
+simulationCase/Fig08/inputs/r7_strict_B_P71_actual_geometry.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig08/inputs/r7_strict_B_P71_actual_geometry.json,1039,figure input or replot code
+simulationCase/Fig08/inputs/r7_strict_B_P71_parameters.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig08/inputs/r7_strict_B_P71_parameters.json,5531,figure input or replot code
+simulationCase/Fig08/inputs/r7_strict_B_P77_actual_geometry.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig08/inputs/r7_strict_B_P77_actual_geometry.json,1040,figure input or replot code
+simulationCase/Fig08/inputs/r7_strict_B_P77_parameters.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig08/inputs/r7_strict_B_P77_parameters.json,5531,figure input or replot code
+simulationCase/Fig08/inputs/refinement_targets.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig08/inputs/refinement_targets.json,2426,figure input or replot code
+simulationCase/Fig08/inputs/synthetic3d_response.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig08/inputs/synthetic3d_response.csv,16059,figure input or replot code
+simulationCase/Fig08/inputs/synthetic_summary.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig08/inputs/synthetic_summary.json,2110,figure input or replot code
+simulationCase/Fig08/inputs/volume_matching_actual.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig08/inputs/volume_matching_actual.csv,2862,figure input or replot code
+simulationCase/Fig09/caption_EN.txt,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig09/caption_EN.txt,608,figure input or replot code
+simulationCase/Fig09/figure09_ct_matlab.m,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig09/figure09_ct_matlab.m,12342,figure input or replot code
+simulationCase/Fig09/finish_fig09_pdf.py,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig09/finish_fig09_pdf.py,1633,figure input or replot code
+simulationCase/Fig09/model_index.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig09/model_index.csv,15367,figure input or replot code
+simulationCase/Fig09/plotted_main8.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig09/plotted_main8.csv,3322,figure input or replot code
+simulationCase/Fig09/plotted_mesh6.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig09/plotted_mesh6.csv,10276,figure input or replot code
+simulationCase/Fig09/run_replot.m,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig09/run_replot.m,560,figure input or replot code
+simulationCase/Fig09/inputs/background_calibration.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig09/inputs/background_calibration.csv,13395,figure input or replot code
+simulationCase/Fig09/inputs/ct_background_match8_pairs.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig09/inputs/ct_background_match8_pairs.csv,3857,figure input or replot code
+simulationCase/Fig09/inputs/ct_frozen_background_records.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig09/inputs/ct_frozen_background_records.json,3550,figure input or replot code
+simulationCase/Fig09/inputs/ct_main4_pairs.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig09/inputs/ct_main4_pairs.csv,7380,figure input or replot code
+simulationCase/Fig09/inputs/ct_main8_targets.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig09/inputs/ct_main8_targets.csv,3440,figure input or replot code
+simulationCase/Fig09/inputs/ct_mesh_steps4.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig09/inputs/ct_mesh_steps4.csv,5884,figure input or replot code
+simulationCase/Fig09/inputs/ct_precision_status.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig09/inputs/ct_precision_status.json,785,figure input or replot code
+simulationCase/Fig09/inputs/ct_preselected6_mesh_pairs.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig09/inputs/ct_preselected6_mesh_pairs.csv,10355,figure input or replot code
+simulationCase/Fig09/inputs/ct_response_localfit.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig09/inputs/ct_response_localfit.csv,10590,figure input or replot code
+simulationCase/Fig09/inputs/ct_sample_geometry.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig09/inputs/ct_sample_geometry.csv,1865,figure input or replot code
+simulationCase/Fig09/inputs/ct_source_and_protection_metadata.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig09/inputs/ct_source_and_protection_metadata.json,2375,figure input or replot code
+simulationCase/Fig09/inputs/formal_target_states.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig09/inputs/formal_target_states.csv,4995,figure input or replot code
+simulationCase/Fig09/inputs/geometry_S1.mat,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig09/inputs/geometry_S1.mat,5525544,figure input or replot code
+simulationCase/Fig09/inputs/geometry_S5.mat,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig09/inputs/geometry_S5.mat,5508795,figure input or replot code
+simulationCase/Fig09/inputs/geometry_verification.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig09/inputs/geometry_verification.csv,33143,figure input or replot code
+simulationCase/Fig09/inputs/mesh_convergence.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig09/inputs/mesh_convergence.csv,4408,figure input or replot code
+simulationCase/Fig09/inputs/S1_M1_GEOMETRY_SUCCESS.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig09/inputs/S1_M1_GEOMETRY_SUCCESS.json,721,figure input or replot code
+simulationCase/Fig09/inputs/S1_M1_geometry_verification.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig09/inputs/S1_M1_geometry_verification.json,6431,figure input or replot code
+simulationCase/Fig09/inputs/S1_M1_parameters.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig09/inputs/S1_M1_parameters.json,2177,figure input or replot code
+simulationCase/Fig09/inputs/S1_M1_water_0p18_kappa_frozen.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig09/inputs/S1_M1_water_0p18_kappa_frozen.json,3239,figure input or replot code
+simulationCase/Fig09/inputs/S1_M1_water_10_kappa_frozen.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig09/inputs/S1_M1_water_10_kappa_frozen.json,3203,figure input or replot code
+simulationCase/Fig09/inputs/S1_M2_water_0p18_kappa_frozen.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig09/inputs/S1_M2_water_0p18_kappa_frozen.json,3231,figure input or replot code
+simulationCase/Fig09/inputs/S1_M3_water_0p18_kappa_frozen.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig09/inputs/S1_M3_water_0p18_kappa_frozen.json,3226,figure input or replot code
+simulationCase/Fig09/inputs/S5_M1_GEOMETRY_SUCCESS.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig09/inputs/S5_M1_GEOMETRY_SUCCESS.json,721,figure input or replot code
+simulationCase/Fig09/inputs/S5_M1_geometry_verification.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig09/inputs/S5_M1_geometry_verification.json,6450,figure input or replot code
+simulationCase/Fig09/inputs/S5_M1_parameters.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig09/inputs/S5_M1_parameters.json,2184,figure input or replot code
+simulationCase/Fig09/inputs/S5_M1_water_0p18_kappa_frozen.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig09/inputs/S5_M1_water_0p18_kappa_frozen.json,3218,figure input or replot code
+simulationCase/Fig09/inputs/S5_M1_water_10_kappa_frozen.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig09/inputs/S5_M1_water_10_kappa_frozen.json,3199,figure input or replot code
+simulationCase/Fig09/inputs/S5_M2_water_10_kappa_frozen.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig09/inputs/S5_M2_water_10_kappa_frozen.json,3190,figure input or replot code
+simulationCase/Fig09/inputs/S5_M3_four_state_tolerance_comparison.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig09/inputs/S5_M3_four_state_tolerance_comparison.csv,1247,figure input or replot code
+simulationCase/Fig09/inputs/S5_M3_water_10_kappa_frozen.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig09/inputs/S5_M3_water_10_kappa_frozen.json,3191,figure input or replot code
+simulationCase/Fig09/inputs/voxel_display_S1.mat,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig09/inputs/voxel_display_S1.mat,962824,figure input or replot code
+simulationCase/Fig09/inputs/voxel_display_S5.mat,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig09/inputs/voxel_display_S5.mat,763396,figure input or replot code
+simulationCase/Shared_Fig01_04_07/captions.txt,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/captions.txt,1813,figure input or replot code
+simulationCase/Shared_Fig01_04_07/runs/2026-10-21_round2/summary.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/runs/2026-10-21_round2/summary.csv,460698,figure input or replot code
+simulationCase/Shared_Fig01_04_07/runs/2026-10-21_round2/core_h20_L60_A_m3_full/parameters.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/runs/2026-10-21_round2/core_h20_L60_A_m3_full/parameters.json,2416,figure input or replot code
+simulationCase/Shared_Fig01_04_07/runs/2026-10-21_round2/core_h20_L60_B_m3_full/parameters.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/runs/2026-10-21_round2/core_h20_L60_B_m3_full/parameters.json,2319,figure input or replot code
+simulationCase/Shared_Fig01_04_07/runs/2026-10-21_round2/strict_h10_L60_A_m3_full/parameters.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/runs/2026-10-21_round2/strict_h10_L60_A_m3_full/parameters.json,2597,figure input or replot code
+simulationCase/Shared_Fig01_04_07/runs/2026-10-21_round2/strict_h10_L60_B_m3_full/parameters.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/runs/2026-10-21_round2/strict_h10_L60_B_m3_full/parameters.json,2597,figure input or replot code
+simulationCase/Shared_Fig01_04_07/runs/round4_crossover/periphery_manifest.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/runs/round4_crossover/periphery_manifest.json,28725,figure input or replot code
+simulationCase/Shared_Fig01_04_07/runs/round4_extension_20261024/fine_factorial_comparison.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/runs/round4_extension_20261024/fine_factorial_comparison.csv,31614,figure input or replot code
+simulationCase/Shared_Fig01_04_07/runs/round4_extension_20261024/manifest.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/runs/round4_extension_20261024/manifest.json,33583,figure input or replot code
+simulationCase/Shared_Fig01_04_07/runs/round4_extension_20261024/modes/modal_energy_closure.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/runs/round4_extension_20261024/modes/modal_energy_closure.csv,2872,figure input or replot code
+simulationCase/Shared_Fig01_04_07/runs/round4_extension_20261024/modes/A_FF/mode_coefficients.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/runs/round4_extension_20261024/modes/A_FF/mode_coefficients.csv,7103,figure input or replot code
+simulationCase/Shared_Fig01_04_07/runs/round4_extension_20261024/modes/A_FN/mode_coefficients.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/runs/round4_extension_20261024/modes/A_FN/mode_coefficients.csv,7094,figure input or replot code
+simulationCase/Shared_Fig01_04_07/runs/round4_extension_20261024/modes/A_NF/mode_coefficients.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/runs/round4_extension_20261024/modes/A_NF/mode_coefficients.csv,7095,figure input or replot code
+simulationCase/Shared_Fig01_04_07/runs/round4_extension_20261024/modes/A_NN/mode_coefficients.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/runs/round4_extension_20261024/modes/A_NN/mode_coefficients.csv,7099,figure input or replot code
+simulationCase/Shared_Fig01_04_07/runs/round4_extension_20261024/modes/B_FF/mode_coefficients.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/runs/round4_extension_20261024/modes/B_FF/mode_coefficients.csv,7096,figure input or replot code
+simulationCase/Shared_Fig01_04_07/runs/round4_extension_20261024/modes/B_FN/mode_coefficients.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/runs/round4_extension_20261024/modes/B_FN/mode_coefficients.csv,7088,figure input or replot code
+simulationCase/Shared_Fig01_04_07/runs/round4_extension_20261024/modes/B_NF/mode_coefficients.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/runs/round4_extension_20261024/modes/B_NF/mode_coefficients.csv,7098,figure input or replot code
+simulationCase/Shared_Fig01_04_07/runs/round4_extension_20261024/modes/B_NN/mode_coefficients.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/runs/round4_extension_20261024/modes/B_NN/mode_coefficients.csv,7098,figure input or replot code
+simulationCase/Shared_Fig01_04_07/runs/round6_applicability/applicability_predictions.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/runs/round6_applicability/applicability_predictions.csv,77264,figure input or replot code
+simulationCase/Shared_Fig01_04_07/runs/round6_applicability/applicability_validation.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/runs/round6_applicability/applicability_validation.csv,137765,figure input or replot code
+simulationCase/Shared_Fig01_04_07/runs/round6_applicability/closure_new_source_comparison.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/runs/round6_applicability/closure_new_source_comparison.csv,55702,figure input or replot code
+simulationCase/Shared_Fig01_04_07/runs/round6_applicability/higher_order_side_comparison.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/runs/round6_applicability/higher_order_side_comparison.csv,49089,figure input or replot code
+simulationCase/Shared_Fig01_04_07/runs/round6_applicability/port_coefficients.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/runs/round6_applicability/port_coefficients.csv,117613,figure input or replot code
+simulationCase/Shared_Fig01_04_07/runs/round6_applicability/source_scale_response_pretruth.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/runs/round6_applicability/source_scale_response_pretruth.csv,82940,figure input or replot code
+simulationCase/Shared_Fig01_04_07/runs/round6_applicability/predictions/r6_L40_A_P11/sf_0p18/prediction.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/runs/round6_applicability/predictions/r6_L40_A_P11/sf_0p18/prediction.json,29573,figure input or replot code
+simulationCase/Shared_Fig01_04_07/runs/round6_applicability/predictions/r6_L40_B_P11/sf_0p18/prediction.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/runs/round6_applicability/predictions/r6_L40_B_P11/sf_0p18/prediction.json,29645,figure input or replot code
+simulationCase/Shared_Fig01_04_07/runs/round6_applicability/predictions/r6_L64_A_P11/sf_0p18/prediction.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/runs/round6_applicability/predictions/r6_L64_A_P11/sf_0p18/prediction.json,29385,figure input or replot code
+simulationCase/Shared_Fig01_04_07/runs/round6_applicability/predictions/r6_L64_B_P11/sf_0p18/prediction.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/runs/round6_applicability/predictions/r6_L64_B_P11/sf_0p18/prediction.json,29398,figure input or replot code
+simulationCase/Shared_Fig01_04_07/scripts/jgrse_figures/figure02_phenomenon_v3.py,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/scripts/jgrse_figures/figure02_phenomenon_v3.py,19310,figure input or replot code
+simulationCase/Shared_Fig01_04_07/scripts/jgrse_figures/figure06_mechanism_v4.py,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/scripts/jgrse_figures/figure06_mechanism_v4.py,13444,figure input or replot code
+simulationCase/Shared_Fig01_04_07/scripts/jgrse_figures/figure09_applicability_v8.py,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/scripts/jgrse_figures/figure09_applicability_v8.py,20236,figure input or replot code
+simulationCase/Shared_Fig01_04_07/scripts/jgrse_figures/style.py,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/scripts/jgrse_figures/style.py,2363,figure input or replot code
+simulationCase/Shared_Fig01_04_07/source_data/Fig01_configuration_effect/caption.txt,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/source_data/Fig01_configuration_effect/caption.txt,517,figure input or replot code
+simulationCase/Shared_Fig01_04_07/source_data/Fig01_configuration_effect/panel_ab_ellipse_outline.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/source_data/Fig01_configuration_effect/panel_ab_ellipse_outline.csv,205959,figure input or replot code
+simulationCase/Shared_Fig01_04_07/source_data/Fig01_configuration_effect/panel_ab_ellipse_parameters.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/source_data/Fig01_configuration_effect/panel_ab_ellipse_parameters.csv,393,figure input or replot code
+simulationCase/Shared_Fig01_04_07/source_data/Fig01_configuration_effect/panel_ab_layer_geometry.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/source_data/Fig01_configuration_effect/panel_ab_layer_geometry.csv,6859,figure input or replot code
+simulationCase/Shared_Fig01_04_07/source_data/Fig01_configuration_effect/panel_c_background_analytic_comparison.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/source_data/Fig01_configuration_effect/panel_c_background_analytic_comparison.csv,1092,figure input or replot code
+simulationCase/Shared_Fig01_04_07/source_data/Fig01_configuration_effect/panel_c_controls_all_states.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/source_data/Fig01_configuration_effect/panel_c_controls_all_states.csv,1654,figure input or replot code
+simulationCase/Shared_Fig01_04_07/source_data/Fig01_configuration_effect/panel_c_display_values.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/source_data/Fig01_configuration_effect/panel_c_display_values.csv,458,figure input or replot code
+simulationCase/Shared_Fig01_04_07/source_data/Fig01_configuration_effect/panel_c_pairwise_mismatches.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/source_data/Fig01_configuration_effect/panel_c_pairwise_mismatches.csv,1679,figure input or replot code
+simulationCase/Shared_Fig01_04_07/source_data/Fig01_configuration_effect/panel_d_conductivity_gain.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/source_data/Fig01_configuration_effect/panel_d_conductivity_gain.csv,1270,figure input or replot code
+simulationCase/Shared_Fig01_04_07/source_data/Fig04_mechanism/all_fine_factorial_contrasts.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/source_data/Fig04_mechanism/all_fine_factorial_contrasts.csv,31206,figure input or replot code
+simulationCase/Shared_Fig01_04_07/source_data/Fig04_mechanism/all_mode_coefficients.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/source_data/Fig04_mechanism/all_mode_coefficients.csv,58602,figure input or replot code
+simulationCase/Shared_Fig01_04_07/source_data/Fig04_mechanism/caption.txt,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/source_data/Fig04_mechanism/caption.txt,622,figure input or replot code
+simulationCase/Shared_Fig01_04_07/source_data/Fig04_mechanism/panel_a_geometry.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/source_data/Fig04_mechanism/panel_a_geometry.csv,164,figure input or replot code
+simulationCase/Shared_Fig01_04_07/source_data/Fig04_mechanism/panel_b_effects.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/source_data/Fig04_mechanism/panel_b_effects.csv,4270,figure input or replot code
+simulationCase/Shared_Fig01_04_07/source_data/Fig04_mechanism/panel_c_admittances.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/source_data/Fig04_mechanism/panel_c_admittances.csv,4159,figure input or replot code
+simulationCase/Shared_Fig01_04_07/source_data/Fig04_mechanism/panel_d_voltage_reconstruction.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/source_data/Fig04_mechanism/panel_d_voltage_reconstruction.csv,79984,figure input or replot code
+simulationCase/Shared_Fig01_04_07/source_data/Fig04_mechanism/panel_e_energies.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/source_data/Fig04_mechanism/panel_e_energies.csv,954,figure input or replot code
+simulationCase/Shared_Fig01_04_07/source_data/Fig07_applicability/all_32_states_source_data.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/source_data/Fig07_applicability/all_32_states_source_data.csv,16427,figure input or replot code
+simulationCase/Shared_Fig01_04_07/source_data/Fig07_applicability/all_modal_curves_source_data.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/source_data/Fig07_applicability/all_modal_curves_source_data.csv,22740,figure input or replot code
+simulationCase/Shared_Fig01_04_07/source_data/Fig07_applicability/caption.txt,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/source_data/Fig07_applicability/caption.txt,670,figure input or replot code
+simulationCase/Shared_Fig01_04_07/source_data/Fig07_applicability/error_constituent_source_data.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/source_data/Fig07_applicability/error_constituent_source_data.csv,4761,figure input or replot code
+simulationCase/Shared_Fig01_04_07/source_data/Fig07_applicability/interface_mode_source_data.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/source_data/Fig07_applicability/interface_mode_source_data.csv,111185,figure input or replot code
+simulationCase/Shared_Fig01_04_07/source_data/Fig07_applicability/panel_a_source_data.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/source_data/Fig07_applicability/panel_a_source_data.csv,8466,figure input or replot code
+simulationCase/Shared_Fig01_04_07/source_data/Fig07_applicability/panel_b_source_data.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/source_data/Fig07_applicability/panel_b_source_data.csv,8543,figure input or replot code
+simulationCase/Shared_Fig01_04_07/source_data/Fig07_applicability/panel_c_peripheral_coefficients.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/source_data/Fig07_applicability/panel_c_peripheral_coefficients.csv,27726,figure input or replot code
+simulationCase/Shared_Fig01_04_07/source_data/Fig07_applicability/panel_c_source_data.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/source_data/Fig07_applicability/panel_c_source_data.csv,11398,figure input or replot code
+simulationCase/Shared_Fig01_04_07/source_data/Fig07_applicability/panel_d_source_data.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/source_data/Fig07_applicability/panel_d_source_data.csv,11507,figure input or replot code
+simulationCase/Shared_Fig01_04_07/source_data/Fig07_applicability/panel_e_source_data.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/source_data/Fig07_applicability/panel_e_source_data.csv,687,figure input or replot code
+simulationCase/Shared_Fig01_04_07/source_data/Fig07_applicability/panel_f_source_data.csv,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/source_data/Fig07_applicability/panel_f_source_data.csv,677,figure input or replot code
+solver/scripts/build_round2_controls.py,scripts/build_round2_controls.py,4169,numerical source
+solver/scripts/build_round2_followups.py,scripts/build_round2_followups.py,3191,numerical source
+solver/scripts/build_round2_screen.py,scripts/build_round2_screen.py,1237,numerical source
+solver/scripts/build_round2_tile_wave.py,scripts/build_round2_tile_wave.py,1546,numerical source
+solver/scripts/enrich_mechanism.m,scripts/enrich_mechanism.m,29586,numerical source
+solver/scripts/enrich_round2_exchange.m,scripts/enrich_round2_exchange.m,17275,numerical source
+solver/scripts/enrich_round2_topology.m,scripts/enrich_round2_topology.m,11156,numerical source
+solver/scripts/r3_enrich_predict.m,scripts/r3_enrich_predict.m,7355,numerical source
+solver/scripts/r3_enrich_predict_v1.m,scripts/r3_enrich_predict_v1.m,8986,numerical source
+solver/scripts/r3_homogenized.m,scripts/r3_homogenized.m,2136,numerical source
+solver/scripts/r3_json.m,scripts/r3_json.m,169,numerical source
+solver/scripts/r3_local_metrics.m,scripts/r3_local_metrics.m,8164,numerical source
+solver/scripts/r3_map_dofs.m,scripts/r3_map_dofs.m,3592,numerical source
+solver/scripts/r3_matrix.m,scripts/r3_matrix.m,225,numerical source
+solver/scripts/r3_predict.m,scripts/r3_predict.m,1861,numerical source
+solver/scripts/r3_prepare.m,scripts/r3_prepare.m,4538,numerical source
+solver/scripts/r3_refine_case.m,scripts/r3_refine_case.m,11570,numerical source
+solver/scripts/r3_setup_materials.m,scripts/r3_setup_materials.m,1446,numerical source
+solver/scripts/r3_truth.m,scripts/r3_truth.m,3032,numerical source
+solver/scripts/r4_collect_periphery_geometry.py,scripts/r4_collect_periphery_geometry.py,6296,numerical source
+solver/scripts/r4_derivative_check.m,scripts/r4_derivative_check.m,1984,numerical source
+solver/scripts/r4_design_periphery.py,scripts/r4_design_periphery.py,12236,numerical source
+solver/scripts/r4_local_response.m,scripts/r4_local_response.m,12259,numerical source
+solver/scripts/r4_periphery.m,scripts/r4_periphery.m,10183,numerical source
+solver/scripts/r4_prepare_local_targets.py,scripts/r4_prepare_local_targets.py,1978,numerical source
+solver/scripts/r4e_bilinear.m,scripts/r4e_bilinear.m,9011,numerical source
+solver/scripts/r4e_design_factorial.py,scripts/r4e_design_factorial.py,15313,numerical source
+solver/scripts/r4e_mode_pairs.py,scripts/r4e_mode_pairs.py,7103,numerical source
+solver/scripts/r4e_mode_trace.m,scripts/r4e_mode_trace.m,5677,numerical source
+solver/scripts/r4e_modes_run.m,scripts/r4e_modes_run.m,2126,numerical source
+solver/scripts/r4e_peripheral_modes.py,scripts/r4e_peripheral_modes.py,5316,numerical source
+solver/scripts/r4e_summarize.py,scripts/r4e_summarize.py,15744,numerical source
+solver/scripts/r5_analyze.py,scripts/r5_analyze.py,19269,numerical source
+solver/scripts/r5_crossover_predict.m,scripts/r5_crossover_predict.m,11063,numerical source
+solver/scripts/r5_design.py,scripts/r5_design.py,20953,numerical source
+solver/scripts/r5_engine.m,scripts/r5_engine.m,7270,numerical source
+solver/scripts/r5_port_analysis.py,scripts/r5_port_analysis.py,15967,numerical source
+solver/scripts/r5_precision_summary.py,scripts/r5_precision_summary.py,25305,numerical source
+solver/scripts/r5_predict.m,scripts/r5_predict.m,5078,numerical source
+solver/scripts/r5_prepare.m,scripts/r5_prepare.m,4628,numerical source
+solver/scripts/r5_series_test.m,scripts/r5_series_test.m,2805,numerical source
+solver/scripts/r5_trace_matrix.m,scripts/r5_trace_matrix.m,1924,numerical source
+solver/scripts/r5_truth_run.m,scripts/r5_truth_run.m,11803,numerical source
+solver/scripts/r6_criteria.py,scripts/r6_criteria.py,25343,numerical source
+solver/scripts/r6_design.py,scripts/r6_design.py,17715,numerical source
+solver/scripts/r6_domination_check.m,scripts/r6_domination_check.m,2784,numerical source
+solver/scripts/r6_mesh_summary.py,scripts/r6_mesh_summary.py,18335,numerical source
+solver/scripts/r6_output_summary.py,scripts/r6_output_summary.py,14022,numerical source
+solver/scripts/r6_predict.m,scripts/r6_predict.m,4220,numerical source
+solver/scripts/r6_prepare.m,scripts/r6_prepare.m,5533,numerical source
+solver/scripts/r6_reanalysis.py,scripts/r6_reanalysis.py,8965,numerical source
+solver/scripts/r6_trace40.m,scripts/r6_trace40.m,1956,numerical source
+solver/scripts/r6_truth_run.m,scripts/r6_truth_run.m,14546,numerical source
+solver/scripts/r7_ct_native_solver.m,scripts/r7_ct_native_solver.m,2883,numerical source
+solver/scripts/r7_ct_validate_native_phase.m,scripts/r7_ct_validate_native_phase.m,2936,numerical source
+solver/scripts/r7_design.py,scripts/r7_design.py,15614,numerical source
+solver/scripts/r7_summarize.py,scripts/r7_summarize.py,32076,numerical source
+solver/scripts/r7_synthetic.m,scripts/r7_synthetic.m,15322,numerical source
+solver/scripts/r7_thinmesh_check.m,scripts/r7_thinmesh_check.m,6993,numerical source
+solver/scripts/r7b_fix_check_geometry.py,scripts/r7b_fix_check_geometry.py,1770,numerical source
+solver/scripts/r7b_fix_faces_check.py,scripts/r7b_fix_faces_check.py,16633,numerical source
+solver/scripts/r7b_fix_fixed_refine.py,scripts/r7b_fix_fixed_refine.py,20429,numerical source
+solver/scripts/r7b_fix_import.m,scripts/r7b_fix_import.m,10704,numerical source
+solver/scripts/r7b_fix_localfit.py,scripts/r7b_fix_localfit.py,20445,numerical source
+solver/scripts/r7b_fix_pair_tolerance_check.m,scripts/r7b_fix_pair_tolerance_check.m,13956,numerical source
+solver/scripts/r7b_fix_prepare.py,scripts/r7b_fix_prepare.py,8100,numerical source
+solver/scripts/r7b_fix_solve.m,scripts/r7b_fix_solve.m,28060,numerical source
+solver/scripts/r7b_fix_summarize.py,scripts/r7b_fix_summarize.py,34319,numerical source
+solver/scripts/r7b_fix_tolerance_check.m,scripts/r7b_fix_tolerance_check.m,13104,numerical source
+solver/scripts/r7b_fix_uniform_check.m,scripts/r7b_fix_uniform_check.m,15989,numerical source
+solver/scripts/r7b_geometry_check.py,scripts/r7b_geometry_check.py,31880,numerical source
+solver/scripts/r7b_mesh_sections.m,scripts/r7b_mesh_sections.m,7243,numerical source
+solver/scripts/r7b_summarize.py,scripts/r7b_summarize.py,47525,numerical source
+solver/scripts/r7b_validate_ct_source_mesh.m,scripts/r7b_validate_ct_source_mesh.m,12509,numerical source
+solver/scripts/round2_design_search.py,scripts/round2_design_search.py,11445,numerical source
+solver/scripts/round2_manifests.py,scripts/round2_manifests.py,1702,numerical source
+solver/scripts/run_round2.m,scripts/run_round2.m,3483,numerical source
+solver/scripts/run_round2_all.m,scripts/run_round2_all.m,360,numerical source
+solver/scripts/solve_round2_case.m,scripts/solve_round2_case.m,22215,numerical source
+solver/scripts/summarize_round2.py,scripts/summarize_round2.py,39437,numerical source
+solver/scripts/summarize_round3.py,scripts/summarize_round3.py,18533,numerical source
+solver/scripts/summarize_round4.py,scripts/summarize_round4.py,28685,numerical source
+simulationCase/parameters_and_results/runs/2026-10-21/comparisons.csv,runs/2026-10-21/comparisons.csv,28748,stage design or original summary
+simulationCase/parameters_and_results/runs/2026-10-21/summary.csv,runs/2026-10-21/summary.csv,47378,stage design or original summary
+simulationCase/parameters_and_results/runs/2026-10-21_round2/comparisons.csv,runs/2026-10-21_round2/comparisons.csv,203080,stage design or original summary
+simulationCase/parameters_and_results/runs/2026-10-21_round2/core_design_candidates.json,runs/2026-10-21_round2/core_design_candidates.json,29053,stage design or original summary
+simulationCase/parameters_and_results/runs/2026-10-21_round2/model_script_manifest.csv,runs/2026-10-21_round2/model_script_manifest.csv,70028,stage design or original summary
+simulationCase/parameters_and_results/runs/2026-10-21_round2/strict_tile_candidates.json,runs/2026-10-21_round2/strict_tile_candidates.json,7753,stage design or original summary
+simulationCase/parameters_and_results/runs/2026-10-21_round2/summary.csv,runs/2026-10-21_round2/summary.csv,460698,stage design or original summary
+simulationCase/parameters_and_results/runs/2026-10-21_round2/manifests/contrast.json,runs/2026-10-21_round2/manifests/contrast.json,26111,case manifest
+simulationCase/parameters_and_results/runs/2026-10-21_round2/manifests/mechanism.json,runs/2026-10-21_round2/manifests/mechanism.json,87135,case manifest
+simulationCase/parameters_and_results/runs/2026-10-21_round2/manifests/refine.json,runs/2026-10-21_round2/manifests/refine.json,49349,case manifest
+simulationCase/parameters_and_results/runs/2026-10-21_round2/manifests/screen.json,runs/2026-10-21_round2/manifests/screen.json,73758,case manifest
+simulationCase/parameters_and_results/runs/2026-10-21_round2/manifests/smoke.json,runs/2026-10-21_round2/manifests/smoke.json,2639,case manifest
+simulationCase/parameters_and_results/runs/2026-10-21_round2/manifests/structural_controls.json,runs/2026-10-21_round2/manifests/structural_controls.json,66561,case manifest
+simulationCase/parameters_and_results/runs/2026-10-21_round2/manifests/structural_mechanism.json,runs/2026-10-21_round2/manifests/structural_mechanism.json,69744,case manifest
+simulationCase/parameters_and_results/runs/2026-10-21_round2/manifests/tile_wave.json,runs/2026-10-21_round2/manifests/tile_wave.json,49795,case manifest
+simulationCase/parameters_and_results/runs/2026-10-21_round2/manifests/wave.json,runs/2026-10-21_round2/manifests/wave.json,46459,case manifest
+simulationCase/parameters_and_results/runs/round3_predict/conductivity_response.csv,runs/round3_predict/conductivity_response.csv,73956,stage design or original summary
+simulationCase/parameters_and_results/runs/round3_predict/design_candidates.json,runs/round3_predict/design_candidates.json,56714,stage design or original summary
+simulationCase/parameters_and_results/runs/round3_predict/energy_decomposition.csv,runs/round3_predict/energy_decomposition.csv,27116,stage design or original summary
+simulationCase/parameters_and_results/runs/round3_predict/homogenized_comparison.csv,runs/round3_predict/homogenized_comparison.csv,46377,stage design or original summary
+simulationCase/parameters_and_results/runs/round3_predict/predictions_frozen.csv,runs/round3_predict/predictions_frozen.csv,27190,stage design or original summary
+simulationCase/parameters_and_results/runs/round3_predict/prediction_comparator_metrics.csv,runs/round3_predict/prediction_comparator_metrics.csv,3946,stage design or original summary
+simulationCase/parameters_and_results/runs/round3_predict/prediction_method_frozen.json,runs/round3_predict/prediction_method_frozen.json,55279,stage design or original summary
+simulationCase/parameters_and_results/runs/round3_predict/prediction_test.csv,runs/round3_predict/prediction_test.csv,44755,stage design or original summary
+simulationCase/parameters_and_results/runs/round3_predict/prediction_test_group_metrics.csv,runs/round3_predict/prediction_test_group_metrics.csv,2923,stage design or original summary
+simulationCase/parameters_and_results/runs/round3_predict/prediction_test_pairwise_rankings.csv,runs/round3_predict/prediction_test_pairwise_rankings.csv,11060,stage design or original summary
+simulationCase/parameters_and_results/runs/round3_predict/prediction_test_simple_comparison.csv,runs/round3_predict/prediction_test_simple_comparison.csv,89910,stage design or original summary
+simulationCase/parameters_and_results/runs/round3_predict/predictor_development.csv,runs/round3_predict/predictor_development.csv,345426,stage design or original summary
+simulationCase/parameters_and_results/runs/round3_predict/refinement_targets.json,runs/round3_predict/refinement_targets.json,1085,stage design or original summary
+simulationCase/parameters_and_results/runs/round3_predict/round3_costs.csv,runs/round3_predict/round3_costs.csv,9459,stage design or original summary
+simulationCase/parameters_and_results/runs/round4_crossover/conductivity_response.csv,runs/round4_crossover/conductivity_response.csv,112755,stage design or original summary
+simulationCase/parameters_and_results/runs/round4_crossover/crossover_summary.csv,runs/round4_crossover/crossover_summary.csv,6843,stage design or original summary
+simulationCase/parameters_and_results/runs/round4_crossover/derivative_check.csv,runs/round4_crossover/derivative_check.csv,1030,stage design or original summary
+simulationCase/parameters_and_results/runs/round4_crossover/derivative_check_design.json,runs/round4_crossover/derivative_check_design.json,288,stage design or original summary
+simulationCase/parameters_and_results/runs/round4_crossover/extra_refinement_targets.json,runs/round4_crossover/extra_refinement_targets.json,799,stage design or original summary
+simulationCase/parameters_and_results/runs/round4_crossover/local_targets.json,runs/round4_crossover/local_targets.json,9491,stage design or original summary
+simulationCase/parameters_and_results/runs/round4_crossover/original_brackets.json,runs/round4_crossover/original_brackets.json,353,stage design or original summary
+simulationCase/parameters_and_results/runs/round4_crossover/original_response.csv,runs/round4_crossover/original_response.csv,3675,stage design or original summary
+simulationCase/parameters_and_results/runs/round4_crossover/periphery_brackets.json,runs/round4_crossover/periphery_brackets.json,370,stage design or original summary
+simulationCase/parameters_and_results/runs/round4_crossover/periphery_geometry.csv,runs/round4_crossover/periphery_geometry.csv,8305,stage design or original summary
+simulationCase/parameters_and_results/runs/round4_crossover/periphery_geometry_candidates.csv,runs/round4_crossover/periphery_geometry_candidates.csv,1694,stage design or original summary
+simulationCase/parameters_and_results/runs/round4_crossover/periphery_initial_design.json,runs/round4_crossover/periphery_initial_design.json,490,stage design or original summary
+simulationCase/parameters_and_results/runs/round4_crossover/periphery_manifest.json,runs/round4_crossover/periphery_manifest.json,28725,stage design or original summary
+simulationCase/parameters_and_results/runs/round4_crossover/periphery_paired_response.csv,runs/round4_crossover/periphery_paired_response.csv,8114,stage design or original summary
+simulationCase/parameters_and_results/runs/round4_crossover/prediction_vs_comsol.csv,runs/round4_crossover/prediction_vs_comsol.csv,205646,stage design or original summary
+simulationCase/parameters_and_results/runs/round4_extension_20261024/factorial_effects.csv,runs/round4_extension_20261024/factorial_effects.csv,41619,stage design or original summary
+simulationCase/parameters_and_results/runs/round4_extension_20261024/fine_factorial_comparison.csv,runs/round4_extension_20261024/fine_factorial_comparison.csv,31614,stage design or original summary
+simulationCase/parameters_and_results/runs/round4_extension_20261024/geometry_candidates.csv,runs/round4_extension_20261024/geometry_candidates.csv,1092,stage design or original summary
+simulationCase/parameters_and_results/runs/round4_extension_20261024/manifest.json,runs/round4_extension_20261024/manifest.json,33583,stage design or original summary
+simulationCase/parameters_and_results/runs/round4_extension_20261024/prediction_comparison.csv,runs/round4_extension_20261024/prediction_comparison.csv,9160,stage design or original summary
+simulationCase/parameters_and_results/runs/round4_extension_20261024/responses.csv,runs/round4_extension_20261024/responses.csv,17730,stage design or original summary
+simulationCase/parameters_and_results/runs/round5_modal_closure/actual_geometry.csv,runs/round5_modal_closure/actual_geometry.csv,12838,stage design or original summary
+simulationCase/parameters_and_results/runs/round5_modal_closure/analytical_validation.json,runs/round5_modal_closure/analytical_validation.json,1296,stage design or original summary
+simulationCase/parameters_and_results/runs/round5_modal_closure/closure_comparison.csv,runs/round5_modal_closure/closure_comparison.csv,168456,stage design or original summary
+simulationCase/parameters_and_results/runs/round5_modal_closure/crossover_gain_comparison.csv,runs/round5_modal_closure/crossover_gain_comparison.csv,12772,stage design or original summary
+simulationCase/parameters_and_results/runs/round5_modal_closure/crossover_predictions_summary.json,runs/round5_modal_closure/crossover_predictions_summary.json,9240,stage design or original summary
+simulationCase/parameters_and_results/runs/round5_modal_closure/crossover_prediction_curve.csv,runs/round5_modal_closure/crossover_prediction_curve.csv,10242,stage design or original summary
+simulationCase/parameters_and_results/runs/round5_modal_closure/crossover_prediction_validation.csv,runs/round5_modal_closure/crossover_prediction_validation.csv,8366,stage design or original summary
+simulationCase/parameters_and_results/runs/round5_modal_closure/crossover_targets.json,runs/round5_modal_closure/crossover_targets.json,5553,stage design or original summary
+simulationCase/parameters_and_results/runs/round5_modal_closure/crossover_validation_summary.json,runs/round5_modal_closure/crossover_validation_summary.json,3290,stage design or original summary
+simulationCase/parameters_and_results/runs/round5_modal_closure/design.json,runs/round5_modal_closure/design.json,235636,stage design or original summary
+simulationCase/parameters_and_results/runs/round5_modal_closure/development_comparison.csv,runs/round5_modal_closure/development_comparison.csv,88603,stage design or original summary
+simulationCase/parameters_and_results/runs/round5_modal_closure/development_order_selection.json,runs/round5_modal_closure/development_order_selection.json,5347,stage design or original summary
+simulationCase/parameters_and_results/runs/round5_modal_closure/development_ranking.csv,runs/round5_modal_closure/development_ranking.csv,19200,stage design or original summary
+simulationCase/parameters_and_results/runs/round5_modal_closure/development_side_effects.csv,runs/round5_modal_closure/development_side_effects.csv,180191,stage design or original summary
+simulationCase/parameters_and_results/runs/round5_modal_closure/geometry_candidates.csv,runs/round5_modal_closure/geometry_candidates.csv,3666,stage design or original summary
+simulationCase/parameters_and_results/runs/round5_modal_closure/mesh_comparison.csv,runs/round5_modal_closure/mesh_comparison.csv,39847,stage design or original summary
+simulationCase/parameters_and_results/runs/round5_modal_closure/method_frozen.json,runs/round5_modal_closure/method_frozen.json,6781,stage design or original summary
+simulationCase/parameters_and_results/runs/round5_modal_closure/modal_truncation_comparison.csv,runs/round5_modal_closure/modal_truncation_comparison.csv,15552,stage design or original summary
+simulationCase/parameters_and_results/runs/round5_modal_closure/model_inventory.csv,runs/round5_modal_closure/model_inventory.csv,25057,stage design or original summary
+simulationCase/parameters_and_results/runs/round5_modal_closure/mode_effects_summary.csv,runs/round5_modal_closure/mode_effects_summary.csv,572029,stage design or original summary
+simulationCase/parameters_and_results/runs/round5_modal_closure/numerical_summary.json,runs/round5_modal_closure/numerical_summary.json,2114,stage design or original summary
+simulationCase/parameters_and_results/runs/round5_modal_closure/numerical_validation.csv,runs/round5_modal_closure/numerical_validation.csv,265037,stage design or original summary
+simulationCase/parameters_and_results/runs/round5_modal_closure/port_coefficients.csv,runs/round5_modal_closure/port_coefficients.csv,287242,stage design or original summary
+simulationCase/parameters_and_results/runs/round5_modal_closure/port_layers.csv,runs/round5_modal_closure/port_layers.csv,1889,stage design or original summary
+simulationCase/parameters_and_results/runs/round5_modal_closure/predicted_mode_scale_summary.csv,runs/round5_modal_closure/predicted_mode_scale_summary.csv,55479,stage design or original summary
+simulationCase/parameters_and_results/runs/round5_modal_closure/prospective_comparison.csv,runs/round5_modal_closure/prospective_comparison.csv,67579,stage design or original summary
+simulationCase/parameters_and_results/runs/round5_modal_closure/prospective_ranking.csv,runs/round5_modal_closure/prospective_ranking.csv,14339,stage design or original summary
+simulationCase/parameters_and_results/runs/round5_modal_closure/prospective_side_effects.csv,runs/round5_modal_closure/prospective_side_effects.csv,96419,stage design or original summary
+simulationCase/parameters_and_results/runs/round5_modal_closure/prospective_summary.json,runs/round5_modal_closure/prospective_summary.json,1124,stage design or original summary
+simulationCase/parameters_and_results/runs/round5_modal_closure/ranking_comparison.csv,runs/round5_modal_closure/ranking_comparison.csv,33412,stage design or original summary
+simulationCase/parameters_and_results/runs/round5_modal_closure/reference_selftest.json,runs/round5_modal_closure/reference_selftest.json,280,stage design or original summary
+simulationCase/parameters_and_results/runs/round5_modal_closure/refinement_targets.json,runs/round5_modal_closure/refinement_targets.json,1493,stage design or original summary
+simulationCase/parameters_and_results/runs/round5_modal_closure/selected_mesh_effects.csv,runs/round5_modal_closure/selected_mesh_effects.csv,8383,stage design or original summary
+simulationCase/parameters_and_results/runs/round5_modal_closure/side_effects.csv,runs/round5_modal_closure/side_effects.csv,276225,stage design or original summary
+simulationCase/parameters_and_results/runs/round6_applicability/actual_geometry.csv,runs/round6_applicability/actual_geometry.csv,9838,stage design or original summary
+simulationCase/parameters_and_results/runs/round6_applicability/applicability_predictions.csv,runs/round6_applicability/applicability_predictions.csv,77264,stage design or original summary
+simulationCase/parameters_and_results/runs/round6_applicability/applicability_predictions.json,runs/round6_applicability/applicability_predictions.json,190123,stage design or original summary
+simulationCase/parameters_and_results/runs/round6_applicability/applicability_validation.csv,runs/round6_applicability/applicability_validation.csv,137765,stage design or original summary
+simulationCase/parameters_and_results/runs/round6_applicability/applicability_validation_summary.json,runs/round6_applicability/applicability_validation_summary.json,3194,stage design or original summary
+simulationCase/parameters_and_results/runs/round6_applicability/closure_new_source_comparison.csv,runs/round6_applicability/closure_new_source_comparison.csv,55702,stage design or original summary
+simulationCase/parameters_and_results/runs/round6_applicability/design.json,runs/round6_applicability/design.json,187867,stage design or original summary
+simulationCase/parameters_and_results/runs/round6_applicability/finite_model_interval_diagnostic.csv,runs/round6_applicability/finite_model_interval_diagnostic.csv,16061,stage design or original summary
+simulationCase/parameters_and_results/runs/round6_applicability/geometry_candidates.csv,runs/round6_applicability/geometry_candidates.csv,4393,stage design or original summary
+simulationCase/parameters_and_results/runs/round6_applicability/higher_order_side_comparison.csv,runs/round6_applicability/higher_order_side_comparison.csv,49089,stage design or original summary
+simulationCase/parameters_and_results/runs/round6_applicability/mesh_comparison.csv,runs/round6_applicability/mesh_comparison.csv,35710,stage design or original summary
+simulationCase/parameters_and_results/runs/round6_applicability/mesh_evidence.json,runs/round6_applicability/mesh_evidence.json,14045,stage design or original summary
+simulationCase/parameters_and_results/runs/round6_applicability/method_frozen.json,runs/round6_applicability/method_frozen.json,3827,stage design or original summary
+simulationCase/parameters_and_results/runs/round6_applicability/model_index.csv,runs/round6_applicability/model_index.csv,37822,stage design or original summary
+simulationCase/parameters_and_results/runs/round6_applicability/output_specific_summary.csv,runs/round6_applicability/output_specific_summary.csv,4266,stage design or original summary
+simulationCase/parameters_and_results/runs/round6_applicability/output_specific_summary.json,runs/round6_applicability/output_specific_summary.json,309718,stage design or original summary
+simulationCase/parameters_and_results/runs/round6_applicability/port_coefficients.csv,runs/round6_applicability/port_coefficients.csv,117613,stage design or original summary
+simulationCase/parameters_and_results/runs/round6_applicability/refinement_targets.json,runs/round6_applicability/refinement_targets.json,5432,stage design or original summary
+simulationCase/parameters_and_results/runs/round6_applicability/side_and_rank_intervals.csv,runs/round6_applicability/side_and_rank_intervals.csv,188385,stage design or original summary
+simulationCase/parameters_and_results/runs/round6_applicability/side_and_rank_intervals_pretruth.csv,runs/round6_applicability/side_and_rank_intervals_pretruth.csv,121542,stage design or original summary
+simulationCase/parameters_and_results/runs/round6_applicability/side_and_rank_intervals_pretruth.json,runs/round6_applicability/side_and_rank_intervals_pretruth.json,282253,stage design or original summary
+simulationCase/parameters_and_results/runs/round6_applicability/source_scale_response.csv,runs/round6_applicability/source_scale_response.csv,92496,stage design or original summary
+simulationCase/parameters_and_results/runs/round6_applicability/source_scale_response_pretruth.csv,runs/round6_applicability/source_scale_response_pretruth.csv,82940,stage design or original summary
+simulationCase/parameters_and_results/runs/round7_3d_ct/background_direction_checks.csv,runs/round7_3d_ct/background_direction_checks.csv,6698,stage design or original summary
+simulationCase/parameters_and_results/runs/round7_3d_ct/controlled_effects.csv,runs/round7_3d_ct/controlled_effects.csv,16718,stage design or original summary
+simulationCase/parameters_and_results/runs/round7_3d_ct/design.json,runs/round7_3d_ct/design.json,89919,stage design or original summary
+simulationCase/parameters_and_results/runs/round7_3d_ct/fine_joint_comparison.csv,runs/round7_3d_ct/fine_joint_comparison.csv,1538,stage design or original summary
+simulationCase/parameters_and_results/runs/round7_3d_ct/geometry_candidates.csv,runs/round7_3d_ct/geometry_candidates.csv,2876,stage design or original summary
+simulationCase/parameters_and_results/runs/round7_3d_ct/geometry_manifest.csv,runs/round7_3d_ct/geometry_manifest.csv,13026,stage design or original summary
+simulationCase/parameters_and_results/runs/round7_3d_ct/M0_comparison.csv,runs/round7_3d_ct/M0_comparison.csv,7128,stage design or original summary
+simulationCase/parameters_and_results/runs/round7_3d_ct/mesh_comparison.csv,runs/round7_3d_ct/mesh_comparison.csv,6739,stage design or original summary
+simulationCase/parameters_and_results/runs/round7_3d_ct/model_index.csv,runs/round7_3d_ct/model_index.csv,112662,stage design or original summary
+simulationCase/parameters_and_results/runs/round7_3d_ct/refinement_targets.json,runs/round7_3d_ct/refinement_targets.json,2426,stage design or original summary
+simulationCase/parameters_and_results/runs/round7_3d_ct/retrospective_frozen_field.csv,runs/round7_3d_ct/retrospective_frozen_field.csv,10526,stage design or original summary
+simulationCase/parameters_and_results/runs/round7_3d_ct/synthetic3d_response.csv,runs/round7_3d_ct/synthetic3d_response.csv,16059,stage design or original summary
+simulationCase/parameters_and_results/runs/round7_3d_ct/synthetic_summary.json,runs/round7_3d_ct/synthetic_summary.json,2110,stage design or original summary
+simulationCase/parameters_and_results/runs/round7_3d_ct/thinmesh_selftest.json,runs/round7_3d_ct/thinmesh_selftest.json,7148,stage design or original summary
+simulationCase/parameters_and_results/runs/round7_3d_ct/two_dimensional_reference.csv,runs/round7_3d_ct/two_dimensional_reference.csv,21257,stage design or original summary
+simulationCase/parameters_and_results/runs/round7_3d_ct/two_vs_three_dimensional_comparison.csv,runs/round7_3d_ct/two_vs_three_dimensional_comparison.csv,14258,stage design or original summary
+simulationCase/parameters_and_results/runs/round7_3d_ct/volume_matching_actual.csv,runs/round7_3d_ct/volume_matching_actual.csv,2862,stage design or original summary
+simulationCase/parameters_and_results/runs/round7b_localfit/all_volume_faces.csv,runs/round7b_localfit/all_volume_faces.csv,3526,stage design or original summary
+simulationCase/parameters_and_results/runs/round7b_localfit/background_calibration.csv,runs/round7b_localfit/background_calibration.csv,13395,stage design or original summary
+simulationCase/parameters_and_results/runs/round7b_localfit/ct_response_localfit.csv,runs/round7b_localfit/ct_response_localfit.csv,10590,stage design or original summary
+simulationCase/parameters_and_results/runs/round7b_localfit/data_index.csv,runs/round7b_localfit/data_index.csv,188164,stage design or original summary
+simulationCase/parameters_and_results/runs/round7b_localfit/fixed_midpoint_refinement_design.json,runs/round7b_localfit/fixed_midpoint_refinement_design.json,1467,stage design or original summary
+simulationCase/parameters_and_results/runs/round7b_localfit/formal_target_states.csv,runs/round7b_localfit/formal_target_states.csv,4995,stage design or original summary
+simulationCase/parameters_and_results/runs/round7b_localfit/geometry_verification.csv,runs/round7b_localfit/geometry_verification.csv,33143,stage design or original summary
+simulationCase/parameters_and_results/runs/round7b_localfit/mesh_convergence.csv,runs/round7b_localfit/mesh_convergence.csv,4408,stage design or original summary
+simulationCase/parameters_and_results/runs/round7b_localfit/model_index.csv,runs/round7b_localfit/model_index.csv,28101,stage design or original summary
+simulationCase/parameters_and_results/runs/round7b_localfit/runtime_versions.json,runs/round7b_localfit/runtime_versions.json,504,stage design or original summary
+simulationCase/parameters_and_results/runs/round7b_localfit/summary.json,runs/round7b_localfit/summary.json,8565,stage design or original summary
+simulationCase/parameters_and_results/runs/round7b_localfit/technical32_status.csv,runs/round7b_localfit/technical32_status.csv,1871,stage design or original summary
+simulationCase/parameters_and_results/runs/round7b_localfit/uniform_pilot_states.csv,runs/round7b_localfit/uniform_pilot_states.csv,1437,stage design or original summary
+simulationCase/parameters_and_results/figure_parameters/Fig02/inputs/cut/parameters.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig02/inputs/cut/parameters.json,2786,plotted-state geometry and material parameters
+simulationCase/parameters_and_results/figure_parameters/Fig02/inputs/full/parameters.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig02/inputs/full/parameters.json,2788,plotted-state geometry and material parameters
+simulationCase/parameters_and_results/figure_parameters/Fig02/inputs/side/parameters.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig02/inputs/side/parameters.json,2788,plotted-state geometry and material parameters
+simulationCase/parameters_and_results/figure_parameters/Fig03/inputs/core_h20_L60_B_m3_full/parameters.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig03/inputs/core_h20_L60_B_m3_full/parameters.json,2319,plotted-state geometry and material parameters
+simulationCase/parameters_and_results/figure_parameters/Fig03/inputs/core_h20_L60_C_m3_full/parameters.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig03/inputs/core_h20_L60_C_m3_full/parameters.json,2374,plotted-state geometry and material parameters
+simulationCase/parameters_and_results/figure_parameters/Fig03/inputs/strict_h10_L60_A_m3_full/parameters.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig03/inputs/strict_h10_L60_A_m3_full/parameters.json,2597,plotted-state geometry and material parameters
+simulationCase/parameters_and_results/figure_parameters/Fig03/inputs/strict_h10_L60_B_m3_full/parameters.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Fig03/inputs/strict_h10_L60_B_m3_full/parameters.json,2597,plotted-state geometry and material parameters
+simulationCase/parameters_and_results/figure_parameters/Shared_Fig01_04_07/runs/2026-10-21_round2/core_h20_L60_A_m3_full/parameters.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/runs/2026-10-21_round2/core_h20_L60_A_m3_full/parameters.json,2416,plotted-state geometry and material parameters
+simulationCase/parameters_and_results/figure_parameters/Shared_Fig01_04_07/runs/2026-10-21_round2/core_h20_L60_B_m3_full/parameters.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/runs/2026-10-21_round2/core_h20_L60_B_m3_full/parameters.json,2319,plotted-state geometry and material parameters
+simulationCase/parameters_and_results/figure_parameters/Shared_Fig01_04_07/runs/2026-10-21_round2/strict_h10_L60_A_m3_full/parameters.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/runs/2026-10-21_round2/strict_h10_L60_A_m3_full/parameters.json,2597,plotted-state geometry and material parameters
+simulationCase/parameters_and_results/figure_parameters/Shared_Fig01_04_07/runs/2026-10-21_round2/strict_h10_L60_B_m3_full/parameters.json,outputs/JGRSE_FinalFigures_20261029/06_复绘资料/Shared_Fig01_04_07/runs/2026-10-21_round2/strict_h10_L60_B_m3_full/parameters.json,2597,plotted-state geometry and material parameters
+solver/round5_taskpack/periphery_modal_response.py,round5_taskpack/periphery_modal_response.py,11414,analytical module or design dependency
+solver/round5_taskpack/test_reference.py,round5_taskpack/test_reference.py,6484,analytical module or design dependency
+solver/round5_taskpack/round5_design_template.json,round5_taskpack/round5_design_template.json,2993,analytical module or design dependency
+solver/round6_taskpack/modal_applicability.py,round6_taskpack/modal_applicability.py,4814,analytical module or design dependency
+solver/round6_taskpack/test_modal_applicability.py,round6_taskpack/test_modal_applicability.py,2142,analytical module or design dependency
+solver/round6_taskpack/check_round5.py,round6_taskpack/check_round5.py,4866,analytical module or design dependency
+solver/round6_taskpack/round6_design.json,round6_taskpack/round6_design.json,22604,analytical module or design dependency

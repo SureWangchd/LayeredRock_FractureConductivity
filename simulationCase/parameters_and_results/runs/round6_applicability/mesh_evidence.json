@@ -1,0 +1,337 @@
+{
+  "generated_local": "2026-10-26T16:53:28.036598+08:00",
+  "status": "complete",
+  "full_target_count": 32,
+  "expected_full_target_count": 32,
+  "planned_refinement_count": 6,
+  "completed_target_refinement_count": 6,
+  "global_conservative_gain_resolution_S": 4.4061471457523815e-08,
+  "resolution_definition": "2 times maximum observed absolute full-target fine-minus-base gain change among the prospectively selected refinements; contrasts multiply this per-state scale by sum(abs(weights))",
+  "resolution_scope": "Descriptive conservative observed scale only; not a proven discretization error bound, not incorporated in finite-modal Q/B intervals",
+  "maximum_abs_target_mesh_gain_change_S": 2.2030735728761908e-08,
+  "maximum_abs_composite_reference_mesh_gain_change_by_order_S": {
+    "M0": 2.334891712266196e-08,
+    "M8": 2.3343523919416853e-08,
+    "M32": 2.3343628637734204e-08,
+    "M64": 2.334361193234713e-08
+  },
+  "maximum_abs_base_M64_minus_M32_gain_S": 2.1503442443684961e-07,
+  "maximum_abs_fine_M64_minus_M32_gain_S": 2.1163396398196643e-07,
+  "maximum_gauss20_vs40_relative_fro": 1.6829803891889099e-15,
+  "minimum_domination_spectral_margin": 0.17459076766174075,
+  "per_state_reference_gain_change_definition": "M64 fine-minus-base; four individual orders retained in reference_gain_change_by_order_S",
+  "per_state": {
+    "L40_A_P11_sf0.18": {
+      "target_gain_change_S": null,
+      "reference_gain_change_S": null,
+      "reference_gain_change_by_order_S": {},
+      "target_mesh_available": false,
+      "reference_mesh_available": false,
+      "base_M64_minus_M32_gain_S": 9.679756995950584e-16
+    },
+    "L40_A_P11_sf10": {
+      "target_gain_change_S": -4.372260643814574e-10,
+      "reference_gain_change_S": -1.5516032486617704e-09,
+      "reference_gain_change_by_order_S": {
+        "M0": -1.5549040353890486e-09,
+        "M8": -1.5469148288704826e-09,
+        "M32": -1.5516135078164073e-09,
+        "M64": -1.5516032486617704e-09
+      },
+      "target_mesh_available": true,
+      "reference_mesh_available": true,
+      "base_M64_minus_M32_gain_S": 3.97390453876767e-14,
+      "coarse_target_gain_S": 0.0013960223070606168,
+      "fine_target_gain_S": 0.0013960218698345524,
+      "target_refinement_file": "F:/岩层裂缝/runs/round6_applicability/precision/r6_L40_A_P11_sf_10/SUCCESS.json",
+      "fine_M64_minus_M32_gain_S": 4.9998200024603534e-14
+    },
+    "L40_A_P77_sf0.18": {
+      "target_gain_change_S": null,
+      "reference_gain_change_S": null,
+      "reference_gain_change_by_order_S": {},
+      "target_mesh_available": false,
+      "reference_mesh_available": false,
+      "base_M64_minus_M32_gain_S": -2.6055546609171643e-15
+    },
+    "L40_A_P77_sf10": {
+      "target_gain_change_S": -4.3117587278374003e-10,
+      "reference_gain_change_S": -1.5940750386356228e-09,
+      "reference_gain_change_by_order_S": {
+        "M0": -1.5549040353890486e-09,
+        "M8": -1.576945567183241e-09,
+        "M32": -1.593991473536338e-09,
+        "M64": -1.5940750386356228e-09
+      },
+      "target_mesh_available": true,
+      "reference_mesh_available": true,
+      "base_M64_minus_M32_gain_S": -5.091413401991929e-14,
+      "coarse_target_gain_S": 0.001386738486533142,
+      "fine_target_gain_S": 0.0013867380553572693,
+      "target_refinement_file": "F:/岩层裂缝/runs/round6_applicability/precision/r6_L40_A_P77_sf_10/SUCCESS.json",
+      "fine_M64_minus_M32_gain_S": -1.3447923330467404e-13
+    },
+    "L40_A_P17_sf0.18": {
+      "target_gain_change_S": null,
+      "reference_gain_change_S": null,
+      "reference_gain_change_by_order_S": {},
+      "target_mesh_available": false,
+      "reference_mesh_available": false,
+      "base_M64_minus_M32_gain_S": -4.430483757644765e-15
+    },
+    "L40_A_P17_sf10": {
+      "target_gain_change_S": null,
+      "reference_gain_change_S": null,
+      "reference_gain_change_by_order_S": {},
+      "target_mesh_available": false,
+      "reference_mesh_available": false,
+      "base_M64_minus_M32_gain_S": -4.5255466041282943e-14
+    },
+    "L40_A_P71_sf0.18": {
+      "target_gain_change_S": null,
+      "reference_gain_change_S": null,
+      "reference_gain_change_by_order_S": {},
+      "target_mesh_available": false,
+      "reference_mesh_available": false,
+      "base_M64_minus_M32_gain_S": 3.389649672058681e-15
+    },
+    "L40_A_P71_sf10": {
+      "target_gain_change_S": null,
+      "reference_gain_change_S": null,
+      "reference_gain_change_by_order_S": {},
+      "target_mesh_available": false,
+      "reference_mesh_available": false,
+      "base_M64_minus_M32_gain_S": 8.479328350574633e-15
+    },
+    "L40_B_P11_sf0.18": {
+      "target_gain_change_S": null,
+      "reference_gain_change_S": null,
+      "reference_gain_change_by_order_S": {},
+      "target_mesh_available": false,
+      "reference_mesh_available": false,
+      "base_M64_minus_M32_gain_S": -2.914335439641036e-15
+    },
+    "L40_B_P11_sf10": {
+      "target_gain_change_S": null,
+      "reference_gain_change_S": null,
+      "reference_gain_change_by_order_S": {},
+      "target_mesh_available": false,
+      "reference_mesh_available": false,
+      "base_M64_minus_M32_gain_S": 1.9029916531465574e-13
+    },
+    "L40_B_P77_sf0.18": {
+      "target_gain_change_S": -2.2030735728761908e-08,
+      "reference_gain_change_S": -2.334361193234713e-08,
+      "reference_gain_change_by_order_S": {
+        "M0": -2.334891712266196e-08,
+        "M8": -2.3343523919416853e-08,
+        "M32": -2.3343628637734204e-08,
+        "M64": -2.334361193234713e-08
+      },
+      "target_mesh_available": true,
+      "reference_mesh_available": true,
+      "base_M64_minus_M32_gain_S": -1.7659484985443896e-15,
+      "coarse_target_gain_S": 0.0007093005897621588,
+      "fine_target_gain_S": 0.00070927855902643,
+      "target_refinement_file": "F:/岩层裂缝/runs/round6_applicability/precision/r6_L40_B_P77_sf_0p18/SUCCESS.json",
+      "fine_M64_minus_M32_gain_S": 1.4939438575112263e-14
+    },
+    "L40_B_P77_sf10": {
+      "target_gain_change_S": null,
+      "reference_gain_change_S": null,
+      "reference_gain_change_by_order_S": {},
+      "target_mesh_available": false,
+      "reference_mesh_available": false,
+      "base_M64_minus_M32_gain_S": 2.122850506491858e-13
+    },
+    "L40_B_P17_sf0.18": {
+      "target_gain_change_S": null,
+      "reference_gain_change_S": null,
+      "reference_gain_change_by_order_S": {},
+      "target_mesh_available": false,
+      "reference_mesh_available": false,
+      "base_M64_minus_M32_gain_S": 8.326672684688674e-16
+    },
+    "L40_B_P17_sf10": {
+      "target_gain_change_S": null,
+      "reference_gain_change_S": null,
+      "reference_gain_change_by_order_S": {},
+      "target_mesh_available": false,
+      "reference_mesh_available": false,
+      "base_M64_minus_M32_gain_S": -2.9484747976482595e-13
+    },
+    "L40_B_P71_sf0.18": {
+      "target_gain_change_S": null,
+      "reference_gain_change_S": null,
+      "reference_gain_change_by_order_S": {},
+      "target_mesh_available": false,
+      "reference_mesh_available": false,
+      "base_M64_minus_M32_gain_S": -4.28129753871076e-15
+    },
+    "L40_B_P71_sf10": {
+      "target_gain_change_S": null,
+      "reference_gain_change_S": null,
+      "reference_gain_change_by_order_S": {},
+      "target_mesh_available": false,
+      "reference_mesh_available": false,
+      "base_M64_minus_M32_gain_S": -1.086630785351872e-13
+    },
+    "L64_A_P11_sf0.18": {
+      "target_gain_change_S": null,
+      "reference_gain_change_S": null,
+      "reference_gain_change_by_order_S": {},
+      "target_mesh_available": false,
+      "reference_mesh_available": false,
+      "base_M64_minus_M32_gain_S": -2.98583417365772e-08
+    },
+    "L64_A_P11_sf10": {
+      "target_gain_change_S": null,
+      "reference_gain_change_S": null,
+      "reference_gain_change_by_order_S": {},
+      "target_mesh_available": false,
+      "reference_mesh_available": false,
+      "base_M64_minus_M32_gain_S": -2.1503442443684961e-07
+    },
+    "L64_A_P77_sf0.18": {
+      "target_gain_change_S": -1.0082857982568472e-08,
+      "reference_gain_change_S": -1.1409641075682542e-08,
+      "reference_gain_change_by_order_S": {
+        "M0": -1.104824791375858e-08,
+        "M8": -1.097356893201007e-08,
+        "M32": -1.1838261551599949e-08,
+        "M64": -1.1409641075682542e-08
+      },
+      "target_mesh_available": true,
+      "reference_mesh_available": true,
+      "base_M64_minus_M32_gain_S": -3.273166524625504e-08,
+      "coarse_target_gain_S": 0.0013367822017865093,
+      "fine_target_gain_S": 0.0013367721189285267,
+      "target_refinement_file": "F:/岩层裂缝/runs/round6_applicability/precision/r6_L64_A_P77_sf_0p18/SUCCESS.json",
+      "fine_M64_minus_M32_gain_S": -3.230304477033763e-08
+    },
+    "L64_A_P77_sf10": {
+      "target_gain_change_S": null,
+      "reference_gain_change_S": null,
+      "reference_gain_change_by_order_S": {},
+      "target_mesh_available": false,
+      "reference_mesh_available": false,
+      "base_M64_minus_M32_gain_S": -2.1185566332487804e-07
+    },
+    "L64_A_P17_sf0.18": {
+      "target_gain_change_S": null,
+      "reference_gain_change_S": null,
+      "reference_gain_change_by_order_S": {},
+      "target_mesh_available": false,
+      "reference_mesh_available": false,
+      "base_M64_minus_M32_gain_S": -3.2726640033370336e-08
+    },
+    "L64_A_P17_sf10": {
+      "target_gain_change_S": -1.3240204557729562e-09,
+      "reference_gain_change_S": -8.989032865280855e-09,
+      "reference_gain_change_by_order_S": {
+        "M0": -3.93100604845209e-09,
+        "M8": -6.0348323595305065e-09,
+        "M32": -1.1904576047161441e-08,
+        "M64": -8.989032865280855e-09
+      },
+      "target_mesh_available": true,
+      "reference_mesh_available": true,
+      "base_M64_minus_M32_gain_S": -2.1454950716384702e-07,
+      "coarse_target_gain_S": 0.0037505907245222493,
+      "fine_target_gain_S": 0.0037505894005017935,
+      "target_refinement_file": "F:/岩层裂缝/runs/round6_applicability/precision/r6_L64_A_P17_sf_10/SUCCESS.json",
+      "fine_M64_minus_M32_gain_S": -2.1163396398196643e-07
+    },
+    "L64_A_P71_sf0.18": {
+      "target_gain_change_S": null,
+      "reference_gain_change_S": null,
+      "reference_gain_change_by_order_S": {},
+      "target_mesh_available": false,
+      "reference_mesh_available": false,
+      "base_M64_minus_M32_gain_S": -2.986295822432483e-08
+    },
+    "L64_A_P71_sf10": {
+      "target_gain_change_S": null,
+      "reference_gain_change_S": null,
+      "reference_gain_change_by_order_S": {},
+      "target_mesh_available": false,
+      "reference_mesh_available": false,
+      "base_M64_minus_M32_gain_S": -2.1222189152542148e-07
+    },
+    "L64_B_P11_sf0.18": {
+      "target_gain_change_S": null,
+      "reference_gain_change_S": null,
+      "reference_gain_change_by_order_S": {},
+      "target_mesh_available": false,
+      "reference_mesh_available": false,
+      "base_M64_minus_M32_gain_S": -1.8380962550634816e-08
+    },
+    "L64_B_P11_sf10": {
+      "target_gain_change_S": -5.846410831150672e-09,
+      "reference_gain_change_S": -8.652753281240821e-09,
+      "reference_gain_change_by_order_S": {
+        "M0": -7.865609746859903e-09,
+        "M8": -7.994158890411995e-09,
+        "M32": -9.893156946438886e-09,
+        "M64": -8.652753281240821e-09
+      },
+      "target_mesh_available": true,
+      "reference_mesh_available": true,
+      "base_M64_minus_M32_gain_S": -9.815762684259322e-08,
+      "coarse_target_gain_S": 0.005065958843421051,
+      "fine_target_gain_S": 0.0050659529970102195,
+      "target_refinement_file": "F:/岩层裂缝/runs/round6_applicability/precision/r6_L64_B_P11_sf_10/SUCCESS.json",
+      "fine_M64_minus_M32_gain_S": -9.691722317739515e-08
+    },
+    "L64_B_P77_sf0.18": {
+      "target_gain_change_S": null,
+      "reference_gain_change_S": null,
+      "reference_gain_change_by_order_S": {},
+      "target_mesh_available": false,
+      "reference_mesh_available": false,
+      "base_M64_minus_M32_gain_S": -2.042877077224059e-08
+    },
+    "L64_B_P77_sf10": {
+      "target_gain_change_S": null,
+      "reference_gain_change_S": null,
+      "reference_gain_change_by_order_S": {},
+      "target_mesh_available": false,
+      "reference_mesh_available": false,
+      "base_M64_minus_M32_gain_S": -8.960108633868091e-08
+    },
+    "L64_B_P17_sf0.18": {
+      "target_gain_change_S": null,
+      "reference_gain_change_S": null,
+      "reference_gain_change_by_order_S": {},
+      "target_mesh_available": false,
+      "reference_mesh_available": false,
+      "base_M64_minus_M32_gain_S": -2.042587830125564e-08
+    },
+    "L64_B_P17_sf10": {
+      "target_gain_change_S": null,
+      "reference_gain_change_S": null,
+      "reference_gain_change_by_order_S": {},
+      "target_mesh_available": false,
+      "reference_mesh_available": false,
+      "base_M64_minus_M32_gain_S": -1.0099284640519013e-07
+    },
+    "L64_B_P71_sf0.18": {
+      "target_gain_change_S": null,
+      "reference_gain_change_S": null,
+      "reference_gain_change_by_order_S": {},
+      "target_mesh_available": false,
+      "reference_mesh_available": false,
+      "base_M64_minus_M32_gain_S": -1.8382628325791517e-08
+    },
+    "L64_B_P71_sf10": {
+      "target_gain_change_S": null,
+      "reference_gain_change_S": null,
+      "reference_gain_change_by_order_S": {},
+      "target_mesh_available": false,
+      "reference_mesh_available": false,
+      "base_M64_minus_M32_gain_S": -8.660623367420794e-08
+    }
+  },
+  "missing_files": [],
+  "separation": "Targetmesh, composite/coremesh, finite-modal order, interface quadrature and spectral condition are separate observations; no combined fulltruth guarantee"
+}

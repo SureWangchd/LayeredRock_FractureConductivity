@@ -1,0 +1,983 @@
+{
+  "version": "r6_applicability_source_validation_v1",
+  "purpose": "Validate output-specific exterior-equivalence criterion; close finite 2D study",
+  "source_geometry_note": "New lengths alter coverage and possibly endcap materials. They are not pure-endcap-matched scale-law tests.",
+  "fixed": {
+    "domain_mm": [
+      120,
+      120
+    ],
+    "core_z_mm": [
+      30,
+      90
+    ],
+    "bottom_buffer_z_mm": [
+      0,
+      20
+    ],
+    "bottom_buffer_sigma_S_m": 0.01,
+    "top_buffer_z_mm": [
+      100,
+      120
+    ],
+    "top_buffer_sigma_S_m": 0.1,
+    "sigma_low_S_m": 0.01,
+    "sigma_high_S_m": 0.1,
+    "thickness_m": 1,
+    "voltage_V": 1
+  },
+  "modes": [
+    0,
+    8,
+    32,
+    64
+  ],
+  "primary_gain_relative_tolerance": 0.02,
+  "secondary_gain_tolerances": [
+    0.01,
+    0.05
+  ],
+  "single_side_relative_tolerance": 0.1,
+  "number_of_geometries": 16,
+  "number_of_target_states": 32,
+  "maximum_planned_target_background_refinement_pairs": 6,
+  "states": [
+    {
+      "case_id": "r6_L40_A_P11_sf0.18",
+      "role": "A",
+      "full_length_mm": 40.0,
+      "full_width_mm": 3.0,
+      "theta_deg": 60.0,
+      "center_mm": [
+        60.0,
+        60.0
+      ],
+      "layout": "P11",
+      "lower_distance_mm": 1,
+      "upper_distance_mm": 1,
+      "lower_low_band_z_mm": [
+        27,
+        29
+      ],
+      "upper_high_band_z_mm": [
+        91,
+        93
+      ],
+      "sigma_f_S_m": 0.18,
+      "ellipse_vertical_envelope_mm": [
+        42.66326155241419,
+        77.33673844758582
+      ],
+      "clearance_to_fixed_core_interface_mm": 12.663261552414191,
+      "is_geometry_design_not_COMSOL_result": true
+    },
+    {
+      "case_id": "r6_L40_A_P11_sf10",
+      "role": "A",
+      "full_length_mm": 40.0,
+      "full_width_mm": 3.0,
+      "theta_deg": 60.0,
+      "center_mm": [
+        60.0,
+        60.0
+      ],
+      "layout": "P11",
+      "lower_distance_mm": 1,
+      "upper_distance_mm": 1,
+      "lower_low_band_z_mm": [
+        27,
+        29
+      ],
+      "upper_high_band_z_mm": [
+        91,
+        93
+      ],
+      "sigma_f_S_m": 10.0,
+      "ellipse_vertical_envelope_mm": [
+        42.66326155241419,
+        77.33673844758582
+      ],
+      "clearance_to_fixed_core_interface_mm": 12.663261552414191,
+      "is_geometry_design_not_COMSOL_result": true
+    },
+    {
+      "case_id": "r6_L40_A_P77_sf0.18",
+      "role": "A",
+      "full_length_mm": 40.0,
+      "full_width_mm": 3.0,
+      "theta_deg": 60.0,
+      "center_mm": [
+        60.0,
+        60.0
+      ],
+      "layout": "P77",
+      "lower_distance_mm": 7,
+      "upper_distance_mm": 7,
+      "lower_low_band_z_mm": [
+        21,
+        23
+      ],
+      "upper_high_band_z_mm": [
+        97,
+        99
+      ],
+      "sigma_f_S_m": 0.18,
+      "ellipse_vertical_envelope_mm": [
+        42.66326155241419,
+        77.33673844758582
+      ],
+      "clearance_to_fixed_core_interface_mm": 12.663261552414191,
+      "is_geometry_design_not_COMSOL_result": true
+    },
+    {
+      "case_id": "r6_L40_A_P77_sf10",
+      "role": "A",
+      "full_length_mm": 40.0,
+      "full_width_mm": 3.0,
+      "theta_deg": 60.0,
+      "center_mm": [
+        60.0,
+        60.0
+      ],
+      "layout": "P77",
+      "lower_distance_mm": 7,
+      "upper_distance_mm": 7,
+      "lower_low_band_z_mm": [
+        21,
+        23
+      ],
+      "upper_high_band_z_mm": [
+        97,
+        99
+      ],
+      "sigma_f_S_m": 10.0,
+      "ellipse_vertical_envelope_mm": [
+        42.66326155241419,
+        77.33673844758582
+      ],
+      "clearance_to_fixed_core_interface_mm": 12.663261552414191,
+      "is_geometry_design_not_COMSOL_result": true
+    },
+    {
+      "case_id": "r6_L40_A_P17_sf0.18",
+      "role": "A",
+      "full_length_mm": 40.0,
+      "full_width_mm": 3.0,
+      "theta_deg": 60.0,
+      "center_mm": [
+        60.0,
+        60.0
+      ],
+      "layout": "P17",
+      "lower_distance_mm": 1,
+      "upper_distance_mm": 7,
+      "lower_low_band_z_mm": [
+        27,
+        29
+      ],
+      "upper_high_band_z_mm": [
+        97,
+        99
+      ],
+      "sigma_f_S_m": 0.18,
+      "ellipse_vertical_envelope_mm": [
+        42.66326155241419,
+        77.33673844758582
+      ],
+      "clearance_to_fixed_core_interface_mm": 12.663261552414191,
+      "is_geometry_design_not_COMSOL_result": true
+    },
+    {
+      "case_id": "r6_L40_A_P17_sf10",
+      "role": "A",
+      "full_length_mm": 40.0,
+      "full_width_mm": 3.0,
+      "theta_deg": 60.0,
+      "center_mm": [
+        60.0,
+        60.0
+      ],
+      "layout": "P17",
+      "lower_distance_mm": 1,
+      "upper_distance_mm": 7,
+      "lower_low_band_z_mm": [
+        27,
+        29
+      ],
+      "upper_high_band_z_mm": [
+        97,
+        99
+      ],
+      "sigma_f_S_m": 10.0,
+      "ellipse_vertical_envelope_mm": [
+        42.66326155241419,
+        77.33673844758582
+      ],
+      "clearance_to_fixed_core_interface_mm": 12.663261552414191,
+      "is_geometry_design_not_COMSOL_result": true
+    },
+    {
+      "case_id": "r6_L40_A_P71_sf0.18",
+      "role": "A",
+      "full_length_mm": 40.0,
+      "full_width_mm": 3.0,
+      "theta_deg": 60.0,
+      "center_mm": [
+        60.0,
+        60.0
+      ],
+      "layout": "P71",
+      "lower_distance_mm": 7,
+      "upper_distance_mm": 1,
+      "lower_low_band_z_mm": [
+        21,
+        23
+      ],
+      "upper_high_band_z_mm": [
+        91,
+        93
+      ],
+      "sigma_f_S_m": 0.18,
+      "ellipse_vertical_envelope_mm": [
+        42.66326155241419,
+        77.33673844758582
+      ],
+      "clearance_to_fixed_core_interface_mm": 12.663261552414191,
+      "is_geometry_design_not_COMSOL_result": true
+    },
+    {
+      "case_id": "r6_L40_A_P71_sf10",
+      "role": "A",
+      "full_length_mm": 40.0,
+      "full_width_mm": 3.0,
+      "theta_deg": 60.0,
+      "center_mm": [
+        60.0,
+        60.0
+      ],
+      "layout": "P71",
+      "lower_distance_mm": 7,
+      "upper_distance_mm": 1,
+      "lower_low_band_z_mm": [
+        21,
+        23
+      ],
+      "upper_high_band_z_mm": [
+        91,
+        93
+      ],
+      "sigma_f_S_m": 10.0,
+      "ellipse_vertical_envelope_mm": [
+        42.66326155241419,
+        77.33673844758582
+      ],
+      "clearance_to_fixed_core_interface_mm": 12.663261552414191,
+      "is_geometry_design_not_COMSOL_result": true
+    },
+    {
+      "case_id": "r6_L40_B_P11_sf0.18",
+      "role": "B",
+      "full_length_mm": 40.0,
+      "full_width_mm": 3.0,
+      "theta_deg": 60.0,
+      "center_mm": [
+        60.0,
+        60.0
+      ],
+      "layout": "P11",
+      "lower_distance_mm": 1,
+      "upper_distance_mm": 1,
+      "lower_low_band_z_mm": [
+        27,
+        29
+      ],
+      "upper_high_band_z_mm": [
+        91,
+        93
+      ],
+      "sigma_f_S_m": 0.18,
+      "ellipse_vertical_envelope_mm": [
+        42.66326155241419,
+        77.33673844758582
+      ],
+      "clearance_to_fixed_core_interface_mm": 12.663261552414191,
+      "is_geometry_design_not_COMSOL_result": true
+    },
+    {
+      "case_id": "r6_L40_B_P11_sf10",
+      "role": "B",
+      "full_length_mm": 40.0,
+      "full_width_mm": 3.0,
+      "theta_deg": 60.0,
+      "center_mm": [
+        60.0,
+        60.0
+      ],
+      "layout": "P11",
+      "lower_distance_mm": 1,
+      "upper_distance_mm": 1,
+      "lower_low_band_z_mm": [
+        27,
+        29
+      ],
+      "upper_high_band_z_mm": [
+        91,
+        93
+      ],
+      "sigma_f_S_m": 10.0,
+      "ellipse_vertical_envelope_mm": [
+        42.66326155241419,
+        77.33673844758582
+      ],
+      "clearance_to_fixed_core_interface_mm": 12.663261552414191,
+      "is_geometry_design_not_COMSOL_result": true
+    },
+    {
+      "case_id": "r6_L40_B_P77_sf0.18",
+      "role": "B",
+      "full_length_mm": 40.0,
+      "full_width_mm": 3.0,
+      "theta_deg": 60.0,
+      "center_mm": [
+        60.0,
+        60.0
+      ],
+      "layout": "P77",
+      "lower_distance_mm": 7,
+      "upper_distance_mm": 7,
+      "lower_low_band_z_mm": [
+        21,
+        23
+      ],
+      "upper_high_band_z_mm": [
+        97,
+        99
+      ],
+      "sigma_f_S_m": 0.18,
+      "ellipse_vertical_envelope_mm": [
+        42.66326155241419,
+        77.33673844758582
+      ],
+      "clearance_to_fixed_core_interface_mm": 12.663261552414191,
+      "is_geometry_design_not_COMSOL_result": true
+    },
+    {
+      "case_id": "r6_L40_B_P77_sf10",
+      "role": "B",
+      "full_length_mm": 40.0,
+      "full_width_mm": 3.0,
+      "theta_deg": 60.0,
+      "center_mm": [
+        60.0,
+        60.0
+      ],
+      "layout": "P77",
+      "lower_distance_mm": 7,
+      "upper_distance_mm": 7,
+      "lower_low_band_z_mm": [
+        21,
+        23
+      ],
+      "upper_high_band_z_mm": [
+        97,
+        99
+      ],
+      "sigma_f_S_m": 10.0,
+      "ellipse_vertical_envelope_mm": [
+        42.66326155241419,
+        77.33673844758582
+      ],
+      "clearance_to_fixed_core_interface_mm": 12.663261552414191,
+      "is_geometry_design_not_COMSOL_result": true
+    },
+    {
+      "case_id": "r6_L40_B_P17_sf0.18",
+      "role": "B",
+      "full_length_mm": 40.0,
+      "full_width_mm": 3.0,
+      "theta_deg": 60.0,
+      "center_mm": [
+        60.0,
+        60.0
+      ],
+      "layout": "P17",
+      "lower_distance_mm": 1,
+      "upper_distance_mm": 7,
+      "lower_low_band_z_mm": [
+        27,
+        29
+      ],
+      "upper_high_band_z_mm": [
+        97,
+        99
+      ],
+      "sigma_f_S_m": 0.18,
+      "ellipse_vertical_envelope_mm": [
+        42.66326155241419,
+        77.33673844758582
+      ],
+      "clearance_to_fixed_core_interface_mm": 12.663261552414191,
+      "is_geometry_design_not_COMSOL_result": true
+    },
+    {
+      "case_id": "r6_L40_B_P17_sf10",
+      "role": "B",
+      "full_length_mm": 40.0,
+      "full_width_mm": 3.0,
+      "theta_deg": 60.0,
+      "center_mm": [
+        60.0,
+        60.0
+      ],
+      "layout": "P17",
+      "lower_distance_mm": 1,
+      "upper_distance_mm": 7,
+      "lower_low_band_z_mm": [
+        27,
+        29
+      ],
+      "upper_high_band_z_mm": [
+        97,
+        99
+      ],
+      "sigma_f_S_m": 10.0,
+      "ellipse_vertical_envelope_mm": [
+        42.66326155241419,
+        77.33673844758582
+      ],
+      "clearance_to_fixed_core_interface_mm": 12.663261552414191,
+      "is_geometry_design_not_COMSOL_result": true
+    },
+    {
+      "case_id": "r6_L40_B_P71_sf0.18",
+      "role": "B",
+      "full_length_mm": 40.0,
+      "full_width_mm": 3.0,
+      "theta_deg": 60.0,
+      "center_mm": [
+        60.0,
+        60.0
+      ],
+      "layout": "P71",
+      "lower_distance_mm": 7,
+      "upper_distance_mm": 1,
+      "lower_low_band_z_mm": [
+        21,
+        23
+      ],
+      "upper_high_band_z_mm": [
+        91,
+        93
+      ],
+      "sigma_f_S_m": 0.18,
+      "ellipse_vertical_envelope_mm": [
+        42.66326155241419,
+        77.33673844758582
+      ],
+      "clearance_to_fixed_core_interface_mm": 12.663261552414191,
+      "is_geometry_design_not_COMSOL_result": true
+    },
+    {
+      "case_id": "r6_L40_B_P71_sf10",
+      "role": "B",
+      "full_length_mm": 40.0,
+      "full_width_mm": 3.0,
+      "theta_deg": 60.0,
+      "center_mm": [
+        60.0,
+        60.0
+      ],
+      "layout": "P71",
+      "lower_distance_mm": 7,
+      "upper_distance_mm": 1,
+      "lower_low_band_z_mm": [
+        21,
+        23
+      ],
+      "upper_high_band_z_mm": [
+        91,
+        93
+      ],
+      "sigma_f_S_m": 10.0,
+      "ellipse_vertical_envelope_mm": [
+        42.66326155241419,
+        77.33673844758582
+      ],
+      "clearance_to_fixed_core_interface_mm": 12.663261552414191,
+      "is_geometry_design_not_COMSOL_result": true
+    },
+    {
+      "case_id": "r6_L64_A_P11_sf0.18",
+      "role": "A",
+      "full_length_mm": 64.0,
+      "full_width_mm": 3.0,
+      "theta_deg": 60.0,
+      "center_mm": [
+        60.0,
+        60.0
+      ],
+      "layout": "P11",
+      "lower_distance_mm": 1,
+      "upper_distance_mm": 1,
+      "lower_low_band_z_mm": [
+        27,
+        29
+      ],
+      "upper_high_band_z_mm": [
+        91,
+        93
+      ],
+      "sigma_f_S_m": 0.18,
+      "ellipse_vertical_envelope_mm": [
+        32.277040201306065,
+        87.72295979869394
+      ],
+      "clearance_to_fixed_core_interface_mm": 2.277040201306068,
+      "is_geometry_design_not_COMSOL_result": true
+    },
+    {
+      "case_id": "r6_L64_A_P11_sf10",
+      "role": "A",
+      "full_length_mm": 64.0,
+      "full_width_mm": 3.0,
+      "theta_deg": 60.0,
+      "center_mm": [
+        60.0,
+        60.0
+      ],
+      "layout": "P11",
+      "lower_distance_mm": 1,
+      "upper_distance_mm": 1,
+      "lower_low_band_z_mm": [
+        27,
+        29
+      ],
+      "upper_high_band_z_mm": [
+        91,
+        93
+      ],
+      "sigma_f_S_m": 10.0,
+      "ellipse_vertical_envelope_mm": [
+        32.277040201306065,
+        87.72295979869394
+      ],
+      "clearance_to_fixed_core_interface_mm": 2.277040201306068,
+      "is_geometry_design_not_COMSOL_result": true
+    },
+    {
+      "case_id": "r6_L64_A_P77_sf0.18",
+      "role": "A",
+      "full_length_mm": 64.0,
+      "full_width_mm": 3.0,
+      "theta_deg": 60.0,
+      "center_mm": [
+        60.0,
+        60.0
+      ],
+      "layout": "P77",
+      "lower_distance_mm": 7,
+      "upper_distance_mm": 7,
+      "lower_low_band_z_mm": [
+        21,
+        23
+      ],
+      "upper_high_band_z_mm": [
+        97,
+        99
+      ],
+      "sigma_f_S_m": 0.18,
+      "ellipse_vertical_envelope_mm": [
+        32.277040201306065,
+        87.72295979869394
+      ],
+      "clearance_to_fixed_core_interface_mm": 2.277040201306068,
+      "is_geometry_design_not_COMSOL_result": true
+    },
+    {
+      "case_id": "r6_L64_A_P77_sf10",
+      "role": "A",
+      "full_length_mm": 64.0,
+      "full_width_mm": 3.0,
+      "theta_deg": 60.0,
+      "center_mm": [
+        60.0,
+        60.0
+      ],
+      "layout": "P77",
+      "lower_distance_mm": 7,
+      "upper_distance_mm": 7,
+      "lower_low_band_z_mm": [
+        21,
+        23
+      ],
+      "upper_high_band_z_mm": [
+        97,
+        99
+      ],
+      "sigma_f_S_m": 10.0,
+      "ellipse_vertical_envelope_mm": [
+        32.277040201306065,
+        87.72295979869394
+      ],
+      "clearance_to_fixed_core_interface_mm": 2.277040201306068,
+      "is_geometry_design_not_COMSOL_result": true
+    },
+    {
+      "case_id": "r6_L64_A_P17_sf0.18",
+      "role": "A",
+      "full_length_mm": 64.0,
+      "full_width_mm": 3.0,
+      "theta_deg": 60.0,
+      "center_mm": [
+        60.0,
+        60.0
+      ],
+      "layout": "P17",
+      "lower_distance_mm": 1,
+      "upper_distance_mm": 7,
+      "lower_low_band_z_mm": [
+        27,
+        29
+      ],
+      "upper_high_band_z_mm": [
+        97,
+        99
+      ],
+      "sigma_f_S_m": 0.18,
+      "ellipse_vertical_envelope_mm": [
+        32.277040201306065,
+        87.72295979869394
+      ],
+      "clearance_to_fixed_core_interface_mm": 2.277040201306068,
+      "is_geometry_design_not_COMSOL_result": true
+    },
+    {
+      "case_id": "r6_L64_A_P17_sf10",
+      "role": "A",
+      "full_length_mm": 64.0,
+      "full_width_mm": 3.0,
+      "theta_deg": 60.0,
+      "center_mm": [
+        60.0,
+        60.0
+      ],
+      "layout": "P17",
+      "lower_distance_mm": 1,
+      "upper_distance_mm": 7,
+      "lower_low_band_z_mm": [
+        27,
+        29
+      ],
+      "upper_high_band_z_mm": [
+        97,
+        99
+      ],
+      "sigma_f_S_m": 10.0,
+      "ellipse_vertical_envelope_mm": [
+        32.277040201306065,
+        87.72295979869394
+      ],
+      "clearance_to_fixed_core_interface_mm": 2.277040201306068,
+      "is_geometry_design_not_COMSOL_result": true
+    },
+    {
+      "case_id": "r6_L64_A_P71_sf0.18",
+      "role": "A",
+      "full_length_mm": 64.0,
+      "full_width_mm": 3.0,
+      "theta_deg": 60.0,
+      "center_mm": [
+        60.0,
+        60.0
+      ],
+      "layout": "P71",
+      "lower_distance_mm": 7,
+      "upper_distance_mm": 1,
+      "lower_low_band_z_mm": [
+        21,
+        23
+      ],
+      "upper_high_band_z_mm": [
+        91,
+        93
+      ],
+      "sigma_f_S_m": 0.18,
+      "ellipse_vertical_envelope_mm": [
+        32.277040201306065,
+        87.72295979869394
+      ],
+      "clearance_to_fixed_core_interface_mm": 2.277040201306068,
+      "is_geometry_design_not_COMSOL_result": true
+    },
+    {
+      "case_id": "r6_L64_A_P71_sf10",
+      "role": "A",
+      "full_length_mm": 64.0,
+      "full_width_mm": 3.0,
+      "theta_deg": 60.0,
+      "center_mm": [
+        60.0,
+        60.0
+      ],
+      "layout": "P71",
+      "lower_distance_mm": 7,
+      "upper_distance_mm": 1,
+      "lower_low_band_z_mm": [
+        21,
+        23
+      ],
+      "upper_high_band_z_mm": [
+        91,
+        93
+      ],
+      "sigma_f_S_m": 10.0,
+      "ellipse_vertical_envelope_mm": [
+        32.277040201306065,
+        87.72295979869394
+      ],
+      "clearance_to_fixed_core_interface_mm": 2.277040201306068,
+      "is_geometry_design_not_COMSOL_result": true
+    },
+    {
+      "case_id": "r6_L64_B_P11_sf0.18",
+      "role": "B",
+      "full_length_mm": 64.0,
+      "full_width_mm": 3.0,
+      "theta_deg": 60.0,
+      "center_mm": [
+        60.0,
+        60.0
+      ],
+      "layout": "P11",
+      "lower_distance_mm": 1,
+      "upper_distance_mm": 1,
+      "lower_low_band_z_mm": [
+        27,
+        29
+      ],
+      "upper_high_band_z_mm": [
+        91,
+        93
+      ],
+      "sigma_f_S_m": 0.18,
+      "ellipse_vertical_envelope_mm": [
+        32.277040201306065,
+        87.72295979869394
+      ],
+      "clearance_to_fixed_core_interface_mm": 2.277040201306068,
+      "is_geometry_design_not_COMSOL_result": true
+    },
+    {
+      "case_id": "r6_L64_B_P11_sf10",
+      "role": "B",
+      "full_length_mm": 64.0,
+      "full_width_mm": 3.0,
+      "theta_deg": 60.0,
+      "center_mm": [
+        60.0,
+        60.0
+      ],
+      "layout": "P11",
+      "lower_distance_mm": 1,
+      "upper_distance_mm": 1,
+      "lower_low_band_z_mm": [
+        27,
+        29
+      ],
+      "upper_high_band_z_mm": [
+        91,
+        93
+      ],
+      "sigma_f_S_m": 10.0,
+      "ellipse_vertical_envelope_mm": [
+        32.277040201306065,
+        87.72295979869394
+      ],
+      "clearance_to_fixed_core_interface_mm": 2.277040201306068,
+      "is_geometry_design_not_COMSOL_result": true
+    },
+    {
+      "case_id": "r6_L64_B_P77_sf0.18",
+      "role": "B",
+      "full_length_mm": 64.0,
+      "full_width_mm": 3.0,
+      "theta_deg": 60.0,
+      "center_mm": [
+        60.0,
+        60.0
+      ],
+      "layout": "P77",
+      "lower_distance_mm": 7,
+      "upper_distance_mm": 7,
+      "lower_low_band_z_mm": [
+        21,
+        23
+      ],
+      "upper_high_band_z_mm": [
+        97,
+        99
+      ],
+      "sigma_f_S_m": 0.18,
+      "ellipse_vertical_envelope_mm": [
+        32.277040201306065,
+        87.72295979869394
+      ],
+      "clearance_to_fixed_core_interface_mm": 2.277040201306068,
+      "is_geometry_design_not_COMSOL_result": true
+    },
+    {
+      "case_id": "r6_L64_B_P77_sf10",
+      "role": "B",
+      "full_length_mm": 64.0,
+      "full_width_mm": 3.0,
+      "theta_deg": 60.0,
+      "center_mm": [
+        60.0,
+        60.0
+      ],
+      "layout": "P77",
+      "lower_distance_mm": 7,
+      "upper_distance_mm": 7,
+      "lower_low_band_z_mm": [
+        21,
+        23
+      ],
+      "upper_high_band_z_mm": [
+        97,
+        99
+      ],
+      "sigma_f_S_m": 10.0,
+      "ellipse_vertical_envelope_mm": [
+        32.277040201306065,
+        87.72295979869394
+      ],
+      "clearance_to_fixed_core_interface_mm": 2.277040201306068,
+      "is_geometry_design_not_COMSOL_result": true
+    },
+    {
+      "case_id": "r6_L64_B_P17_sf0.18",
+      "role": "B",
+      "full_length_mm": 64.0,
+      "full_width_mm": 3.0,
+      "theta_deg": 60.0,
+      "center_mm": [
+        60.0,
+        60.0
+      ],
+      "layout": "P17",
+      "lower_distance_mm": 1,
+      "upper_distance_mm": 7,
+      "lower_low_band_z_mm": [
+        27,
+        29
+      ],
+      "upper_high_band_z_mm": [
+        97,
+        99
+      ],
+      "sigma_f_S_m": 0.18,
+      "ellipse_vertical_envelope_mm": [
+        32.277040201306065,
+        87.72295979869394
+      ],
+      "clearance_to_fixed_core_interface_mm": 2.277040201306068,
+      "is_geometry_design_not_COMSOL_result": true
+    },
+    {
+      "case_id": "r6_L64_B_P17_sf10",
+      "role": "B",
+      "full_length_mm": 64.0,
+      "full_width_mm": 3.0,
+      "theta_deg": 60.0,
+      "center_mm": [
+        60.0,
+        60.0
+      ],
+      "layout": "P17",
+      "lower_distance_mm": 1,
+      "upper_distance_mm": 7,
+      "lower_low_band_z_mm": [
+        27,
+        29
+      ],
+      "upper_high_band_z_mm": [
+        97,
+        99
+      ],
+      "sigma_f_S_m": 10.0,
+      "ellipse_vertical_envelope_mm": [
+        32.277040201306065,
+        87.72295979869394
+      ],
+      "clearance_to_fixed_core_interface_mm": 2.277040201306068,
+      "is_geometry_design_not_COMSOL_result": true
+    },
+    {
+      "case_id": "r6_L64_B_P71_sf0.18",
+      "role": "B",
+      "full_length_mm": 64.0,
+      "full_width_mm": 3.0,
+      "theta_deg": 60.0,
+      "center_mm": [
+        60.0,
+        60.0
+      ],
+      "layout": "P71",
+      "lower_distance_mm": 7,
+      "upper_distance_mm": 1,
+      "lower_low_band_z_mm": [
+        21,
+        23
+      ],
+      "upper_high_band_z_mm": [
+        91,
+        93
+      ],
+      "sigma_f_S_m": 0.18,
+      "ellipse_vertical_envelope_mm": [
+        32.277040201306065,
+        87.72295979869394
+      ],
+      "clearance_to_fixed_core_interface_mm": 2.277040201306068,
+      "is_geometry_design_not_COMSOL_result": true
+    },
+    {
+      "case_id": "r6_L64_B_P71_sf10",
+      "role": "B",
+      "full_length_mm": 64.0,
+      "full_width_mm": 3.0,
+      "theta_deg": 60.0,
+      "center_mm": [
+        60.0,
+        60.0
+      ],
+      "layout": "P71",
+      "lower_distance_mm": 7,
+      "upper_distance_mm": 1,
+      "lower_low_band_z_mm": [
+        21,
+        23
+      ],
+      "upper_high_band_z_mm": [
+        91,
+        93
+      ],
+      "sigma_f_S_m": 10.0,
+      "ellipse_vertical_envelope_mm": [
+        32.277040201306065,
+        87.72295979869394
+      ],
+      "clearance_to_fixed_core_interface_mm": 2.277040201306068,
+      "is_geometry_design_not_COMSOL_result": true
+    }
+  ],
+  "prohibited": [
+    "changing old frozen predictor",
+    "fit admittances to target answers",
+    "3D",
+    "other physical fields",
+    "full parameter sweep",
+    "claim universal K=8"
+  ],
+  "review_status": "assistant design; no new COMSOL targets solved"
+}

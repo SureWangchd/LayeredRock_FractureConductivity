@@ -1,0 +1,15 @@
+{
+  "status": "ACTUAL_CT_GEOMETRY_ACCEPTED",
+  "geometry_passed": true,
+  "sample": "S5",
+  "input_variant": "M1",
+  "model_path": "F:\\岩层裂缝\\runs\\round7b_localfit\\inputs\\S5_M1\\geometry_ready.mph",
+  "actual_geometry_evidence": "F:\\岩层裂缝\\runs\\round7b_localfit\\inputs\\S5_M1\\geometry_verification.json",
+  "original_phase_evidence": "F:\\岩层裂缝\\runs\\round7b_localfit\\inputs\\S5_M1\\native_phase_verification.json",
+  "tetrahedra": 15118643.0,
+  "vertices": 2612259.0,
+  "fixed_surface_identifier": "localfit_S5_formal_M1_20261027_154057",
+  "fixed_geometry_refinement_verified": false,
+  "electrical_convergence_established": false,
+  "created_local": "2026-10-27T15:43:40"
+}

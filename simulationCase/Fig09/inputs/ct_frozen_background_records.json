@@ -1,0 +1,90 @@
+[
+  {
+    "sample": "S1",
+    "input_variant": "M1",
+    "water_sigma_S_m": 0.18,
+    "status": "FROZEN_BEFORE_TARGETS",
+    "kappa_eq_S_m": 0.006350617136206519,
+    "frozen_before_targets_local": "2026-10-27 15:35:50",
+    "source_json": "F:\\岩层裂缝\\runs\\round7b_localfit\\states\\S1_M1\\water_0p18\\kappa_frozen.json",
+    "relative_background_mismatch": 1.2289902429074573e-10,
+    "full_tensor_matching_claimed": false
+  },
+  {
+    "sample": "S1",
+    "input_variant": "M1",
+    "water_sigma_S_m": 10.0,
+    "status": "FROZEN_BEFORE_TARGETS",
+    "kappa_eq_S_m": 0.3517148471315221,
+    "frozen_before_targets_local": "2026-10-27 16:02:45",
+    "source_json": "F:\\岩层裂缝\\runs\\round7b_localfit\\states\\S1_M1\\water_10\\kappa_frozen.json",
+    "relative_background_mismatch": 1.6722028206572759e-09,
+    "full_tensor_matching_claimed": false
+  },
+  {
+    "sample": "S5",
+    "input_variant": "M1",
+    "water_sigma_S_m": 0.18,
+    "status": "FROZEN_BEFORE_TARGETS",
+    "kappa_eq_S_m": 0.06553654381052945,
+    "frozen_before_targets_local": "2026-10-27 16:21:55",
+    "source_json": "F:\\岩层裂缝\\runs\\round7b_localfit\\states\\S5_M1\\water_0p18\\kappa_frozen.json",
+    "relative_background_mismatch": 2.3179089758684768e-09,
+    "full_tensor_matching_claimed": false
+  },
+  {
+    "sample": "S5",
+    "input_variant": "M1",
+    "water_sigma_S_m": 10.0,
+    "status": "FROZEN_BEFORE_TARGETS",
+    "kappa_eq_S_m": 3.647018433708299,
+    "frozen_before_targets_local": "2026-10-27 16:40:18",
+    "source_json": "F:\\岩层裂缝\\runs\\round7b_localfit\\states\\S5_M1\\water_10\\kappa_frozen.json",
+    "relative_background_mismatch": 3.2872573552111817e-09,
+    "full_tensor_matching_claimed": false
+  },
+  {
+    "sample": "S1",
+    "input_variant": "M2",
+    "water_sigma_S_m": 0.18,
+    "status": "FROZEN_BEFORE_TARGETS",
+    "kappa_eq_S_m": 0.0063505216584706665,
+    "frozen_before_targets_local": "2026-10-27 17:22:35",
+    "source_json": "F:\\岩层裂缝\\runs\\round7b_localfit\\states\\S1_M2\\water_0p18\\kappa_frozen.json",
+    "relative_background_mismatch": 5.862421659230677e-11,
+    "full_tensor_matching_claimed": false
+  },
+  {
+    "sample": "S1",
+    "input_variant": "M3",
+    "water_sigma_S_m": 0.18,
+    "status": "FROZEN_BEFORE_TARGETS",
+    "kappa_eq_S_m": 0.006350354025311015,
+    "frozen_before_targets_local": "2026-10-27 18:10:21",
+    "source_json": "F:\\岩层裂缝\\runs\\round7b_localfit\\states\\S1_M3\\water_0p18\\kappa_frozen.json",
+    "relative_background_mismatch": 2.0297985514616812e-11,
+    "full_tensor_matching_claimed": false
+  },
+  {
+    "sample": "S5",
+    "input_variant": "M2",
+    "water_sigma_S_m": 10.0,
+    "status": "FROZEN_BEFORE_TARGETS",
+    "kappa_eq_S_m": 3.647028312952726,
+    "frozen_before_targets_local": "2026-10-27 19:04:29",
+    "source_json": "F:\\岩层裂缝\\runs\\round7b_localfit\\states\\S5_M2\\water_10\\kappa_frozen.json",
+    "relative_background_mismatch": 1.8541097546176388e-09,
+    "full_tensor_matching_claimed": false
+  },
+  {
+    "sample": "S5",
+    "input_variant": "M3",
+    "water_sigma_S_m": 10.0,
+    "status": "FROZEN_BEFORE_TARGETS",
+    "kappa_eq_S_m": 3.647068786579113,
+    "frozen_before_targets_local": "2026-10-27 19:40:51",
+    "source_json": "F:\\岩层裂缝\\runs\\round7b_localfit\\states\\S5_M3\\water_10\\kappa_frozen.json",
+    "relative_background_mismatch": 1.875650745830626e-09,
+    "full_tensor_matching_claimed": false
+  }
+]

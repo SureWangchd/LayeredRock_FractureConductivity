@@ -28,8 +28,16 @@ def main():
     original = request(original_url)
     if not original.get('submitted'):
         raise RuntimeError('Source must be an already published version')
-    result = request(original_url + '/actions/newversion', method='POST')
-    draft_url = result['links']['latest_draft']
+    existing_draft = os.environ.get('EXISTING_DRAFT', '')
+    if existing_draft:
+        if not existing_draft.isdigit():
+            raise ValueError('Existing draft ID must be numeric')
+        draft_url = 'https://zenodo.org/api/deposit/depositions/' + existing_draft
+    else:
+        draft_url = original.get('links', {}).get('latest_draft')
+        if not draft_url:
+            result = request(original_url + '/actions/newversion', method='POST')
+            draft_url = result['links']['latest_draft']
     draft = request(draft_url)
     if draft.get('submitted') or str(draft['id']) == source:
         raise RuntimeError('Expected a distinct unpublished version draft')

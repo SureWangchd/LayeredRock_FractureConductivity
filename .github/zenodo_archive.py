@@ -1,11 +1,14 @@
 """Archive the approved v1.0.0 release in its prepared Zenodo deposition."""
 import json
+import http.client
+from concurrent.futures import ThreadPoolExecutor
 import os
 from pathlib import Path
 import shutil
 import tempfile
 import time
 import urllib.request
+import urllib.parse
 
 REPOSITORY = 'SureWangchd/LayeredRock_FractureConductivity'
 DEPOSIT = 'https://zenodo.org/api/deposit/depositions/23755034'
@@ -42,10 +45,11 @@ def main():
         raise RuntimeError('Unexpected Zenodo upload location')
     existing = {f['filename']: f['filesize'] for f in record['files']}
     with tempfile.TemporaryDirectory(prefix='layeredrock-') as directory:
-        for name, size in EXPECTED.items():
+        def upload(item):
+            name, size = item
             if existing.get(name) == size:
                 print('Already archived: ' + name, flush=True)
-                continue
+                return
             path = Path(directory) / name
             print('Downloading release asset: ' + name, flush=True)
             with urllib.request.urlopen(assets[name]['browser_download_url'], timeout=600) as src, path.open('wb') as dst:
@@ -55,11 +59,20 @@ def main():
             print('Uploading to Zenodo: ' + name, flush=True)
             start = time.time()
             with path.open('rb') as data:
-                req = urllib.request.Request(bucket + '/' + name, data=data, method='PUT', headers={'Authorization':'Bearer ' + TOKEN, 'Content-Type':'application/octet-stream', 'Content-Length':str(size)})
-                with urllib.request.urlopen(req, timeout=1800) as res:
-                    json.load(res)
+                target=urllib.parse.urlsplit(bucket+'/'+name)
+                connection=http.client.HTTPSConnection(target.hostname,timeout=1800,blocksize=1024*1024)
+                try:
+                    connection.request('PUT',target.path,body=data,headers={'Authorization':'Bearer '+TOKEN,'Content-Type':'application/octet-stream','Content-Length':str(size)})
+                    res=connection.getresponse()
+                    body=res.read()
+                    if res.status>=300:
+                        raise RuntimeError('Zenodo upload HTTP '+str(res.status)+': '+body.decode(errors='replace')[:500])
+                finally:
+                    connection.close()
             print('Archived in ' + str(round(time.time()-start,1)) + ' s: ' + name, flush=True)
             path.unlink()
+        with ThreadPoolExecutor(max_workers=3) as executor:
+            list(executor.map(upload,EXPECTED.items()))
     record = json_request(DEPOSIT)
     actual = {f['filename']:f['filesize'] for f in record['files']}
     if any(actual.get(name) != size for name,size in EXPECTED.items()):

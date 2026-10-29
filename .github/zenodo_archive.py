@@ -58,15 +58,21 @@ def main():
                 raise RuntimeError('Incomplete download: ' + name)
             print('Uploading to Zenodo: ' + name, flush=True)
             start = time.time()
-            with path.open('rb') as data:
+            for attempt in range(3):
                 target=urllib.parse.urlsplit(bucket+'/'+name)
                 connection=http.client.HTTPSConnection(target.hostname,timeout=1800,blocksize=1024*1024)
                 try:
-                    connection.request('PUT',target.path,body=data,headers={'Authorization':'Bearer '+TOKEN,'Content-Type':'application/octet-stream','Content-Length':str(size)})
-                    res=connection.getresponse()
-                    body=res.read()
-                    if res.status>=300:
-                        raise RuntimeError('Zenodo upload HTTP '+str(res.status)+': '+body.decode(errors='replace')[:500])
+                    with path.open('rb') as data:
+                        connection.request('PUT',target.path,body=data,headers={'Authorization':'Bearer '+TOKEN,'User-Agent':'LayeredRock research archive (GitHub SureWangchd/LayeredRock_FractureConductivity)','Accept':'application/json','Content-Type':'application/octet-stream','Content-Length':str(size)})
+                        res=connection.getresponse()
+                        body=res.read()
+                        if res.status>=300:
+                            raise RuntimeError('Zenodo upload HTTP '+str(res.status)+': '+body.decode(errors='replace').replace(TOKEN,'[redacted]')[:500])
+                    break
+                except (OSError,http.client.HTTPException) as error:
+                    print('Transfer interrupted ('+type(error).__name__+'), attempt '+str(attempt+1)+': '+name,flush=True)
+                    if attempt==2:raise
+                    time.sleep(15*(attempt+1))
                 finally:
                     connection.close()
             print('Archived in ' + str(round(time.time()-start,1)) + ' s: ' + name, flush=True)

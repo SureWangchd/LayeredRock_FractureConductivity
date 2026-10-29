@@ -35,6 +35,17 @@ def main():
         raise RuntimeError('Expected a distinct unpublished version draft')
     metadata = dict(draft['metadata'])
     metadata['version'] = version
+    description = re.sub(r'GPL-3\.0(?!-only)', 'GPL-3.0-only', metadata.get('description', ''))
+    revision_note = ('<p>Version 1.1.0 synchronizes the manuscript figure numbering while retaining '
+        'the original data and script paths. It includes the 80 original prospective prediction JSON '
+        'records (48 layout states and 32 new-length states), their saved method and batch records, '
+        'and selected numerical clarification tables. The thirteen previously archived representative '
+        'MPH models are retained. Source code is GPL-3.0-only; numerical data, prediction records and '
+        'COMSOL MPH model files are CC BY 4.0. Original CT images retain their source attribution and '
+        'license conditions. COMSOL and MATLAB software are not distributed in this archive.</p>')
+    if 'Version 1.1.0 synchronizes the manuscript figure numbering' not in description:
+        description += revision_note
+    metadata['description'] = description
     draft = request(draft_url, method='PUT', payload={'metadata': metadata})
     doi = draft.get('metadata', {}).get('prereserve_doi', {}).get('doi') or draft.get('doi')
     receipt = {
@@ -46,6 +57,8 @@ def main():
         'submitted': draft.get('submitted', False), 'final_publication_performed': False,
         'files_inherited': [{'name': f['filename'], 'bytes': f['filesize']} for f in draft.get('files', [])],
         'old_files_changed': False, 'new_files_uploaded': False,
+        'record_level_license': draft['metadata'].get('license'),
+        'description': draft['metadata'].get('description'),
     }
     Path('zenodo_newversion_draft_receipt.json').write_text(json.dumps(receipt, indent=2) + '\n')
     print(json.dumps(receipt, indent=2), flush=True)

@@ -1,0 +1,32 @@
+name: Prepare versioned Zenodo draft
+on:
+  workflow_dispatch:
+    inputs:
+      source_record:
+        description: Latest published Zenodo record ID
+        required: true
+        default: '23755034'
+      version:
+        description: New version, without the v prefix
+        required: true
+        default: '1.1.0'
+permissions:
+  contents: read
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Create inherited draft and reserve its DOI (does not publish)
+        env:
+          ZENODO_TOKEN: ${{ secrets.ZENODO_TOKEN }}
+          SOURCE_RECORD: ${{ inputs.source_record }}
+          NEW_VERSION: ${{ inputs.version }}
+        run: python3 .github/zenodo_newversion_prepare.py
+      - name: Save public-safe preparation receipt
+        uses: actions/upload-artifact@v4
+        with:
+          name: zenodo-newversion-draft-receipt
+          path: zenodo_newversion_draft_receipt.json
+          if-no-files-found: error

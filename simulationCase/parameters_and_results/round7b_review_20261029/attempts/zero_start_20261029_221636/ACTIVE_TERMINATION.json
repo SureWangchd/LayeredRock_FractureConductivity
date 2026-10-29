@@ -1,0 +1,9 @@
+{
+  "status": "STOPPED_TO_ENABLE_DIAGNOSTICS_AND_SAVED_INITIAL_GUESS",
+  "time_local": "2026-10-29T22:42:15",
+  "elapsed_since_request_seconds": 1538.0299259,
+  "server_pid": 11820,
+  "reason": "No return after the 25-minute checkpoint and no per-linear-iteration log. Repeat the same fixed mesh, materials, frozen kappa and 1e-11 tolerance with a verified saved initial field and detailed logs.",
+  "interpretation": "This active termination does not establish nonconvergence or roundoff stagnation.",
+  "source_outputs_overwritten": false
+}

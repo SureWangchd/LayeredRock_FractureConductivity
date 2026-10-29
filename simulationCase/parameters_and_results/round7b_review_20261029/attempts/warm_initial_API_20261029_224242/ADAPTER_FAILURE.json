@@ -1,0 +1,4 @@
+{
+  "reason": "COMSOL 6.3 Variables has no useinitsol property in this stationary sequence; adapt to the actual initmethod/initsol properties",
+  "source_solve_started": false
+}

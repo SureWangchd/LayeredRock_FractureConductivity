@@ -1,0 +1,5 @@
+{
+  "status": "FAILED",
+  "message": "Java exception occurred: \njava.lang.NullPointerException\r\n\tat com.comsol.clientapi.engine.APIEngine.runMethod(SourceFile:290)\r\n\tat com.comsol.clientapi.engine.APIEngine.runMethod(SourceFile:270)\r\n\tat com.comsol.clientapi.impl.SolverSequenceClient.runAll(SourceFile:961)\r",
+  "report": "错误使用 r7b_review_tolerance_check (第 161 行)\nJava exception occurred:\njava.lang.NullPointerException\r\n\tat com.comsol.clientapi.engine.APIEngine.runMethod(SourceFile:290)\r\n\tat com.comsol.clientapi.engine.APIEngine.runMethod(SourceFile:270)\r\n\tat com.comsol.clientapi.impl.SolverSequenceClient.runAll(SourceFile:961)\r\n\n出错 r7b_review_pair_tolerance_check (第 100 行)\n  strict{k}=r7b_review_tolerance_check(root,paths{k},strictTol(k));r=strict{k};\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n出错 r7b_review_run (第 12 行)\n result=r7b_review_pair_tolerance_check(root,'S1','M3',.18);\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+}

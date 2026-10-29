@@ -1,0 +1,488 @@
+{
+  "status": "all_48_predictions_saved_before_targets",
+  "count": 48,
+  "saved_local": "2026-10-26 01:07:38",
+  "entries": [
+    {
+      "state_id": "r5_strict_A_P11_sf_0p1",
+      "case_id": "r5_strict_A_P11",
+      "role": "A",
+      "layout": "P11",
+      "sigma_f_S_m": 0.1,
+      "phase": "prospective_initial",
+      "target_relative_folder": "truth/r5_strict_A_P11/sf_0p1",
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\predictions\\r5_strict_A_P11\\sf_0p1\\prediction.json"
+    },
+    {
+      "state_id": "r5_strict_A_P11_sf_0p18",
+      "case_id": "r5_strict_A_P11",
+      "role": "A",
+      "layout": "P11",
+      "sigma_f_S_m": 0.18,
+      "phase": "prospective_initial",
+      "target_relative_folder": "truth/r5_strict_A_P11/sf_0p18",
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\predictions\\r5_strict_A_P11\\sf_0p18\\prediction.json"
+    },
+    {
+      "state_id": "r5_strict_A_P11_sf_0p3",
+      "case_id": "r5_strict_A_P11",
+      "role": "A",
+      "layout": "P11",
+      "sigma_f_S_m": 0.3,
+      "phase": "prospective_initial",
+      "target_relative_folder": "truth/r5_strict_A_P11/sf_0p3",
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\predictions\\r5_strict_A_P11\\sf_0p3\\prediction.json"
+    },
+    {
+      "state_id": "r5_strict_A_P11_sf_10",
+      "case_id": "r5_strict_A_P11",
+      "role": "A",
+      "layout": "P11",
+      "sigma_f_S_m": 10,
+      "phase": "prospective_initial",
+      "target_relative_folder": "truth/r5_strict_A_P11/sf_10",
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\predictions\\r5_strict_A_P11\\sf_10\\prediction.json"
+    },
+    {
+      "state_id": "r5_strict_B_P11_sf_0p1",
+      "case_id": "r5_strict_B_P11",
+      "role": "B",
+      "layout": "P11",
+      "sigma_f_S_m": 0.1,
+      "phase": "prospective_initial",
+      "target_relative_folder": "truth/r5_strict_B_P11/sf_0p1",
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\predictions\\r5_strict_B_P11\\sf_0p1\\prediction.json"
+    },
+    {
+      "state_id": "r5_strict_B_P11_sf_0p18",
+      "case_id": "r5_strict_B_P11",
+      "role": "B",
+      "layout": "P11",
+      "sigma_f_S_m": 0.18,
+      "phase": "prospective_initial",
+      "target_relative_folder": "truth/r5_strict_B_P11/sf_0p18",
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\predictions\\r5_strict_B_P11\\sf_0p18\\prediction.json"
+    },
+    {
+      "state_id": "r5_strict_B_P11_sf_0p3",
+      "case_id": "r5_strict_B_P11",
+      "role": "B",
+      "layout": "P11",
+      "sigma_f_S_m": 0.3,
+      "phase": "prospective_initial",
+      "target_relative_folder": "truth/r5_strict_B_P11/sf_0p3",
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\predictions\\r5_strict_B_P11\\sf_0p3\\prediction.json"
+    },
+    {
+      "state_id": "r5_strict_B_P11_sf_10",
+      "case_id": "r5_strict_B_P11",
+      "role": "B",
+      "layout": "P11",
+      "sigma_f_S_m": 10,
+      "phase": "prospective_initial",
+      "target_relative_folder": "truth/r5_strict_B_P11/sf_10",
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\predictions\\r5_strict_B_P11\\sf_10\\prediction.json"
+    },
+    {
+      "state_id": "r5_strict_A_P77_sf_0p1",
+      "case_id": "r5_strict_A_P77",
+      "role": "A",
+      "layout": "P77",
+      "sigma_f_S_m": 0.1,
+      "phase": "prospective_initial",
+      "target_relative_folder": "truth/r5_strict_A_P77/sf_0p1",
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\predictions\\r5_strict_A_P77\\sf_0p1\\prediction.json"
+    },
+    {
+      "state_id": "r5_strict_A_P77_sf_0p18",
+      "case_id": "r5_strict_A_P77",
+      "role": "A",
+      "layout": "P77",
+      "sigma_f_S_m": 0.18,
+      "phase": "prospective_initial",
+      "target_relative_folder": "truth/r5_strict_A_P77/sf_0p18",
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\predictions\\r5_strict_A_P77\\sf_0p18\\prediction.json"
+    },
+    {
+      "state_id": "r5_strict_A_P77_sf_0p3",
+      "case_id": "r5_strict_A_P77",
+      "role": "A",
+      "layout": "P77",
+      "sigma_f_S_m": 0.3,
+      "phase": "prospective_initial",
+      "target_relative_folder": "truth/r5_strict_A_P77/sf_0p3",
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\predictions\\r5_strict_A_P77\\sf_0p3\\prediction.json"
+    },
+    {
+      "state_id": "r5_strict_A_P77_sf_10",
+      "case_id": "r5_strict_A_P77",
+      "role": "A",
+      "layout": "P77",
+      "sigma_f_S_m": 10,
+      "phase": "prospective_initial",
+      "target_relative_folder": "truth/r5_strict_A_P77/sf_10",
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\predictions\\r5_strict_A_P77\\sf_10\\prediction.json"
+    },
+    {
+      "state_id": "r5_strict_B_P77_sf_0p1",
+      "case_id": "r5_strict_B_P77",
+      "role": "B",
+      "layout": "P77",
+      "sigma_f_S_m": 0.1,
+      "phase": "prospective_initial",
+      "target_relative_folder": "truth/r5_strict_B_P77/sf_0p1",
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\predictions\\r5_strict_B_P77\\sf_0p1\\prediction.json"
+    },
+    {
+      "state_id": "r5_strict_B_P77_sf_0p18",
+      "case_id": "r5_strict_B_P77",
+      "role": "B",
+      "layout": "P77",
+      "sigma_f_S_m": 0.18,
+      "phase": "prospective_initial",
+      "target_relative_folder": "truth/r5_strict_B_P77/sf_0p18",
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\predictions\\r5_strict_B_P77\\sf_0p18\\prediction.json"
+    },
+    {
+      "state_id": "r5_strict_B_P77_sf_0p3",
+      "case_id": "r5_strict_B_P77",
+      "role": "B",
+      "layout": "P77",
+      "sigma_f_S_m": 0.3,
+      "phase": "prospective_initial",
+      "target_relative_folder": "truth/r5_strict_B_P77/sf_0p3",
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\predictions\\r5_strict_B_P77\\sf_0p3\\prediction.json"
+    },
+    {
+      "state_id": "r5_strict_B_P77_sf_10",
+      "case_id": "r5_strict_B_P77",
+      "role": "B",
+      "layout": "P77",
+      "sigma_f_S_m": 10,
+      "phase": "prospective_initial",
+      "target_relative_folder": "truth/r5_strict_B_P77/sf_10",
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\predictions\\r5_strict_B_P77\\sf_10\\prediction.json"
+    },
+    {
+      "state_id": "r5_strict_A_P17_sf_0p1",
+      "case_id": "r5_strict_A_P17",
+      "role": "A",
+      "layout": "P17",
+      "sigma_f_S_m": 0.1,
+      "phase": "prospective_initial",
+      "target_relative_folder": "truth/r5_strict_A_P17/sf_0p1",
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\predictions\\r5_strict_A_P17\\sf_0p1\\prediction.json"
+    },
+    {
+      "state_id": "r5_strict_A_P17_sf_0p18",
+      "case_id": "r5_strict_A_P17",
+      "role": "A",
+      "layout": "P17",
+      "sigma_f_S_m": 0.18,
+      "phase": "prospective_initial",
+      "target_relative_folder": "truth/r5_strict_A_P17/sf_0p18",
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\predictions\\r5_strict_A_P17\\sf_0p18\\prediction.json"
+    },
+    {
+      "state_id": "r5_strict_A_P17_sf_0p3",
+      "case_id": "r5_strict_A_P17",
+      "role": "A",
+      "layout": "P17",
+      "sigma_f_S_m": 0.3,
+      "phase": "prospective_initial",
+      "target_relative_folder": "truth/r5_strict_A_P17/sf_0p3",
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\predictions\\r5_strict_A_P17\\sf_0p3\\prediction.json"
+    },
+    {
+      "state_id": "r5_strict_A_P17_sf_10",
+      "case_id": "r5_strict_A_P17",
+      "role": "A",
+      "layout": "P17",
+      "sigma_f_S_m": 10,
+      "phase": "prospective_initial",
+      "target_relative_folder": "truth/r5_strict_A_P17/sf_10",
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\predictions\\r5_strict_A_P17\\sf_10\\prediction.json"
+    },
+    {
+      "state_id": "r5_strict_B_P17_sf_0p1",
+      "case_id": "r5_strict_B_P17",
+      "role": "B",
+      "layout": "P17",
+      "sigma_f_S_m": 0.1,
+      "phase": "prospective_initial",
+      "target_relative_folder": "truth/r5_strict_B_P17/sf_0p1",
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\predictions\\r5_strict_B_P17\\sf_0p1\\prediction.json"
+    },
+    {
+      "state_id": "r5_strict_B_P17_sf_0p18",
+      "case_id": "r5_strict_B_P17",
+      "role": "B",
+      "layout": "P17",
+      "sigma_f_S_m": 0.18,
+      "phase": "prospective_initial",
+      "target_relative_folder": "truth/r5_strict_B_P17/sf_0p18",
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\predictions\\r5_strict_B_P17\\sf_0p18\\prediction.json"
+    },
+    {
+      "state_id": "r5_strict_B_P17_sf_0p3",
+      "case_id": "r5_strict_B_P17",
+      "role": "B",
+      "layout": "P17",
+      "sigma_f_S_m": 0.3,
+      "phase": "prospective_initial",
+      "target_relative_folder": "truth/r5_strict_B_P17/sf_0p3",
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\predictions\\r5_strict_B_P17\\sf_0p3\\prediction.json"
+    },
+    {
+      "state_id": "r5_strict_B_P17_sf_10",
+      "case_id": "r5_strict_B_P17",
+      "role": "B",
+      "layout": "P17",
+      "sigma_f_S_m": 10,
+      "phase": "prospective_initial",
+      "target_relative_folder": "truth/r5_strict_B_P17/sf_10",
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\predictions\\r5_strict_B_P17\\sf_10\\prediction.json"
+    },
+    {
+      "state_id": "r5_strict_A_P71_sf_0p1",
+      "case_id": "r5_strict_A_P71",
+      "role": "A",
+      "layout": "P71",
+      "sigma_f_S_m": 0.1,
+      "phase": "prospective_initial",
+      "target_relative_folder": "truth/r5_strict_A_P71/sf_0p1",
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\predictions\\r5_strict_A_P71\\sf_0p1\\prediction.json"
+    },
+    {
+      "state_id": "r5_strict_A_P71_sf_0p18",
+      "case_id": "r5_strict_A_P71",
+      "role": "A",
+      "layout": "P71",
+      "sigma_f_S_m": 0.18,
+      "phase": "prospective_initial",
+      "target_relative_folder": "truth/r5_strict_A_P71/sf_0p18",
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\predictions\\r5_strict_A_P71\\sf_0p18\\prediction.json"
+    },
+    {
+      "state_id": "r5_strict_A_P71_sf_0p3",
+      "case_id": "r5_strict_A_P71",
+      "role": "A",
+      "layout": "P71",
+      "sigma_f_S_m": 0.3,
+      "phase": "prospective_initial",
+      "target_relative_folder": "truth/r5_strict_A_P71/sf_0p3",
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\predictions\\r5_strict_A_P71\\sf_0p3\\prediction.json"
+    },
+    {
+      "state_id": "r5_strict_A_P71_sf_10",
+      "case_id": "r5_strict_A_P71",
+      "role": "A",
+      "layout": "P71",
+      "sigma_f_S_m": 10,
+      "phase": "prospective_initial",
+      "target_relative_folder": "truth/r5_strict_A_P71/sf_10",
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\predictions\\r5_strict_A_P71\\sf_10\\prediction.json"
+    },
+    {
+      "state_id": "r5_strict_B_P71_sf_0p1",
+      "case_id": "r5_strict_B_P71",
+      "role": "B",
+      "layout": "P71",
+      "sigma_f_S_m": 0.1,
+      "phase": "prospective_initial",
+      "target_relative_folder": "truth/r5_strict_B_P71/sf_0p1",
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\predictions\\r5_strict_B_P71\\sf_0p1\\prediction.json"
+    },
+    {
+      "state_id": "r5_strict_B_P71_sf_0p18",
+      "case_id": "r5_strict_B_P71",
+      "role": "B",
+      "layout": "P71",
+      "sigma_f_S_m": 0.18,
+      "phase": "prospective_initial",
+      "target_relative_folder": "truth/r5_strict_B_P71/sf_0p18",
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\predictions\\r5_strict_B_P71\\sf_0p18\\prediction.json"
+    },
+    {
+      "state_id": "r5_strict_B_P71_sf_0p3",
+      "case_id": "r5_strict_B_P71",
+      "role": "B",
+      "layout": "P71",
+      "sigma_f_S_m": 0.3,
+      "phase": "prospective_initial",
+      "target_relative_folder": "truth/r5_strict_B_P71/sf_0p3",
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\predictions\\r5_strict_B_P71\\sf_0p3\\prediction.json"
+    },
+    {
+      "state_id": "r5_strict_B_P71_sf_10",
+      "case_id": "r5_strict_B_P71",
+      "role": "B",
+      "layout": "P71",
+      "sigma_f_S_m": 10,
+      "phase": "prospective_initial",
+      "target_relative_folder": "truth/r5_strict_B_P71/sf_10",
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\predictions\\r5_strict_B_P71\\sf_10\\prediction.json"
+    },
+    {
+      "state_id": "r5_strict_A_P41_sf_0p1",
+      "case_id": "r5_strict_A_P41",
+      "role": "A",
+      "layout": "P41",
+      "sigma_f_S_m": 0.1,
+      "phase": "prospective_initial",
+      "target_relative_folder": "truth/r5_strict_A_P41/sf_0p1",
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\predictions\\r5_strict_A_P41\\sf_0p1\\prediction.json"
+    },
+    {
+      "state_id": "r5_strict_A_P41_sf_0p18",
+      "case_id": "r5_strict_A_P41",
+      "role": "A",
+      "layout": "P41",
+      "sigma_f_S_m": 0.18,
+      "phase": "prospective_initial",
+      "target_relative_folder": "truth/r5_strict_A_P41/sf_0p18",
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\predictions\\r5_strict_A_P41\\sf_0p18\\prediction.json"
+    },
+    {
+      "state_id": "r5_strict_A_P41_sf_0p3",
+      "case_id": "r5_strict_A_P41",
+      "role": "A",
+      "layout": "P41",
+      "sigma_f_S_m": 0.3,
+      "phase": "prospective_initial",
+      "target_relative_folder": "truth/r5_strict_A_P41/sf_0p3",
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\predictions\\r5_strict_A_P41\\sf_0p3\\prediction.json"
+    },
+    {
+      "state_id": "r5_strict_A_P41_sf_10",
+      "case_id": "r5_strict_A_P41",
+      "role": "A",
+      "layout": "P41",
+      "sigma_f_S_m": 10,
+      "phase": "prospective_initial",
+      "target_relative_folder": "truth/r5_strict_A_P41/sf_10",
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\predictions\\r5_strict_A_P41\\sf_10\\prediction.json"
+    },
+    {
+      "state_id": "r5_strict_B_P41_sf_0p1",
+      "case_id": "r5_strict_B_P41",
+      "role": "B",
+      "layout": "P41",
+      "sigma_f_S_m": 0.1,
+      "phase": "prospective_initial",
+      "target_relative_folder": "truth/r5_strict_B_P41/sf_0p1",
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\predictions\\r5_strict_B_P41\\sf_0p1\\prediction.json"
+    },
+    {
+      "state_id": "r5_strict_B_P41_sf_0p18",
+      "case_id": "r5_strict_B_P41",
+      "role": "B",
+      "layout": "P41",
+      "sigma_f_S_m": 0.18,
+      "phase": "prospective_initial",
+      "target_relative_folder": "truth/r5_strict_B_P41/sf_0p18",
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\predictions\\r5_strict_B_P41\\sf_0p18\\prediction.json"
+    },
+    {
+      "state_id": "r5_strict_B_P41_sf_0p3",
+      "case_id": "r5_strict_B_P41",
+      "role": "B",
+      "layout": "P41",
+      "sigma_f_S_m": 0.3,
+      "phase": "prospective_initial",
+      "target_relative_folder": "truth/r5_strict_B_P41/sf_0p3",
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\predictions\\r5_strict_B_P41\\sf_0p3\\prediction.json"
+    },
+    {
+      "state_id": "r5_strict_B_P41_sf_10",
+      "case_id": "r5_strict_B_P41",
+      "role": "B",
+      "layout": "P41",
+      "sigma_f_S_m": 10,
+      "phase": "prospective_initial",
+      "target_relative_folder": "truth/r5_strict_B_P41/sf_10",
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\predictions\\r5_strict_B_P41\\sf_10\\prediction.json"
+    },
+    {
+      "state_id": "r5_strict_A_P14_sf_0p1",
+      "case_id": "r5_strict_A_P14",
+      "role": "A",
+      "layout": "P14",
+      "sigma_f_S_m": 0.1,
+      "phase": "prospective_initial",
+      "target_relative_folder": "truth/r5_strict_A_P14/sf_0p1",
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\predictions\\r5_strict_A_P14\\sf_0p1\\prediction.json"
+    },
+    {
+      "state_id": "r5_strict_A_P14_sf_0p18",
+      "case_id": "r5_strict_A_P14",
+      "role": "A",
+      "layout": "P14",
+      "sigma_f_S_m": 0.18,
+      "phase": "prospective_initial",
+      "target_relative_folder": "truth/r5_strict_A_P14/sf_0p18",
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\predictions\\r5_strict_A_P14\\sf_0p18\\prediction.json"
+    },
+    {
+      "state_id": "r5_strict_A_P14_sf_0p3",
+      "case_id": "r5_strict_A_P14",
+      "role": "A",
+      "layout": "P14",
+      "sigma_f_S_m": 0.3,
+      "phase": "prospective_initial",
+      "target_relative_folder": "truth/r5_strict_A_P14/sf_0p3",
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\predictions\\r5_strict_A_P14\\sf_0p3\\prediction.json"
+    },
+    {
+      "state_id": "r5_strict_A_P14_sf_10",
+      "case_id": "r5_strict_A_P14",
+      "role": "A",
+      "layout": "P14",
+      "sigma_f_S_m": 10,
+      "phase": "prospective_initial",
+      "target_relative_folder": "truth/r5_strict_A_P14/sf_10",
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\predictions\\r5_strict_A_P14\\sf_10\\prediction.json"
+    },
+    {
+      "state_id": "r5_strict_B_P14_sf_0p1",
+      "case_id": "r5_strict_B_P14",
+      "role": "B",
+      "layout": "P14",
+      "sigma_f_S_m": 0.1,
+      "phase": "prospective_initial",
+      "target_relative_folder": "truth/r5_strict_B_P14/sf_0p1",
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\predictions\\r5_strict_B_P14\\sf_0p1\\prediction.json"
+    },
+    {
+      "state_id": "r5_strict_B_P14_sf_0p18",
+      "case_id": "r5_strict_B_P14",
+      "role": "B",
+      "layout": "P14",
+      "sigma_f_S_m": 0.18,
+      "phase": "prospective_initial",
+      "target_relative_folder": "truth/r5_strict_B_P14/sf_0p18",
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\predictions\\r5_strict_B_P14\\sf_0p18\\prediction.json"
+    },
+    {
+      "state_id": "r5_strict_B_P14_sf_0p3",
+      "case_id": "r5_strict_B_P14",
+      "role": "B",
+      "layout": "P14",
+      "sigma_f_S_m": 0.3,
+      "phase": "prospective_initial",
+      "target_relative_folder": "truth/r5_strict_B_P14/sf_0p3",
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\predictions\\r5_strict_B_P14\\sf_0p3\\prediction.json"
+    },
+    {
+      "state_id": "r5_strict_B_P14_sf_10",
+      "case_id": "r5_strict_B_P14",
+      "role": "B",
+      "layout": "P14",
+      "sigma_f_S_m": 10,
+      "phase": "prospective_initial",
+      "target_relative_folder": "truth/r5_strict_B_P14/sf_10",
+      "prediction_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\predictions\\r5_strict_B_P14\\sf_10\\prediction.json"
+    }
+  ],
+  "method_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\method_frozen.json"
+}

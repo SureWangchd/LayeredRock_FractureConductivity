@@ -1,0 +1,186 @@
+
+MATLAB is now connected to a COMSOL Multiphysics Server at 127.0.0.1:2038
+
+Run the commands below to access the COMSOL ModelUtil commands:
+import com.comsol.model.util.*
+{����ʹ�� r7b_review_tolerance_check (�� 131 ��)
+Java exception occurred:
+Exception:
+
+	com.comsol.util.exceptions.FlException: δ֪���ԡ�
+
+Messages:
+
+	δ֪���ԡ�
+
+	- ����: useinitsol
+
+
+
+Stack trace:
+
+at com.comsol.model.dbmodel.PropFeatureDb.getPropValue(SourceFile:1737)
+
+	at com.comsol.model.dbmodel.PropFeatureDb.c(SourceFile:1679)
+
+	at com.comsol.model.dbmodel.PropFeatureDb.b(SourceFile:1509)
+
+	at com.comsol.model.dbmodel.PropFeatureDb.set(SourceFile:693)
+
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+
+	at java.lang.reflect.Method.invoke(Unknown Source)
+
+	at com.comsol.bridge.command.b.a(SourceFile:161)
+
+	at com.comsol.bridge.command.b.run(SourceFile:103)
+
+	at com.comsol.bridge.command.k.c(SourceFile:219)
+
+	at com.comsol.bridge.command.k$1.run(SourceFile:94)
+
+	at com.comsol.util.thread.SuspendableTasks$1.run(SourceFile:111)
+
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+
+	at java.lang.Thread.run(Unknown Source)
+at com.comsol.model.dbmodel.PropFeatureDb.getPropValue(SourceFile:1737)
+
+	at com.comsol.model.dbmodel.PropFeatureDb.c(SourceFile:1679)
+
+	at com.comsol.model.dbmodel.PropFeatureDb.b(SourceFile:1509)
+
+	at com.comsol.model.dbmodel.PropFeatureDb.set(SourceFile:693)
+
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+
+	at java.lang.reflect.Method.invoke(Unknown Source)
+
+	at com.comsol.bridge.command.b.a(SourceFile:161)
+
+	at com.comsol.bridge.command.b.run(SourceFile:103)
+
+	at com.comsol.bridge.command.k.c(SourceFile:219)
+
+	at com.comsol.bridge.command.k$1.run(SourceFile:94)
+
+	at com.comsol.util.thread.SuspendableTasks$1.run(SourceFile:111)
+
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+
+	at java.lang.Thread.run(Unknown Source)
+at com.comsol.model.dbmodel.PropFeatureDb.getPropValue(SourceFile:1737)
+
+	at com.comsol.model.dbmodel.PropFeatureDb.c(SourceFile:1679)
+
+	at com.comsol.model.dbmodel.PropFeatureDb.b(SourceFile:1509)
+
+	at com.comsol.model.dbmodel.PropFeatureDb.set(SourceFile:693)
+
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+
+	at java.lang.reflect.Method.invoke(Unknown Source)
+
+	at com.comsol.bridge.command.b.a(SourceFile:161)
+
+	at com.comsol.bridge.command.b.run(SourceFile:103)
+
+	at com.comsol.bridge.command.k.c(SourceFile:219)
+
+	at com.comsol.bridge.command.k$1.run(SourceFile:94)
+
+	at com.comsol.util.thread.SuspendableTasks$1.run(SourceFile:111)
+
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+
+	at java.lang.Thread.run(Unknown Source)
+at com.comsol.model.dbmodel.PropFeatureDb.getPropValue(SourceFile:1737)
+
+	at com.comsol.model.dbmodel.PropFeatureDb.c(SourceFile:1679)
+
+	at com.comsol.model.dbmodel.PropFeatureDb.b(SourceFile:1509)
+
+	at com.comsol.model.dbmodel.PropFeatureDb.set(SourceFile:693)
+
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+
+	at java.lang.reflect.Method.invoke(Unknown Source)
+
+	at com.comsol.bridge.command.b.a(SourceFile:161)
+
+	at com.comsol.bridge.command.b.run(SourceFile:103)
+
+	at com.comsol.bridge.command.k.c(SourceFile:219)
+
+	at com.comsol.bridge.command.k$1.run(SourceFile:94)
+
+	at com.comsol.util.thread.SuspendableTasks$1.run(SourceFile:111)
+
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+
+	at java.lang.Thread.run(Unknown Source)
+
+at com.comsol.model.dbmodel.PropFeatureDb.getPropValue(SourceFile:1737)
+
+	at com.comsol.model.dbmodel.PropFeatureDb.c(SourceFile:1679)
+
+	at com.comsol.model.dbmodel.PropFeatureDb.b(SourceFile:1509)
+
+	at com.comsol.model.dbmodel.PropFeatureDb.set(SourceFile:693)
+
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+
+	at java.lang.reflect.Method.invoke(Unknown Source)
+
+	at com.comsol.bridge.command.b.a(SourceFile:161)
+
+	at com.comsol.bridge.command.b.run(SourceFile:103)
+
+	at com.comsol.bridge.command.k.c(SourceFile:219)
+
+	at com.comsol.bridge.command.k$1.run(SourceFile:94)
+
+	at com.comsol.util.thread.SuspendableTasks$1.run(SourceFile:111)
+
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+
+	at java.lang.Thread.run(Unknown Source)
+
+���� r7b_review_pair_tolerance_check (�� 99 ��)
+  strict{k}=r7b_review_tolerance_check(root,paths{k},strictTol(k));r=strict{k};
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+���� r7b_review_run (�� 12 ��)
+ result=r7b_review_pair_tolerance_check(root,'S1','M3',.18);
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+ERROR: MATLAB error Exit Status: 0x00000001

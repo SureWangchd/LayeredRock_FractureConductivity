@@ -1,0 +1,36 @@
+{
+  "version": "1.1.0",
+  "reserved_doi": "10.5281/zenodo.23768041",
+  "status": "publication_ready",
+  "created_utc": "2026-10-29T15:13:28.869739+00:00",
+  "payload_files_excluding_generated_inventory_and_summary": 801,
+  "payload_bytes_excluding_generated_inventory_and_summary": 252435891,
+  "inventory_excludes": [
+    "package_inventory_v1.1.0.csv",
+    "package_summary_v1.1.0.json"
+  ],
+  "prediction_counts": {
+    "round5_modal_closure": 48,
+    "round6_applicability": 32
+  },
+  "prediction_and_workflow_records": 88,
+  "representative_models_in_separate_inherited_archives": 13,
+  "core_mesh_and_effect_data_files": 10,
+  "portable_numerical_check_scripts": 2,
+  "all_single_side_checks": 64,
+  "new_length_joint_contrasts": 8,
+  "figure_index_synchronized": true,
+  "figure6e_label": "Peripheral power (NN)",
+  "COMSOL": "6.3.0.290",
+  "MATLAB": "R2025b",
+  "CT_supplement": "simulationCase/parameters_and_results/round7b_review_20261029",
+  "solver_executed": false,
+  "published_by_this_script": false,
+  "CT_review_completed": true,
+  "S1_new_accepted_strict_states": 0,
+  "S1_numerical_check_complete": false,
+  "S1_combined_scale_known": false,
+  "S5_accepted_stricter_states": 4,
+  "S5_numerical_check_complete": true,
+  "package_readiness_is_not_S1_numerical_pass": true
+}

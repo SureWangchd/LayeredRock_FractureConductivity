@@ -1,0 +1,18 @@
+{
+  "sample": "S1",
+  "mesh": "M3",
+  "water_sigma_S_m": 0.18,
+  "roles": [
+    "T_background",
+    "H_background",
+    "T_target",
+    "H_target"
+  ],
+  "source_stationary_tolerance": 1e-10,
+  "new_stationary_tolerance": 2e-11,
+  "tightening_factor": 5,
+  "original_1em11_attempt_status": "uncompleted",
+  "same_mesh_materials_kappa": true,
+  "background_recalibrated": false,
+  "main_batch_files_changed": false
+}

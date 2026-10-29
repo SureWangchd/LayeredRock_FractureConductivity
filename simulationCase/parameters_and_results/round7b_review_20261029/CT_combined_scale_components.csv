@@ -1,0 +1,6 @@
+sample,fluid_sigma_S_m,component,value_S,value_microS,multiplier,contribution_to_combined_scale_S,check_type
+S5,10.0,T_gain_mesh_change,4.018812844899626e-10,0.0004018812844899626,3,1.2056438534698878e-09,fixed-mesh tolerance check; GMRES/left 1e-8 to GMRES/left 1e-10
+S5,10.0,H_gain_mesh_change,1.1040219061219173e-09,0.0011040219061219173,3,3.3120657183657518e-09,fixed-mesh tolerance check; GMRES/left 1e-8 to GMRES/left 1e-10
+S5,10.0,background_mismatch_M2,6.766957328686873e-13,6.766957328686873e-07,3,2.030087198606062e-12,fixed-mesh tolerance check; GMRES/left 1e-8 to GMRES/left 1e-10
+S5,10.0,background_mismatch_M3,6.844929896325513e-13,6.844929896325513e-07,3,2.053478968897654e-12,fixed-mesh tolerance check; GMRES/left 1e-8 to GMRES/left 1e-10
+S5,10.0,four_state_solver_check_changes,1.830460425161079e-12,1.830460425161079e-06,3,5.491381275483237e-12,fixed-mesh tolerance check; GMRES/left 1e-8 to GMRES/left 1e-10

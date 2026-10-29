@@ -1,0 +1,8 @@
+{
+  "time_local": "2026-10-29T23:01:13",
+  "threads": 26,
+  "server_pid": 67324,
+  "port": 2038,
+  "source_mesh_and_kappa_fixed": true,
+  "wall_time_kill": false
+}

@@ -1,0 +1,119 @@
+{
+  "schema": "historical_archive_to_manuscript_figure_numbers_v1",
+  "manuscript_revision": "JGRSE_LaTeX_20261029",
+  "archive_version": "1.0.0",
+  "old_to_current": {
+    "1": 1,
+    "2": 3,
+    "3": 4,
+    "4": 5,
+    "5": 6,
+    "6": 2,
+    "7": 7,
+    "8": 8,
+    "9": 9,
+    "10": 10,
+    "11": 11,
+    "12": 12
+  },
+  "artwork_changed": false,
+  "legacy_source_paths_renamed": false,
+  "mapping": [
+    {
+      "archive_v1_figure": 1,
+      "manuscript_20261029_figure": 1,
+      "input_group": "Shared_Fig01_04_07",
+      "entry": "figure02_phenomenon_v3.py",
+      "subject": "Matched configuration effect",
+      "paths_changed": "false"
+    },
+    {
+      "archive_v1_figure": 2,
+      "manuscript_20261029_figure": 3,
+      "input_group": "Fig02",
+      "entry": "run_replot.m",
+      "subject": "Matched bridge interventions",
+      "paths_changed": "false"
+    },
+    {
+      "archive_v1_figure": 3,
+      "manuscript_20261029_figure": 4,
+      "input_group": "Fig03",
+      "entry": "run_replot.m",
+      "subject": "Energy redistribution",
+      "paths_changed": "false"
+    },
+    {
+      "archive_v1_figure": 4,
+      "manuscript_20261029_figure": 5,
+      "input_group": "Field01",
+      "entry": "run_replot.m",
+      "subject": "Two-dimensional field sequence",
+      "paths_changed": "false"
+    },
+    {
+      "archive_v1_figure": 5,
+      "manuscript_20261029_figure": 6,
+      "input_group": "Shared_Fig01_04_07",
+      "entry": "figure06_mechanism_v4.py",
+      "subject": "Peripheral layers and interface response",
+      "paths_changed": "false"
+    },
+    {
+      "archive_v1_figure": 6,
+      "manuscript_20261029_figure": 2,
+      "input_group": "Fig05",
+      "entry": "run_replot.m",
+      "subject": "Self-consistent peripheral response",
+      "paths_changed": "false"
+    },
+    {
+      "archive_v1_figure": 7,
+      "manuscript_20261029_figure": 7,
+      "input_group": "Fig06",
+      "entry": "run_replot.m",
+      "subject": "Independent-layout prediction",
+      "paths_changed": "false"
+    },
+    {
+      "archive_v1_figure": 8,
+      "manuscript_20261029_figure": 8,
+      "input_group": "Shared_Fig01_04_07",
+      "entry": "figure09_applicability_v8.py",
+      "subject": "Applicability for new lengths",
+      "paths_changed": "false"
+    },
+    {
+      "archive_v1_figure": 9,
+      "manuscript_20261029_figure": 9,
+      "input_group": "Fig08",
+      "entry": "run_replot.m",
+      "subject": "Finite three-dimensional ellipsoid",
+      "paths_changed": "false"
+    },
+    {
+      "archive_v1_figure": 10,
+      "manuscript_20261029_figure": 10,
+      "input_group": "Field02",
+      "entry": "run_replot.m",
+      "subject": "Finite three-dimensional current fields",
+      "paths_changed": "false"
+    },
+    {
+      "archive_v1_figure": 11,
+      "manuscript_20261029_figure": 11,
+      "input_group": "Fig09",
+      "entry": "run_replot.m",
+      "subject": "Corrected CT ellipsoid comparisons",
+      "paths_changed": "false"
+    },
+    {
+      "archive_v1_figure": 12,
+      "manuscript_20261029_figure": 12,
+      "input_group": "Field03",
+      "entry": "run_replot.m",
+      "subject": "CT retained-core potential fields",
+      "paths_changed": "false"
+    }
+  ]
+}

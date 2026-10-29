@@ -1,0 +1,26 @@
+{
+  "R5_freeze": {
+    "version": "r5_selfconsistent_modal_v1",
+    "frozen_local": "2026-10-26T01:07:04",
+    "K_star": 8,
+    "K_reference": 32
+  },
+  "R5_prediction_seal": {
+    "status": "all_48_predictions_saved_before_targets",
+    "count": 48,
+    "saved_local": "2026-10-26 01:07:38",
+    "method_file": "F:\\岩层裂缝\\runs\\round5_modal_closure\\method_frozen.json"
+  },
+  "R6_prediction_seal": {
+    "status": "all_32_predictions_and_applicability_intervals_saved_before_targets",
+    "count": 32,
+    "saved_local": "2026-10-26T16:38:39.080619+08:00",
+    "criteria_complete": true,
+    "target_truth_exists_at_gate": false,
+    "target_truth_read": false,
+    "refinement_selection_frozen": true,
+    "refinement_count": 6
+  },
+  "R5_prediction_count": 48,
+  "R6_prediction_count": 32
+}

@@ -1,0 +1,10 @@
+{
+  "status": "FAILED",
+  "source_success_json": "F:\\岩层裂缝\\runs\\round7b_localfit\\states\\S1_M3\\water_0p18\\T_background\\SUCCESS.json",
+  "source_model_path": "F:\\岩层裂缝\\runs\\round7b_localfit\\states\\S1_M3\\water_0p18\\T_background\\solution.mph",
+  "requested_strict_tolerance": 2E-11,
+  "message": "Java exception occurred: \njava.lang.NullPointerException\r\n\tat com.comsol.clientapi.engine.APIEngine.runMethod(SourceFile:290)\r\n\tat com.comsol.clientapi.engine.APIEngine.runMethod(SourceFile:270)\r\n\tat com.comsol.clientapi.impl.SolverSequenceClient.runAll(SourceFile:961)\r",
+  "identifier": "MATLAB:Java:GenericException",
+  "report": "错误使用 r7b_review_tolerance_check (第 161 行)\nJava exception occurred:\njava.lang.NullPointerException\r\n\tat com.comsol.clientapi.engine.APIEngine.runMethod(SourceFile:290)\r\n\tat com.comsol.clientapi.engine.APIEngine.runMethod(SourceFile:270)\r\n\tat com.comsol.clientapi.impl.SolverSequenceClient.runAll(SourceFile:961)\r\n\n出错 r7b_review_pair_tolerance_check (第 100 行)\n  strict{k}=r7b_review_tolerance_check(root,paths{k},strictTol(k));r=strict{k};\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n出错 r7b_review_run (第 12 行)\n result=r7b_review_pair_tolerance_check(root,'S1','M3',.18);\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+  "main_target_files_overwritten": false
+}

@@ -1,0 +1,21 @@
+﻿batch,case,base_global_hmax_mm,base_ellipse_hmax_mm,fine_global_hmax_mm,fine_ellipse_hmax_mm,base_elements,fine_elements,element,potential_order,source
+R5,r5_strict_A_P11_sf_0p18,1.2,0.15,0.8,0.1,53642,110226,triangle,2,F:/岩层裂缝/runs/round5_modal_closure/precision/r5_strict_A_P11_sf_0p18/mesh_refinement.json
+R5,r5_strict_A_P11_sf_10,1.2,0.15,0.8,0.1,53642,110226,triangle,2,F:/岩层裂缝/runs/round5_modal_closure/precision/r5_strict_A_P11_sf_10/mesh_refinement.json
+R5,r5_strict_A_P77_sf_0p18,1.2,0.15,0.8,0.1,53642,110226,triangle,2,F:/岩层裂缝/runs/round5_modal_closure/precision/r5_strict_A_P77_sf_0p18/mesh_refinement.json
+R5,r5_strict_A_P77_sf_10,1.2,0.15,0.8,0.1,53642,110226,triangle,2,F:/岩层裂缝/runs/round5_modal_closure/precision/r5_strict_A_P77_sf_10/mesh_refinement.json
+R5,r5_strict_B_P11_sf_0p18,1.2,0.15,0.8,0.1,53642,110226,triangle,2,F:/岩层裂缝/runs/round5_modal_closure/precision/r5_strict_B_P11_sf_0p18/mesh_refinement.json
+R5,r5_strict_B_P11_sf_10,1.2,0.15,0.8,0.1,53642,110226,triangle,2,F:/岩层裂缝/runs/round5_modal_closure/precision/r5_strict_B_P11_sf_10/mesh_refinement.json
+R5,r5_strict_B_P17_sf_0p18,1.2,0.15,0.8,0.1,53642,110226,triangle,2,F:/岩层裂缝/runs/round5_modal_closure/precision/r5_strict_B_P17_sf_0p18/mesh_refinement.json
+R5,r5_strict_B_P71_sf_0p18,1.2,0.15,0.8,0.1,53642,110226,triangle,2,F:/岩层裂缝/runs/round5_modal_closure/precision/r5_strict_B_P71_sf_0p18/mesh_refinement.json
+R5,r5_strict_B_P77_sf_0p18,1.2,0.15,0.8,0.1,53642,110226,triangle,2,F:/岩层裂缝/runs/round5_modal_closure/precision/r5_strict_B_P77_sf_0p18/mesh_refinement.json
+R5,r5_strict_B_P77_sf_10,1.2,0.15,0.8,0.1,53642,110226,triangle,2,F:/岩层裂缝/runs/round5_modal_closure/precision/r5_strict_B_P77_sf_10/mesh_refinement.json
+R6,r6_L40_A_P11_sf_10,1.2,0.15,0.8,0.1,44924,93694,triangle,2,F:/岩层裂缝/runs/round6_applicability/precision/r6_L40_A_P11_sf_10/mesh_refinement.json
+R6,r6_L40_A_P77_sf_10,1.2,0.15,0.8,0.1,44924,93694,triangle,2,F:/岩层裂缝/runs/round6_applicability/precision/r6_L40_A_P77_sf_10/mesh_refinement.json
+R6,r6_L40_B_P77_sf_0p18,1.2,0.15,0.8,0.1,44924,93694,triangle,2,F:/岩层裂缝/runs/round6_applicability/precision/r6_L40_B_P77_sf_0p18/mesh_refinement.json
+R6,r6_L64_A_P17_sf_10,1.2,0.15,0.8,0.1,55314,113914,triangle,2,F:/岩层裂缝/runs/round6_applicability/precision/r6_L64_A_P17_sf_10/mesh_refinement.json
+R6,r6_L64_A_P77_sf_0p18,1.2,0.15,0.8,0.1,55314,113914,triangle,2,F:/岩层裂缝/runs/round6_applicability/precision/r6_L64_A_P77_sf_0p18/mesh_refinement.json
+R6,r6_L64_B_P11_sf_10,1.2,0.15,0.8,0.1,55314,113914,triangle,2,F:/岩层裂缝/runs/round6_applicability/precision/r6_L64_B_P11_sf_10/mesh_refinement.json
+R7 synthetic,r7_strict_A_P11_sf0.18,5,0.75,3.5,0.5,1799970,2848928,tetrahedron,2,F:/岩层裂缝/runs/round7_3d_ct/mesh_comparison.csv
+R7 synthetic,r7_strict_A_P77_sf0.18,5,0.75,3.5,0.5,1929616,2989177,tetrahedron,2,F:/岩层裂缝/runs/round7_3d_ct/mesh_comparison.csv
+R7 synthetic,r7_strict_B_P11_sf10.0,5,0.75,3.5,0.5,1896200,2897183,tetrahedron,2,F:/岩层裂缝/runs/round7_3d_ct/mesh_comparison.csv
+R7 synthetic,r7_strict_B_P77_sf10.0,5,0.75,3.5,0.5,2047422,3042036,tetrahedron,2,F:/岩层裂缝/runs/round7_3d_ct/mesh_comparison.csv

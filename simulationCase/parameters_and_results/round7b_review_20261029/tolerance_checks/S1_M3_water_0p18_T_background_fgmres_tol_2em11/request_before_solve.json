@@ -1,0 +1,26 @@
+{
+  "sample": "S1",
+  "input_variant": "M3",
+  "state": "T_background",
+  "pair_state_role": "T_background",
+  "source_success_json": "F:\\岩层裂缝\\runs\\round7b_localfit\\states\\S1_M3\\water_0p18\\T_background\\SUCCESS.json",
+  "source_model_path": "F:\\岩层裂缝\\runs\\round7b_localfit\\states\\S1_M3\\water_0p18\\T_background\\solution.mph",
+  "old_stationary_tolerance": 1E-10,
+  "strict_stationary_tolerance": 2E-11,
+  "parameters_before": {
+    "sigma_water": 0.18,
+    "sigma_solid": 1E-5,
+    "kappa": 1E-5,
+    "frac_on": 0,
+    "H_on": 0,
+    "DV": 1
+  },
+  "vertices": 4.571717E+6,
+  "tetrahedra": 2.5859228E+7,
+  "mesh_geometry_materials_loading_kappa_fixed": true,
+  "background_recalibrated": false,
+  "main_target_files_overwritten": false,
+  "single_state_only": true,
+  "single_target_only": false,
+  "applies_to_pair_difference": false
+}

@@ -1,0 +1,9 @@
+{
+  "status": "GMRES_2EM11_NOT_ACCEPTED_AS_CONVERGED_IN_OBSERVED_RUN",
+  "last_iteration": 457,
+  "last_100_min_LinErr": 2.7e-11,
+  "last_100_max_LinErr": 1.7e-09,
+  "action": "Active stop after repeated error plateaus. A single native FGMRES/right-preconditioned crosscheck at 2e-11 follows, with the same original saved state and AMG settings.",
+  "source_log": "F:\\岩层裂缝\\runs\\round7b_review_20261029\\tolerance_checks\\S1_M3_water_0p18_T_background_tol_2em11\\solver_progress.log",
+  "native_solver_nonconvergence_proven": false
+}

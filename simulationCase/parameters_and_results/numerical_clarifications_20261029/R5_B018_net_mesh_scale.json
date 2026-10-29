@@ -1,0 +1,23 @@
+[
+  {
+    "effect": "both_near_minus_both_far",
+    "comparison_kind": "net_both_sides",
+    "role": "B",
+    "layout": "",
+    "sigma_f_S_m": "0.18",
+    "coarse_effect_S": "-9.618229455943261e-09",
+    "fine_effect_S": "-9.50730000628952e-09",
+    "coarse_effect_uS": "-0.009618229455943261",
+    "fine_effect_uS": "-0.00950730000628952",
+    "fine_minus_coarse_effect_uS": "0.00011092944965374052",
+    "sum_abs_underlying_gain_mesh_changes_S": "8.789993041422028e-08",
+    "sum_abs_underlying_gain_mesh_changes_uS": "0.08789993041422028",
+    "fine_signal_to_observed_mesh_scale": "0.10816049525280907",
+    "same_sign_on_two_meshes": "True",
+    "resolved_on_3x_observed_mesh_scale": "False",
+    "diagnostic_classification": "near_tie_or_not_resolved_on_observed_scale",
+    "diagnostic_rule": "Same sign on both meshes and |fine effect| > 3*sum(|underlying fine-minus-coarse gain|). Observed diagnostic scale, NOT a rigorous FEM error bound.",
+    "linear_combination": "+1*B_P11; -1*B_P77",
+    "sources": "F:\\岩层裂缝\\runs\\round5_modal_closure\\precision\\r5_strict_B_P11_sf_0p18\\SUCCESS.json; F:\\岩层裂缝\\runs\\round5_modal_closure\\precision\\r5_strict_B_P77_sf_0p18\\SUCCESS.json"
+  }
+]

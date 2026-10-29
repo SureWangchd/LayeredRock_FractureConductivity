@@ -1,0 +1,13 @@
+archive_v1_figure,manuscript_20261029_figure,input_group,entry,subject,paths_changed
+1,1,Shared_Fig01_04_07,figure02_phenomenon_v3.py,Matched configuration effect,false
+2,3,Fig02,run_replot.m,Matched bridge interventions,false
+3,4,Fig03,run_replot.m,Energy redistribution,false
+4,5,Field01,run_replot.m,Two-dimensional field sequence,false
+5,6,Shared_Fig01_04_07,figure06_mechanism_v4.py,Peripheral layers and interface response,false
+6,2,Fig05,run_replot.m,Self-consistent peripheral response,false
+7,7,Fig06,run_replot.m,Independent-layout prediction,false
+8,8,Shared_Fig01_04_07,figure09_applicability_v8.py,Applicability for new lengths,false
+9,9,Fig08,run_replot.m,Finite three-dimensional ellipsoid,false
+10,10,Field02,run_replot.m,Finite three-dimensional current fields,false
+11,11,Fig09,run_replot.m,Corrected CT ellipsoid comparisons,false
+12,12,Field03,run_replot.m,CT retained-core potential fields,false

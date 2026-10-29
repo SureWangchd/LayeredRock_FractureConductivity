@@ -1,0 +1,32 @@
+name: Publish prepared Zenodo version
+on:
+  workflow_dispatch:
+    inputs:
+      draft_record:
+        description: Existing unpublished new-version deposition ID
+        required: true
+        default: '23768041'
+      release_tag:
+        description: Published GitHub release containing the updated code/data ZIP
+        required: true
+        default: 'v1.1.0'
+permissions:
+  contents: read
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - name: Retain inherited models, upload changed code/data, publish new version
+        env:
+          ZENODO_TOKEN: ${{ secrets.ZENODO_TOKEN }}
+          DRAFT_RECORD: ${{ inputs.draft_record }}
+          RELEASE_TAG: ${{ inputs.release_tag }}
+        run: python3 .github/zenodo_newversion_publish.py
+      - name: Save publication receipt
+        uses: actions/upload-artifact@v4
+        with:
+          name: zenodo-newversion-publication-receipt
+          path: zenodo_newversion_publication_receipt.json
+          if-no-files-found: error

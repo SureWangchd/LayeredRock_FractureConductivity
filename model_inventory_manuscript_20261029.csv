@@ -1,0 +1,14 @@
+zip_relative_path,member_path,case_id,sigma_S_m,mesh,figure,bytes,archive_v1_figure,manuscript_20261029_figure
+release_assets/representative_models_2D.zip,models_2D/strict_h10_L60_A_m3_full/strict_h10_L60_A_m3_full.mph,strict_h10_L60_A_m3_full,10,M3,Figure 1,8927713,Figure 1,Figure 1
+release_assets/representative_models_2D.zip,models_2D/strict_h10_L60_B_m3_full/strict_h10_L60_B_m3_full.mph,strict_h10_L60_B_m3_full,10,M3,Figure 1,8927753,Figure 1,Figure 1
+release_assets/representative_models_2D.zip,models_2D/strict_h10_L60_B_mech_m3_full/strict_h10_L60_B_mech_m3_full.mph,strict_h10_L60_B_mech_m3_full,10,M3,Figure 2,9340857,Figure 2,Figure 3
+release_assets/representative_models_2D.zip,models_2D/strict_h10_L60_B_mech_m3_cut/strict_h10_L60_B_mech_m3_cut.mph,strict_h10_L60_B_mech_m3_cut,10,M3,Figure 2,9641284,Figure 2,Figure 3
+release_assets/representative_models_2D.zip,models_2D/strict_h10_L60_B_mech_m3_side/strict_h10_L60_B_mech_m3_side.mph,strict_h10_L60_B_mech_m3_side,10,M3,Figure 2,9634131,Figure 2,Figure 3
+release_assets/representative_models_synthetic3D.zip,synthetic3D/r7_strict_A_P11/sf_10/solution.mph,r7_strict_A_P11,10,base,Figures 9 and 10,432899226,Figures 9 and 10,Figures 9 and 10
+release_assets/representative_models_synthetic3D.zip,synthetic3D/r7_strict_A_P77/sf_10/solution.mph,r7_strict_A_P77,10,base,Figures 9 and 10,469194471,Figures 9 and 10,Figures 9 and 10
+release_assets/representative_models_synthetic3D.zip,synthetic3D/r7_strict_B_P11/sf_10/solution.mph,r7_strict_B_P11,10,base,Figures 9 and 10,455323207,Figures 9 and 10,Figures 9 and 10
+release_assets/representative_models_synthetic3D.zip,synthetic3D/r7_strict_B_P77/sf_10/solution.mph,r7_strict_B_P77,10,base,Figures 9 and 10,494846382,Figures 9 and 10,Figures 9 and 10
+release_assets/representative_models_CT_S1_M3.zip,CT_localfit/S1_M3/water_0p18/T_target/solution.mph,S1_M3_water_0p18_T_target,0.18,M3,Figure 11 (refined states),871792627,Figure 11 (refined states),Figure 11 (refined states)
+release_assets/representative_models_CT_S1_M3.zip,CT_localfit/S1_M3/water_0p18/H_target/solution.mph,S1_M3_water_0p18_H_target,0.18,M3,Figure 11 (refined states),871721570,Figure 11 (refined states),Figure 11 (refined states)
+release_assets/representative_models_CT_S5_M3.zip,CT_localfit/S5_M3/water_10/T_target/solution.mph,S5_M3_water_10_T_target,10,M3,Figure 11 (refined states),852297097,Figure 11 (refined states),Figure 11 (refined states)
+release_assets/representative_models_CT_S5_M3.zip,CT_localfit/S5_M3/water_10/H_target/solution.mph,S5_M3_water_10_H_target,10,M3,Figure 11 (refined states),852063516,Figure 11 (refined states),Figure 11 (refined states)

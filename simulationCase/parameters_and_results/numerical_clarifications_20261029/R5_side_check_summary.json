@@ -1,0 +1,31 @@
+{
+  "count": 64,
+  "point_sign_matches": 64,
+  "count_exceeds_10_percent": 1,
+  "failures": [
+    {
+      "phase": "prospective",
+      "sigma_f_S_m": "0.1",
+      "quantity": "gB",
+      "effect": "upper_4_to_1_at_lower_1",
+      "K": "8",
+      "weights": "{\"P11\": 1, \"P14\": -1}",
+      "prediction_S": "1.0618982115330466e-06",
+      "COMSOL_S": "1.1940298051196785e-06",
+      "signed_error_S": "-1.3213159358663185e-07",
+      "absolute_error_S": "1.3213159358663185e-07",
+      "relative_error": "0.11066021385738206",
+      "relative_error_percent": "11.066021385738207",
+      "point_sign_correct": "True",
+      "fine_COMSOL_S": "",
+      "fine_signed_error_S": "",
+      "fine_relative_error": "",
+      "fine_relative_error_percent": "",
+      "fine_point_sign_correct": "",
+      "fine_mesh_evidence_status": "no_selected_refinement",
+      "fine_observed_mesh_scale_S": "",
+      "required_for_development_K_selection": "False",
+      "relative_error_interpretation": "descriptive_no_mesh_resolution_claim"
+    }
+  ]
+}

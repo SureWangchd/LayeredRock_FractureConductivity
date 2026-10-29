@@ -1,0 +1,12 @@
+[
+  {
+    "source": "F:\\岩层裂缝\\scripts\\r7b_fix_tolerance_check.m",
+    "adapter": "F:\\岩层裂缝\\runs\\round7b_review_20261029\\scripts\\r7b_review_tolerance_check.m",
+    "changes": "Independent output directory and function name. First T_background attempt retained the original zero-start solver. Subsequent adapter version enables Advanced.convinfo=detailed and uses a copied accepted field as initial guess before clearing sol1 and running a genuine tighter solve. Each actual state's strict_solver_configuration.json records whether these changes were loaded; source geometry, material parameters, frozen kappa, and solver tolerances remain unchanged."
+  },
+  {
+    "source": "F:\\岩层裂缝\\scripts\\r7b_fix_pair_tolerance_check.m",
+    "adapter": "F:\\岩层裂缝\\runs\\round7b_review_20261029\\scripts\\r7b_review_pair_tolerance_check.m",
+    "changes": "function names and destination directory only; source geometry, solution, frozen kappa, solver, tolerance, and validation retained"
+  }
+]

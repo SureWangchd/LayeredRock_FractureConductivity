@@ -1,0 +1,11 @@
+{
+  "status": "ONE_EM11_NOT_ACCEPTED_AS_CONVERGED_IN_OBSERVED_RUN",
+  "last_iteration": 403,
+  "last_100_iteration_min_LinErr": 1e-11,
+  "last_100_iteration_max_LinErr": 1.5e-09,
+  "requested_stationary_tolerance": 1e-11,
+  "action": "Stop this diagnostic run; perform a separate fixed-mesh four-state check at 2e-11, five times tighter than the saved 1e-10 tolerance. Keep the 1e-11 attempt uncompleted.",
+  "source_progress_log": "F:\\岩层裂缝\\runs\\round7b_review_20261029\\tolerance_checks\\S1_M3_water_0p18_T_background_tol_1em11\\solver_progress.log",
+  "native_solver_nonconvergence_proven": false,
+  "interpretation": "The observed reported error repeatedly approaches 1e-11 and rebounds. The rounded log includes a value printed as 1e-11 without solver termination. This trace does not identify the exact cause or establish a rigorous arithmetic error floor."
+}

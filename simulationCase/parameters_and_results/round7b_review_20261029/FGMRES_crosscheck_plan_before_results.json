@@ -1,0 +1,30 @@
+{
+  "type": "fixed-mesh solver crosscheck, not a pure tolerance-only comparison",
+  "sample": "S1",
+  "mesh": "M3",
+  "water_sigma_S_m": 0.18,
+  "roles": [
+    "T_background",
+    "H_background",
+    "T_target",
+    "H_target"
+  ],
+  "old_linear_solver": "GMRES/left preconditioning",
+  "old_stationary_tolerance": 1e-10,
+  "check_linear_solver": "COMSOL native FGMRES/right preconditioning",
+  "check_stationary_tolerance": 2e-11,
+  "unchanged": [
+    "source mesh",
+    "materials",
+    "electrodes",
+    "frozen kappa",
+    "AMG settings",
+    "restart=50",
+    "maxlinit=2000",
+    "rhob=400"
+  ],
+  "initial_guess": "original accepted saved field; full DOF equality checked",
+  "further_parameter_chasing_allowed": false,
+  "old_1em11_and_2em11_GMRES_attempts_status": "uncompleted and retained",
+  "official_local_API_reference": "COMSOL6.3 comsol_api_solver.51.31.html; linsolver=fgmres; prefuntype=right"
+}

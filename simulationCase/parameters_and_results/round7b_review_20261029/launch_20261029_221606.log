@@ -1,0 +1,24 @@
+
+MATLAB is now connected to a COMSOL Multiphysics Server at 127.0.0.1:2038
+
+Run the commands below to access the COMSOL ModelUtil commands:
+import com.comsol.model.util.*
+{����ʹ�� r7b_review_tolerance_check (�� 111 ��)
+Java exception occurred:
+java.lang.NullPointerException
+
+	at com.comsol.clientapi.engine.APIEngine.runMethod(SourceFile:290)
+
+	at com.comsol.clientapi.engine.APIEngine.runMethod(SourceFile:270)
+
+	at com.comsol.clientapi.impl.SolverSequenceClient.runAll(SourceFile:961)
+
+
+���� r7b_review_pair_tolerance_check (�� 99 ��)
+  strict{k}=r7b_review_tolerance_check(root,paths{k},strictTol(k));r=strict{k};
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+���� r7b_review_run (�� 12 ��)
+ result=r7b_review_pair_tolerance_check(root,'S1','M3',.18);
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+ERROR: MATLAB error Exit Status: 0x00000001

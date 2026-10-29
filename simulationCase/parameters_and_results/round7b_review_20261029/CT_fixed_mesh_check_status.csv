@@ -1,0 +1,3 @@
+sample,mesh,fluid_sigma_S_m,status,accepted_states,original_solver,original_tolerance,attempted_solver,attempted_tolerance,four_state_solver_change_scale_S,combined_observed_scale_S,source
+S1,M3,0.18,four-state check incomplete,0,GMRES/left,1e-10,FGMRES/right,2e-11,,,F:\岩层裂缝\runs\round7b_review_20261029\S1_bounded_fixed_mesh_check_final_status.json
+S5,M3,10.0,four-state tolerance check complete,4,GMRES/left,1e-08,GMRES/left,1e-10,1.830460425161079e-12,4.5272845192786265e-09,F:\岩层裂缝\runs\round7b_localfit\tolerance_checks\S5_M3_water_10_pair_four_states\comparison.json

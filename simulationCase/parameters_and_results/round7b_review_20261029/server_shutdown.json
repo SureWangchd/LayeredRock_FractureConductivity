@@ -1,0 +1,6 @@
+{
+  "status": "stopped_owned_review_server",
+  "pid": 67324,
+  "time_local": "2026-10-29T23:08:21",
+  "reason": "Bounded diagnostic completed; no accepted S1 strict result"
+}

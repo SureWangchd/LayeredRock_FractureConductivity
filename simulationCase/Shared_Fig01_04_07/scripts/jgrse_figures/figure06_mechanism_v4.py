@@ -186,7 +186,7 @@ def main():
              loc='lower right', fontsize=7, handlelength=1.5, labelspacing=.3)
 
     panel_label(e, 'e', x=-.24, y=1.13)
-    e.set_title('Peripheral energy (NN)')
+    e.set_title('Peripheral power (NN)')
     for i, role in enumerate(['A', 'B']):
         for side, dx, marker in [('lower', -.18, 'o'), ('upper', .18, '^')]:
             value = energies.query('role == @role and side == @side').iloc[0].nonuniform_energy_uW
@@ -226,7 +226,7 @@ def main():
         'statistics': 'Deterministic numerical states; no sampled replicates, p-values, or statistical confidence intervals.',
         'not_shown': 'Other conductivities and the small factorial interaction remain in existing data; the complete fine-grid contrast table is exported alongside the plot.',
         'field_processing': 'Only cosine reconstruction of saved coefficients; the mean mode is deliberately omitted from voltage disturbance curves to show nonuniform excitation.',
-        'limitations': ['No direct claim that nonuniform perturbation energies equal causal effects.',
+        'limitations': ['No direct claim that nonuniform perturbation powers equal causal effects.',
             'Core A and B are different; each is fixed only across its own peripheral layouts.',
             'The 3× observed mesh scale is not a bound on all discretization error.',
             'Ranking-crossover evidence is arranged separately, outside this standalone mechanism figure.'],

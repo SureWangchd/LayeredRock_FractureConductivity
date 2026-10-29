@@ -22,6 +22,22 @@ EXPECTED = {
     'model_inventory.csv': 2196,
 }
 
+class ProgressReader:
+    def __init__(self, stream, name, size):
+        self.stream, self.name, self.size = stream, name, size
+        self.sent = 0
+        self.last_report = time.time()
+
+    def read(self, count):
+        block = self.stream.read(count)
+        self.sent += len(block)
+        now = time.time()
+        if now - self.last_report >= 30 or not block:
+            print('Transfer progress: ' + self.name + ' ' +
+                  str(round(100*self.sent/self.size, 1)) + '%', flush=True)
+            self.last_report = now
+        return block
+
 def json_request(url, method='GET'):
     headers = {'User-Agent': 'LayeredRock research archive'}
     if url.startswith('https://zenodo.org/'):
@@ -60,10 +76,10 @@ def main():
             start = time.time()
             for attempt in range(3):
                 target=urllib.parse.urlsplit(bucket+'/'+name)
-                connection=http.client.HTTPSConnection(target.hostname,timeout=1800,blocksize=1024*1024)
+                connection=http.client.HTTPSConnection(target.hostname,timeout=300,blocksize=1024*1024)
                 try:
                     with path.open('rb') as data:
-                        connection.request('PUT',target.path,body=data,headers={'Authorization':'Bearer '+TOKEN,'User-Agent':'LayeredRock research archive (GitHub SureWangchd/LayeredRock_FractureConductivity)','Accept':'application/json','Content-Type':'application/octet-stream','Content-Length':str(size)})
+                        connection.request('PUT',target.path,body=ProgressReader(data,name,size),headers={'Authorization':'Bearer '+TOKEN,'User-Agent':'LayeredRock research archive (GitHub SureWangchd/LayeredRock_FractureConductivity)','Accept':'application/json','Content-Type':'application/octet-stream','Content-Length':str(size)})
                         res=connection.getresponse()
                         body=res.read()
                         if res.status>=300:

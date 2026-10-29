@@ -1,0 +1,15 @@
+name: Archive release on Zenodo
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - name: Upload release files and publish the prepared deposit
+        env:
+          ZENODO_TOKEN: ${{ secrets.ZENODO_TOKEN }}
+        run: python3 .github/zenodo_archive.py

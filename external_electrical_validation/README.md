@@ -9,7 +9,7 @@
 | 文件/目录 | 内容 |
 |---|---|
 | `REPORT_CN.md` | 中文结果报告、逐项目标比较和数值依据 |
-| `VALIDATION_ASSESSMENT.md` | 外部比较支持的内容、尚未直接实测的主命题 |
+| `VALIDATION_ASSESSMENT.md` | 比较对象、校准条件与结果解释 |
 | `DATA_SOURCES.md` | DOI、表格、参数出处及实际数据取得情况 |
 | `INPUT_PROTOCOL.json` | 首轮求解前记录的校准/目标分离与名义模型；增加第四档网格见下项 |
 | `RUN_AMENDMENTS.md` | 网格生成修复、第四档加密和容差传播的实际执行记录 |
@@ -111,9 +111,9 @@ python scripts/validate_outputs.py
 
 4.69 S/m为Han2018同名盐度向Han2022的转移值；5.2 S/m为独立物性情景。开度比例、间距和长度情景是固定假设的敏感性计算。孔隙率闭合分别采用原文总体积归一化和剩余基质域归一化，并保存两种结果。
 
-`predicted_fracture_increment_S_per_m`是同一模型含裂缝值减其背景值。`measured_minus_transferred_background_S_per_m`是实测F电导率减模型转移背景，两者的证据性质不同。实验没有提供每根F岩心加入裂缝前的同体背景测量。
+`predicted_fracture_increment_S_per_m`是同一模型含裂缝电导率与背景电导率之差。`measured_minus_transferred_background_S_per_m`是实测F电导率与转移背景之差；该背景由完整岩心校准，并按各F样品的孔隙率计算。
 
-本次最终判断以总量、方向、增量及数值敏感性分别给出。它提供公开真实观测下的部分外部检验；本文严格A/B背景匹配、外围结构移动、排序反转及模态预测仍需对应的受控电学实验。
+本次比较给出总电导率、方向响应和背景转移所对应的增量，并结合网格加密、固定参数情景及测量容差传播解释结果。
 
 ## 原始来源与公开归档
 

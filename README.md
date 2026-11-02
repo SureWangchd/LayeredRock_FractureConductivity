@@ -2,7 +2,7 @@
 
 Models, data and plotting scripts for *Beyond Bulk Electrical Equivalence: Structural Control of Fracture-Induced Conductivity Enhancement in Layered Rocks*.
 
-Version 1.1.0: [10.5281/zenodo.23768041](https://doi.org/10.5281/zenodo.23768041). The unchanged version 1.0.0 remains available at [10.5281/zenodo.23755034](https://doi.org/10.5281/zenodo.23755034).
+Version 1.2.0: [10.5281/zenodo.23879386](https://doi.org/10.5281/zenodo.23879386). Previous versions remain available at [v1.1.0](https://doi.org/10.5281/zenodo.23768041) and [v1.0.0](https://doi.org/10.5281/zenodo.23755034).
 
 ### Numerical models
 
@@ -19,6 +19,14 @@ Representative solved COMSOL models are supplied as four ZIP files in the [v1.0.
 The original 80 prospective prediction JSON records, batch-ready markers and their source mapping are described in [`PREDICTION_RECORDS.md`](simulationCase/parameters_and_results/PREDICTION_RECORDS.md). Selected core-mesh comparisons, finite-element trace checks and small-effect diagnostics are available in [`numerical_clarifications_20261029`](simulationCase/parameters_and_results/numerical_clarifications_20261029/README.md). The original `file_inventory.csv` and `content_summary.json` describe the v1.0.0 assembly; the new version's package inventory identifies the complete updated contents. See [`CHANGES_v1.1.0.md`](CHANGES_v1.1.0.md) for this revision.
 
 The twelve current manuscript caption sources are in [`manuscript_captions_20261029`](simulationCase/manuscript_captions_20261029/README.md). The bounded [CT fixed-mesh review](simulationCase/parameters_and_results/round7b_review_20261029/README.md) preserves the actual status and logs: S1 produced **0/4** accepted new stricter states, so its four-state solver-change and full combined scales remain unknown; S5 has **4/4** previously accepted stricter states and a combined observed scale of 0.004527284519 microS. Completing the review or packaging the records does not mean that S1 passed a stricter numerical check. No new multi-GB MPH files are added.
+
+### External electrical comparison added in v1.2.0
+
+[`external_electrical_validation/`](external_electrical_validation/README.md) contains the completed retrospective comparison with Han et al. (2022), [DOI 10.1093/gji/ggab386](https://doi.org/10.1093/gji/ggab386). It includes the 60-row attributed laboratory table, fixed input protocol, 39 rows of predictions/comparisons, 20 saved meshes, 33 cell results, 113 cylinder results, fixed sensitivity scenarios, measurement-tolerance propagation, and Figure S1 data and plotting code. These are real saved Python/Gmsh/SciPy finite-element calculations; this external comparison does not require COMSOL or MATLAB.
+
+I-0 and I-90 calibrate the background, I-45 is an intact holdout, and F-0/F-45/F-90 are fractured comparison targets. The observations were publicly visible before the retrospective test. The comparison does not establish the strict matched-background A/B configuration or peripheral-rearrangement claims experimentally. See the external README, input protocol and assessment for those limits.
+
+The release provides both the complete updated repository ZIP and a standalone `external_electrical_validation-v1.2.0.zip`. User task plans, correspondence/manuscript drafts and third-party full-text documents are excluded; the public numerical input is preserved under `data/`, with DOI and official source links. Previous 803-file archive contents and all 13 representative MPH models remain available through their original versions. Changes are summarized in [`CHANGES_v1.2.0.md`](CHANGES_v1.2.0.md).
 
 ### License and support
 

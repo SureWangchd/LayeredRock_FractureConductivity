@@ -1,0 +1,90 @@
+{
+  "rows": 36,
+  "max_signed_error_percent_formula_difference": 4.440892098500626e-16,
+  "max_increment_formula_difference_S_per_m": 1.3140530330524314e-16,
+  "max_proxy_increment_formula_difference_S_per_m": 9.8879238130678e-17,
+  "max_measurement_lookup_difference_S_per_m": 0.0,
+  "nominal_level2": [
+    {
+      "sample": "F-0",
+      "predicted_S_per_m": 0.2901998377287785,
+      "measured_S_per_m": 0.2849,
+      "signed_error_percent": 1.860244903046171,
+      "background_S_per_m": 0.2884711500874025,
+      "predicted_fracture_increment_S_per_m": 0.001728687641376,
+      "measured_minus_transferred_background_S_per_m": -0.0035711500874024,
+      "relative_total_change_level1_to2_percent": -0.035204015443213166,
+      "relative_increment_change_level1_to2_percent": -5.582515889594664,
+      "increment_proxy_relative_error_percent": -148.4070285221034
+    },
+    {
+      "sample": "F-45",
+      "predicted_S_per_m": 0.3017091432370628,
+      "measured_S_per_m": 0.2975,
+      "signed_error_percent": 1.4148380628782764,
+      "background_S_per_m": 0.2901674662352478,
+      "predicted_fracture_increment_S_per_m": 0.011541677001815,
+      "measured_minus_transferred_background_S_per_m": 0.0073325337647521,
+      "relative_total_change_level1_to2_percent": -0.04867794674293657,
+      "relative_increment_change_level1_to2_percent": -1.233637248672781,
+      "increment_proxy_relative_error_percent": 57.40366661925904
+    },
+    {
+      "sample": "F-90",
+      "predicted_S_per_m": 0.3483885601033734,
+      "measured_S_per_m": 0.3413,
+      "signed_error_percent": 2.076929417923634,
+      "background_S_per_m": 0.3253136470920003,
+      "predicted_fracture_increment_S_per_m": 0.023074913011373,
+      "measured_minus_transferred_background_S_per_m": 0.0159863529079997,
+      "relative_total_change_level1_to2_percent": -0.04756322900353327,
+      "relative_increment_change_level1_to2_percent": -0.713396086119733,
+      "increment_proxy_relative_error_percent": 44.34132127676307
+    }
+  ],
+  "I45_errors_percent_minmax": [
+    -1.7280032877693086,
+    -1.6958242263961476
+  ],
+  "I45_within_tensor_bounds": true,
+  "max_specimen_residual": 8.992499228061328e-11,
+  "max_power_current_relative_mismatch": 9.658940314238862e-15,
+  "nominal_level3": [
+    {
+      "sample": "F-0",
+      "predicted_S_per_m": 0.2901459699882239,
+      "measured_S_per_m": 0.2849,
+      "signed_error_percent": 1.8413373072039048,
+      "background_S_per_m": 0.288471151767494,
+      "predicted_fracture_increment_S_per_m": 0.0016748182207298,
+      "measured_minus_transferred_background_S_per_m": -0.003571151767494,
+      "relative_total_change_level2_to3_percent": -0.018562291755985783,
+      "relative_increment_change_level2_to3_percent": -3.116203260603012,
+      "increment_proxy_relative_error_percent": -146.89854505693768
+    },
+    {
+      "sample": "F-45",
+      "predicted_S_per_m": 0.3016031409428273,
+      "measured_S_per_m": 0.2975,
+      "signed_error_percent": 1.379207039605812,
+      "background_S_per_m": 0.2901663108517009,
+      "predicted_fracture_increment_S_per_m": 0.0114368300911263,
+      "measured_minus_transferred_background_S_per_m": 0.007333689148299,
+      "relative_total_change_level2_to3_percent": -0.03513393498725259,
+      "relative_increment_change_level2_to3_percent": -0.9084200733759262,
+      "increment_proxy_relative_error_percent": 55.949207279654004
+    },
+    {
+      "sample": "F-90",
+      "predicted_S_per_m": 0.3482396279972046,
+      "measured_S_per_m": 0.3413,
+      "signed_error_percent": 2.0332927035466186,
+      "background_S_per_m": 0.3253136491002589,
+      "predicted_fracture_increment_S_per_m": 0.0229259788969456,
+      "measured_minus_transferred_background_S_per_m": 0.015986350899741,
+      "relative_total_change_level2_to3_percent": -0.04274885091651859,
+      "relative_increment_change_level2_to3_percent": -0.6454373819480552,
+      "increment_proxy_relative_error_percent": 43.40970644724826
+    }
+  ]
+}

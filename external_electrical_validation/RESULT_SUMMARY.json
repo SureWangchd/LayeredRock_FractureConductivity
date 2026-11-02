@@ -1,0 +1,47 @@
+{
+  "holdout_I45_prediction": 0.2834478027630834,
+  "holdout_I45_error_percent": -1.7171280294440372,
+  "nominal_RMSE_S_per_m": 0.00555320938598086,
+  "local_RMSE_S_per_m": 0.009003245183219457,
+  "summary": [
+    {
+      "sample": "F-0",
+      "measured": 0.2849,
+      "bulk_prediction": 0.2901459699882239,
+      "bulk_error_percent": 1.8413373072039048,
+      "local_prediction": 0.2935411796071352,
+      "local_error_percent": 3.0330570751615493,
+      "inferred_bulk_increment": -0.003571151767494,
+      "predicted_bulk_increment": 0.0016748182207298,
+      "inferred_local_increment": -0.0069482352776812,
+      "predicted_local_increment": 0.0016929443294538
+    },
+    {
+      "sample": "F-45",
+      "measured": 0.2975,
+      "bulk_prediction": 0.3016031409428273,
+      "bulk_error_percent": 1.379207039605812,
+      "local_prediction": 0.3049607632622064,
+      "local_error_percent": 2.5078195839349338,
+      "inferred_bulk_increment": 0.007333689148299,
+      "predicted_bulk_increment": 0.0114368300911263,
+      "inferred_local_increment": 0.0039876765555291,
+      "predicted_local_increment": 0.0114484398177356
+    },
+    {
+      "sample": "F-90",
+      "measured": 0.3413,
+      "bulk_prediction": 0.3482396279972046,
+      "bulk_error_percent": 2.0332927035466186,
+      "local_prediction": 0.3519227255462068,
+      "local_error_percent": 3.1124305731634383,
+      "inferred_bulk_increment": 0.015986350899741,
+      "predicted_bulk_increment": 0.0229259788969456,
+      "inferred_local_increment": 0.0122940766235569,
+      "predicted_local_increment": 0.0229168021697637
+    }
+  ],
+  "comparison_rows": 39,
+  "largest_final_total_grid_change_percent": 0.04274885091651859,
+  "largest_final_increment_grid_change_percent": 3.116203260603012
+}

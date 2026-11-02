@@ -1,0 +1,7 @@
+sample porosity_closure  measured_S_per_m  measured_min  measured_max  predicted_min  predicted_max  transferred_background_min  transferred_background_max  inferred_increment_min  inferred_increment_max  intervals_overlap
+   F-0             bulk            0.2849      0.279202      0.290598       0.284209       0.296197                    0.282514                    0.294435               -0.015233                0.008084               True
+   F-0            local            0.2849      0.279202      0.290598       0.287559       0.299638                    0.285845                    0.297858               -0.018656                0.004753               True
+  F-45             bulk            0.2975      0.291550      0.303450       0.295561       0.307866                    0.284031                    0.296313               -0.004763                0.019419               True
+  F-45            local            0.2975      0.291550      0.303450       0.298872       0.311269                    0.287331                    0.299705               -0.008155                0.016119               True
+  F-90             bulk            0.3413      0.334474      0.348126       0.341635       0.355149                    0.318540                    0.332096                0.002378                0.029586               True
+  F-90            local            0.3413      0.334474      0.348126       0.345268       0.358878                    0.322183                    0.335837               -0.001363                0.025943               True

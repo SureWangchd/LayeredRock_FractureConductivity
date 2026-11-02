@@ -30,6 +30,8 @@ def main():
     deposit = 'https://zenodo.org/api/deposit/depositions/' + record_id
     expected_names = ['LayeredRock_FractureConductivity-' + tag + '.zip',
                       'model_inventory_manuscript_20261029.csv']
+    if tag == 'v1.2.0':
+        expected_names.append('external_electrical_validation-v1.2.0.zip')
 
     def request(url, method='GET', payload=None):
         if not (url.startswith('https://zenodo.org/api/deposit/depositions/') or
@@ -93,10 +95,10 @@ def main():
                 shutil.copyfileobj(src, dst, length=4 * 1024 * 1024)
             if path.stat().st_size != size:
                 raise RuntimeError('Incomplete release asset download: ' + name)
-            if name.endswith('.zip'):
+            if name.startswith('LayeredRock_FractureConductivity-') and name.endswith('.zip'):
                 prefix = 'LayeredRock_FractureConductivity-' + tag[1:] + '/'
                 with zipfile.ZipFile(path) as z:
-                    summary = json.loads(z.read(prefix + 'package_summary_v1.1.0.json'))
+                    summary = json.loads(z.read(prefix + 'package_summary_' + tag + '.json'))
                     if (summary.get('status') != 'publication_ready' or
                             summary.get('version') != tag[1:] or not summary.get('CT_supplement')):
                         raise RuntimeError('Expected the coordinated package including the CT supplement')
@@ -108,6 +110,18 @@ def main():
                     count = sum(n.startswith(canonical) and '/predictions/' in n and n.endswith('/prediction.json') for n in z.namelist())
                     if count != 80:
                         raise RuntimeError('The canonical prospective prediction batches are incomplete')
+                    if tag == 'v1.2.0':
+                        required = ['EXPERIMENT_DATA.csv', 'MODEL_PREDICTIONS.csv', 'COMPARISON.csv',
+                            'MESH_CONVERGENCE.csv', 'UNCERTAINTY_BUDGET.csv', 'VALIDATION_FIGURE.pdf',
+                            'scripts/tet_fem.py', 'scripts/run_validation.py', 'data/Han2022_table1_electrical_porosity.csv']
+                        if any(prefix + 'external_electrical_validation/' + x not in z.namelist() for x in required):
+                            raise RuntimeError('The external electrical validation package is incomplete')
+            elif name == 'external_electrical_validation-v1.2.0.zip':
+                with zipfile.ZipFile(path) as z:
+                    names = z.namelist()
+                    if ('external_electrical_validation/PUBLIC_FILE_MANIFEST.csv' not in names or
+                        any('/provided/' in n or n.endswith('MANUSCRIPT_INSERTION_SUGGESTION.md') for n in names)):
+                        raise RuntimeError('Expected the public derivative without private task materials')
             for attempt in range(3):
                 u = urllib.parse.urlsplit(bucket + '/' + urllib.parse.quote(name))
                 connection = http.client.HTTPSConnection(u.hostname, timeout=600, blocksize=1024 * 1024)

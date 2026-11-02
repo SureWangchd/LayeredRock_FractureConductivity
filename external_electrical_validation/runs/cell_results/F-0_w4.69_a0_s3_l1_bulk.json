@@ -1,0 +1,20 @@
+{
+  "sample": "F-0",
+  "brine_S_per_m": 4.69,
+  "aperture_fraction": 0.0,
+  "spacing_mm": 3.0,
+  "level": 1,
+  "porosity_closure": "bulk",
+  "phi_total": 0.2752,
+  "phi_crack_analytical": 0.0,
+  "phi_background": 0.2752,
+  "background_normal_S_per_m": 0.301025649333254,
+  "background_parallel_S_per_m": 0.32716032384347793,
+  "calibration_exponents": {
+    "I-0": 2.1282519827961286,
+    "I-90": 2.0637261931892117
+  },
+  "normal_S_per_m": 0.301025649333254,
+  "parallel_S_per_m": 0.32716032384347793,
+  "numerical_crack_volume_fraction": 0.0
+}

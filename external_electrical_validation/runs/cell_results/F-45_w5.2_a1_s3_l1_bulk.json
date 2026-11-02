@@ -1,0 +1,58 @@
+{
+  "sample": "F-45",
+  "brine_S_per_m": 5.2,
+  "aperture_fraction": 1.0,
+  "spacing_mm": 3.0,
+  "level": 1,
+  "porosity_closure": "bulk",
+  "phi_total": 0.2706,
+  "phi_crack_analytical": 0.005453804846631881,
+  "phi_background": 0.2651461951533681,
+  "background_normal_S_per_m": 0.27907543772214116,
+  "background_parallel_S_per_m": 0.3032257624968203,
+  "calibration_exponents": {
+    "I-0": 2.203381714298667,
+    "I-90": 2.140860345057506
+  },
+  "normal_S_per_m": 0.2808653875468304,
+  "parallel_S_per_m": 0.3291974093134482,
+  "numerical_crack_volume_fraction": 0.00543128015687432,
+  "normal_solve": {
+    "conductivity_S_per_m": 0.2808653875468304,
+    "current_A": 0.0016987825859687321,
+    "power_W": 0.0016987825859688603,
+    "relative_residual": 9.539002430043749e-11,
+    "relative_power_current_mismatch": 7.549516567451064e-14,
+    "relative_electrode_imbalance": 6.180096986941365e-10,
+    "nodes": 6094,
+    "tets": 26085,
+    "solver": {
+      "method": "cg",
+      "preconditioner": "pyamg_smoothed_aggregation",
+      "iterations": 80,
+      "rtol": 1e-10,
+      "atol": 0.0,
+      "seconds": 0.10861160000786185
+    },
+    "volume_m3": 5.443548387096776e-08
+  },
+  "parallel_solve": {
+    "conductivity_S_per_m": 0.3291974093134482,
+    "current_A": 0.0009875922279403448,
+    "power_W": 0.0009875922279405194,
+    "relative_residual": 8.463849202717084e-11,
+    "relative_power_current_mismatch": 1.7674750552032492e-13,
+    "relative_electrode_imbalance": 1.1172213858068488e-09,
+    "nodes": 6094,
+    "tets": 26085,
+    "solver": {
+      "method": "cg",
+      "preconditioner": "pyamg_smoothed_aggregation",
+      "iterations": 57,
+      "rtol": 1e-10,
+      "atol": 0.0,
+      "seconds": 0.07377529982477427
+    },
+    "volume_m3": 5.443548387096776e-08
+  }
+}

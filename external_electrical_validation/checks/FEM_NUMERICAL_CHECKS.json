@@ -1,0 +1,162 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "homogeneous_scalar_direct",
+      "numerical_conductance_S": 0.0034666666666666865,
+      "analytic_conductance_S": 0.003466666666666666,
+      "relative_conductance_error": 5.773159728050814e-15,
+      "maximum_potential_error": 1.3322676295501878e-15,
+      "relative_residual": 1.148821711214309e-15,
+      "power_error": 2.211772431870429e-17,
+      "mesh": {
+        "nodes": 60,
+        "elements": 144,
+        "volume": 2.184000000000005e-06,
+        "min_element_volume": 1.51666666666667e-08,
+        "max_element_volume": 1.51666666666667e-08,
+        "negative_orientation_count": 72,
+        "nnz": 554,
+        "conductivity_kind": "scalar"
+      }
+    },
+    {
+      "name": "homogeneous_diagonal_tensor_direct",
+      "numerical_conductance_S": 0.003466666666666685,
+      "analytic_conductance_S": 0.003466666666666666,
+      "relative_conductance_error": 5.551115123125783e-15,
+      "maximum_potential_error": 8.326672684688674e-16,
+      "relative_residual": 1.2083905559843635e-15,
+      "power_error": 2.0383000842727483e-17,
+      "mesh": {
+        "nodes": 60,
+        "elements": 144,
+        "volume": 2.184000000000005e-06,
+        "min_element_volume": 1.51666666666667e-08,
+        "max_element_volume": 1.51666666666667e-08,
+        "negative_orientation_count": 72,
+        "nnz": 554,
+        "conductivity_kind": "tensor"
+      }
+    },
+    {
+      "name": "homogeneous_scalar_cg",
+      "numerical_conductance_S": 0.003466666666666688,
+      "analytic_conductance_S": 0.003466666666666666,
+      "relative_conductance_error": 6.439293542825908e-15,
+      "maximum_potential_error": 5.484890319706892e-12,
+      "relative_residual": 4.8391079749001546e-11,
+      "power_error": 2.211772431870429e-17,
+      "mesh": {
+        "nodes": 60,
+        "elements": 144,
+        "volume": 2.184000000000005e-06,
+        "min_element_volume": 1.51666666666667e-08,
+        "max_element_volume": 1.51666666666667e-08,
+        "negative_orientation_count": 72,
+        "nnz": 554,
+        "conductivity_kind": "cell_scalar"
+      }
+    },
+    {
+      "name": "cell_tensor_direct",
+      "numerical_conductance_S": 0.003466666666666685,
+      "analytic_conductance_S": 0.003466666666666666,
+      "relative_conductance_error": 5.551115123125783e-15,
+      "maximum_potential_error": 8.326672684688674e-16,
+      "relative_residual": 1.2083905559843635e-15,
+      "power_error": 2.0383000842727483e-17,
+      "mesh": {
+        "nodes": 60,
+        "elements": 144,
+        "volume": 2.184000000000005e-06,
+        "min_element_volume": 1.51666666666667e-08,
+        "max_element_volume": 1.51666666666667e-08,
+        "negative_orientation_count": 72,
+        "nnz": 554,
+        "conductivity_kind": "cell_tensor"
+      }
+    },
+    {
+      "name": "skew_tetra_gradient_and_tensor_energy",
+      "maximum_gradient_error": 8.881784197001252e-16,
+      "energy_error": 8.881784197001252e-16,
+      "signed_determinants": [
+        1.379,
+        -1.379
+      ],
+      "volumes": [
+        0.22983333333333333,
+        0.22983333333333333
+      ]
+    },
+    {
+      "name": "series_interface_transmission",
+      "conductivities_S_per_m": [
+        0.28,
+        4.69
+      ],
+      "phase_volume_fractions": [
+        0.5,
+        0.5
+      ],
+      "analytic_effective_conductivity_S_per_m": 0.5284507042253521,
+      "analytic_conductance_S": 0.002617089201877934,
+      "numerical_conductance_S": 0.0026170892018778213,
+      "relative_conductance_error": 4.3076653355456074e-14,
+      "maximum_potential_error": 1.4432899320127035e-15,
+      "maximum_flux_error_A_per_m2": 1.2398970739013748e-12,
+      "maximum_transverse_current_A_per_m2": 2.132765075657517e-12,
+      "interface_crossing_elements": 0,
+      "relative_residual": 2.3414530656183155e-15,
+      "energy_W": 0.0026170892018777788,
+      "boundary_power_W": 0.0026170892018778213,
+      "power_balance_absolute_W": 4.2500725161431774e-17,
+      "mesh": {
+        "nodes": 175,
+        "elements": 576,
+        "volume": 2.1839999999999985e-06,
+        "min_element_volume": 3.791666666666661e-09,
+        "max_element_volume": 3.791666666666674e-09,
+        "negative_orientation_count": 288,
+        "nnz": 1739,
+        "conductivity_kind": "cell_scalar"
+      }
+    },
+    {
+      "name": "parallel_interface_transmission",
+      "conductivities_S_per_m": [
+        0.28,
+        4.69
+      ],
+      "phase_volume_fractions": [
+        0.5,
+        0.5
+      ],
+      "analytic_effective_conductivity_S_per_m": 2.4850000000000003,
+      "analytic_conductance_S": 0.012306666666666667,
+      "numerical_conductance_S": 0.012306666666666563,
+      "relative_conductance_error": 8.43769498715119e-15,
+      "maximum_potential_error": 1.2212453270876722e-15,
+      "maximum_flux_error_A_per_m2": 1.7053025658242404e-12,
+      "maximum_transverse_current_A_per_m2": 1.3329781722859481e-12,
+      "interface_crossing_elements": 0,
+      "relative_residual": 2.405864558852146e-15,
+      "energy_W": 0.012306666666666568,
+      "boundary_power_W": 0.012306666666666563,
+      "power_balance_absolute_W": 5.204170427930421e-18,
+      "mesh": {
+        "nodes": 175,
+        "elements": 576,
+        "volume": 2.1839999999999985e-06,
+        "min_element_volume": 3.791666666666661e-09,
+        "max_element_volume": 3.791666666666674e-09,
+        "negative_orientation_count": 288,
+        "nnz": 1739,
+        "conductivity_kind": "cell_scalar"
+      }
+    }
+  ],
+  "energy_definition": "integral grad(u).sigma.grad(u) dV, no 1/2",
+  "notes": "Full-face electrodes on uniform boxes; affine patch test on skew tetrahedra including reversed vertex order; fitted two-phase interface series/parallel analytical transmission tests."
+}

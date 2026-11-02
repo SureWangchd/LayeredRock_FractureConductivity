@@ -1,0 +1,42 @@
+{
+  "conductivity_S_per_m": 0.2834478027630834,
+  "current_A": 0.0035884057828070703,
+  "power_W": 0.0035884057828070447,
+  "relative_residual": 3.8487496630919465e-11,
+  "relative_power_current_mismatch": 7.105427357601002e-15,
+  "relative_electrode_imbalance": 4.498120475743648e-11,
+  "nodes": 23415,
+  "tets": 126960,
+  "solver": {
+    "method": "cg",
+    "preconditioner": "pyamg_smoothed_aggregation",
+    "iterations": 18,
+    "rtol": 1e-10,
+    "atol": 0.0,
+    "seconds": 0.23928229976445436
+  },
+  "volume_m3": 2.0255755015642995e-05,
+  "angle_deg": 45,
+  "length_mm": 40.0,
+  "mesh_level": 3,
+  "tensor": [
+    [
+      0.2838168720628397,
+      0.0,
+      -0.01225005203840485
+    ],
+    [
+      0.0,
+      0.2960669241012445,
+      0.0
+    ],
+    [
+      -0.01225005203840485,
+      0.0,
+      0.2838168720628397
+    ]
+  ],
+  "reuss_direction_bound": 0.28328813755226273,
+  "voigt_direction_bound": 0.2838168720628397,
+  "circular_area_factor": 0.9993810951695812
+}

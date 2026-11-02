@@ -58,19 +58,21 @@ def main():
         'license conditions. COMSOL and MATLAB software are not distributed in this archive.</p>')
     if 'Version 1.1.0 synchronizes the manuscript figure numbering' not in description:
         description += revision_note
-    if version == '1.2.0' and 'Version 1.2.0 adds the external electrical comparison' not in description:
-        description += ('<p>Version 1.2.0 adds the external electrical comparison with published '
+    if version == '1.2.0':
+        external_note = ('<p>Version 1.2.0 adds the external electrical comparison with published '
             'laboratory measurements from Han et al. (2022), DOI 10.1093/gji/ggab386. It includes '
             'the attributed numerical input table, body-fitted tetrahedral finite-element scripts, '
             'saved predictions and mesh caches, fixed sensitivity scenarios, measurement-tolerance '
             'propagation, Figure S1 source data and reproduction instructions. The external solver '
-            'uses Python/Gmsh/SciPy and is distinct from the earlier COMSOL models. The comparison '
-            'is retrospective: I-0 and I-90 calibrate the background, I-45 is an intact holdout, '
-            'and the three fractured conductivities are comparison targets. It does not constitute '
-            'an experimental test of the paper\'s strict matched-background A/B or peripheral-layer '
-            'rearrangement claims. User task materials, correspondence drafts and third-party '
-            'full-text documents are excluded from this public derivative. Prior versions and the '
-            'thirteen representative MPH files remain available.</p>')
+            'uses Python/Gmsh/SciPy and is distinct from the earlier COMSOL models. The completed '
+            'comparison evaluates total electrical conductivity: I-0 and I-90 calibrate the background, '
+            'while I-45 and the three fractured samples are comparison targets. Both the complete '
+            'source/data package and a standalone external-comparison ZIP provide reproduction '
+            'entry points. Prior versions and the thirteen representative MPH files remain available.</p>')
+        if 'Version 1.2.0 adds the external electrical comparison' in description:
+            description = re.sub(r'<p>Version 1\.2\.0 adds the external electrical comparison.*?</p>', external_note, description, flags=re.DOTALL)
+        else:
+            description += external_note
     metadata['description'] = description
     draft = request(draft_url, method='PUT', payload={'metadata': metadata})
     doi = draft.get('metadata', {}).get('prereserve_doi', {}).get('doi') or draft.get('doi')

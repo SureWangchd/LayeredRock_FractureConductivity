@@ -1,0 +1,7 @@
+{
+  "frequency_Hz": 1000,
+  "assumed_relative_permittivity": 80,
+  "conductivity_lower_S_per_m": 0.25,
+  "omega_epsilon_over_sigma": 1.7802400887165925e-05,
+  "interpretation": "Bulk dielectric estimate only; not a measured phase spectrum or an electrode-polarization test."
+}

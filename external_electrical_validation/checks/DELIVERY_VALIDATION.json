@@ -1,0 +1,86 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "check": "All 60 measured conductivity and porosity entries preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Two calibration, one intact holdout, three fractured targets",
+      "passed": true,
+      "detail": {
+        "archived; outside fixed 5 MPa test": 54,
+        "fractured test target": 3,
+        "background calibration": 2,
+        "intact direction holdout": 1
+      }
+    },
+    {
+      "check": "Finite predictions and positive conductivity",
+      "passed": true,
+      "detail": 39
+    },
+    {
+      "check": "Error formula",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Increment formula",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Every compared target is a source measurement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "No negative gain from adding high-conductivity crack at fixed background",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "All actual PDE residuals below 1.01e-10",
+      "passed": true,
+      "detail": 9.997334179841099e-11
+    },
+    {
+      "check": "Electrode current conservation",
+      "passed": true,
+      "detail": 5.795539152830941e-09
+    },
+    {
+      "check": "Power equals current times imposed voltage",
+      "passed": true,
+      "detail": 6.177280909014371e-13
+    },
+    {
+      "check": "Finite cylinder responses lie within energy bounds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Four actual refinement levels for each fractured target",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Required delivery files present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "PDF artifact is a PDF",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Frozen input protocol unchanged",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "actual_recorded_PDE_solutions": 173
+}

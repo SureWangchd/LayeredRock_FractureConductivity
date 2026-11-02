@@ -39,6 +39,11 @@ def main():
             result = request(original_url + '/actions/newversion', method='POST')
             draft_url = result['links']['latest_draft']
     draft = request(draft_url)
+    if not existing_draft and (draft.get('submitted') or str(draft['id']) == source):
+        # After publication latest_draft may point at the published version itself.
+        result = request(original_url + '/actions/newversion', method='POST')
+        draft_url = result['links']['latest_draft']
+        draft = request(draft_url)
     if draft.get('submitted') or str(draft['id']) == source:
         raise RuntimeError('Expected a distinct unpublished version draft')
     metadata = dict(draft['metadata'])
